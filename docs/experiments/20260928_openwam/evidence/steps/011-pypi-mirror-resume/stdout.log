@@ -1,0 +1,3 @@
+stopped_owned_install [1668240, 1668355, 1777557]
+    PID                  STARTED COMMAND
+2398428 Mon Sep 28 18:11:07 2026 bash /path/to/robodojo-openwam/scripts/install-mirror.sh

@@ -1,0 +1,33 @@
+diff --git a/env_cfg/sim/sim_config.yml b/env_cfg/sim/sim_config.yml
+index fde7dc4..e33aea3 100644
+--- a/env_cfg/sim/sim_config.yml
++++ b/env_cfg/sim/sim_config.yml
+@@ -2,5 +2,5 @@ decimation: 1
+ dt: 0.004
+ render_interval: 10
+ scene:
+-  num_envs: 10
++  num_envs: 1
+   env_spacing: 7
+diff --git a/scripts/eval_policy.sh b/scripts/eval_policy.sh
+index b86c88e..e28c5dd 100755
+--- a/scripts/eval_policy.sh
++++ b/scripts/eval_policy.sh
+@@ -129,6 +129,9 @@ KIT_ARGS=""
+ for ext in "${KIT_ENABLE_EXTS[@]}"; do
+   KIT_ARGS+=" --enable ${ext}"
+ done
++# Keep this evaluation on one render GPU in the shared server.
++KIT_ARGS+=" --/renderer/multiGpu/enabled=false --/renderer/activeGpu=${ROBODOJO_RENDER_GPU:-$device_id}"
++echo "[INFO] single GPU render: ${ROBODOJO_RENDER_GPU:-$device_id}"
+ 
+ # Generated once per eval invocation. Carries the same identity through
+ # os.execv inside main.py and bash-level retries below. Append $$ to
+0, GPU-REDACTED, 00000000:16:00.0, 194 MiB
+1, GPU-REDACTED, 00000000:17:00.0, 4 MiB
+2, GPU-REDACTED, 00000000:40:00.0, 4 MiB
+3, GPU-REDACTED, 00000000:41:00.0, 4 MiB
+4, GPU-REDACTED, 00000000:96:00.0, 20040 MiB
+5, GPU-REDACTED, 00000000:97:00.0, 23194 MiB
+6, GPU-REDACTED, 00000000:C0:00.0, 23642 MiB
+7, GPU-REDACTED, 00000000:C1:00.0, 19464 MiB

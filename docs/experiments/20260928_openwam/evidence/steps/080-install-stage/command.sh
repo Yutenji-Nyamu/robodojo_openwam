@@ -1,0 +1,1 @@
+grep -E "\[[0-9]/7\]|Building|built|error:|ERROR:" /path/to/robodojo-openwam/logs/install-mirror.log | tail -n 14; command -v nvcc; nvcc --version | tail -n 2

@@ -1,0 +1,82 @@
+    protocol="ws"
+  fi
+fi
+if [[ "${protocol}" == "ws" && -z "${policy_server_url}" ]]; then
+  policy_server_url="ws://${host}:${port}"
+fi
+if [[ "${protocol}" == "ws" ]]; then
+  echo "[INFO] policy transport = WebSocket (protocol: ws)"
+else
+  echo "[INFO] policy transport = ${protocol}"
+fi
+if [[ -n "${policy_server_url}" ]]; then
+  echo "[INFO] policy_server_url = ${policy_server_url}"
+fi
+
+if [[ -n "${device_id}" ]]; then
+  export CUDA_VISIBLE_DEVICES="${device_id}"
+  echo "[INFO] device_id = ${device_id} → CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}"
+fi
+
+if [[ -n "${eval_batch}" ]]; then
+  echo "[INFO] eval_batch     = ${eval_batch}"
+fi
+
+# Read render_interval / env.num_envs from yaml (fallback if missing)
+render_interval="$(python3 -c "import sys,yaml;print(yaml.safe_load(open(sys.argv[1])).get('render_interval',1))" "$sim_cfg_file")"
+num_envs="$(python3 -c "import sys,yaml;print(yaml.safe_load(open(sys.argv[1])).get('scene',{}).get('num_envs',1))" "$sim_cfg_file")"
+
+echo "[INFO] render_interval = ${render_interval}"
+echo "[INFO] num_envs        = ${num_envs}"
+
+extra_args=()
+
+KIT_ENABLE_EXTS=(
+  "isaacsim.replicator.behavior"
+  "isaacsim.sensors.camera"
+)
+
+KIT_ARGS=""
+for ext in "${KIT_ENABLE_EXTS[@]}"; do
+  KIT_ARGS+=" --enable ${ext}"
+done
+
+# Generated once per eval invocation. Carries the same identity through
+# os.execv inside main.py and bash-level retries below. Append $$ to
+# defuse same-second collisions when the same task/config is launched
+# in parallel.
+if [[ -z "${ROBODOJO_RUN_ID:-}" ]]; then
+  export ROBODOJO_RUN_ID="$(date +%Y-%m-%d_%H-%M-%S)"
+fi
+echo "[eval_policy] ROBODOJO_RUN_ID=${ROBODOJO_RUN_ID}"
+
+MAX_BASH_RETRIES="${ROBODOJO_MAX_BASH_RETRIES:-10}"
+attempt=0
+while : ; do
+  set +e
+  python -u src/eval_client/main.py \
+    --task_name "$task_name" \
+    --env_cfg_type "$env_cfg_type" \
+    --num_envs "$num_envs" \
+    --enable_cameras \
+    --kit_args "$KIT_ARGS" \
+    --device_id "$device_id" \
+    --policy_name "$policy_name" \
+    --port "$port" \
+    --protocol "$protocol" \
+    --policy_server_url "$policy_server_url" \
+    --additional_info "$additional_info" \
+    --seed "$seed" \
+    --host "$host" \
+    --headless \
+    "${extra_args[@]}" \
+    "$@"
+  rc=$?
+  set -e
+  case "$rc" in
+decimation: 1
+dt: 0.004
+render_interval: 10
+scene:
+  num_envs: 10
+  env_spacing: 7

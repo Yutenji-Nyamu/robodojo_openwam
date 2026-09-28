@@ -1,0 +1,1 @@
+sed -n '50,170p' /path/to/robodojo-openwam/RoboDojo/scripts/init_assets.sh; cat /path/to/robodojo-openwam/RoboDojo/utils/update_embodiment_config_path.py; ls -ld /path/to/robodojo-openwam/RoboDojo/Assets

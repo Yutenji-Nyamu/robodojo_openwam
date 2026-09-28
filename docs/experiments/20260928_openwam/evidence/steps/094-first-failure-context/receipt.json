@@ -1,0 +1,9 @@
+{
+  "host": "sz2",
+  "started": "2026-09-28T19:24:34.908785+08:00",
+  "command_sha256": "e7414c6cda95b31c52dfd88764542775987b6d96dcce44391ba6149808d6f62b",
+  "exit_code": 0,
+  "finished": "2026-09-28T19:24:35.037097+08:00",
+  "identity_verified": true,
+  "host_key_verified": true
+}

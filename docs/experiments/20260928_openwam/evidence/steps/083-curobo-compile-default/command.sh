@@ -1,0 +1,1 @@
+sed -n '1,38p' /path/to/robodojo-openwam/RoboDojo/third_party/curobo/setup.py; sed -n '165,192p' /path/to/robodojo-openwam/RoboDojo/scripts/install.sh; grep -nE "requires|warp|cuda" /path/to/robodojo-openwam/RoboDojo/third_party/curobo/pyproject.toml

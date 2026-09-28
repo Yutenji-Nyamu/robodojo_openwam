@@ -1,0 +1,18 @@
+ight/SubUSDs/textures/DefaultMaterial_Base_Color.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/DefaultMaterial_Mixed_AO.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/DefaultMaterial_Normal_DirectX.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/DefaultMaterial_Roughness.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/Parquet_AO.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/Parquet_Color.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/Parquet_Normal.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/Parquet_Rough.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WallWood_Color.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WallWood_Normal.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WallWood_Rough.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Color.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Normal.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Rough.png", "Assets/Room/Simple_Room_nolight/SubUSDs/textures/abandoned_parking_4k.hdr", "Assets/Room/Simple_Room_nolight/simple_room_nolight.usd"]
+Checking out LFS objects: 100% (284/284), 574 MB | 180 MB/s, done.
+COMMAND ["/path/to/robodojo-openwam/envs/RoboDojo/bin/python", "utils/update_embodiment_config_path.py"]
+[0;34mCurrent path: /path/to/robodojo-openwam/RoboDojo[0m
+[0;34mSetting environment variable: ASSETS_PATH=/path/to/robodojo-openwam/RoboDojo[0m
+[0;34mSearching for configuration template files...[0m
+[0;34mStarting to process configuration files...[0m
+Processing [1]: /path/to/robodojo-openwam/RoboDojo/Assets/Robots/x5/curobo_tmp.yml -> /path/to/robodojo-openwam/RoboDojo/Assets/Robots/x5/curobo.yml
+[0;32m  ✓ Successfully replaced ${ASSETS_PATH} -> /path/to/robodojo-openwam/RoboDojo[0m
+[0;32m  ✓ Confirmed path was correctly replaced[0m
+
+[0;34mProcessing complete![0m
+Total processed: 1 files
+[0;32mSuccessfully updated: 1 files[0m
+
+[0;32mAll template files have been processed![0m
+To use in a new environment, run this script again
+TASK_ASSETS_VERIFIED 284 573739871

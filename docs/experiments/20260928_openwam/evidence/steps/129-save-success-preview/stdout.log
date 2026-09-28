@@ -1,0 +1,1 @@
+{"output": "/path/to/robodojo-openwam/runs/success-preview", "files": 8, "videos": [{"camera": "head", "frames": "320", "duration": "12.800000"}, {"camera": "left_wrist", "frames": "320", "duration": "12.800000"}, {"camera": "right_wrist", "frames": "320", "duration": "12.800000"}]}

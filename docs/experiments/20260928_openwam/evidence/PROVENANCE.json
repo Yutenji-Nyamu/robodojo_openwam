@@ -1,0 +1,1508 @@
+[
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/sz2_openwam_stack_bowls_s0_20260928_1921.log",
+    "original_sha256": "e25b2833feed43d475f89ca938bc1478262c2faa8576662d17feb2182d13e006",
+    "public_sha256": "476fabbdc74df66e0c2e78d19c3fab09aad240a8f49e0ec571868a4cd728a3c5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/command.sh",
+    "original_sha256": "6069780c5206bf3ec02e697281d6e82db0afad784fb4c42f33dd5f0bca7d2b83",
+    "public_sha256": "1fab1e2258689ac8a7377a99462397c6916e3dced52b17a2f0d4c3d3f63fa693",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/dojo-head.txt",
+    "original_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "public_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/end.txt",
+    "original_sha256": "6ed0b3df34d949a8a308cf04d6bb701138e85ac8817b558aab02458a9e5a262a",
+    "public_sha256": "6ed0b3df34d949a8a308cf04d6bb701138e85ac8817b558aab02458a9e5a262a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/exit.txt",
+    "original_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+    "public_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/local-config.patch",
+    "original_sha256": "d28fe1ba554a44e996cd840a1f1a2fe2ac39a1b9f6d0e4e67804af745e9e5055",
+    "public_sha256": "d28fe1ba554a44e996cd840a1f1a2fe2ac39a1b9f6d0e4e67804af745e9e5055",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/project-env.sh",
+    "original_sha256": "e280eec5e3912493ed369b8c62508d1adeba021a1e77eebad58d1d70225540ea",
+    "public_sha256": "9bda2b3c525a57c9efa191cfcac73c7795b6988db988a15dedeab6647111483d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/sim_config.yml",
+    "original_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "public_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/start.txt",
+    "original_sha256": "d620da964607d1cbec5810b8fccf666ecc8c0d277e3b0037e846c6d5eba6ada0",
+    "public_sha256": "d620da964607d1cbec5810b8fccf666ecc8c0d277e3b0037e846c6d5eba6ada0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1921/submodules.txt",
+    "original_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "public_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/sz2_openwam_stack_bowls_s0_20260928_1926.log",
+    "original_sha256": "30cbbf198f0c96ecf007c1e9a7b76f45fa3472158f9df7ccc3dc13d7bf7e8efb",
+    "public_sha256": "93306a6810c5c8bc91bd58a0963bbde51cb269f1a1c03e36e0babf9d16a17e55",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/command.sh",
+    "original_sha256": "6069780c5206bf3ec02e697281d6e82db0afad784fb4c42f33dd5f0bca7d2b83",
+    "public_sha256": "1fab1e2258689ac8a7377a99462397c6916e3dced52b17a2f0d4c3d3f63fa693",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/dojo-head.txt",
+    "original_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "public_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/end.txt",
+    "original_sha256": "83831eed361d5f4454ab47c94479e73a4fd18d2b3aefc27f9b7c5e24a4f54bbf",
+    "public_sha256": "83831eed361d5f4454ab47c94479e73a4fd18d2b3aefc27f9b7c5e24a4f54bbf",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/exit.txt",
+    "original_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+    "public_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/local-config.patch",
+    "original_sha256": "8c0b338eedded33db128bce4420c847e6a31ee5cbca64318f8fd01e53662bcc5",
+    "public_sha256": "8c0b338eedded33db128bce4420c847e6a31ee5cbca64318f8fd01e53662bcc5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/project-env.sh",
+    "original_sha256": "e280eec5e3912493ed369b8c62508d1adeba021a1e77eebad58d1d70225540ea",
+    "public_sha256": "9bda2b3c525a57c9efa191cfcac73c7795b6988db988a15dedeab6647111483d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/sim_config.yml",
+    "original_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "public_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/start.txt",
+    "original_sha256": "4758aa9b16221766d599266cde154bec370717ba1b96a0e663af7e2baf33da67",
+    "public_sha256": "4758aa9b16221766d599266cde154bec370717ba1b96a0e663af7e2baf33da67",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1926/submodules.txt",
+    "original_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "public_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/sz2_openwam_stack_bowls_s0_20260928_1944.log",
+    "original_sha256": "bf0915d293a6735349bd6bae0a928f51f0dd2518f6e5945b86f9846d873b703b",
+    "public_sha256": "987c8bf163ea1f8209116e4423b02b9c03ffa06fd64cc08f6b477ef2da0e6f6d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/command.sh",
+    "original_sha256": "6069780c5206bf3ec02e697281d6e82db0afad784fb4c42f33dd5f0bca7d2b83",
+    "public_sha256": "1fab1e2258689ac8a7377a99462397c6916e3dced52b17a2f0d4c3d3f63fa693",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/dojo-head.txt",
+    "original_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "public_sha256": "351f9d9d11a83c8acf998178fb9c3cc5f9f42c7fd9c482f165553d37049f5a0a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/end.txt",
+    "original_sha256": "2867068bba2986a6c79d7d5bb19d5878503b1c18475136596ae3a8e73de37447",
+    "public_sha256": "2867068bba2986a6c79d7d5bb19d5878503b1c18475136596ae3a8e73de37447",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/eval_single.sh",
+    "original_sha256": "4ca077e69467c7d03b6c06714ccc62bc266cb9268a9f5aafb89bc6874767c212",
+    "public_sha256": "cf9df52f188bc956172f4b371b0274ebec129c7f977135310757f7e37de80d13",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/exit.txt",
+    "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "public_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/local-config.patch",
+    "original_sha256": "fc828d05aa772f90119d5de16baa88a99507add807fb0825ec893fe117acc387",
+    "public_sha256": "fc828d05aa772f90119d5de16baa88a99507add807fb0825ec893fe117acc387",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/project-env.sh",
+    "original_sha256": "e280eec5e3912493ed369b8c62508d1adeba021a1e77eebad58d1d70225540ea",
+    "public_sha256": "9bda2b3c525a57c9efa191cfcac73c7795b6988db988a15dedeab6647111483d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/sim_config.yml",
+    "original_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "public_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/start.txt",
+    "original_sha256": "572eae716a3b03938a1a165f4f063fa6cdc98212d9139292b347fbfb7a14adc9",
+    "public_sha256": "572eae716a3b03938a1a165f4f063fa6cdc98212d9139292b347fbfb7a14adc9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/submodules.txt",
+    "original_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "public_sha256": "b2bd901a76e01a5e753a81948c98a6d9fcb68078abb0b86350aae4fc01277f66",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/vulkan-compat.sha256",
+    "original_sha256": "bea6e87667e98b96c1afa8cf9cfd1d0568c5f81f9ec99006c574ecff2f53f9db",
+    "public_sha256": "4fd256ff4acfe14aef2f3272f8153f4a686a97e509ee36af759c26d2eea319a8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sz2_openwam_stack_bowls_s0_20260928_1944/vulkan-layer-package.json",
+    "original_sha256": "6651c55e96f44d35c98fe6fe53d918aafbc955498fd2bf6320467e589aa0ccaa",
+    "public_sha256": "6651c55e96f44d35c98fe6fe53d918aafbc955498fd2bf6320467e589aa0ccaa",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sim-unmasked/sim-unmasked.log",
+    "original_sha256": "1765ce1fe6bb549ecdf5490ee56675b9afd475a73f5a1936eea480e9dcbdf526",
+    "public_sha256": "7d62a2794b4203754b6df51d789d51254fd21094390ae4cbdc9733491413aaad",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/sim-compat/sim-compat.log",
+    "original_sha256": "fe6ba0a4dc025e296d03a18ff009071b3369e57e883b6e11de4ae94dde07d459",
+    "public_sha256": "6281597db0f096f06fd4d922cb3d025f28261043368937e1b05736f89df88a30",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/004-bootstrap-official/command.sh",
+    "original_sha256": "8b19481d5410fe5ec7f239e15e47efa63e7ead1993745a16ee22c4d75fd84137",
+    "public_sha256": "7c37ddcc1f774e3852deb4e785d6bfd04225b5987cb75926a203026586b26209",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/004-bootstrap-official/stdout.log",
+    "original_sha256": "7fc76802bb3951623b0db94541b664bba0e375155beee3e6aee8988a9dfe923f",
+    "public_sha256": "11f7265df0eadda80a33f74e4ec0bcb6adea977e44372c4f3ea371c3973702af",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/004-bootstrap-official/stderr.log",
+    "original_sha256": "149119a84e5577dc866c3e0b7edbcb34b78edf04f52743510b011cae3f3ce52d",
+    "public_sha256": "bc49e442d7d38f77ba793408e773a25ffb31ac598ee822a743fe84ad090b809a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/004-bootstrap-official/receipt.json",
+    "original_sha256": "d2ae09c143f298fbbfe0c3393e459fa091dc2c4f18e76d589bc881ebf0fd2ae0",
+    "public_sha256": "d2ae09c143f298fbbfe0c3393e459fa091dc2c4f18e76d589bc881ebf0fd2ae0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/005-assets-and-model/command.sh",
+    "original_sha256": "7dcad626e83a0f862d0d2f4b7c13e8d5b5eed74ae3c2b990a8f19d3a81d9ab8a",
+    "public_sha256": "2c023feecec6233c13ee0789045b3b35b76ad4ee0a6c899f2de453994d8ad3ce",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/005-assets-and-model/stdout.log",
+    "original_sha256": "ea4d7876eae1f3769f50080f123ceee17cc99ec357aaf6525897f78d7f94e1ac",
+    "public_sha256": "ef3c6be7c3d0df811c4135ac55df9274818745c73ec4a44f1afbeae0ea71e0d2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/005-assets-and-model/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/005-assets-and-model/receipt.json",
+    "original_sha256": "7dbaed3779a0a0c573295cbece90027da710bc07f0ee4c524a651512af83c3b2",
+    "public_sha256": "7dbaed3779a0a0c573295cbece90027da710bc07f0ee4c524a651512af83c3b2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/007-policy-official/command.sh",
+    "original_sha256": "a67a6dadb214ceb52d666aae370b397293cea3e3f514fe281657a834d6a6eb9a",
+    "public_sha256": "495eb91a507c34f0d65a36db35e18f5b7fac3f0cfc86c129d42f77574e81d99d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/007-policy-official/stdout.log",
+    "original_sha256": "64509b05aa1e5786dfd7b706c3220a8abcb7b9c1ad30239908a89a4afba1ca3c",
+    "public_sha256": "2d4ecd27782ea44bb450ea25e62b4954b5ac34a437cec470cb77e8f9e0b975e0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/007-policy-official/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/007-policy-official/receipt.json",
+    "original_sha256": "07ebd4c92af61248e0a9c7fc588def5884511d1f3f71cca096a140da9bae38ba",
+    "public_sha256": "07ebd4c92af61248e0a9c7fc588def5884511d1f3f71cca096a140da9bae38ba",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/008-download-range-support/command.sh",
+    "original_sha256": "a4c313d0f8779394f87dfc527f5cde84880ee96a18ec387e9390a40bdc28109f",
+    "public_sha256": "a4c313d0f8779394f87dfc527f5cde84880ee96a18ec387e9390a40bdc28109f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/008-download-range-support/stdout.log",
+    "original_sha256": "113633a529876d185c8633b1a90e23b86a0c231121199ed2c21f00d340ff5dcb",
+    "public_sha256": "113633a529876d185c8633b1a90e23b86a0c231121199ed2c21f00d340ff5dcb",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/008-download-range-support/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/008-download-range-support/receipt.json",
+    "original_sha256": "b6883010b07d2f665077f235581ee280755feb8c475f9dfd050083f07bb99bae",
+    "public_sha256": "b6883010b07d2f665077f235581ee280755feb8c475f9dfd050083f07bb99bae",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/011-pypi-mirror-resume/command.sh",
+    "original_sha256": "33b6782bd56d26f7cc5503549d9c503a55e132a97f217609b475bb87d863bb89",
+    "public_sha256": "4d46dc433b93abf88d6225755fb669c4b5399e3b43692c2e48f1608ce0ca25b2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/011-pypi-mirror-resume/stdout.log",
+    "original_sha256": "e4016f086e798f58c3bf4e76a095a1cb30f8556c6735dabcbb36154ba2612231",
+    "public_sha256": "77c36f03dba981102a4485c9b94f7abc438334c879fb1cdfa659186ebbfa47b1",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/011-pypi-mirror-resume/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/011-pypi-mirror-resume/receipt.json",
+    "original_sha256": "239e226e52eb31d6038c03aa2574ee28611394fd3d67a212241c53934be04607",
+    "public_sha256": "239e226e52eb31d6038c03aa2574ee28611394fd3d67a212241c53934be04607",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/013-model-range-resume/command.sh",
+    "original_sha256": "40401b0afce9c8a556908cb978cd94522dbb2c7d326e8edaa1133a9523c2bf71",
+    "public_sha256": "e7223bf9f9384742c0c5cf2d48a041502ce9bd035e6d9dc9cfe99b7879fae1e7",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/013-model-range-resume/stdout.log",
+    "original_sha256": "3cc604bcbe66a9bb2bd1f80fb96fb0aff9f71d6ff44d6aa2b76bb4106151f9a9",
+    "public_sha256": "473e165c6088dae496fca7e4374e8bff202b527d28eb560c97aa99994dc2d519",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/013-model-range-resume/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/013-model-range-resume/receipt.json",
+    "original_sha256": "30527e1ae88dd8c5f3603a8e949fe40800c327436566dbcc1cec8363f33fe90c",
+    "public_sha256": "30527e1ae88dd8c5f3603a8e949fe40800c327436566dbcc1cec8363f33fe90c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/014-policy-pip-source/command.sh",
+    "original_sha256": "80ae79c6144607a7fe95c5dfba9bc2c1c83aee328573693b8dbfa9748eca9e8b",
+    "public_sha256": "d5156b63b3d2d4689cdf6da1a79cc979753d057dacf9339733b5375fc5a737f8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/014-policy-pip-source/stdout.log",
+    "original_sha256": "d4bcb0da1ab0fea5b2203d6b00cd570cb7f8bf357af86763a7d44d108a3709c5",
+    "public_sha256": "d4bcb0da1ab0fea5b2203d6b00cd570cb7f8bf357af86763a7d44d108a3709c5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/014-policy-pip-source/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/014-policy-pip-source/receipt.json",
+    "original_sha256": "fd15f73d59f7b481963620e3300c21124bcc37e71d03e52de81c31a48454bf68",
+    "public_sha256": "fd15f73d59f7b481963620e3300c21124bcc37e71d03e52de81c31a48454bf68",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/027-checkpoint-retry-error/command.sh",
+    "original_sha256": "7c5ca9be0bd077ba94e50dfac35ece8fba0af64e875d6dfd45d2b65aa9a98e98",
+    "public_sha256": "a4c13e169d991fb7a789fea770a4951f82b59ff86f0a4b1cb454ce7b88a9528f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/027-checkpoint-retry-error/stdout.log",
+    "original_sha256": "2488b638d80fbb6a364aac1682c44b43d97fc7822855e505111e95e99821d06c",
+    "public_sha256": "406bccae2f7b3683f8005f26e56cba7995e0464a711eedff8851509fff2d12c8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/027-checkpoint-retry-error/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/027-checkpoint-retry-error/receipt.json",
+    "original_sha256": "7c5335319a89d8daca9ba2450494e62ff4df98b720c4535f271443ca0f407750",
+    "public_sha256": "7c5335319a89d8daca9ba2450494e62ff4df98b720c4535f271443ca0f407750",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/032-checkpoint-resume-v2/command.sh",
+    "original_sha256": "0e824fea45345004fdd6fa4f436f8b063be92d6ae883fa51056a0f3a5e465a27",
+    "public_sha256": "f33ff926e2588993cde8dc461932e2e5957a87fcd66bd1d4442fa03a1a984fa3",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/032-checkpoint-resume-v2/stdout.log",
+    "original_sha256": "5dbf85795266684790c9f9aa4f2ef7a2f2a20db323ccdabd0cd70961bf9e7081",
+    "public_sha256": "516d80d5cb296b9edbf82cdebf942f1b2182026611cd0891bf7ced1fffa9070c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/032-checkpoint-resume-v2/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/032-checkpoint-resume-v2/receipt.json",
+    "original_sha256": "a98be74d32d54b8318302b4128c4f0acf704045d71ccacb47d4049ef9aa25b75",
+    "public_sha256": "a98be74d32d54b8318302b4128c4f0acf704045d71ccacb47d4049ef9aa25b75",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/037-eval-entry-read/command.sh",
+    "original_sha256": "746c741daa723dd8d7b5f9807d0a991ba95046e959203c3757864304f3c1565f",
+    "public_sha256": "fffae4f6563d87274b1685d74ba55aad3c2427492acfaafa0ee44600284c8540",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/037-eval-entry-read/stdout.log",
+    "original_sha256": "699e8030e3c4b81e6099f6c58fa432c1067535246d853fae6d1ee81879d7da95",
+    "public_sha256": "699e8030e3c4b81e6099f6c58fa432c1067535246d853fae6d1ee81879d7da95",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/037-eval-entry-read/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/037-eval-entry-read/receipt.json",
+    "original_sha256": "4972df4a8642a3e0dc8447813b9d098ed28961cdf14c6f0eb547287fbe8b6b8f",
+    "public_sha256": "4972df4a8642a3e0dc8447813b9d098ed28961cdf14c6f0eb547287fbe8b6b8f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/038-single-env-render-config/command.sh",
+    "original_sha256": "d397f2a257f5491f7886d06356539bb5a234f0af74f211739b231717cce1d8bf",
+    "public_sha256": "57eec4859a110f380411ce5321e2e1f828ee5cdf2f9cc03a3cab37085017db8e",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/038-single-env-render-config/stdout.log",
+    "original_sha256": "99e928ae3d0064e5fa9115012f4718897022cd2fbb8c2df6c691bb80f38df145",
+    "public_sha256": "de2d1ea4be81d36f2f91012482028b4c6f1b4919dd30c83953c2d6a4731a22ff",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/038-single-env-render-config/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/038-single-env-render-config/receipt.json",
+    "original_sha256": "a142c09718eb272929e75057134d7c48aafc559b4deda2f36cf48348b9ff6d73",
+    "public_sha256": "a142c09718eb272929e75057134d7c48aafc559b4deda2f36cf48348b9ff6d73",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/044-assets-official-state/command.sh",
+    "original_sha256": "4e43032fcd2bce7254a2e3f71fc3ad37958f3c61e5c6833bbc07e6b036c3c9dd",
+    "public_sha256": "abe77a3f305ab9f4ae47eca095457dd609aa58de203c5527d1767ac4c1496862",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/044-assets-official-state/stdout.log",
+    "original_sha256": "96618469bf8c55529b3febeac208bd9e901f741ce0ddf7a3fad815f4ccdab992",
+    "public_sha256": "96618469bf8c55529b3febeac208bd9e901f741ce0ddf7a3fad815f4ccdab992",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/044-assets-official-state/stderr.log",
+    "original_sha256": "c8fd447f105ec85b8c4f73f5fdab7fd1469d43bc5429586e54701fa55a9fce02",
+    "public_sha256": "43ec5abf758ddd796a4c620a03afafdc20c9ebfa7eaa50218e9dea29ceee6405",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/044-assets-official-state/receipt.json",
+    "original_sha256": "91f7fca26f8dbc4a615a869880b3a32a917244a0444965f32328319f5243d271",
+    "public_sha256": "91f7fca26f8dbc4a615a869880b3a32a917244a0444965f32328319f5243d271",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/051-official-task-assets/command.sh",
+    "original_sha256": "85a49ed464c2db8c015eaa1b19397e97ce39031da43c891e95746fdfa003cbfd",
+    "public_sha256": "f62348381f6722ff1d569f6ad5e4e5e9238a144b9fd701e3b0102a46a5b57bcb",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/051-official-task-assets/stdout.log",
+    "original_sha256": "74c455196f8292391f2d218a6f4b76e24be027e515482b5052775101db2b2051",
+    "public_sha256": "f750e7e3a902442fcbfe8a030412d902b90f1905d021b8032bac2f46d1d0d9e5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/051-official-task-assets/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/051-official-task-assets/receipt.json",
+    "original_sha256": "5c6476285922209097ff707d40a7447d6fd9c281b6d5d1a26ca25e410a6e9db5",
+    "public_sha256": "5c6476285922209097ff707d40a7447d6fd9c281b6d5d1a26ca25e410a6e9db5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/054-policy-dependencies-check/command.sh",
+    "original_sha256": "4a9060ccb19c13886fef9b43de19091b65c02141033ed53f565df5c6584335f0",
+    "public_sha256": "ae0403309573486d03a837462732fe4b38c62a5af541df0c39b21817e43556c7",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/054-policy-dependencies-check/stdout.log",
+    "original_sha256": "44884ef42a0c283197cef53cae94d361d515bcc6c7037420eda1a217b845a0ed",
+    "public_sha256": "44884ef42a0c283197cef53cae94d361d515bcc6c7037420eda1a217b845a0ed",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/054-policy-dependencies-check/stderr.log",
+    "original_sha256": "66b2f5348dda42f1e15707242c87b94f496d74cc0cc147587e3f3f3d740030e2",
+    "public_sha256": "a636e3bf3da186599444b3795fc13cf46cd78f33a76c45790b68e4d9a24f3b47",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/054-policy-dependencies-check/receipt.json",
+    "original_sha256": "b31a8dc9afe8d1bba759cb2d1e6ac55ba78ac13ea4e53f9170745ac039cff4ec",
+    "public_sha256": "b31a8dc9afe8d1bba759cb2d1e6ac55ba78ac13ea4e53f9170745ac039cff4ec",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/055-policy-isolated-check/command.sh",
+    "original_sha256": "7a91124f5087bb40b9045d5de1e49bd97ed2ad3cff138ace687e7fdb56328df5",
+    "public_sha256": "cf2203ab79553355f8efd07187c649ad26976485b9770880624ef3cc120fe57d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/055-policy-isolated-check/stdout.log",
+    "original_sha256": "7f40c8661220bcc439da0ebba8ba3d0cc1f5d88713aa0870caf09bab8ecd7c6b",
+    "public_sha256": "60b8ca80b21e162cb4094c9326f74aa7a7ec0262d113d603fc31a485b001ef5a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/055-policy-isolated-check/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/055-policy-isolated-check/receipt.json",
+    "original_sha256": "d2f41297c3c4b71e5be9c8cac71ad595fb0aa9c3065b13139b2ff655a82ec71f",
+    "public_sha256": "d2f41297c3c4b71e5be9c8cac71ad595fb0aa9c3065b13139b2ff655a82ec71f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/057-task-asset-restore-error/command.sh",
+    "original_sha256": "3bcbd6e851d7e3ad2cfe4cad6eb6e2d1e9f6e7fdcba0ec98e91341a1bcc3a83d",
+    "public_sha256": "727b8173c4d50e96c90aff3713092a0eba4c46d4ff973ac83673cef26fbf3b9f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/057-task-asset-restore-error/stdout.log",
+    "original_sha256": "42b118c2e845392f3376b333aaee0ae83d157560d5a91844282c4c74d09ce7e1",
+    "public_sha256": "133514d42c63d40bb7ceb6b9e1b2ee0e7f942c88d1ec184797c70d906cc83a5c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/057-task-asset-restore-error/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/057-task-asset-restore-error/receipt.json",
+    "original_sha256": "dc8b2faa81b0a8fb4c4dea921ebac8a8148d0a497810cbf165b01f0d3129b76f",
+    "public_sha256": "dc8b2faa81b0a8fb4c4dea921ebac8a8148d0a497810cbf165b01f0d3129b76f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/058-asset-git-path-check/command.sh",
+    "original_sha256": "53afc2b73d91d1bbce15551c1b98ea33f6fe641971b07789a0709d6b3a8d3c4e",
+    "public_sha256": "2983090cdf2fd4988ef995403f87fabd1b9c1a50e20429a296c703a8cb56c31d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/058-asset-git-path-check/stdout.log",
+    "original_sha256": "da85d664a9a2f550ae3c89103a503b51c43f5869eddff38fcc78eb03056ae679",
+    "public_sha256": "da85d664a9a2f550ae3c89103a503b51c43f5869eddff38fcc78eb03056ae679",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/058-asset-git-path-check/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/058-asset-git-path-check/receipt.json",
+    "original_sha256": "f2f67edcb04e13d42893b898a4d9f2221f41d005c9b2279dc66f876d0412e6f6",
+    "public_sha256": "f2f67edcb04e13d42893b898a4d9f2221f41d005c9b2279dc66f876d0412e6f6",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/059-materialize-task-assets/command.sh",
+    "original_sha256": "2c8a4fa6de17f9d15b6a285ed4780727bbc850b176ced43b59247077fbadc372",
+    "public_sha256": "5006f6221651064e27879e2c6765777891a5d8c4739c7cbebe239a9eadd3b34b",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/059-materialize-task-assets/stdout.log",
+    "original_sha256": "c308e31667d417c7f08ec94a62e530a33d2070a9513b2a01ab5ee0c74c09cd49",
+    "public_sha256": "9ffe33be0504f34fbeb5c9fe5587e85846edae1c011d1f2c7816d8fe8b1f3e08",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/059-materialize-task-assets/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/059-materialize-task-assets/receipt.json",
+    "original_sha256": "b51709cd7b03c2cf9b1f6536e2e2ccebcdb91c12c8af5bacde457ce826fd9951",
+    "public_sha256": "b51709cd7b03c2cf9b1f6536e2e2ccebcdb91c12c8af5bacde457ce826fd9951",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/061-eval-script-syntax/command.sh",
+    "original_sha256": "e10e28aa74619fa40429946125f5b64500bf429bf7bb7dcbce1f21f5fff8a96d",
+    "public_sha256": "d2513bd94d3a8299c96d0648162277c45cc8b704d5555f3c02b3f990fa0a70c2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/061-eval-script-syntax/stdout.log",
+    "original_sha256": "82d3908e8a2b5e5a5c0d2d0b35fb2bd491b515b5af013e8a967cb33ff6e5aafd",
+    "public_sha256": "394de6d3ef78f122fb7e22191e1d391d92a22d990718035c434ee831c08414d2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/061-eval-script-syntax/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/061-eval-script-syntax/receipt.json",
+    "original_sha256": "76f36f8753b076625caeb3ee35e38079a76380a3c000debb5107c24089eec4f4",
+    "public_sha256": "76f36f8753b076625caeb3ee35e38079a76380a3c000debb5107c24089eec4f4",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/070-model-complete/command.sh",
+    "original_sha256": "e203f2052e7287a09c8a2449b2930aed57207ce766bd16d2f08630153382f66a",
+    "public_sha256": "6f7cb5a45445b1e7bae322413796d80eea1d5e547b7a58e4878708e53d0d92e8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/070-model-complete/stdout.log",
+    "original_sha256": "bc93722fef7e0241b8787dcde3ada0797a93f101f22804d801d96d60a67d9428",
+    "public_sha256": "bc93722fef7e0241b8787dcde3ada0797a93f101f22804d801d96d60a67d9428",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/070-model-complete/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/070-model-complete/receipt.json",
+    "original_sha256": "6d62ab745d540aad025d4370367f077b2db2441b033b64b4a799f12ebeb9648f",
+    "public_sha256": "6d62ab745d540aad025d4370367f077b2db2441b033b64b4a799f12ebeb9648f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/080-install-stage/command.sh",
+    "original_sha256": "35c5a2db307b09e81e78c0f1047e369851ca7ae82f706741e6a15833f71d869c",
+    "public_sha256": "a17e7212bf3ac5412bfa990ed721fac41438c1bc54b020ef4d8adaf81af004df",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/080-install-stage/stdout.log",
+    "original_sha256": "6d9a85733db6ce710466f95527a5aed1aeb69aed290193b126f9056162257d6b",
+    "public_sha256": "6d9a85733db6ce710466f95527a5aed1aeb69aed290193b126f9056162257d6b",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/080-install-stage/stderr.log",
+    "original_sha256": "98157a91ef3b6fa2d9fe4919f74fb08742c844387d78a48f50555e8b1518cc10",
+    "public_sha256": "98157a91ef3b6fa2d9fe4919f74fb08742c844387d78a48f50555e8b1518cc10",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/080-install-stage/receipt.json",
+    "original_sha256": "649e9926a6f16ee34ef9348a1e55dfb3b4fba2f85a55997468089158af7f6a31",
+    "public_sha256": "649e9926a6f16ee34ef9348a1e55dfb3b4fba2f85a55997468089158af7f6a31",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/081-cuda-toolkit-location/command.sh",
+    "original_sha256": "5df49d05257d374c4398e4e659e0f79a81b2b4f5047e140f7932ac3fdca4f6bd",
+    "public_sha256": "f8cabc57deeba99211913df9d31336f86077bc454f96a56622b4537da0f34b5b",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/081-cuda-toolkit-location/stdout.log",
+    "original_sha256": "d130cc8898ec11dbbd0e34688955f860c1fa845a32b63f3092dce7a9ea4fc097",
+    "public_sha256": "d130cc8898ec11dbbd0e34688955f860c1fa845a32b63f3092dce7a9ea4fc097",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/081-cuda-toolkit-location/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/081-cuda-toolkit-location/receipt.json",
+    "original_sha256": "9d517d0c5120cb10c79b33c6b49d3f893d064fa5199466651f36815b08d24984",
+    "public_sha256": "9d517d0c5120cb10c79b33c6b49d3f893d064fa5199466651f36815b08d24984",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/082-curobo-build-requirements/command.sh",
+    "original_sha256": "d78c35758890cc63aa455a6ab16c84f74dcc552b4e44c3acce875c924b3af379",
+    "public_sha256": "4b0f980db9453a17fd1a40f5c8c493f47179f34098f8f0c0d0c2eb44e4129aa0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/082-curobo-build-requirements/stdout.log",
+    "original_sha256": "34af1eb1aab220628e67c22fb28d8f257f7bd529ac411dadf44e720ecb0cbbc0",
+    "public_sha256": "34a3a6e146bee0119fa40488f72f9ae5db442aab26f5e0d04c27b0b5a6b89114",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/082-curobo-build-requirements/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/082-curobo-build-requirements/receipt.json",
+    "original_sha256": "2caf02bff8d6484986e7ab813a364dc89905a7447107a251c185b97aed814056",
+    "public_sha256": "2caf02bff8d6484986e7ab813a364dc89905a7447107a251c185b97aed814056",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/083-curobo-compile-default/command.sh",
+    "original_sha256": "74ff043f9ab922cd3c01af9983dce988c0265aee6208b83593eaf20607acaaed",
+    "public_sha256": "ff379915864827e28eb380abcb1e052ed1646f6cef59fb496321ec2b6a7b1b3f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/083-curobo-compile-default/stdout.log",
+    "original_sha256": "b9fec899603a397211048177011ca1b884e081b2ee431e9eca311251846291b3",
+    "public_sha256": "b9fec899603a397211048177011ca1b884e081b2ee431e9eca311251846291b3",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/083-curobo-compile-default/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/083-curobo-compile-default/receipt.json",
+    "original_sha256": "b9b4ed179e8a13c48d0ab475d4308634e675008759274de25293e7f3f6e3738a",
+    "public_sha256": "b9b4ed179e8a13c48d0ab475d4308634e675008759274de25293e7f3f6e3738a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/084-curobo-current/command.sh",
+    "original_sha256": "8dc7308f88d5ff755f46b49bec75d2623e904ae5dae2919e084d229c007959f3",
+    "public_sha256": "f7d5c41a1d92a666af3d5dcf6d223bc821ec65afde550c670b716dc06dd82a8f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/084-curobo-current/stdout.log",
+    "original_sha256": "f71f9a8e26614ac64e2b19d4c2eb393c1bffcad2d1e978b2f1b391e51d90e829",
+    "public_sha256": "f9f8d8f7af689c16d2c99d03138a635ee0571c13eef473334657aeae0798108e",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/084-curobo-current/stderr.log",
+    "original_sha256": "876e14b5506a260660debe124bf81eb116542f195b36b5462d921dea203e541a",
+    "public_sha256": "fa8499d4e80b83e78774ba35929b5014bcf736786e110cb64356d9dfdbe66ca2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/084-curobo-current/receipt.json",
+    "original_sha256": "bd47f1df4379553e856ed67823b6afecdb9458f33939f91a7e2a7b8694e017ed",
+    "public_sha256": "bd47f1df4379553e856ed67823b6afecdb9458f33939f91a7e2a7b8694e017ed",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/085-sim-check-gpu/command.sh",
+    "original_sha256": "451da3cc43f2915b285e930af7bccfae4ea28fcc22daba9d58af0b1c19616947",
+    "public_sha256": "8b51bce7393a39c20ae110420e6db11bfe17d433191ecac03a22c1aab661a5e5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/085-sim-check-gpu/stdout.log",
+    "original_sha256": "72da8b67fd048b502033379faf76b5866f7e953b89b8a139a821137eee61da5c",
+    "public_sha256": "33eeea8b90bdee8df64473c60b749c9494af5aa0db1d3077cab9ef4b72208c54",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/085-sim-check-gpu/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/085-sim-check-gpu/receipt.json",
+    "original_sha256": "d6e16a9a88c1ac52fa96eed539f28ccfad963e7fe871109545fafe58b2ff7d94",
+    "public_sha256": "d6e16a9a88c1ac52fa96eed539f28ccfad963e7fe871109545fafe58b2ff7d94",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/086-launch-real-episode/command.sh",
+    "original_sha256": "c681c595a5a294df67fda35994ecf1c3b34c6b2554bfc9b4648a24ffbc9519ab",
+    "public_sha256": "a9144fc8c1aed0a441467d882bc80bd96a4b540a571e9d14dadf027f0a5b21f7",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/086-launch-real-episode/stdout.log",
+    "original_sha256": "2f6661506aaae9788f09727efac9fd9af44d2dab53846b744ddd79888360bf0e",
+    "public_sha256": "ddeec7a121ff276590901689e59887c3b5875e0a522560136464162272691369",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/086-launch-real-episode/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/086-launch-real-episode/receipt.json",
+    "original_sha256": "d19742b721421ff0399127495cb95e566e8cf80b067a50d831049ab3f82dcf77",
+    "public_sha256": "d19742b721421ff0399127495cb95e566e8cf80b067a50d831049ab3f82dcf77",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/087-model-start-log/command.sh",
+    "original_sha256": "8af40518f6139c22919ac5771894ed1df99b808c98adcd8fdc4c9f640b4a2a78",
+    "public_sha256": "c04a4c445e8d0f23b97e303309877e00590494b2649e45b93d61da74a8d893d3",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/087-model-start-log/stdout.log",
+    "original_sha256": "3c7c1c479a4d1f843b96d700791419acefac6db7034c5831535751e0c811e968",
+    "public_sha256": "a87054ccfa0f417631b3b34f2760a0a54e734f294c1aeb39f14d5966a6b3d294",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/087-model-start-log/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/087-model-start-log/receipt.json",
+    "original_sha256": "22dc068277b92da2461644e0a69ed0bb3bd89170ed34478647d203dcff2744b9",
+    "public_sha256": "22dc068277b92da2461644e0a69ed0bb3bd89170ed34478647d203dcff2744b9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/092-isaac-device-errors/command.sh",
+    "original_sha256": "6b4bed32112eefda028d69ac50f95bb39f5ecf3b98d0142845f69ce651803ce5",
+    "public_sha256": "294d6c5f781b6e18d6ba9a3d65b4ad9f024ebdeef2fd7997155bd733793c71ed",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/092-isaac-device-errors/stdout.log",
+    "original_sha256": "7a7856b7bae6e7fb57ed6b8ed95bfca56d9defeb07080154b58922dbef502e4b",
+    "public_sha256": "7b4fd4c77b6e3dfa9450a38aab35d4609505bd65d4c311620ed8680f1e0175c1",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/092-isaac-device-errors/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/092-isaac-device-errors/receipt.json",
+    "original_sha256": "bbf7783997bb2e3166b27707bf17e6896f71bba03e2e95cf24ac08491673b01e",
+    "public_sha256": "bbf7783997bb2e3166b27707bf17e6896f71bba03e2e95cf24ac08491673b01e",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/093-device-table-and-tail/command.sh",
+    "original_sha256": "0ae41b5bf0d77854e2628d3c4403e6c6e374f4099555366db9dbbd5de7ec1732",
+    "public_sha256": "ab58040b04ed9d92bbc7226018c5f37d567c48a1c2937dcdaf0760e7697bc9c2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/093-device-table-and-tail/stdout.log",
+    "original_sha256": "18bd4879d11fb0d2875a0c14e2c6a54cb04b230969e4cbec6081a18204d68a3d",
+    "public_sha256": "5e152e865c62eabb1069456c2f8b8c7e11f5f17f3620bee3aa7bf578daf266a5",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/093-device-table-and-tail/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/093-device-table-and-tail/receipt.json",
+    "original_sha256": "714e207a04ded9d9ef7ffe2c449df5f633ce0f4b4451921288ddc9579e414975",
+    "public_sha256": "714e207a04ded9d9ef7ffe2c449df5f633ce0f4b4451921288ddc9579e414975",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/094-first-failure-context/command.sh",
+    "original_sha256": "69ce622b58d484061c2d21bfbdfdce38148e82dec98bc3dbbf4b208d7b526b46",
+    "public_sha256": "b03a0fb8b8038eb654251c299adf8c35dc2d147a1a801b6ccb8600ae3916221c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/094-first-failure-context/stdout.log",
+    "original_sha256": "6d95f32e9812d8e1a8a3e38607bc42939fed0a12cc6da73315d0f48bb349a10c",
+    "public_sha256": "efb675f26960d0822fcc666e95ccd81484a337397e42a10622a8f0f7e5a475d0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/094-first-failure-context/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/094-first-failure-context/receipt.json",
+    "original_sha256": "5ea89c6f4718c2c46399e91b4833abb92c02eb742389b65b2df95e11ba412a44",
+    "public_sha256": "5ea89c6f4718c2c46399e91b4833abb92c02eb742389b65b2df95e11ba412a44",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/095-eval-libpath-location/command.sh",
+    "original_sha256": "e224ee77667d9aaca104c6396c88e67f9efb5cbf12db0a34e0c6f5942ccfb18e",
+    "public_sha256": "92cbc6d6d4e0e9e6478872a63bee68b48ea0c2109cd8251adc25642dfacb63f2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/095-eval-libpath-location/stdout.log",
+    "original_sha256": "db540e5f2b10db8045219926d516c16cce5493ebffdbd97e4cb714aef8e728e3",
+    "public_sha256": "db540e5f2b10db8045219926d516c16cce5493ebffdbd97e4cb714aef8e728e3",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/095-eval-libpath-location/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/095-eval-libpath-location/receipt.json",
+    "original_sha256": "cef15e1ecb48310a245fab7f4b658b145e47c53297a272431807cf71712c6113",
+    "public_sha256": "cef15e1ecb48310a245fab7f4b658b145e47c53297a272431807cf71712c6113",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/096-fix-sim-glu/command.sh",
+    "original_sha256": "29b29c994d104622bc964e32be9f6b5cba35982c40bcba4e1ea552465537e993",
+    "public_sha256": "22d3080c1da93f11e1de388a5ec84f9a03b7e227489ad1a19749d3f42969a195",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/096-fix-sim-glu/stdout.log",
+    "original_sha256": "0b2ea759c4270fe2d22d37aa6e2fbf03069711a199aebff34f05effdb5a7f4b9",
+    "public_sha256": "0b2ea759c4270fe2d22d37aa6e2fbf03069711a199aebff34f05effdb5a7f4b9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/096-fix-sim-glu/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/096-fix-sim-glu/receipt.json",
+    "original_sha256": "27aa0ea8214af31347a4a85a6668f802d7cc9fe0c9e2af61ec022116978bd19d",
+    "public_sha256": "27aa0ea8214af31347a4a85a6668f802d7cc9fe0c9e2af61ec022116978bd19d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/097-glu-install-status/command.sh",
+    "original_sha256": "b14600c34c28f2cd35e4354c792f08b4c777a06c9b4a7ad47f2f3c69fbac4e88",
+    "public_sha256": "3f93aa11418736c170b3af53830a777b1860675baba6074aac7a235bbe9ae778",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/097-glu-install-status/stdout.log",
+    "original_sha256": "384dfd324f4f6f027c971973679e94b0b866276aaf89217a0fbdef583b1f89b3",
+    "public_sha256": "384dfd324f4f6f027c971973679e94b0b866276aaf89217a0fbdef583b1f89b3",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/097-glu-install-status/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/097-glu-install-status/receipt.json",
+    "original_sha256": "75079ff5d52a9b58733c3b30110479e04257263c68c811edaf491597bf7b2681",
+    "public_sha256": "75079ff5d52a9b58733c3b30110479e04257263c68c811edaf491597bf7b2681",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/098-retry-after-glu/command.sh",
+    "original_sha256": "05eb00244a4afc32fcfa10eea6b4bd1ae16caf3cc07b7a3732d9e09a4cf03d7f",
+    "public_sha256": "b5a68d020b96f9ecf45b6891c91987d6e272cae4e400314ec412a6b7fd6ba71f",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/098-retry-after-glu/stdout.log",
+    "original_sha256": "67fb58a4596731a0b3c056f958a18c7d480ea4f46f862cca32948d8825ade493",
+    "public_sha256": "67fb58a4596731a0b3c056f958a18c7d480ea4f46f862cca32948d8825ade493",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/098-retry-after-glu/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/098-retry-after-glu/receipt.json",
+    "original_sha256": "4e1fd9f3f63c0a8bdacd0a0af4381b7501d9fabed6e9afa645e2860946a4ec44",
+    "public_sha256": "4e1fd9f3f63c0a8bdacd0a0af4381b7501d9fabed6e9afa645e2860946a4ec44",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/102-task-init-progress/command.sh",
+    "original_sha256": "4fc692b5c1333c1fed1b6c6584dd841684212fafd8ca89ada62bd7480f9f772e",
+    "public_sha256": "e42aa4bd0ba50ff80ac94f614fd3a067d1bcbc800f8fcf7d62b7a1021bf2c41d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/102-task-init-progress/stdout.log",
+    "original_sha256": "086e35ea2ba92b25f07cc7bd6f1773ed3b20303e83798cb3aeaf1780a94cd424",
+    "public_sha256": "d2a298a20b98e118583fab6351fb025d1b6daa8f2b30a533c5bb938dbd3b1ddd",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/102-task-init-progress/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/102-task-init-progress/receipt.json",
+    "original_sha256": "ec8f8dd0f2c580538791d09699396177d6b8377b7f9cd34387cdaea0c90cd0f8",
+    "public_sha256": "ec8f8dd0f2c580538791d09699396177d6b8377b7f9cd34387cdaea0c90cd0f8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/103-second-crash-detail/command.sh",
+    "original_sha256": "e8a814be4a7e73b7eb8559d3360b1bbc556404caa01417a1ac05abd5960eae43",
+    "public_sha256": "d99e8ac01d5784127608222ca65b63a93a14f34bd4a04caae480e4779b092e4b",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/103-second-crash-detail/stdout.log",
+    "original_sha256": "49063b9a60320475b8556ba2df3f5a864c1012c4109dce8e42c31ae18caee16a",
+    "public_sha256": "9f817af1cd657b69265e1211bbbd217c0dbb4250637fdf737f416411fe05dcb6",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/103-second-crash-detail/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/103-second-crash-detail/receipt.json",
+    "original_sha256": "e75faa62e171345a2a21ae0605c7f95ce1b2423b25c2b73e62fc5bafc4462bf0",
+    "public_sha256": "e75faa62e171345a2a21ae0605c7f95ce1b2423b25c2b73e62fc5bafc4462bf0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/104-simapp-gpu-config-source/command.sh",
+    "original_sha256": "4266a5f4e7feca3f098cf019ae9e7e11bf01f775d854ce03bccdb8bce53708a7",
+    "public_sha256": "644dadec1cc932f6e44ce4c40329dcde4bbbe96eaddf1f8e3501bc121954255a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/104-simapp-gpu-config-source/stdout.log",
+    "original_sha256": "9f39ffbcc11a5e05b3bf6dc8f8eae2730ab2c23ab60c4098d232ac288c273773",
+    "public_sha256": "9f39ffbcc11a5e05b3bf6dc8f8eae2730ab2c23ab60c4098d232ac288c273773",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/104-simapp-gpu-config-source/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/104-simapp-gpu-config-source/receipt.json",
+    "original_sha256": "7b879d006641804bc3b7cd1508b8a392f5a49edfee0d232753e413a1ab2c6b64",
+    "public_sha256": "7b879d006641804bc3b7cd1508b8a392f5a49edfee0d232753e413a1ab2c6b64",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/105-launch-unmasked-diagnosis/command.sh",
+    "original_sha256": "507701b8e166704a85196b4dc752280b51a5f8ee648e81c4fa17d96c2604e965",
+    "public_sha256": "ef80a8337309cdea876740e947cf5df1e0ccb1cc0007adaf2c72169c0f1bdde4",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/105-launch-unmasked-diagnosis/stdout.log",
+    "original_sha256": "0bb727972da13d4af243da270b7f32611665784c2bd80a29ab96b01c0b66fc6e",
+    "public_sha256": "0bb727972da13d4af243da270b7f32611665784c2bd80a29ab96b01c0b66fc6e",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/105-launch-unmasked-diagnosis/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/105-launch-unmasked-diagnosis/receipt.json",
+    "original_sha256": "04dae5a4e0a69148ff2381e0017211657ea00004cdca6df81217ec37e697bee4",
+    "public_sha256": "04dae5a4e0a69148ff2381e0017211657ea00004cdca6df81217ec37e697bee4",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/107-unmasked-result/command.sh",
+    "original_sha256": "a358c36b9bd7184589a6ab3cc83a2760837d103517de857288ee7fb7e719a421",
+    "public_sha256": "71e446d93976d8407a24c0169fc61799217c2833b5ccf11ee6913d00084f7c60",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/107-unmasked-result/stdout.log",
+    "original_sha256": "5c562ca918323a37d394a63c738c3a71577894ed0db8a3e6f5f681aeae6fcd7a",
+    "public_sha256": "5c562ca918323a37d394a63c738c3a71577894ed0db8a3e6f5f681aeae6fcd7a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/107-unmasked-result/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/107-unmasked-result/receipt.json",
+    "original_sha256": "743a2942debe90dec9bf13cf4f3964844887dd866db29d25772f5dbf64ed09b2",
+    "public_sha256": "743a2942debe90dec9bf13cf4f3964844887dd866db29d25772f5dbf64ed09b2",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/108-unmasked-confirm-and-clean/command.sh",
+    "original_sha256": "7d3d8a075d1914791df76028a9193bbdeafbd212b7390723aaf9203229fcd62a",
+    "public_sha256": "77cadcaa91b2547cadf1b033eb8a16241e502a7306aa1551dc684d2fc412d028",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/108-unmasked-confirm-and-clean/stdout.log",
+    "original_sha256": "1ad586f107502ad6238e9bd4423bd9528e795124c3ddbde9b7740e69481b7668",
+    "public_sha256": "1ad586f107502ad6238e9bd4423bd9528e795124c3ddbde9b7740e69481b7668",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/108-unmasked-confirm-and-clean/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/108-unmasked-confirm-and-clean/receipt.json",
+    "original_sha256": "1a435b8ff4810a47ccd9a343a33ca973928382ea189c03f294f8e922fbe65ac9",
+    "public_sha256": "1a435b8ff4810a47ccd9a343a33ca973928382ea189c03f294f8e922fbe65ac9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/110-preserve-sim-state/command.sh",
+    "original_sha256": "c76a95a926d712b8905197baf83ad1ab33ed02b14269566f9e6e8104170f0fae",
+    "public_sha256": "c2307ab6a1960b1503f8fc46773319acc50da520667b9db254fe5d41893947b9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/110-preserve-sim-state/stdout.log",
+    "original_sha256": "497184008041816a08a7a295d6003f04475471c44fbff03031df3f3cd8570247",
+    "public_sha256": "497184008041816a08a7a295d6003f04475471c44fbff03031df3f3cd8570247",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/110-preserve-sim-state/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/110-preserve-sim-state/receipt.json",
+    "original_sha256": "06cf08f229636ed0be167c82d8f044045aee099ea9a92aa145885ca1806ffd8c",
+    "public_sha256": "06cf08f229636ed0be167c82d8f044045aee099ea9a92aa145885ca1806ffd8c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/111-stage-compat-source-dir/command.sh",
+    "original_sha256": "0ac7aaa9a2f12f50bcd9a288534f7b09bda5815efd06dec4bee7a8977db5fa1a",
+    "public_sha256": "ea8fafa8607738957c68a8ab542d6e46f6b0d46bbdec6ec76e8efab4f19c3310",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/111-stage-compat-source-dir/stdout.log",
+    "original_sha256": "184bbf511693c25dcdcb9002f475c1813a539bf95b861585fe546d485d7d8720",
+    "public_sha256": "70f5669d0a0fcf029ef3d1535a8bd5bbe1bcaea6c05e23d186130d36a15b167d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/111-stage-compat-source-dir/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/111-stage-compat-source-dir/receipt.json",
+    "original_sha256": "bd32ec0caa6cfdfce4307090e652b5b6d04344aee1ac3be2f3fe13572d3b9ce1",
+    "public_sha256": "bd32ec0caa6cfdfce4307090e652b5b6d04344aee1ac3be2f3fe13572d3b9ce1",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/112-vulkan-native-probe/command.sh",
+    "original_sha256": "2a826f69443f9416e39d1f068a04eeba42bc143e1a79717214ac9c3b655282bf",
+    "public_sha256": "e879f290c98d776d7fe118be863d6e62550cf8cc836c5c2ce103547508ed9c15",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/112-vulkan-native-probe/stdout.log",
+    "original_sha256": "b9afb083c6b94383be54352a1b0fd8ff79d4ac907c648d8af7937ab1b22e6001",
+    "public_sha256": "bc4a7e3a717e8ef3f37f22cd006d42b9026b724f56162e1359f917be87ede093",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/112-vulkan-native-probe/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/112-vulkan-native-probe/receipt.json",
+    "original_sha256": "1b09495252df659aeb5480681b20c8655a13518b2a426dd204b3ba809615970d",
+    "public_sha256": "1b09495252df659aeb5480681b20c8655a13518b2a426dd204b3ba809615970d",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/113-prepare-local-vulkan-layer/command.sh",
+    "original_sha256": "28b6d47c8e23c43b6925d1664a90144d6f843ec844d90c61d080592f61fb5ae1",
+    "public_sha256": "73560074f45ddaf4195b802999f7814c5d1c0d8639bc401df09d5dcbb731b437",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/113-prepare-local-vulkan-layer/stdout.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/113-prepare-local-vulkan-layer/stderr.log",
+    "original_sha256": "6aa1a8c3bd3741d29b1004bf544621205963a586c8f459a6a9962ba2b3620a46",
+    "public_sha256": "6aa1a8c3bd3741d29b1004bf544621205963a586c8f459a6a9962ba2b3620a46",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/113-prepare-local-vulkan-layer/receipt.json",
+    "original_sha256": "f0bf9c3dd002d2ebbb4c54ab20a3da985c6621e98d9840ee65fde1e5d9172bbd",
+    "public_sha256": "f0bf9c3dd002d2ebbb4c54ab20a3da985c6621e98d9840ee65fde1e5d9172bbd",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/114-local-layer-offline-prepare/command.sh",
+    "original_sha256": "0150fac35f2058921b0aa4e7f577298610a84a5dab52866d1ec54bbdc872345f",
+    "public_sha256": "e822e91fc09b513066a77b556629abe14042808209d7c964eee4e5530f55c9f1",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/114-local-layer-offline-prepare/stdout.log",
+    "original_sha256": "a2da08a1d197f351d2ea48b090c9fd95346d382c3552850ff40c36fec20765e1",
+    "public_sha256": "e39c9ccfd9f306907fefc66be3676024eabea613bf8422ed022ac8f92355f856",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/114-local-layer-offline-prepare/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/114-local-layer-offline-prepare/receipt.json",
+    "original_sha256": "a13a4d9c2b368d97bf1dd3b425402a829533c7fcf305d3f16111c0ce6a02d288",
+    "public_sha256": "a13a4d9c2b368d97bf1dd3b425402a829533c7fcf305d3f16111c0ce6a02d288",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/115-launch-compat-diagnosis/command.sh",
+    "original_sha256": "0c1102ab597d6e4f0c0f6500f847ca7b3d48c283faae9969d9540dbe2a0befc9",
+    "public_sha256": "3338c9a1d452ffc19bfb4fed29eb58ea37ab13428705bfc1ffcadb107615cb18",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/115-launch-compat-diagnosis/stdout.log",
+    "original_sha256": "d77159f0d3863f77580384d88ff9e1bcdcadc9e3f7a9d0ea247586ec57fc50ad",
+    "public_sha256": "d77159f0d3863f77580384d88ff9e1bcdcadc9e3f7a9d0ea247586ec57fc50ad",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/115-launch-compat-diagnosis/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/115-launch-compat-diagnosis/receipt.json",
+    "original_sha256": "4f735ce376aa5f8da4b003f56a132dd441a4406f9fb7a5908fc3ea380c8d0052",
+    "public_sha256": "4f735ce376aa5f8da4b003f56a132dd441a4406f9fb7a5908fc3ea380c8d0052",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/116-compat-diagnosis-progress/command.sh",
+    "original_sha256": "8e21f9418e821ffb3c0befc589dca65b4a3c5fd4a09710061224b526a9f7ed8f",
+    "public_sha256": "ec8dc87a18f421d56c527bb0320373c2385ce2e58fe48e81defd753b5f3a02d0",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/116-compat-diagnosis-progress/stdout.log",
+    "original_sha256": "8a22985375a34a76ce40de4f366b832f2e4d9c0bba8c324d71e4b8f6fba29622",
+    "public_sha256": "e9f7d61927b1513fc8b1f2600e3b2c55aa484853f4ec1ff26d79661e4d73a335",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/116-compat-diagnosis-progress/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/116-compat-diagnosis-progress/receipt.json",
+    "original_sha256": "7da2410cf88f11da301b23c2e80b973e1b2ba4305b049cbb1caffaa3b87d0972",
+    "public_sha256": "7da2410cf88f11da301b23c2e80b973e1b2ba4305b049cbb1caffaa3b87d0972",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/117-eval-wrapper-location/command.sh",
+    "original_sha256": "1da11fd7e0c2fd7fb4ffe2d381bf76b549d981fc88a53976b0ba3707aaa0442e",
+    "public_sha256": "bce603ea343179c1e76953b8a5887f327eb6fb988a75b88582c3818e6c8d2804",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/117-eval-wrapper-location/stdout.log",
+    "original_sha256": "401797a72777891fdca18ba2bda969b282ba4fa83fbe2d52b49306139b37412e",
+    "public_sha256": "401797a72777891fdca18ba2bda969b282ba4fa83fbe2d52b49306139b37412e",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/117-eval-wrapper-location/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/117-eval-wrapper-location/receipt.json",
+    "original_sha256": "cdf3c7264a90a9d2a042186f509eb461ef194c855d5df08b144868ccf15bd8f9",
+    "public_sha256": "cdf3c7264a90a9d2a042186f509eb461ef194c855d5df08b144868ccf15bd8f9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/118-real-run-with-compat/command.sh",
+    "original_sha256": "3402d3eda65d4d78c98d5f54c918f1913cc14c71ca20a73eaad0ac86a761a3ef",
+    "public_sha256": "e7b09764da985c000f49555cc3c1d49e4b4984f2fbefc7bc73624c3cfc403244",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/118-real-run-with-compat/stdout.log",
+    "original_sha256": "9041cc84fd358e16abcfa1d55dae54e862d41e7057ce45df9eeec7c4e2bbefec",
+    "public_sha256": "9041cc84fd358e16abcfa1d55dae54e862d41e7057ce45df9eeec7c4e2bbefec",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/118-real-run-with-compat/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/118-real-run-with-compat/receipt.json",
+    "original_sha256": "e7506ad5b67398ec4510f1a33461d07f2a37e8061e86233b3ca5bf9bb4b7d791",
+    "public_sha256": "e7506ad5b67398ec4510f1a33461d07f2a37e8061e86233b3ca5bf9bb4b7d791",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/125-reset-process-state/command.sh",
+    "original_sha256": "b5c073fe606aebf0643909333342a2de65978c732e727c61e230ed4aa5900231",
+    "public_sha256": "80f6695fe2bcd4d83ce193dc19b7d94ab5f230a74fc293925eb2f94de0925484",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/125-reset-process-state/stdout.log",
+    "original_sha256": "69433a377a38e4bab3378a78f27c1aa0b4bf29e75d45a762c7039f7ec297e580",
+    "public_sha256": "2414b6cc90da9431e3c750c51188a2c349c950fd5b64387788b2012b41da0ae9",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/125-reset-process-state/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/125-reset-process-state/receipt.json",
+    "original_sha256": "a41a89e283fc6d4b6b390b42eaff840c7d10631d56993284a21c367a1b0f349b",
+    "public_sha256": "a41a89e283fc6d4b6b390b42eaff840c7d10631d56993284a21c367a1b0f349b",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/126-real-action-progress/command.sh",
+    "original_sha256": "41cf9ced17829232b4b927b1a6608cc01af906dd45a56680ee865b894183d094",
+    "public_sha256": "5a30effbcc631e8501ba1f9b3196683aaea1e28b492a059cd093924e22c308ce",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/126-real-action-progress/stdout.log",
+    "original_sha256": "3ddebf7987f9e74b484857b4b06499464136c71de063b6136fcc0e6bb818eb2a",
+    "public_sha256": "3ddebf7987f9e74b484857b4b06499464136c71de063b6136fcc0e6bb818eb2a",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/126-real-action-progress/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/126-real-action-progress/receipt.json",
+    "original_sha256": "c3a22a90fc653eb1002bf2074c0ff3c320f6d65743a2a8fb50b58b1873d1b5fe",
+    "public_sha256": "c3a22a90fc653eb1002bf2074c0ff3c320f6d65743a2a8fb50b58b1873d1b5fe",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/127-success-json-and-cleanup/command.sh",
+    "original_sha256": "f84c2ea2afa9739580604e794109d8f098e918e489dfe8c30b37853555ee20d5",
+    "public_sha256": "27894f3168ba419c32aa0f7f93c90eff97e2bd1198cf20d7c54ac386829d256c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/127-success-json-and-cleanup/stdout.log",
+    "original_sha256": "cca7821dd7e45237a04657f038b13b3f9d909b51d5ecfd7b988a7cf8a8186a3a",
+    "public_sha256": "fa82dca0cf5359775414872d0e4f6664fbc1240e2ea8737ba6193b522150c8b8",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/127-success-json-and-cleanup/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/127-success-json-and-cleanup/receipt.json",
+    "original_sha256": "0ceb9d11c9c6960c95b4b66bdcaf2632feb47e8ac7883def975eb6ec7807cd78",
+    "public_sha256": "0ceb9d11c9c6960c95b4b66bdcaf2632feb47e8ac7883def975eb6ec7807cd78",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/129-save-success-preview/command.sh",
+    "original_sha256": "4bfba5e9ac359c8c0eb0bf17613dd1a336f3b43cbcb07099491454aefc304eb8",
+    "public_sha256": "44853f76ca59fd6eadb187b93e7e95e5ac0ead318b7916da2ec2657da9519484",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/129-save-success-preview/stdout.log",
+    "original_sha256": "eaa5b53a1327366a7e0c934029263b2c963578c7086f2f163d88a46de783b3cb",
+    "public_sha256": "3d72e64827d70498577bc35491393f093b4c704a092609b4fffa901a769fba7c",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/129-save-success-preview/stderr.log",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  },
+  {
+    "path": "docs/experiments/20260928_openwam/evidence/steps/129-save-success-preview/receipt.json",
+    "original_sha256": "a1d18c9873520ea38b1246e8d71a69cc3db92356c616a9e5fab04f829af51787",
+    "public_sha256": "a1d18c9873520ea38b1246e8d71a69cc3db92356c616a9e5fab04f829af51787",
+    "transformation": "host/account/path/UUID redaction; original retained locally"
+  }
+]

@@ -1,0 +1,1 @@
+grep -E "^error|^fatal|Traceback|File |COMMAND|pathspec" /path/to/robodojo-openwam/logs/task-assets.log | cut -c 1-1000 | tail -n 12

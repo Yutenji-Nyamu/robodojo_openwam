@@ -1,0 +1,2 @@
+diffusers 0.40.0 has requirement huggingface-hub<2.0,>=1.23.0, but you have huggingface-hub 0.34.4.
+transformers 5.17.0 has requirement huggingface-hub<2.0,>=1.5.0, but you have huggingface-hub 0.34.4.

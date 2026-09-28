@@ -1,0 +1,18 @@
+        HW Slowdown                                    : Not Active
+            HW Thermal Slowdown                        : Not Active
+            HW Power Brake Slowdown                    : Not Active
+        Sync Boost                                     : Not Active
+        SW Thermal Slowdown                            : Not Active
+        Display Clock Setting                          : Not Active
+        Active Sessions                                : 0
+        Active Sessions                                : 0
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+print('SIMULATION_APP_CONSTRUCTOR_RETURNED', flush=True)
+print('SIMULATION_APP_UPDATES_RETURNED', flush=True)
+print('SIMULATION_APP_CLOSED', flush=True)
+app.close()
+print('SIMULATION_APP_CLOSED', flush=True)
+PY
+
+2026-09-28T19:33:20+08:00
+139

@@ -1,0 +1,14 @@
+2:[vulkan_compat] NVIDIA 595 allocation limit: UINT64_MAX -> 4292870144
+325:2026-09-28T11:42:46Z [14,252ms] [Error] [omni.kit.app._impl] [py stderr]: /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.8.0) or chardet (7.6.0)/charset_normalizer (3.3.2) doesn't match a supported version!
+487:[16.027s] app ready
+489:SIMULATION_APP_CONSTRUCTOR_RETURNED
+490:SIMULATION_APP_UPDATES_RETURNED
+2026-09-28T11:42:47Z [15,978ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-09-28T11:42:47Z [15,978ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+[16.027s] app ready
+[19.870s] Simulation App Startup Complete
+SIMULATION_APP_CONSTRUCTOR_RETURNED
+SIMULATION_APP_UPDATES_RETURNED
+[19.983s] Simulation App Shutting Down
+2026-09-28T19:42:54+08:00
+0

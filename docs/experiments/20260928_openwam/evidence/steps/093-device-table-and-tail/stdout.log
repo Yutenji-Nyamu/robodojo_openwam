@@ -1,0 +1,96 @@
+2026-09-28T11:23:41Z [24,037ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[24.066s] [ext: omni.kit.renderer.init-0.0.0] startup
+2026-09-28T11:23:41Z [24,108ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-09-28T11:23:41Z [24,116ms] [Warning] [carb.cudainterop.plugin] CUDA_VISIBLE_DEVICES environment variable is set.
+2026-09-28T11:23:41Z [24,116ms] [Warning] [carb.cudainterop.plugin] Note CUDA device enumeration and Omniverse device enumeration are different.
+2026-09-28T11:23:41Z [24,116ms] [Warning] [carb.cudainterop.plugin] Setting CUDA_VISIBLE_DEVICES can lead to undesired behavior or crashes.
+2026-09-28T11:23:43Z [25,699ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,701ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,706ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,707ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,721ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,721ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,728ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,728ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,735ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,735ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,738ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,738ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,740ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,740ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.71.05     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 0a5bed83.. |
+|     |                                  |        |     |            | 16        |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 974b69f5.. |
+|     |                                  |        |     |            | 17        |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | NVIDIA H100 80GB HBM3            | Yes: 0 |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | b7a2792b.. |
+|     |                                  |        |     |            | 40        |            |
+|---------------------------------------------------------------------------------------------|
+| 3   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 07910b32.. |
+|     |                                  |        |     |            | 41        |            |
+|---------------------------------------------------------------------------------------------|
+| 4   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | a0a252d6.. |
+|     |                                  |        |     |            | 96        |            |
+|---------------------------------------------------------------------------------------------|
+| 5   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 2cd891ea.. |
+|     |                                  |        |     |            | 97        |            |
+|---------------------------------------------------------------------------------------------|
+| 6   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | dc5d6921.. |
+|     |                                  |        |     |            | c0        |            |
+|---------------------------------------------------------------------------------------------|
+| 7   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 3c6321c1.. |
+|     |                                  |        |     |            | c1        |            |
+|=============================================================================================|
+| OS: 22.04.1 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.1, Kernel: 5.15.0-50-generic
+| Processor: Intel(R) Xeon(R) Gold 6430
+2026-09-28T11:24:12Z [3,414ms] [Fatal] [carb.crashreporter-breakpad.plugin] 003: librtx.scenedb.plugin.so!void std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > >::_M_realloc_insert<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> >(__gnu_cxx::__normal_iterator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>*, std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > > >, std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>&&)+0x14a14 (??:?)
+2026-09-28T11:24:12Z [3,426ms] [Fatal] [carb.crashreporter-breakpad.plugin] 004: librtx.scenedb.plugin.so!carbOnPluginStartup+0x3b4de (??:?)
+2026-09-28T11:24:12Z [3,440ms] [Fatal] [carb.crashreporter-breakpad.plugin] 005: librtx.scenedb.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)+0x7ce1 (??:?)
+2026-09-28T11:24:12Z [3,452ms] [Fatal] [carb.crashreporter-breakpad.plugin] 006: libcarb.scenerenderer-rtx.plugin.so!std::unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int> > >::~unordered_map()+0x4655f (??:?)
+2026-09-28T11:24:12Z [3,464ms] [Fatal] [carb.crashreporter-breakpad.plugin] 007: libcarb.scenerenderer-rtx.plugin.so!std::unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int> > >::~unordered_map()+0x64486 (??:?)
+2026-09-28T11:24:12Z [3,476ms] [Fatal] [carb.crashreporter-breakpad.plugin] 008: libcarb.scenerenderer-rtx.plugin.so!carbOnPluginShutdown+0xe4b (??:?)
+2026-09-28T11:24:12Z [3,481ms] [Fatal] [carb.crashreporter-breakpad.plugin] 009: libomni.hydra.rtx.plugin.so!+0x4459
+2026-09-28T11:24:12Z [3,495ms] [Fatal] [carb.crashreporter-breakpad.plugin] 010: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x10da (??:?)
+2026-09-28T11:24:12Z [3,509ms] [Fatal] [carb.crashreporter-breakpad.plugin] 011: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x58ce (??:?)
+2026-09-28T11:24:12Z [3,523ms] [Fatal] [carb.crashreporter-breakpad.plugin] 012: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x5c5a (??:?)
+2026-09-28T11:24:13Z [3,540ms] [Fatal] [carb.crashreporter-breakpad.plugin] 013: libcarb.tasking.plugin.so!std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (carb::tasking::Scheduler::*)(carb::tasking::Fiber*, carb::tasking::Scheduler::TrackedThread*), carb::tasking::Scheduler*, carb::tasking::Fiber*, carb::tasking::Scheduler::TrackedThread*> > >::_M_run()+0xa3a7 (??:?)
+2026-09-28T11:24:13Z [3,555ms] [Fatal] [carb.crashreporter-breakpad.plugin] 014: libcarb.tasking.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)+0xb6dc (??:?)
+2026-09-28T11:24:13Z [3,571ms] [Fatal] [carb.crashreporter-breakpad.plugin] 015: libcarb.tasking.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)+0xb6ff (??:?)
+2026-09-28T11:24:13Z [3,587ms] [Fatal] [carb.crashreporter-breakpad.plugin] 016: libcarb.tasking.plugin.so!make_fcontext+0x39 (??:?)
+/path/to/robodojo-openwam/RoboDojo/scripts/eval_policy.sh: line 188: 1583256 Segmentation fault      (core dumped) python -u src/eval_client/main.py --task_name "$task_name" --env_cfg_type "$env_cfg_type" --num_envs "$num_envs" --enable_cameras --kit_args "$KIT_ARGS" --device_id "$device_id" --policy_name "$policy_name" --port "$port" --protocol "$protocol" --policy_server_url "$policy_server_url" --additional_info "$additional_info" --seed "$seed" --host "$host" --headless "${extra_args[@]}" "$@"
+[eval_policy] giving up after 1 restart(s) (rc=139, run_id=sz2_openwam_stack_bowls_s0_20260928_1921)
+[MAIN] kill server tree 1274132
+RUN_EXIT=139
+    PID    PPID    PGID                  STARTED COMMAND
+1274116 1274045 1274116 Mon Sep 28 19:20:49 2026 timeout --verbose --signal=TERM --kill-after=30s 1800s bash scripts/robodojo.sh eval --policy-dir XPolicyLab/policy/OpenWAM --task stack_bowls --ckpt OpenWAM-Alpha-Sim-RoboDojo --env-cfg arx_x5 --action-type ee --seed 0 --eval-num 1 --policy-env /path/to/robodojo-openwam/envs/openwam --eval-env /path/to/robodojo-openwam/envs/RoboDojo --policy-gpu 3 --env-gpu 2

@@ -1,0 +1,1 @@
+cat /path/to/robodojo-openwam/logs/checkpoint-ranges.exit; tail -c 13000 /path/to/robodojo-openwam/logs/checkpoint-ranges.log

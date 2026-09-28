@@ -1,0 +1,84 @@
+# SPDX-FileCopyrightText: Copyright (c) 2023-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+
+"""curobo package setuptools.
+
+This file handles optional CUDA extension compilation via pybind11.
+All package metadata is now in pyproject.toml following PEP 621.
+"""
+
+# Standard Library
+import os
+import sys
+from pathlib import Path
+
+# Third Party
+import setuptools
+
+source_dir = Path(__file__).parent.resolve()
+
+# Check if user wants to use pybind compiled extensions. This is deprecated.
+# Default: False (use cuda.core runtime compilation)
+# Enable with: CUROBO_USE_PYBIND=1 pip install -e . --no-build-isolation
+USE_PYBIND = os.environ.get("CUROBO_USE_PYBIND", "0") == "1"
+ext_modules = []
+cmdclass = {}
+
+if USE_PYBIND:
+    # Only import torch if compiling
+    try:
+        from torch.utils.cpp_extension import BuildExtension, CUDAExtension
+
+        extra_cuda_args = {
+            "nvcc": [
+                "--threads=8",
+                "-O3",
+                "--ftz=true",
+                "--fmad=true",
+}
+setup_curobo() {
+  cd "$CURRENT_DIR" || exit 1
+  local need_install=1
+  if python -m pip show nvidia-curobo &>/dev/null; then
+    if python - <<'PY' &>/dev/null
+from curobo.batch_motion_planner import BatchMotionPlanner, MotionPlannerCfg
+from curobo.inverse_kinematics import InverseKinematics, InverseKinematicsCfg
+from curobo.motion_planner import MotionPlanner
+from curobo.types import ToolPoseCriteria
+PY
+    then
+      need_install=0
+    fi
+  fi
+  if [ "$need_install" -eq 1 ]; then
+    info "[6/7] Installing CuRobo..."
+    cd third_party/curobo || error "third_party/curobo not found"
+    python -m pip uninstall -y nvidia-curobo curobo 2>/dev/null || true
+    pip_install_with_isaac_constraints -e ".[cu12]" --no-build-isolation
+    cd "$CURRENT_DIR"
+    pin_runtime_deps
+  else
+    warn "[6/7] CuRobo v2 already installed and importable, skipping..."
+    pin_runtime_deps
+  fi
+}
+# ── Entry point ────────────────────────────────────────────────────────────────
+5:requires = ["setuptools>=45", "setuptools_scm>=6.2", "wheel"]
+11:description = "GPU robot motion toolkit containing cuda accelerated kinematics, IK, MPC, Global motion planning, and optimization solvers."
+15:requires-python = ">=3.10"
+37:    "warp-lang>=0.10.0",
+45:    "cuda-core[cu12]>=0.7",
+46:    # "nvidia-cuda-cccl-cu12>=12",  # Needed only for CCCL/cooperative_groups headers.
+47:    "nvidia-cuda-runtime-cu12>=12",
+51:    "cuda-core[cu13]>=0.7",
+52:    # "nvidia-cuda-cccl>=13",  # Needed only for CCCL/cooperative_groups headers.
+53:    "nvidia-cuda-runtime>=13",
+57:    "cuda-core[cu12]>=0.6",
+58:    # "nvidia-cuda-cccl-cu12>=12",  # Needed only for CCCL/cooperative_groups headers.
+59:    "nvidia-cuda-runtime-cu12>=12",
+64:    "cuda-core[cu13]>=0.6",
+65:    # "nvidia-cuda-cccl>=13",  # Needed only for CCCL/cooperative_groups headers.
+66:    "nvidia-cuda-runtime>=13",
+118:# Include kernel source files for cuda.core runtime compilation
+220:    "curobo/_src/cuda_robot_model/usd_kinematics_parser.py",

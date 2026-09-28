@@ -1,0 +1,1 @@
+grep -E "CHECKPOINT_SHA256_OK|SMALL_FILE_HASH_OK|ALL_FILES_VERIFIED" /path/to/robodojo-openwam/logs/checkpoint-ranges-v2.log; tail -n 8 /path/to/robodojo-openwam/logs/install-mirror.log

@@ -1,0 +1,1 @@
+bash -n /path/to/robodojo-openwam/scripts/eval_single.sh; sha256sum /path/to/robodojo-openwam/scripts/eval_single.sh; stat -c "%s %n" /path/to/robodojo-openwam/logs/task-assets.ready.json

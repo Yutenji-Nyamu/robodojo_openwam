@@ -1,0 +1,16 @@
+2026-09-28T10:59:44.972214+00:00 CHECKPOINT_SHA256_OK 78ca4ef5d2f6c8fa877bcae8b40c36b3d8700547fd5a708b472c4564e5f40abb 24813767464
+2026-09-28T10:59:45.963568+00:00 SMALL_FILE_HASH_OK config.yaml
+2026-09-28T10:59:47.525672+00:00 SMALL_FILE_HASH_OK normalization_stats.npy
+2026-09-28T10:59:48.387341+00:00 SMALL_FILE_HASH_OK tokenizer/google/umt5-xxl/special_tokens_map.json
+2026-09-28T10:59:50.231881+00:00 SMALL_FILE_HASH_OK tokenizer/google/umt5-xxl/spiece.model
+2026-09-28T10:59:53.616535+00:00 SMALL_FILE_HASH_OK tokenizer/google/umt5-xxl/tokenizer.json
+2026-09-28T10:59:54.559987+00:00 SMALL_FILE_HASH_OK tokenizer/google/umt5-xxl/tokenizer_config.json
+2026-09-28T10:59:54.560432+00:00 ALL_FILES_VERIFIED OpenWAM/OpenWAM-Alpha-Sim-RoboDojo 2c1302294e3ba8319bbdb2c803b7a27de9292d03
+Collecting watchdog==4.0.0 (from isaacsim-kernel==5.1.0.0->isaacsim==5.1.0->isaacsim[all,extscache]==5.1.0)
+  Downloading watchdog-4.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+Collecting sentry-sdk==2.29.1 (from isaacsim-kernel==5.1.0.0->isaacsim==5.1.0->isaacsim[all,extscache]==5.1.0)
+  Downloading sentry_sdk-2.29.1-py2.py3-none-any.whl (341 kB)
+Collecting charset_normalizer==3.3.2 (from isaacsim-kernel==5.1.0.0->isaacsim==5.1.0->isaacsim[all,extscache]==5.1.0)
+  Downloading charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (140 kB)
+Collecting frozenlist==1.5.0 (from isaacsim-kernel==5.1.0.0->isaacsim==5.1.0->isaacsim[all,extscache]==5.1.0)
+  Downloading frozenlist-1.5.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (274 kB)

@@ -1,0 +1,5 @@
+ XPolicyLab                 | 2 +-
+ env_cfg/sim/sim_config.yml | 2 +-
+ scripts/eval_policy.sh     | 6 ++++++
+ third_party/curobo         | 2 +-
+ 4 files changed, 9 insertions(+), 3 deletions(-)

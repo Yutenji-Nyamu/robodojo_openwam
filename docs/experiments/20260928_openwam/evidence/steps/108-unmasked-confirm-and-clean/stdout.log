@@ -1,0 +1,12 @@
+485:[16.418s] app ready
+1814:2026-09-28T11:33:18Z [939ms] [Fatal] [carb.crashreporter-breakpad.plugin] 004: librtx.scenedb.plugin.so!carbOnPluginStartup+0x3b4de (??:?)
+139
+index, memory.used [MiB]
+0, 194 MiB
+1, 4 MiB
+2, 5 MiB
+3, 4 MiB
+4, 20040 MiB
+5, 22938 MiB
+6, 19921 MiB
+7, 18650 MiB

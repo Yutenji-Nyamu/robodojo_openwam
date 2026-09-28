@@ -1,0 +1,1 @@
+sed -n '1,34p' /path/to/robodojo-openwam/RoboDojo/curobo/setup.py; tail -n 12 /path/to/robodojo-openwam/logs/install-mirror.log; cat /path/to/robodojo-openwam/logs/install-mirror.exit 2>/dev/null

@@ -1,0 +1,128 @@
+[INFO][AppLauncher]: Loading experience file: /path/to/robodojo-openwam/RoboDojo/third_party/IsaacLab/apps/isaaclab.python.kit
+Loading user config located at: '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20260928_192847.log
+[0.153s] [ext: omni.kit.async_engine-0.0.3] startup
+[0.976s] [ext: omni.metrics.core-0.0.3] startup
+[0.978s] [ext: omni.client.lib-1.1.0] startup
+[1.061s] [ext: omni.blobkey-1.1.2] startup
+[1.062s] [ext: omni.stats-1.0.1] startup
+[1.066s] [ext: omni.datastore-0.0.0] startup
+[1.105s] [ext: omni.client-1.3.0] startup
+[1.130s] [ext: omni.ujitso.default-1.0.0] startup
+[1.136s] [ext: omni.hsscclient-1.1.2] startup
+[1.154s] [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] startup
+[1.160s] [ext: omni.assets.plugins-0.0.0] startup
+[1.169s] [ext: omni.gpu_foundation-0.0.0] startup
+[1.263s] [ext: carb.windowing.plugins-1.0.0] startup
+2026-09-28T11:28:48Z [1,222ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-28T11:28:48Z [1,222ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[1.268s] [ext: omni.kit.renderer.init-0.0.0] startup
+2026-09-28T11:28:48Z [1,287ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-09-28T11:28:48Z [1,292ms] [Warning] [carb.cudainterop.plugin] CUDA_VISIBLE_DEVICES environment variable is set.
+2026-09-28T11:28:48Z [1,292ms] [Warning] [carb.cudainterop.plugin] Note CUDA device enumeration and Omniverse device enumeration are different.
+2026-09-28T11:28:48Z [1,292ms] [Warning] [carb.cudainterop.plugin] Setting CUDA_VISIBLE_DEVICES can lead to undesired behavior or crashes.
+2026-09-28T11:28:49Z [2,770ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,772ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,774ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,774ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,777ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,777ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,779ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,779ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,783ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,784ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,785ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,785ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,787ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,787ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,787ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,788ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,789ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-28T11:28:49Z [2,789ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-28T11:28:49Z [2,789ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.71.05     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 0a5bed83.. |
+435-2026-09-28T11:29:03Z [16,132ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+436-2026-09-28T11:29:03Z [16,132ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+437-2026-09-28T11:29:03Z [16,133ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+438:[16.194s] app ready
+439-2026-09-28T11:29:18Z [0ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash] A crash has occurred.  If a debugger should be attached, please set the '/crashreporter/debuggerAttachTimeoutMs' setting to a timeout in milliseconds.  This can be used to allow the crash reporter to wait for up to that long for a debugger to attach before processing or sending the crash report.
+440:2026-09-28T11:29:19Z [923ms] [Error] [carb.crashreporter-breakpad.plugin] [crash] Wrote dump file '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.dmp'
+441-2026-09-28T11:29:19Z [924ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash] Uploading minidump: file:'/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.dmp' svr:'https://services.nvidia.com/submit'
+442-2026-09-28T11:29:19Z [924ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash] Crash metadata for upload:
+443-2026-09-28T11:29:19Z [924ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'BuildGitlabJobID' = '209507876'
+444-2026-09-28T11:29:19Z [924ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'CarbSdkVersion' = '206.6+release.9587.07f17b1b.gl'
+--
+447-2026-09-28T11:29:19Z [925ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'DumpId' = 'f221295a-eaf6-41ad-8294a08f-7c72be02'
+448-2026-09-28T11:29:19Z [925ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'LastUploadStatus' = ''
+449-2026-09-28T11:29:19Z [925ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'ProductName' = 'OmniverseKit'
+450:2026-09-28T11:29:19Z [926ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'PythonTracebackStatus' = ''py-spy' successfully wrote info to '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.py.txt''
+451-2026-09-28T11:29:19Z [926ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'RetryCount' = '0'
+452-2026-09-28T11:29:19Z [926ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'StartupTime' = '1790594927'
+453-2026-09-28T11:29:19Z [926ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'UploadSuccessful' = '0'
+454-2026-09-28T11:29:19Z [926ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'UptimeSeconds' = '31'
+--
+1770-2026-09-28T11:29:21Z [3,346ms] [Info] [carb.crashreporter-breakpad.plugin] attempting to delete the file '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.dmp.toml' with 10 retries remaining.
+1771-2026-09-28T11:29:21Z [3,347ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash] Deleting file: '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.py.txt'
+1772-2026-09-28T11:29:21Z [3,347ms] [Info] [carb.crashreporter-breakpad.plugin] attempting to delete the file '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.py.txt' with 10 retries remaining.
+1773:2026-09-28T11:29:21Z [3,347ms] [Error] [carb.crashreporter-breakpad.plugin] [crash]     dump file size is 0 bytes, file is readable.
+1774:2026-09-28T11:29:21Z [3,367ms] [Fatal] [carb.crashreporter-breakpad.plugin] [crash] Crash detected in pid 2103329 thread 2103334
+1775-2026-09-28T11:29:21Z [3,367ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash] Crash metadata:
+1776-2026-09-28T11:29:21Z [3,367ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  BuildGitlabJobID = '209507876'
+1777-2026-09-28T11:29:21Z [3,367ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  CarbSdkVersion = '206.6+release.9587.07f17b1b.gl'
+1778-2026-09-28T11:29:21Z [3,367ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  CrashTime = 'Mon Sep 28 11:29:18 2026 GMT'
+--
+1780-2026-09-28T11:29:21Z [3,368ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  DumpId = 'f221295a-eaf6-41ad-8294a08f-7c72be02'
+1781-2026-09-28T11:29:21Z [3,368ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  LastUploadStatus = '200'
+1782-2026-09-28T11:29:21Z [3,368ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  ProductName = 'OmniverseKit'
+1783:2026-09-28T11:29:21Z [3,368ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  PythonTracebackStatus = ''py-spy' successfully wrote info to '/path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f221295a-eaf6-41ad-8294a08f-7c72be02.py.txt''
+1784-2026-09-28T11:29:21Z [3,368ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  RetryCount = '0'
+1785-2026-09-28T11:29:21Z [3,369ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  StartupTime = '1790594927'
+1786-2026-09-28T11:29:21Z [3,369ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  UploadSuccessful = '0'
+1787-2026-09-28T11:29:21Z [3,369ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  UptimeSeconds = '31'
+--
+3089-2026-09-28T11:29:21Z [3,384ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  totalSwapLimitedMB = '952'
+3090-2026-09-28T11:29:21Z [3,384ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  userId = 'default'
+3091-2026-09-28T11:29:21Z [3,384ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]  workingDirectory = '/home/<username>/team-data/USER/projects/robodojo-openwam/RoboDojo'
+3092:2026-09-28T11:29:21Z [3,385ms] [Fatal] [carb.crashreporter-breakpad.plugin] [crash] Thread 2103334 backtrace follows:
+3093:2026-09-28T11:29:21Z [3,398ms] [Fatal] [carb.crashreporter-breakpad.plugin] 000: libc.so.6!__sigaction+0x50 (??:?)
+3094:2026-09-28T11:29:21Z [3,407ms] [Fatal] [carb.crashreporter-breakpad.plugin] 001: librtx.scenedb.plugin.so!void std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > >::_M_realloc_insert<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> >(__gnu_cxx::__normal_iterator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>*, std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > > >, std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>&&)+0x123ef (??:?)
+3095:2026-09-28T11:29:21Z [3,416ms] [Fatal] [carb.crashreporter-breakpad.plugin] 002: librtx.scenedb.plugin.so!void std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > >::_M_realloc_insert<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> >(__gnu_cxx::__normal_iterator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>*, std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > > >, std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>&&)+0x12766 (??:?)
+3096:2026-09-28T11:29:21Z [3,425ms] [Fatal] [carb.crashreporter-breakpad.plugin] 003: librtx.scenedb.plugin.so!void std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > >::_M_realloc_insert<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> >(__gnu_cxx::__normal_iterator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>*, std::vector<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>, std::allocator<std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int> > > >, std::tuple<char const*, float, float, unsigned int, unsigned int, unsigned int>&&)+0x14a14 (??:?)
+3097:2026-09-28T11:29:21Z [3,433ms] [Fatal] [carb.crashreporter-breakpad.plugin] 004: librtx.scenedb.plugin.so!carbOnPluginStartup+0x3b4de (??:?)
+3098:2026-09-28T11:29:21Z [3,441ms] [Fatal] [carb.crashreporter-breakpad.plugin] 005: librtx.scenedb.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)+0x7ce1 (??:?)
+3099:2026-09-28T11:29:21Z [3,450ms] [Fatal] [carb.crashreporter-breakpad.plugin] 006: libcarb.scenerenderer-rtx.plugin.so!std::unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int> > >::~unordered_map()+0x4655f (??:?)
+3100:2026-09-28T11:29:21Z [3,458ms] [Fatal] [carb.crashreporter-breakpad.plugin] 007: libcarb.scenerenderer-rtx.plugin.so!std::unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int> > >::~unordered_map()+0x64486 (??:?)
+3101:2026-09-28T11:29:21Z [3,467ms] [Fatal] [carb.crashreporter-breakpad.plugin] 008: libcarb.scenerenderer-rtx.plugin.so!carbOnPluginShutdown+0xe4b (??:?)
+3102:2026-09-28T11:29:21Z [3,471ms] [Fatal] [carb.crashreporter-breakpad.plugin] 009: libomni.hydra.rtx.plugin.so!+0x4459
+3103:2026-09-28T11:29:21Z [3,481ms] [Fatal] [carb.crashreporter-breakpad.plugin] 010: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x10da (??:?)
+3104:2026-09-28T11:29:21Z [3,492ms] [Fatal] [carb.crashreporter-breakpad.plugin] 011: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x58ce (??:?)
+3105:2026-09-28T11:29:22Z [3,503ms] [Fatal] [carb.crashreporter-breakpad.plugin] 012: libomni.usd.so!void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)+0x5c5a (??:?)
+3106:2026-09-28T11:29:22Z [3,514ms] [Fatal] [carb.crashreporter-breakpad.plugin] 013: libcarb.tasking.plugin.so!std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (carb::tasking::Scheduler::*)(carb::tasking::Fiber*, carb::tasking::Scheduler::TrackedThread*), carb::tasking::Scheduler*, carb::tasking::Fiber*, carb::tasking::Scheduler::TrackedThread*> > >::_M_run()+0xa3a7 (??:?)
+3107:2026-09-28T11:29:22Z [3,525ms] [Fatal] [carb.crashreporter-breakpad.plugin] 014: libcarb.tasking.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)+0xb6dc (??:?)
+3108:2026-09-28T11:29:22Z [3,536ms] [Fatal] [carb.crashreporter-breakpad.plugin] 015: libcarb.tasking.plugin.so!void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)+0xb6ff (??:?)
+3109:2026-09-28T11:29:22Z [3,547ms] [Fatal] [carb.crashreporter-breakpad.plugin] 016: libcarb.tasking.plugin.so!make_fcontext+0x39 (??:?)
+3110-/path/to/robodojo-openwam/RoboDojo/scripts/eval_policy.sh: line 191: 2103329 Segmentation fault      (core dumped) python -u src/eval_client/main.py --task_name "$task_name" --env_cfg_type "$env_cfg_type" --num_envs "$num_envs" --enable_cameras --kit_args "$KIT_ARGS" --device_id "$device_id" --policy_name "$policy_name" --port "$port" --protocol "$protocol" --policy_server_url "$policy_server_url" --additional_info "$additional_info" --seed "$seed" --host "$host" --headless "${extra_args[@]}" "$@"
+3111-[eval_policy] giving up after 1 restart(s) (rc=139, run_id=sz2_openwam_stack_bowls_s0_20260928_1926)
+3112-[MAIN] kill server tree 1835404
+3113-RUN_EXIT=139
+    PID    PPID    PGID                  STARTED COMMAND
+1834092 1819995 1834092 Mon Sep 28 19:26:12 2026 timeout --verbose --signal=TERM --kill-after=30s 1800s bash scripts/robodojo.sh eval --policy-dir XPolicyLab/policy/OpenWAM --task stack_bowls --ckpt OpenWAM-Alpha-Sim-RoboDojo --env-cfg arx_x5 --action-type ee --seed 0 --eval-num 1 --policy-env /path/to/robodojo-openwam/envs/openwam --eval-env /path/to/robodojo-openwam/envs/RoboDojo --policy-gpu 3 --env-gpu 2
+USER         PID    PGID COMMAND

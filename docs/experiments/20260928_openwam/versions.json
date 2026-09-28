@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-28",
+  "upstream_dojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "XPolicyLab": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "IsaacLab": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+  "curobo": "895c6517243f8cb091c73c018c8167192d39599a",
+  "RoboDawn": "9247f366cd31f278e10f2fbe5fe8469b5f1b5b94",
+  "checkpoint": {
+    "repo": "OpenWAM/OpenWAM-Alpha-Sim-RoboDojo",
+    "revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+    "main_sha256": "78ca4ef5d2f6c8fa877bcae8b40c36b3d8700547fd5a708b472c4564e5f40abb",
+    "package_bytes": 24835230031
+  },
+  "assets": {
+    "repo": "RoboDojo-Benchmark/RoboDojo",
+    "revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+    "selected_files": 284,
+    "selected_bytes": 573739871,
+    "layouts": 55
+  },
+  "driver": "595.71.05",
+  "IsaacSim": "5.1.0",
+  "sim_python": "3.11",
+  "sim_torch": "2.7.0+cu128",
+  "policy_python": "3.10",
+  "policy_torch": "2.7.1+cu128",
+  "gpu": {
+    "model": "H100 80GB",
+    "sim": 2,
+    "policy": 3
+  },
+  "run": "sz2_openwam_stack_bowls_s0_20260928_1944",
+  "exit": 0,
+  "wall_seconds": 397,
+  "result_scope": "one episode only"
+}

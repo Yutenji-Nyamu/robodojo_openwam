@@ -1,0 +1,167 @@
+1
+ MiB/s ETA=2075s completed_chunks=13/80
+2026-09-28T10:22:08.157233+00:00 RANGE_COMPLETE 6622306304 6890741759
+2026-09-28T10:22:08.159084+00:002026-09-28T10:22:08.159224+00:00 RANGE_START  8501354496PROGRESS  87697899517935123456/24813767464  attempt=131.98% 
+7.78 MiB/s ETA=2070s completed_chunks=14/80
+2026-09-28T10:22:13.161158+00:00 PROGRESS 7977066496/24813767464 32.15% 7.78 MiB/s ETA=2065s completed_chunks=14/80
+2026-09-28T10:22:18.162572+00:00 PROGRESS 8019009536/24813767464 32.32% 7.78 MiB/s ETA=2059s completed_chunks=14/80
+2026-09-28T10:22:23.163909+00:00 PROGRESS 8069341184/24813767464 32.52% 7.80 MiB/s ETA=2048s completed_chunks=14/80
+2026-09-28T10:22:28.164933+00:00 PROGRESS 8111284224/24813767464 32.69% 7.80 MiB/s ETA=2043s completed_chunks=14/80
+2026-09-28T10:22:28.917950+00:00 RANGE_COMPLETE 7696048128 7964483583
+2026-09-28T10:22:28.918949+00:002026-09-28T10:22:28.919071+00:00 RANGE_START PROGRESS 8769789952 8119672832/24813767464 9038225407 32.72% attempt=1 7.80 MiB/s
+ ETA=2041s completed_chunks=15/80
+2026-09-28T10:22:30.952516+00:00 RANGE_ERROR 7159177216 7427612671 OSError('Short range: 206367095/268435456')
+2026-09-28T10:22:32.953212+00:00 RANGE_START 7159177216 7427612671 attempt=2
+2026-09-28T10:22:33.920915+00:00 PROGRESS 7935123456/24813767464 31.98% 7.43 MiB/s ETA=2166s completed_chunks=15/80
+2026-09-28T10:22:38.921955+00:00 PROGRESS 7964483584/24813767464 32.10% 7.42 MiB/s ETA=2167s completed_chunks=15/80
+2026-09-28T10:22:43.923000+00:00 PROGRESS 8002232320/24813767464 32.25% 7.41 MiB/s ETA=2163s completed_chunks=15/80
+2026-09-28T10:22:45.989893+00:00 RANGE_COMPLETE 6890741760 7159177215
+2026-09-28T10:22:45.991827+00:002026-09-28T10:22:45.991961+00:00 RANGE_START PROGRESS 9038225408 8014815232/24813767464 9306660863 32.30% attempt=1 7.41 MiB/s
+ ETA=2163s completed_chunks=16/80
+2026-09-28T10:22:50.993613+00:00 PROGRESS 8056758272/24813767464 32.47%2026-09-28T10:22:50.994168+00:00 7.41 MiB/s RANGE_ERROR ETA=2156s  completed_chunks=16/809038225408 
+9306660863 URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
+2026-09-28T10:22:52.995319+00:00 RANGE_START 9038225408 9306660863 attempt=2
+2026-09-28T10:22:55.995207+00:00 PROGRESS 8107089920/24813767464 32.67% 7.43 MiB/s ETA=2144s completed_chunks=16/80
+2026-09-28T10:23:00.996425+00:00 PROGRESS 8153227264/24813767464 32.86% 7.44 MiB/s ETA=2135s completed_chunks=16/80
+2026-09-28T10:23:05.997806+00:00 PROGRESS 8199364608/24813767464 33.04% 7.45 MiB/s ETA=2126s completed_chunks=16/80
+2026-09-28T10:23:10.998904+00:00 PROGRESS 8249696256/24813767464 33.25% 7.47 MiB/s ETA=2114s completed_chunks=16/80
+2026-09-28T10:23:15.999929+00:00 PROGRESS 8300027904/24813767464 33.45% 7.49 MiB/s ETA=2103s completed_chunks=16/80
+2026-09-28T10:23:21.001357+00:00 PROGRESS 8346165248/24813767464 33.64% 7.50 MiB/s ETA=2094s completed_chunks=16/80
+2026-09-28T10:23:26.002314+00:00 PROGRESS 8392302592/24813767464 33.82% 7.51 MiB/s ETA=2086s completed_chunks=16/80
+2026-09-28T10:23:31.003448+00:00 PROGRESS 8434245632/24813767464 33.99% 7.51 MiB/s ETA=2079s completed_chunks=16/80
+2026-09-28T10:23:36.004506+00:00 PROGRESS 8484577280/24813767464 34.19% 7.53 MiB/s ETA=2068s completed_chunks=16/80
+2026-09-28T10:23:41.005857+00:00 PROGRESS 8534908928/24813767464 34.40% 7.54 MiB/s ETA=2058s completed_chunks=16/80
+2026-09-28T10:23:46.007219+00:00 PROGRESS 8589434880/24813767464 34.62% 7.57 MiB/s ETA=2045s completed_chunks=16/80
+2026-09-28T10:23:51.008224+00:00 PROGRESS 8639766528/24813767464 34.82% 7.58 MiB/s ETA=2034s completed_chunks=16/80
+2026-09-28T10:23:52.657408+00:00 RANGE_COMPLETE 8232919040 8501354495
+2026-09-28T10:23:52.658474+00:002026-09-28T10:23:52.658631+00:00 RANGE_START  9306660864PROGRESS  95750963198660738048/24813767464  attempt=134.90% 
+7.59 MiB/s ETA=2029s completed_chunks=17/80
+2026-09-28T10:23:57.660690+00:00 PROGRESS 8711069696/24813767464 35.11% 7.61 MiB/s ETA=2018s completed_chunks=17/80
+2026-09-28T10:23:58.081128+00:00 RANGE_ERROR 9306660864 9575096319 URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
+2026-09-28T10:24:00.081895+00:00 RANGE_START 9306660864 9575096319 attempt=2
+2026-09-28T10:24:01.313113+00:00 RANGE_COMPLETE 7964483584 8232919039
+2026-09-28T10:24:01.314181+00:002026-09-28T10:24:01.314312+00:00 RANGE_START PROGRESS 9575096320 8744624128/24813767464 9843531775 35.24% attempt=1 7.61 MiB/s
+ ETA=2013s completed_chunks=18/80
+2026-09-28T10:24:06.316001+00:00 PROGRESS 8794955776/24813767464 35.44% 7.63 MiB/s ETA=2002s completed_chunks=18/80
+2026-09-28T10:24:11.317214+00:00 PROGRESS 8853676032/24813767464 35.68% 7.66 MiB/s ETA=1988s completed_chunks=18/80
+2026-09-28T10:24:16.318559+00:00 PROGRESS 8904007680/24813767464 35.88% 7.67 MiB/s ETA=1978s completed_chunks=18/80
+2026-09-28T10:24:21.320008+00:00 PROGRESS 8958533632/24813767464 36.10% 7.69 MiB/s ETA=1966s completed_chunks=18/80
+2026-09-28T10:24:23.441434+00:00 RANGE_ERROR 8501354496 8769789951 OSError('Short range: 212996311/268435456')
+2026-09-28T10:24:25.442302+00:00 RANGE_START 8501354496 8769789951 attempt=2
+2026-09-28T10:24:26.321393+00:00 PROGRESS 8799150080/24813767464 35.46% 7.42 MiB/s ETA=2060s completed_chunks=18/80
+2026-09-28T10:24:31.322506+00:00 PROGRESS 8845287424/24813767464 35.65% 7.42 MiB/s ETA=2051s completed_chunks=18/80
+2026-09-28T10:24:36.323667+00:00 PROGRESS 8899813376/24813767464 35.87% 7.45 MiB/s ETA=2038s completed_chunks=18/80
+2026-09-28T10:24:41.324899+00:00 PROGRESS 8941756416/24813767464 36.04% 7.45 MiB/s ETA=2032s completed_chunks=18/80
+2026-09-28T10:24:46.326218+00:00 PROGRESS 9000476672/24813767464 36.27% 7.48 MiB/s ETA=2017s completed_chunks=18/80
+2026-09-28T10:24:51.327492+00:00 PROGRESS 9050808320/24813767464 36.47% 7.49 MiB/s ETA=2007s completed_chunks=18/80
+2026-09-28T10:24:53.547442+00:00 RANGE_COMPLETE 7159177216 7427612671
+2026-09-28T10:24:53.548438+00:002026-09-28T10:24:53.548588+00:00  RANGE_STARTPROGRESS  98435317769080168448/24813767464 10111967231 36.59% attempt=1 7.51 MiB/s
+ ETA=1999s completed_chunks=19/80
+2026-09-28T10:24:58.550489+00:00 PROGRESS 9126305792/24813767464 36.78% 7.52 MiB/s ETA=1991s completed_chunks=19/80
+2026-09-28T10:24:58.995846+00:00 RANGE_ERROR 9843531776 10111967231 URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
+2026-09-28T10:25:00.056711+00:00 RANGE_ERROR 9038225408 9306660863 OSError('Short range: 213494669/268435456')
+2026-09-28T10:25:00.996575+00:00 RANGE_START 9843531776 10111967231 attempt=2
+2026-09-28T10:25:03.551789+00:00 PROGRESS 9167833997/24813767464 36.95% 7.52 MiB/s ETA=1985s completed_chunks=19/80
+2026-09-28T10:25:04.057455+00:00 RANGE_START 9038225408 9306660863 attempt=3
+2026-09-28T10:25:08.552847+00:00 PROGRESS 9013059584/24813767464 36.32% 7.27 MiB/s ETA=2074s completed_chunks=19/80
+2026-09-28T10:25:09.778260+00:00 RANGE_ERROR 9038225408 9306660863 URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
+2026-09-28T10:25:10.288996+00:00 RANGE_COMPLETE 8769789952 9038225407
+2026-09-28T10:25:11.285445+00:00 FAILED_PRESERVED URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
+Traceback (most recent call last):
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 1320, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1141, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1085, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/USER/miniconda3/lib/python3.14/http/client.py", line 1527, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+                                          server_hostname=server_hostname)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/USER/miniconda3/lib/python3.14/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/home/USER/miniconda3/lib/python3.14/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/path/to/robodojo-openwam/scripts/download_ranges.py", line 249, in <module>
+    main()
+    ~~~~^^
+  File "/path/to/robodojo-openwam/scripts/download_ranges.py", line 211, in main
+    download_checkpoint(target / NAME, target / (NAME + ".ranges.json"))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/robodojo-openwam/scripts/download_ranges.py", line 172, in download_checkpoint
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/home/USER/miniconda3/lib/python3.14/concurrent/futures/_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/home/USER/miniconda3/lib/python3.14/concurrent/futures/_base.py", line 396, in __get_result
+    raise self._exception
+  File "/home/USER/miniconda3/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/home/USER/miniconda3/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/path/to/robodojo-openwam/scripts/download_ranges.py", line 124, in fetch_range
+    with urllib.request.urlopen(request, timeout=60) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 525, in error
+    result = self._call_chain(*args)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 718, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 1368, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/USER/miniconda3/lib/python3.14/urllib/request.py", line 1323, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>

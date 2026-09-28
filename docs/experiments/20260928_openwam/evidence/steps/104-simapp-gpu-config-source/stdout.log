@@ -1,0 +1,41 @@
+49:             headless: False,
+72:        "headless": True,
+74:        "active_gpu": None,
+75:        "physics_gpu": 0,
+76:        "multi_gpu": True,
+96:        "extra_args": [],
+105:        headless (bool): Disable window creation and UI when running. Defaults to True
+106:        hide_ui (bool): Hide UI when running to improve performance, when headless is set to true, the UI is hidden, set to false to override this behavior when live streaming. Defaults to None
+107:        active_gpu (int): Specify the GPU to use when running, set to None to use default value which is usually the first gpu, default is None
+108:        physics_gpu (int): Specify the GPU to use when running physics simulation. Defaults to 0 (first GPU).
+109:        multi_gpu (bool): Set to true to enable Multi GPU support, Defaults to true
+129:        extra_args: (list): List of extra command line arguments to pass down to the kit process
+155:            ...     "headless": False,
+250:            if self.config["headless"] is False:
+251:                carb.log_warn("Non-headless mode not supported with jupyter notebooks")
+255:                # self.config.update({"headless": True}) # Disable this, in case the user really wants to run non-headless
+328:        if self.config["disable_viewport_updates"] and self.config["headless"]:
+399:                f'--/renderer/multiGpu/enabled={self.config["multi_gpu"]}',
+409:        extra_args = self.config.get("extra_args", [])
+410:        if isinstance(extra_args, list):
+411:            args.extend(self.config.get("extra_args", []))
+413:            print("Ignoring extra_args, extra_args must be of type list")
+415:        if self.config.get("active_gpu") is not None:
+416:            args.append(f'--/renderer/activeGpu={self.config["active_gpu"]}')
+417:        if self.config.get("physics_gpu") is not None:
+418:            args.append(f'--/physics/cudaDevice={self.config["physics_gpu"]}')
+449:        headless_mode = self.config.get("headless")
+451:        if "--no-window" not in unknown_args and (headless_mode or display_not_available):
+453:            if display_not_available and not headless_mode:
+455:                    "DISPLAY environment variable is not set, running in headless mode with --no-window flag. "
+456:                    "Set DISPLAY environment variable if you want to run in non-headless mode."
+461:            # Hide the ui by default if headless
+index, memory.used [MiB], utilization.gpu [%]
+0, 194 MiB, 0 %
+1, 4 MiB, 0 %
+2, 5 MiB, 0 %
+3, 4 MiB, 0 %
+4, 20040 MiB, 0 %
+5, 19079 MiB, 0 %
+6, 23642 MiB, 56 %
+7, 19464 MiB, 100 %

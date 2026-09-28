@@ -1,0 +1,18 @@
+1776466
+1776467
+1668240
+no change     /home/USER/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/USER/miniconda3/shell/condabin/Conda.psm1
+no change     /home/USER/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/USER/miniconda3/lib/python3.14/site-packages/xontrib/conda.xsh
+no change     /home/USER/miniconda3/etc/profile.d/conda.csh
+modified      /home/USER/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+[1;32m>>>     Accepting Anaconda Terms of Service...[0m
+accepted Terms of Service for https://repo.anaconda.com/pkgs/main
+accepted Terms of Service for https://repo.anaconda.com/pkgs/r
+[1;32m>>>     Creating conda environment 'RoboDojo' (Python 3.11)...[0m
+2 channel Terms of Service accepted
+Retrieving notices: ...working... 

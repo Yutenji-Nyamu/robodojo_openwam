@@ -1,0 +1,1 @@
+git -C /path/to/robodojo-openwam/RoboDojo/.cache/robodojo_assets_repo ls-tree HEAD Assets/Robots/x5/ARX.usd; cat /path/to/robodojo-openwam/RoboDojo/.cache/robodojo_assets_repo/.git/info/sparse-checkout; git restore -h | grep ignore-skip

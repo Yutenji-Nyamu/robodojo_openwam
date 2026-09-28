@@ -1,0 +1,1 @@
+/path/to/robodojo-openwam/envs/openwam/bin/python -m pip check; /path/to/robodojo-openwam/envs/openwam/bin/python -c "import torch,numpy,transformers,diffusers; print(dict(torch=torch.__version__,numpy=numpy.__version__,transformers=transformers.__version__,diffusers=diffusers.__version__))"

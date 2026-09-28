@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Local environment libraries provide libGLU and C++ runtime for Isaac Sim.
+export LD_LIBRARY_PATH="${CONDA_PREFIX:?}/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+
 # Ensure project root is on PYTHONPATH so first-party imports like `env`, `task`, and `utils` work.
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 export PYTHONPATH="${PROJECT_ROOT}:${PROJECT_ROOT}/XPolicyLab:${PYTHONPATH:-}"
@@ -129,6 +132,9 @@ KIT_ARGS=""
 for ext in "${KIT_ENABLE_EXTS[@]}"; do
   KIT_ARGS+=" --enable ${ext}"
 done
+# Keep this evaluation on one render GPU in the shared server.
+KIT_ARGS+=" --/renderer/multiGpu/enabled=false --/renderer/activeGpu=${ROBODOJO_RENDER_GPU:-$device_id}"
+echo "[INFO] single GPU render: ${ROBODOJO_RENDER_GPU:-$device_id}"
 
 # Generated once per eval invocation. Carries the same identity through
 # os.execv inside main.py and bash-level retries below. Append $$ to
@@ -139,11 +145,17 @@ if [[ -z "${ROBODOJO_RUN_ID:-}" ]]; then
 fi
 echo "[eval_policy] ROBODOJO_RUN_ID=${ROBODOJO_RUN_ID}"
 
+# Optional process-local Vulkan allocation-limit compatibility for Isaac 5.1.
+sim_cmd=(python -u src/eval_client/main.py)
+if [[ -n "${ROBODOJO_VULKAN_COMPAT_SCRIPT:-}" ]]; then
+  sim_cmd=(python "$ROBODOJO_VULKAN_COMPAT_SCRIPT" --isaac51 --gpu-index "$device_id" -- "${sim_cmd[@]}")
+fi
+
 MAX_BASH_RETRIES="${ROBODOJO_MAX_BASH_RETRIES:-10}"
 attempt=0
 while : ; do
   set +e
-  python -u src/eval_client/main.py \
+  "${sim_cmd[@]}" \
     --task_name "$task_name" \
     --env_cfg_type "$env_cfg_type" \
     --num_envs "$num_envs" \

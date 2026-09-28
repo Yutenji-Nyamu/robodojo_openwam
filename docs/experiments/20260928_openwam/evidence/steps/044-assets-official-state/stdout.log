@@ -1,0 +1,183 @@
+  fi
+}
+
+clone_asset_repo() {
+  info "Cloning sparse asset repo into '${ASSET_CACHE_DIR}'..."
+  GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 --sparse "${HF_REPO_URL}" "${ASSET_CACHE_DIR}"
+}
+
+archive_asset_cache() {
+  local cache_dir="$1"
+  local partial_dir="${cache_dir}.partial.$(date +%Y%m%d_%H%M%S)"
+  warn "Moving existing asset cache to '${partial_dir}'."
+  mv "${cache_dir}" "${partial_dir}"
+}
+
+download_assets() {
+  info "Repo root: ${CURRENT_DIR}"
+  info "Assets target: ${TARGET_DIR}"
+  info "HF repo: ${HF_REPO_ID} (revision=${HF_REVISION})"
+
+  if assets_ready; then
+    warn "'${TARGET_DIR}' already exists, skipping..."
+    return 0
+  fi
+
+  if [[ -d "${TARGET_DIR}" ]]; then
+    local partial_dir="${TARGET_DIR}.partial.$(date +%Y%m%d_%H%M%S)"
+    warn "'${TARGET_DIR}' exists but is incomplete."
+    warn "Moving incomplete directory to '${partial_dir}' before recreating Assets."
+    mv "${TARGET_DIR}" "${partial_dir}"
+  fi
+
+  mkdir -p "$(dirname "${ASSET_CACHE_DIR}")"
+
+  if [[ ! -d "${ASSET_CACHE_DIR}/.git" ]]; then
+    clone_asset_repo
+  else
+    if [[ -n "$(git -C "${ASSET_CACHE_DIR}" config --get remote.origin.promisor || true)" ]]; then
+      warn "Existing cache was created as a partial clone and may hit Hugging Face promisor fetch errors."
+      archive_asset_cache "${ASSET_CACHE_DIR}"
+      clone_asset_repo
+    else
+      info "Updating sparse asset repo cache..."
+      if ! git -C "${ASSET_CACHE_DIR}" fetch --depth 1 origin "${HF_REVISION}"; then
+        warn "Failed to update existing asset cache."
+        archive_asset_cache "${ASSET_CACHE_DIR}"
+        clone_asset_repo
+      fi
+    fi
+  fi
+
+  git -C "${ASSET_CACHE_DIR}" sparse-checkout set Assets
+  git -C "${ASSET_CACHE_DIR}" checkout "${HF_REVISION}"
+
+  info "Pulling only Assets/** LFS objects..."
+  git -C "${ASSET_CACHE_DIR}" lfs install --local >/dev/null
+  git -C "${ASSET_CACHE_DIR}" lfs pull --include="Assets/**" --exclude=""
+
+  ln -s "${ASSET_CACHE_DIR}/Assets" "${TARGET_DIR}"
+}
+
+verify_assets() {
+  if [[ ! -d "${TARGET_DIR}" ]]; then
+    error "Expected '${TARGET_DIR}' after download, but it was not created."
+  fi
+
+  local subdir
+  for subdir in "${REQUIRED_ASSET_SUBDIRS[@]}"; do
+    if [[ ! -d "${TARGET_DIR}/${subdir}" ]]; then
+      error "Asset subdir '${subdir}' missing under ${TARGET_DIR}; download incomplete."
+    fi
+  done
+}
+
+check_download_tools
+download_assets
+verify_assets
+
+info "Assets directory is ready: ${TARGET_DIR}"
+#!/usr/bin/env python3
+import glob
+import os
+import sys
+
+
+def print_color(message, color_code):
+    NC = "\033[0m"
+    print(f"{color_code}{message}{NC}")
+
+
+BLUE = "\033[0;34m"
+YELLOW = "\033[0;33m"
+GREEN = "\033[0;32m"
+
+
+def prompt_path():
+    answer = input("Do you want to manually specify the absolute path to the Assets directory? (y/n): ")
+    if answer.lower() != "y":
+        sys.exit(1)
+    return input("Please enter the absolute path: ")
+
+
+def main():
+    assets_path = os.getcwd()
+    print_color(f"Current path: {assets_path}", BLUE)
+
+    if not os.path.isdir(os.path.join(assets_path, "Assets", "Robots")):
+        print_color("Warning: ./Assets/Robots directory not found", YELLOW)
+        parent = os.path.abspath(os.path.join(assets_path, ".."))
+        if os.path.isdir(os.path.join(parent, "Assets", "Robots")):
+            print("Found Assets/Robots in parent directory, switching...")
+            assets_path = parent
+            os.chdir(assets_path)
+            print_color(f"Updated path: {assets_path}", BLUE)
+        else:
+            print_color("Please ensure you're running this script in the correct directory", YELLOW)
+            print("Script should be run in the repository root directory containing Assets/Robots")
+            assets_path = prompt_path()
+            if not os.path.isdir(os.path.join(assets_path, "Assets", "Robots")):
+                print_color("Error: Cannot find Assets/Robots directory at the specified path", YELLOW)
+                sys.exit(1)
+            os.chdir(assets_path)
+            print_color(f"Switched to: {assets_path}", BLUE)
+
+    # Export environment variable
+    os.environ["ASSETS_PATH"] = assets_path
+    print_color(f"Setting environment variable: ASSETS_PATH={assets_path}", BLUE)
+
+    # Counters
+    count_total = count_updated = count_error = 0
+
+    # Find *_tmp.yml files
+    print_color("Searching for configuration template files...", BLUE)
+    pattern = os.path.join(assets_path, "Assets", "Robots", "**", "*_tmp.yml")
+    config_files = glob.glob(pattern, recursive=True)
+
+    if not config_files:
+        print_color("No *_tmp.yml files found", YELLOW)
+        sys.exit(1)
+
+    print_color("Starting to process configuration files...", BLUE)
+    for tmp_file in config_files:
+        count_total += 1
+        target_file = tmp_file.replace("_tmp.yml", ".yml")
+        print(f"Processing [{count_total}]: {tmp_file} -> {target_file}")
+
+        try:
+            with open(tmp_file) as f:
+                content = f.read()
+
+            new_content = content.replace("${ASSETS_PATH}", assets_path)
+            new_content = new_content.replace("$ASSETS_PATH", assets_path)
+
+            with open(target_file, "w") as f:
+                f.write(new_content)
+
+            print_color(f"  ✓ Successfully replaced ${{ASSETS_PATH}} -> {assets_path}", GREEN)
+            count_updated += 1
+
+            if "${ASSETS_PATH}" in content and assets_path in new_content:
+                print_color("  ✓ Confirmed path was correctly replaced", GREEN)
+            elif "${ASSETS_PATH}" in content:
+                print_color("  ! Warning: Could not confirm if path was correctly replaced", YELLOW)
+
+        except Exception as e:
+            print_color(f"  ✗ Replacement failed: {e}", YELLOW)
+            count_error += 1
+
+    # Summary
+    print()
+    print_color("Processing complete!", BLUE)
+    print(f"Total processed: {count_total} files")
+    print_color(f"Successfully updated: {count_updated} files", GREEN)
+    if count_error > 0:
+        print_color(f"Failed to process: {count_error} files", YELLOW)
+
+    print()
+    print_color("All template files have been processed!", GREEN)
+    print("To use in a new environment, run this script again")
+
+
+if __name__ == "__main__":
+    main()

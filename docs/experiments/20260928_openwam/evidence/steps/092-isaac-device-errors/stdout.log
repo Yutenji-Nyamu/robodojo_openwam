@@ -1,0 +1,55 @@
+3:[robodojo eval] policy_dir=/path/to/robodojo-openwam/RoboDojo/XPolicyLab/policy/OpenWAM
+8:[33m[SERVER] policy=OpenWAM, task=stack_bowls, ckpt=OpenWAM-Alpha-Sim-RoboDojo[0m
+9:[33m[SERVER] ckpt_dir: /path/to/robodojo-openwam/checkpoints/OpenWAM-Alpha-Sim-RoboDojo[0m
+10:[33m[SERVER] openwam_deploy_config: /path/to/robodojo-openwam/RoboDojo/XPolicyLab/policy/OpenWAM/OpenWAM/configs/deploy.yaml[0m
+13:[OpenWAM] loading checkpoint from /path/to/robodojo-openwam/checkpoints/OpenWAM-Alpha-Sim-RoboDojo on cuda ...
+18:[OpenWAM] initialized | {'denoise_steps': 10, 'denoise_mode': 'sync', 'num_frames': 33, 'video_num_frames': 9, 'replan_steps': 'full chunk', 'dit_cache': False, 'compile': False}
+21:[34m[CLIENT] policy=OpenWAM, task=stack_bowls, ckpt=OpenWAM-Alpha-Sim-RoboDojo[0m
+30:[INFO] device_id = 2 → CUDA_VISIBLE_DEVICES=2
+34:[INFO] single GPU render: 2
+40:[0.109s] Failed to solve some dependencies locally, syncing with extension registry...
+60:2026-09-28T11:23:41Z [24,037ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+63:2026-09-28T11:23:41Z [24,116ms] [Warning] [carb.cudainterop.plugin] CUDA_VISIBLE_DEVICES environment variable is set.
+65:2026-09-28T11:23:41Z [24,116ms] [Warning] [carb.cudainterop.plugin] Setting CUDA_VISIBLE_DEVICES can lead to undesired behavior or crashes.
+66:2026-09-28T11:23:43Z [25,699ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+68:2026-09-28T11:23:43Z [25,706ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+70:2026-09-28T11:23:43Z [25,721ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+72:2026-09-28T11:23:43Z [25,728ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+74:2026-09-28T11:23:43Z [25,735ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+76:2026-09-28T11:23:43Z [25,738ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+78:2026-09-28T11:23:43Z [25,740ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+80:2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+82:2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+84:2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+86:2026-09-28T11:23:43Z [25,741ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+88:2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+90:2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+92:2026-09-28T11:23:43Z [25,742ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+96:| Driver Version: 595.71.05     | Graphics API: Vulkan
+98:| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+153:2026-09-28T11:23:45Z [27,787ms] [Error] [omni.ext.plugin] Could not load the dynamic library from /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.iray.libs-0.0.0+69cbf6ad.lx64.r/bin/iray/libneuray.so. Error: libGLU.so.1: cannot open shared object file: No such file or directory (note that this may be caused by a dependent library)
+158:2026-09-28T11:23:45Z [27,968ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+161:2026-09-28T11:23:45Z [28,231ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+163:2026-09-28T11:23:45Z [28,249ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+167:2026-09-28T11:23:45Z [28,268ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+169:2026-09-28T11:23:45Z [28,274ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+171:2026-09-28T11:23:45Z [28,278ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+444:2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.neuraylib.plugin] Failed to open /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.iray.libs-0.0.0+69cbf6ad.lx64.r/bin/iray/libneuray.so: libGLU.so.1: cannot open shared object file: No such file or directory
+445:2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.mdltranslator.plugin] mi::neuraylib::INeuray interface not available
+446:2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.mdltranslator.plugin] Failed to load MDL-SDK.
+[39.271s] [ext: isaaclab_mimic-1.0.16] startup
+[39.273s] [ext: omni.kit.menu.common-2.0.1] startup
+[39.276s] [ext: isaaclab.python-2.3.2] startup
+[39.281s] Simulation App Starting
+2026-09-28T11:23:57Z [39,831ms] [Warning] [carb.audio.device] audio device is misconfigured or broken {deviceIndex = 0, name = 'default'} (The device is likely misconfigured, check your $HOME/.asoundrc)
+2026-09-28T11:23:57Z [39,831ms] [Warning] [carb.audio.output] failed to retrieve the capabilities for device 0 {result = eDeviceLost (2)}
+2026-09-28T11:23:57Z [39,831ms] [Warning] [carb.audio.context] failed to set the requested output during context creation.  Using a null streamer instead {result = eDeviceLost (2)}
+2026-09-28T11:23:57Z [39,868ms] [Warning] [omni.fabric.plugin] Warning: attribute viewportHandle not found for bucket id 9
+
+2026-09-28T11:23:57Z [39,919ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-09-28T11:23:57Z [39,919ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-09-28T11:23:57Z [39,919ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.neuraylib.plugin] Failed to open /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.iray.libs-0.0.0+69cbf6ad.lx64.r/bin/iray/libneuray.so: libGLU.so.1: cannot open shared object file: No such file or directory
+2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.mdltranslator.plugin] mi::neuraylib::INeuray interface not available
+2026-09-28T11:23:57Z [39,923ms] [Error] [rtx.mdltranslator.plugin] Failed to load MDL-SDK.
+[39.965s] app ready

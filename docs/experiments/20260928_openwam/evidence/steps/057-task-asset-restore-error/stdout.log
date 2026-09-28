@@ -1,0 +1,12 @@
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/WallWood_Normal.png' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/WallWood_Rough.png' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Color.png' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Normal.png' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/WhitePlastic_Rough.png' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/SubUSDs/textures/abandoned_parking_4k.hdr' did not match any file(s) known to git
+error: pathspec 'Assets/Room/Simple_Room_nolight/simple_room_nolight.usd' did not match any file(s) known to git
+Traceback (most recent call last):
+  File "/path/to/robodojo-openwam/scripts/prepare_task_assets.py", line 59, in <module>
+  File "/path/to/robodojo-openwam/scripts/prepare_task_assets.py", line 42, in main
+  File "/path/to/robodojo-openwam/scripts/prepare_task_assets.py", line 9, in run
+  File "/home/USER/miniconda3/lib/python3.14/subprocess.py", line 578, in run

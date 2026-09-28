@@ -1,0 +1,2 @@
+No broken requirements found.
+{'torch': '2.7.1+cu128', 'numpy': '2.2.6', 'transformers': '5.17.0', 'diffusers': '0.40.0', 'huggingface_hub': '1.33.0', 'hub_path': '/path/to/robodojo-openwam/envs/openwam/lib/python3.10/site-packages/huggingface_hub/__init__.py'}

@@ -1,0 +1,1 @@
+ls -ld /usr/local/cuda* /opt/cuda* 2>/dev/null; ls -l /usr/local/cuda*/bin/nvcc 2>/dev/null; tail -n 12 /path/to/robodojo-openwam/logs/install-mirror.log

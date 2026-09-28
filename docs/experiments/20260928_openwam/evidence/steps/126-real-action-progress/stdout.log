@@ -1,0 +1,26 @@
+env0 step: [92m307 / 800[0m
+env0 step: [92m308 / 800[0m
+env0 step: [92m309 / 800[0m
+env0 step: [92m310 / 800[0m
+env0 step: [92m311 / 800[0m
+env0 step: [92m312 / 800[0m
+env0 step: [92m313 / 800[0m
+env0 step: [92m314 / 800[0m
+env0 step: [92m315 / 800[0m
+env0 step: [92m316 / 800[0m
+env0 step: [92m317 / 800[0m
+env0 step: [92m318 / 800[0m
+env0 step: [92m319 / 800[0m
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz2_openwam_stack_bowls_s0_20260928_1944/episode_0000000_cam_head_success.mp4`, containing [94m320[0m frames at 640×480 resolution and 25 FPS.
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz2_openwam_stack_bowls_s0_20260928_1944/episode_0000000_cam_left_wrist_success.mp4`, containing [94m320[0m frames at 640×480 resolution and 25 FPS.
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz2_openwam_stack_bowls_s0_20260928_1944/episode_0000000_cam_right_wrist_success.mp4`, containing [94m320[0m frames at 640×480 resolution and 25 FPS.
+Success nums: 1, Fail nums: 0, Unstable nums: 0
+[main] removed resume manifest eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/_resume_sz2_openwam_stack_bowls_s0_20260928_1944.json (eval completed)
+2026-09-28T11:50:41Z [241,647ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-28T11:50:41Z [241,647ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[242.142s] Simulation App Shutting Down
+[MAIN] eval finished
+[MAIN] kill server tree 3657291
+[robodojo eval] wall_clock=397s
+RUN_EXIT=0
+0

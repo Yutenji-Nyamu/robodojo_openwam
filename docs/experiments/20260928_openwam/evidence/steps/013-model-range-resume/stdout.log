@@ -1,0 +1,3 @@
+preserved_prefix_bytes 3401080832
+    PID                  STARTED COMMAND
+2604475 Mon Sep 28 18:12:50 2026 bash /path/to/robodojo-openwam/scripts/checkpoint-ranges.sh

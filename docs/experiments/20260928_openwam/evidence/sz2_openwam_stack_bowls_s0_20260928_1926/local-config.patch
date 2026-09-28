@@ -1,0 +1,35 @@
+diff --git a/env_cfg/sim/sim_config.yml b/env_cfg/sim/sim_config.yml
+index fde7dc4..e33aea3 100644
+--- a/env_cfg/sim/sim_config.yml
++++ b/env_cfg/sim/sim_config.yml
+@@ -2,5 +2,5 @@ decimation: 1
+ dt: 0.004
+ render_interval: 10
+ scene:
+-  num_envs: 10
++  num_envs: 1
+   env_spacing: 7
+diff --git a/scripts/eval_policy.sh b/scripts/eval_policy.sh
+index b86c88e..3c22637 100755
+--- a/scripts/eval_policy.sh
++++ b/scripts/eval_policy.sh
+@@ -1,6 +1,9 @@
+ #!/usr/bin/env bash
+ set -euo pipefail
+ 
++# Local environment libraries provide libGLU and C++ runtime for Isaac Sim.
++export LD_LIBRARY_PATH="${CONDA_PREFIX:?}/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
++
+ # Ensure project root is on PYTHONPATH so first-party imports like `env`, `task`, and `utils` work.
+ PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ export PYTHONPATH="${PROJECT_ROOT}:${PROJECT_ROOT}/XPolicyLab:${PYTHONPATH:-}"
+@@ -129,6 +132,9 @@ KIT_ARGS=""
+ for ext in "${KIT_ENABLE_EXTS[@]}"; do
+   KIT_ARGS+=" --enable ${ext}"
+ done
++# Keep this evaluation on one render GPU in the shared server.
++KIT_ARGS+=" --/renderer/multiGpu/enabled=false --/renderer/activeGpu=${ROBODOJO_RENDER_GPU:-$device_id}"
++echo "[INFO] single GPU render: ${ROBODOJO_RENDER_GPU:-$device_id}"
+ 
+ # Generated once per eval invocation. Carries the same identity through
+ # os.execv inside main.py and bash-level retries below. Append $$ to

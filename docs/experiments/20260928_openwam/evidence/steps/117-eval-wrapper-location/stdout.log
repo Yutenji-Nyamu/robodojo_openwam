@@ -1,0 +1,66 @@
+# Keep this evaluation on one render GPU in the shared server.
+KIT_ARGS+=" --/renderer/multiGpu/enabled=false --/renderer/activeGpu=${ROBODOJO_RENDER_GPU:-$device_id}"
+echo "[INFO] single GPU render: ${ROBODOJO_RENDER_GPU:-$device_id}"
+
+# Generated once per eval invocation. Carries the same identity through
+# os.execv inside main.py and bash-level retries below. Append $$ to
+# defuse same-second collisions when the same task/config is launched
+# in parallel.
+if [[ -z "${ROBODOJO_RUN_ID:-}" ]]; then
+  export ROBODOJO_RUN_ID="$(date +%Y-%m-%d_%H-%M-%S)"
+fi
+echo "[eval_policy] ROBODOJO_RUN_ID=${ROBODOJO_RUN_ID}"
+
+MAX_BASH_RETRIES="${ROBODOJO_MAX_BASH_RETRIES:-10}"
+attempt=0
+while : ; do
+  set +e
+  python -u src/eval_client/main.py \
+    --task_name "$task_name" \
+    --env_cfg_type "$env_cfg_type" \
+    --num_envs "$num_envs" \
+    --enable_cameras \
+    --kit_args "$KIT_ARGS" \
+    --device_id "$device_id" \
+    --policy_name "$policy_name" \
+    --port "$port" \
+    --protocol "$protocol" \
+    --policy_server_url "$policy_server_url" \
+    --additional_info "$additional_info" \
+    --seed "$seed" \
+    --host "$host" \
+    --headless \
+    "${extra_args[@]}" \
+    "$@"
+  rc=$?
+  set -e
+  case "$rc" in
+    0)
+      exit 0
+      ;;
+    99|134|139)
+      # 99  - clean fatal-restart from main.py (in-process cap reached)
+      # 134 - SIGABRT (PhysX C++ aborted before main.py could re-exec)
+      # 139 - SIGSEGV (CUDA driver segfault)
+      attempt=$((attempt + 1))
+      if [[ "$attempt" -ge "$MAX_BASH_RETRIES" ]]; then
+        echo "[eval_policy] giving up after $attempt restart(s) (rc=$rc, run_id=${ROBODOJO_RUN_ID})" >&2
+        exit "$rc"
+      fi
+      echo "[eval_policy] python exited rc=$rc, restarting ($attempt/$MAX_BASH_RETRIES, run_id=${ROBODOJO_RUN_ID})..." >&2
+      sleep 5
+      ;;
+    *)
+      exit "$rc"
+      ;;
+  esac
+done
+index, memory.used [MiB], utilization.gpu [%]
+0, 194 MiB, 0 %
+1, 4 MiB, 0 %
+2, 5 MiB, 0 %
+3, 4 MiB, 0 %
+4, 23450 MiB, 0 %
+5, 17565 MiB, 0 %
+6, 19373 MiB, 0 %
+7, 20281 MiB, 1 %

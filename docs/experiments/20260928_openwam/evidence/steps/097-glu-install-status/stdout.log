@@ -1,0 +1,32 @@
+The following NEW packages will be INSTALLED:
+
+  libglu             conda-forge/linux-64::libglu-9.0.3-h5888daf_1 
+  libglvnd           conda-forge/linux-64::libglvnd-1.7.0-ha4b6fd6_5 
+  libopengl          conda-forge/linux-64::libopengl-1.7.0-ha4b6fd6_5 
+
+The following packages will be UPDATED:
+
+  openssl               pkgs/main::openssl-3.5.8-h1b28b03_0 --> conda-forge::openssl-3.6.4-h781a0a9_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156): 
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+
+2026-09-28T19:25:48+08:00
+0
+index, memory.used [MiB]
+0, 194 MiB
+1, 4 MiB
+2, 5 MiB
+3, 4 MiB
+4, 20239 MiB
+5, 21250 MiB
+6, 23641 MiB
+7, 20890 MiB

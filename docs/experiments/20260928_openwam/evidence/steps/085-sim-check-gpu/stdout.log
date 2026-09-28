@@ -1,0 +1,24 @@
+isaaclab 0.54.3 has requirement starlette==0.49.1, but you have starlette 0.45.3.
+httpx2 2.13.1 has requirement idna>=3.18, but you have idna 3.10.
+index, uuid, memory.used [MiB], utilization.gpu [%]
+0, GPU-REDACTED, 194 MiB, 0 %
+1, GPU-REDACTED, 4 MiB, 0 %
+2, GPU-REDACTED, 4 MiB, 0 %
+3, GPU-REDACTED, 4 MiB, 0 %
+4, GPU-REDACTED, 19794 MiB, 0 %
+5, GPU-REDACTED, 23194 MiB, 5 %
+6, GPU-REDACTED, 19919 MiB, 7 %
+7, GPU-REDACTED, 23642 MiB, 74 %
+pid, gpu_uuid, used_gpu_memory [MiB], process_name
+3684979, GPU-REDACTED, 9390 MiB, ray::MultiStepRolloutWorker.generate
+3684975, GPU-REDACTED, 1576 MiB, ray::RLTACFSDPPolicy.recv_rollout_trajectories
+3684984, GPU-REDACTED, 8792 MiB, ray::EnvWorker.interact
+3684981, GPU-REDACTED, 10268 MiB, ray::MultiStepRolloutWorker.generate
+3684977, GPU-REDACTED, 1576 MiB, ray::RLTACFSDPPolicy.recv_rollout_trajectories
+3684985, GPU-REDACTED, 11314 MiB, ray::EnvWorker.interact
+9809, GPU-REDACTED, 10268 MiB, ray::MultiStepRolloutWorker
+9818, GPU-REDACTED, 8014 MiB, ray::EnvWorker
+9804, GPU-REDACTED, 1604 MiB, ray::RLTACFSDPPolicy.run_training
+9802, GPU-REDACTED, 1576 MiB, ray::RLTACFSDPPolicy.recv_rollout_trajectories
+9817, GPU-REDACTED, 11762 MiB, ray::EnvWorker.interact
+9808, GPU-REDACTED, 10268 MiB, ray::MultiStepRolloutWorker.generate

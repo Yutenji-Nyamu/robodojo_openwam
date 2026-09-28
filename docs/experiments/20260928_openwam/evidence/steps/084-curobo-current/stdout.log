@@ -1,0 +1,13 @@
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages (from jedi>=0.16->ipython<9) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages (from pexpect>4.3->ipython<9) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages (from stack_data->ipython<9) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages (from stack_data->ipython<9) (3.0.2)
+Requirement already satisfied: pure-eval in /path/to/robodojo-openwam/envs/RoboDojo/lib/python3.11/site-packages (from stack_data->ipython<9) (0.2.4)
+[1;32m>>> Resumed from 'base_deps' — done.[0m
+[1;33m>>> Activate the environment: conda activate RoboDojo[0m
+726e9aabfaa642203722eb126f5eaf0f37f3e1ad
++10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4 XPolicyLab (v1.0.0-73-g10ab265)
+ afca7b09d60d8beb9c1cb28b43066499940b969b third_party/IsaacLab (heads/main)
++895c6517243f8cb091c73c018c8167192d39599a third_party/curobo (heads/main)
+2026-09-28T19:16:57+08:00
+0

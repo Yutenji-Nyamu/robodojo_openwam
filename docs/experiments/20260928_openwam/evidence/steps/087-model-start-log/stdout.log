@@ -1,0 +1,14 @@
+RUN_ID=sz2_openwam_stack_bowls_s0_20260928_1921
+RUN_DIR=/path/to/robodojo-openwam/runs/sz2_openwam_stack_bowls_s0_20260928_1921
+[robodojo eval] policy_dir=/path/to/robodojo-openwam/RoboDojo/XPolicyLab/policy/OpenWAM
+[robodojo eval] task=stack_bowls env_cfg=arx_x5 eval_num=1
+[33m[INFO] Using socket port: 44457[0m
+[MAIN] start server, policy_server_port=44457
+[34m[1m[CONNECTING][0m Policy server -> localhost:44457 (PID=1274132, timeout=600s)
+[33m[SERVER] policy=OpenWAM, task=stack_bowls, ckpt=OpenWAM-Alpha-Sim-RoboDojo[0m
+[33m[SERVER] ckpt_dir: /path/to/robodojo-openwam/checkpoints/OpenWAM-Alpha-Sim-RoboDojo[0m
+[33m[SERVER] openwam_deploy_config: /path/to/robodojo-openwam/RoboDojo/XPolicyLab/policy/OpenWAM/OpenWAM/configs/deploy.yaml[0m
+[33m[SERVER] policy_server_host=localhost policy_server_port=44457[0m
+[33m[SERVER] action_dim=14[0m
+[OpenWAM] loading checkpoint from /path/to/robodojo-openwam/checkpoints/OpenWAM-Alpha-Sim-RoboDojo on cuda ...
+[34m[1m[CONNECTING][0m Policy server still waiting for localhost:44457 (30/600s)

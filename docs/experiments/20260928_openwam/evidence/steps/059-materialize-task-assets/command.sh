@@ -1,0 +1,1 @@
+source /path/to/robodojo-openwam/project-env.sh; python3 -u "$PROJECT/scripts/prepare_task_assets.py" > "$PROJECT/logs/task-assets-materialize.log" 2>&1; rc=$?; echo $rc > "$PROJECT/logs/task-assets-materialize.exit"; tail -c 2300 "$PROJECT/logs/task-assets-materialize.log"; exit $rc

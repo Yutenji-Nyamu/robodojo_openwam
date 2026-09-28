@@ -1,0 +1,14 @@
+/path/to/robodojo-openwam/RoboDojo/third_party/curobo/setup.py
+/path/to/robodojo-openwam/RoboDojo/third_party/curobo/pyproject.toml
+7:This file handles optional CUDA extension compilation via pybind11.
+29:    # Only import torch if compiling
+31:        from torch.utils.cpp_extension import BuildExtension, CUDAExtension
+34:            "nvcc": [
+46:            extra_cuda_args["nvcc"].append("--allow-unsupported-compiler")
+50:            CUDAExtension(
+60:            CUDAExtension(
+70:            CUDAExtension(
+79:            CUDAExtension(
+92:        cmdclass = {"build_ext": BuildExtension}
+95:        print(f"Warning: Could not import torch for compilation: {e}")
+100:# This setup.py only handles optional CUDA extension compilation

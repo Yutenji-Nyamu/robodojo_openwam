@@ -1,0 +1,1 @@
+find /path/to/robodojo-openwam/RoboDojo/third_party/curobo -maxdepth 2 -name setup.py -o -name pyproject.toml; grep -nE "CUDA|Extension|nvcc|warp|torch" /path/to/robodojo-openwam/RoboDojo/third_party/curobo/setup.py

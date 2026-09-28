@@ -1,0 +1,1 @@
+sed -n '90,165p' /path/to/robodojo-openwam/RoboDojo/scripts/eval_policy.sh; cat /path/to/robodojo-openwam/RoboDojo/env_cfg/sim/sim_config.yml
