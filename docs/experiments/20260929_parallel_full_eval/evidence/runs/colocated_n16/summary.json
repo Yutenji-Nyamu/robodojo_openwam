@@ -1,0 +1,155 @@
+{
+  "status": "complete",
+  "wall_seconds": 1654.7798058986664,
+  "successes": 14,
+  "episodes": 16,
+  "formal_result_counts_complete": true,
+  "observed_result_counts": {
+    "successes": 14,
+    "episodes": 16,
+    "note": "Raw collected result counts; only status=complete enters formal success/episode statistics."
+  },
+  "server_ready_after_seconds": 149.9190604686737,
+  "server_ready_to_end_seconds": 1504.8607454299927,
+  "step_count_source": "resources.action_steps",
+  "steps": {
+    "observed_step_events": 6845,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 6845,
+    "episode_step_counts_by_env": {
+      "0": [
+        335
+      ],
+      "1": [
+        294
+      ],
+      "2": [
+        253
+      ],
+      "3": [
+        436
+      ],
+      "4": [
+        349
+      ],
+      "5": [
+        800
+      ],
+      "6": [
+        429
+      ],
+      "7": [
+        365
+      ],
+      "8": [
+        430
+      ],
+      "9": [
+        380
+      ],
+      "10": [
+        417
+      ],
+      "11": [
+        323
+      ],
+      "12": [
+        337
+      ],
+      "13": [
+        409
+      ],
+      "14": [
+        800
+      ],
+      "15": [
+        488
+      ]
+    },
+    "counter_episode_count": 16
+  },
+  "action_window": {
+    "available": true,
+    "observed_window_seconds": 1320.8996169567108,
+    "window_seconds_bounds_from_sampling": [
+      1318.3119611740112,
+      1323.166668176651
+    ],
+    "timed_step_events": 6845,
+    "sampling_note": "Events occurred since the previous resource sample. First/last timestamps are observation times, not exact action timestamps.",
+    "aggregate_control_steps_per_second": 5.182074331863727,
+    "rate_bounds_from_sampling": [
+      5.1731956106727965,
+      5.192245994570394
+    ],
+    "first_observed_group_elapsed_s": 322.44056606292725,
+    "last_observed_group_elapsed_s": 1643.340183019638
+  },
+  "process_tree_rss_peak_gib": 49.001739501953125,
+  "post_ready_process_tree_rss_peak_gib": 38.03706359863281,
+  "resource_samples": 707,
+  "sample_interval_mean_seconds": 2.343463406346675,
+  "throughput": {
+    "whole_run_control_steps_per_second": 4.136502014104931,
+    "whole_run_episodes_per_hour": 34.80825653943667,
+    "observed_action_control_steps_per_second": 5.182074331863727,
+    "observed_action_control_steps_per_second_per_physical_gpu": 5.182074331863727
+  },
+  "warnings": [],
+  "run_id": "colocated_n16",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 16,
+  "requested_episodes": 16,
+  "exit_code": 0,
+  "gpu": {
+    "shared_gpu": {
+      "roles": [
+        "sim",
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 707,
+        "peak_memory_mib": 44314,
+        "peak_memory_gib": 43.275390625,
+        "utilization_time_weighted_mean_percent": 35.95675628431635,
+        "utilization_sample_mean_percent": 35.49080622347949,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.7072135785007072,
+        "busy_samples_only_mean_percent": 50.184,
+        "time_weighted_coverage_seconds": 1654.4851648807526
+      },
+      "post_server_ready": {
+        "samples": 641,
+        "peak_memory_mib": 44314,
+        "peak_memory_gib": 43.275390625,
+        "utilization_time_weighted_mean_percent": 39.498385919284395,
+        "utilization_sample_mean_percent": 39.10920436817473,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.7675507020280812,
+        "busy_samples_only_mean_percent": 50.953252032520325,
+        "time_weighted_coverage_seconds": 1504.8599650859833
+      },
+      "observed_action_window": {
+        "samples": 560,
+        "peak_memory_mib": 44314,
+        "peak_memory_gib": 43.275390625,
+        "utilization_time_weighted_mean_percent": 42.00238226870048,
+        "utilization_sample_mean_percent": 41.65714285714286,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.8107142857142857,
+        "busy_samples_only_mean_percent": 51.38325991189427,
+        "time_weighted_coverage_seconds": 1320.8996169567108
+      }
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 0.0
+}

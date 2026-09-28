@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-09-29T00:33:50+08:00",
+  "phase": "armed_waiting_official_assets",
+  "full_evaluation_complete": false,
+  "requested_episodes": 6300,
+  "completed_episodes": 0,
+  "completed_task_seed_configurations": 0,
+  "note": "后台流程已于上述时间启动，当前等待完整官方资产。资产校验与源码发布两个条件满足后，自动开始四卡正式评测；目前正式回合数为 0，没有全基准结果。批次结束并确认进程退出、资源释放后，按原计划归还资源。",
+  "run_id": "official6300-n4-dual-20260929",
+  "launch_time": "2026-09-29T00:33:50+08:00",
+  "assets_verified": false,
+  "active_seed": null,
+  "evaluation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "gpu_count": 4,
+  "workers_per_gpu": 2,
+  "envs_per_worker": 4,
+  "launcher_validation": {
+    "dojo_controller_cpu_tests_passed": 9,
+    "scope": "CPU-only controller checks; no formal simulator episodes."
+  }
+}

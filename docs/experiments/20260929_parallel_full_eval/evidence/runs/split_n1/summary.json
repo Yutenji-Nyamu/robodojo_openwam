@@ -1,0 +1,117 @@
+{
+  "status": "complete",
+  "wall_seconds": 599.1124174594879,
+  "successes": 4,
+  "episodes": 4,
+  "formal_result_counts_complete": true,
+  "observed_result_counts": {
+    "successes": 4,
+    "episodes": 4,
+    "note": "Raw collected result counts; only status=complete enters formal success/episode statistics."
+  },
+  "server_ready_after_seconds": 156.87458848953247,
+  "server_ready_to_end_seconds": 442.23782896995544,
+  "step_count_source": "stdout_ansi_stripped_counters",
+  "steps": {
+    "observed_step_events": 1297,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 1297,
+    "episode_step_counts_by_env": {
+      "0": [
+        324,
+        274,
+        245,
+        454
+      ]
+    },
+    "counter_episode_count": 4
+  },
+  "action_window": {
+    "available": false,
+    "reason": "No timestamped action_steps in collected resources; stdout counters alone do not establish action times."
+  },
+  "process_tree_rss_peak_gib": 47.84701156616211,
+  "post_ready_process_tree_rss_peak_gib": 25.815624237060547,
+  "resource_samples": 264,
+  "sample_interval_mean_seconds": 2.2770623662172613,
+  "throughput": {
+    "whole_run_control_steps_per_second": 2.164869166791562,
+    "whole_run_episodes_per_hour": 24.035555899613332,
+    "observed_action_control_steps_per_second": null,
+    "observed_action_control_steps_per_second_per_physical_gpu": null
+  },
+  "warnings": [],
+  "run_id": "split_n1",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 1,
+  "requested_episodes": 4,
+  "exit_code": 0,
+  "gpu": {
+    "simulation_gpu": {
+      "roles": [
+        "sim"
+      ],
+      "whole_run": {
+        "samples": 264,
+        "peak_memory_mib": 10226,
+        "peak_memory_gib": 9.986328125,
+        "utilization_time_weighted_mean_percent": 20.70746528141231,
+        "utilization_sample_mean_percent": 20.606060606060606,
+        "utilization_peak_observed_percent": 75,
+        "nonzero_utilization_sample_fraction": 0.5416666666666666,
+        "busy_samples_only_mean_percent": 38.04195804195804,
+        "time_weighted_coverage_seconds": 598.8674023151398
+      },
+      "post_server_ready": {
+        "samples": 194,
+        "peak_memory_mib": 10226,
+        "peak_memory_gib": 9.986328125,
+        "utilization_time_weighted_mean_percent": 28.04155087393609,
+        "utilization_sample_mean_percent": 28.04123711340206,
+        "utilization_peak_observed_percent": 75,
+        "nonzero_utilization_sample_fraction": 0.7371134020618557,
+        "busy_samples_only_mean_percent": 38.04195804195804,
+        "time_weighted_coverage_seconds": 442.23752093315125
+      },
+      "observed_action_window": null
+    },
+    "policy_gpu": {
+      "roles": [
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 264,
+        "peak_memory_mib": 24936,
+        "peak_memory_gib": 24.3515625,
+        "utilization_time_weighted_mean_percent": 2.186384283262843,
+        "utilization_sample_mean_percent": 2.1856060606060606,
+        "utilization_peak_observed_percent": 49,
+        "nonzero_utilization_sample_fraction": 0.07954545454545454,
+        "busy_samples_only_mean_percent": 27.476190476190474,
+        "time_weighted_coverage_seconds": 598.8674023151398
+      },
+      "post_server_ready": {
+        "samples": 194,
+        "peak_memory_mib": 24936,
+        "peak_memory_gib": 24.3515625,
+        "utilization_time_weighted_mean_percent": 2.854783707373436,
+        "utilization_sample_mean_percent": 2.865979381443299,
+        "utilization_peak_observed_percent": 49,
+        "nonzero_utilization_sample_fraction": 0.07731958762886598,
+        "busy_samples_only_mean_percent": 37.06666666666667,
+        "time_weighted_coverage_seconds": 442.23752093315125
+      },
+      "observed_action_window": null
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 0.0
+}

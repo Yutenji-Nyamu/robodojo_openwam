@@ -1,0 +1,52 @@
+{
+  "success_rate": 0.7777777777777778,
+  "eval_time": 9,
+  "score": 81.11111111111113,
+  "details": {
+    "0": {
+      "layout_id": 0,
+      "success": true,
+      "score": 1.0
+    },
+    "1": {
+      "layout_id": 1,
+      "success": true,
+      "score": 1.0
+    },
+    "2": {
+      "layout_id": 2,
+      "success": true,
+      "score": 1.0
+    },
+    "3": {
+      "layout_id": 3,
+      "success": true,
+      "score": 1.0
+    },
+    "4": {
+      "layout_id": 4,
+      "success": true,
+      "score": 1.0
+    },
+    "5": {
+      "layout_id": 5,
+      "success": false,
+      "score": 0.15
+    },
+    "6": {
+      "layout_id": 6,
+      "success": false,
+      "score": 0.15
+    },
+    "7": {
+      "layout_id": 7,
+      "success": true,
+      "score": 1.0
+    },
+    "8": {
+      "layout_id": 8,
+      "success": true,
+      "score": 1.0
+    }
+  }
+}

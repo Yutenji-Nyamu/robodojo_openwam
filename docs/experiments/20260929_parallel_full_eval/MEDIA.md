@@ -1,0 +1,21 @@
+# 实际三路 RGB 检查帧
+
+从 N16 最后布局 15、双 N9 的一个 worker 布局 8、双 N4 的一个 worker 布局 3 提取。仅作为实际渲染与任务画面的抽查，不代表所有视频逐帧验证。原生 PNG 字节保留。
+
+![colocated_n16_episode_0000015_cam_head_success](media/colocated_n16_episode_0000015_cam_head_success.png)
+
+![colocated_n16_episode_0000015_cam_left_wrist_success](media/colocated_n16_episode_0000015_cam_left_wrist_success.png)
+
+![colocated_n16_episode_0000015_cam_right_wrist_success](media/colocated_n16_episode_0000015_cam_right_wrist_success.png)
+
+![dual_n9_worker_a_episode_0000008_cam_head_success](media/dual_n9_worker_a_episode_0000008_cam_head_success.png)
+
+![dual_n9_worker_a_episode_0000008_cam_left_wrist_success](media/dual_n9_worker_a_episode_0000008_cam_left_wrist_success.png)
+
+![dual_n9_worker_a_episode_0000008_cam_right_wrist_success](media/dual_n9_worker_a_episode_0000008_cam_right_wrist_success.png)
+
+![dual_n4_worker_a_episode_0000003_cam_head_success](media/dual_n4_worker_a_episode_0000003_cam_head_success.png)
+
+![dual_n4_worker_a_episode_0000003_cam_left_wrist_success](media/dual_n4_worker_a_episode_0000003_cam_left_wrist_success.png)
+
+![dual_n4_worker_a_episode_0000003_cam_right_wrist_success](media/dual_n4_worker_a_episode_0000003_cam_right_wrist_success.png)

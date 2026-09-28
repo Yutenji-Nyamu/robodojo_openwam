@@ -1,0 +1,134 @@
+{
+  "status": "complete",
+  "wall_seconds": 1306.0409395694733,
+  "successes": 7,
+  "episodes": 9,
+  "formal_result_counts_complete": true,
+  "observed_result_counts": {
+    "successes": 7,
+    "episodes": 9,
+    "note": "Raw collected result counts; only status=complete enters formal success/episode statistics."
+  },
+  "server_ready_after_seconds": 144.02334141731262,
+  "server_ready_to_end_seconds": 1162.0175981521606,
+  "step_count_source": "resources.action_steps",
+  "steps": {
+    "observed_step_events": 4093,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 4093,
+    "episode_step_counts_by_env": {
+      "0": [
+        334
+      ],
+      "1": [
+        297
+      ],
+      "2": [
+        253
+      ],
+      "3": [
+        462
+      ],
+      "4": [
+        355
+      ],
+      "5": [
+        800
+      ],
+      "6": [
+        800
+      ],
+      "7": [
+        360
+      ],
+      "8": [
+        432
+      ]
+    },
+    "counter_episode_count": 9
+  },
+  "action_window": {
+    "available": true,
+    "observed_window_seconds": 1012.8776898384094,
+    "window_seconds_bounds_from_sampling": [
+      1010.5993466377258,
+      1015.1729989051819
+    ],
+    "timed_step_events": 4093,
+    "sampling_note": "Events occurred since the previous resource sample. First/last timestamps are observation times, not exact action timestamps.",
+    "aggregate_control_steps_per_second": 4.040961747960883,
+    "rate_bounds_from_sampling": [
+      4.031825121840431,
+      4.050071884191745
+    ],
+    "first_observed_group_elapsed_s": 283.53130555152893,
+    "last_observed_group_elapsed_s": 1296.4089953899384
+  },
+  "process_tree_rss_peak_gib": 37.74681091308594,
+  "post_ready_process_tree_rss_peak_gib": 36.377601623535156,
+  "resource_samples": 553,
+  "sample_interval_mean_seconds": 2.365427828353384,
+  "throughput": {
+    "whole_run_control_steps_per_second": 3.133898697960592,
+    "whole_run_episodes_per_hour": 24.80779814657297,
+    "observed_action_control_steps_per_second": 4.040961747960883,
+    "observed_action_control_steps_per_second_per_physical_gpu": 4.040961747960883
+  },
+  "warnings": [],
+  "run_id": "dual_n9_worker_a",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 9,
+  "requested_episodes": 9,
+  "exit_code": 0,
+  "gpu": {
+    "shared_gpu": {
+      "roles": [
+        "sim",
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 553,
+        "peak_memory_mib": 76889,
+        "peak_memory_gib": 75.0869140625,
+        "utilization_time_weighted_mean_percent": 59.17677844881536,
+        "utilization_sample_mean_percent": 59.09764918625678,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.8698010849909584,
+        "busy_samples_only_mean_percent": 67.94386694386695,
+        "time_weighted_coverage_seconds": 1305.7161612510681
+      },
+      "post_server_ready": {
+        "samples": 491,
+        "peak_memory_mib": 76889,
+        "peak_memory_gib": 75.0869140625,
+        "utilization_time_weighted_mean_percent": 66.45061951397663,
+        "utilization_sample_mean_percent": 66.5132382892057,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.9674134419551935,
+        "busy_samples_only_mean_percent": 68.75368421052632,
+        "time_weighted_coverage_seconds": 1162.0166630744934
+      },
+      "observed_action_window": {
+        "samples": 428,
+        "peak_memory_mib": 76889,
+        "peak_memory_gib": 75.0869140625,
+        "utilization_time_weighted_mean_percent": 71.4572478077063,
+        "utilization_sample_mean_percent": 71.48364485981308,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.9929906542056075,
+        "busy_samples_only_mean_percent": 71.98823529411764,
+        "time_weighted_coverage_seconds": 1012.8776898384094
+      }
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 0.0
+}

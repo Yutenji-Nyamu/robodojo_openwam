@@ -1,0 +1,24 @@
+{
+  "RoboDojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "XPolicyLab": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "IsaacLab": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+  "cuRobo": "895c6517243f8cb091c73c018c8167192d39599a",
+  "RoboDawn_compatibility": "9247f366cd31f278e10f2fbe5fe8469b5f1b5b94",
+  "checkpoint": {
+    "repository": "OpenWAM/OpenWAM-Alpha-Sim-RoboDojo",
+    "revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+    "main_weight_sha256": "78ca4ef5d2f6c8fa877bcae8b40c36b3d8700547fd5a708b472c4564e5f40abb"
+  },
+  "assets": {
+    "repository": "RoboDojo-Benchmark/RoboDojo",
+    "revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab"
+  },
+  "hardware": "NVIDIA H100 80GB",
+  "driver": "595.71.05",
+  "Isaac_Sim": "5.1.0",
+  "simulator_python": "3.11",
+  "policy_python": "3.10",
+  "simulator_torch": "2.7.0+cu128",
+  "policy_torch": "2.7.1+cu128",
+  "public_repository_base": "ae9114f8eabb6e8532b3b1184be8026858cbb799"
+}

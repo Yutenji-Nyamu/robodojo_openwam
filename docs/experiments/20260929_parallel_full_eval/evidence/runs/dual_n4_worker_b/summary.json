@@ -1,0 +1,119 @@
+{
+  "status": "complete",
+  "wall_seconds": 594.3881149291992,
+  "successes": 4,
+  "episodes": 4,
+  "formal_result_counts_complete": true,
+  "observed_result_counts": {
+    "successes": 4,
+    "episodes": 4,
+    "note": "Raw collected result counts; only status=complete enters formal success/episode statistics."
+  },
+  "server_ready_after_seconds": 159.6255898475647,
+  "server_ready_to_end_seconds": 434.7625250816345,
+  "step_count_source": "resources.action_steps",
+  "steps": {
+    "observed_step_events": 1318,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 1318,
+    "episode_step_counts_by_env": {
+      "0": [
+        335
+      ],
+      "1": [
+        300
+      ],
+      "2": [
+        239
+      ],
+      "3": [
+        444
+      ]
+    },
+    "counter_episode_count": 4
+  },
+  "action_window": {
+    "available": true,
+    "observed_window_seconds": 303.5236165523529,
+    "window_seconds_bounds_from_sampling": [
+      301.2133991718292,
+      305.87246227264404
+    ],
+    "timed_step_events": 1318,
+    "sampling_note": "Events occurred since the previous resource sample. First/last timestamps are observation times, not exact action timestamps.",
+    "aggregate_control_steps_per_second": 4.342330969071945,
+    "rate_bounds_from_sampling": [
+      4.30898548436564,
+      4.375635358930822
+    ],
+    "first_observed_group_elapsed_s": 288.750741481781,
+    "last_observed_group_elapsed_s": 592.2743580341339
+  },
+  "process_tree_rss_peak_gib": 48.888671875,
+  "post_ready_process_tree_rss_peak_gib": 33.48080825805664,
+  "resource_samples": 247,
+  "sample_interval_mean_seconds": 2.4145199748558728,
+  "throughput": {
+    "whole_run_control_steps_per_second": 2.2174063829607262,
+    "whole_run_episodes_per_hour": 24.226594775898675,
+    "observed_action_control_steps_per_second": 4.342330969071945,
+    "observed_action_control_steps_per_second_per_physical_gpu": 4.342330969071945
+  },
+  "warnings": [],
+  "run_id": "dual_n4_worker_b",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 4,
+  "requested_episodes": 4,
+  "exit_code": 0,
+  "gpu": {
+    "shared_gpu": {
+      "roles": [
+        "sim",
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 247,
+        "peak_memory_mib": 70027,
+        "peak_memory_gib": 68.3857421875,
+        "utilization_time_weighted_mean_percent": 40.78045928023244,
+        "utilization_sample_mean_percent": 40.635627530364374,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.6518218623481782,
+        "busy_samples_only_mean_percent": 62.3416149068323,
+        "time_weighted_coverage_seconds": 593.9719138145447
+      },
+      "post_server_ready": {
+        "samples": 179,
+        "peak_memory_mib": 70027,
+        "peak_memory_gib": 68.3857421875,
+        "utilization_time_weighted_mean_percent": 55.49027971824923,
+        "utilization_sample_mean_percent": 55.8268156424581,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.8547486033519553,
+        "busy_samples_only_mean_percent": 65.31372549019608,
+        "time_weighted_coverage_seconds": 434.76177883148193
+      },
+      "observed_action_window": {
+        "samples": 127,
+        "peak_memory_mib": 70027,
+        "peak_memory_gib": 68.3857421875,
+        "utilization_time_weighted_mean_percent": 69.81150516321165,
+        "utilization_sample_mean_percent": 69.30708661417323,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.984251968503937,
+        "busy_samples_only_mean_percent": 70.416,
+        "time_weighted_coverage_seconds": 303.5236165523529
+      }
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 5.007659196853638
+}

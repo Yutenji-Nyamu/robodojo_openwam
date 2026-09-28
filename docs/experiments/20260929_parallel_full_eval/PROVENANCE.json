@@ -1,0 +1,224 @@
+[
+  {
+    "artifact": "evidence/runs/split_n1/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "3b40d784e6703c650edf05b9e2a54f75573c8e0b708ff7c6b1dfdf8aaf1dc721",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/split_n1/result.json",
+    "source_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "public_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/split_n1/resources.csv",
+    "source_sha256": "618bbd0731f2a81c8216b5b25100ce338c6aff819d365ac6492def80b462e058",
+    "public_sha256": "1b9e1eca2a3b3ba7c33567c575c1cef5e1997e5155bfbcb024d9ef16930cba39",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/split_n4/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "ca4f3b3cd354d9df429c8714363742d22d4ba95829fc58977884b2fbf262d433",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/split_n4/result.json",
+    "source_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "public_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/split_n4/resources.csv",
+    "source_sha256": "8c665e9e980e135515d34a7a9e860307bab657617cc201d935040b1038a145aa",
+    "public_sha256": "d7fe9efd88deebd464f9a65c6f77eb29b751a0e63265b2e36304f2275c0cdaaf",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/colocated_n16/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "4b35973512c18809ea8c4b5bdc1eaf19dbd92e592c7054aa8c8e1fa90d0962eb",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/colocated_n16/result.json",
+    "source_sha256": "f4544ede4f6980548c716a75d56809e2474b76c669c60a3bf20c9af1c8ae983d",
+    "public_sha256": "f4544ede4f6980548c716a75d56809e2474b76c669c60a3bf20c9af1c8ae983d",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/colocated_n16/resources.csv",
+    "source_sha256": "e942ab232727d2df672973877feab9e42ac9cc9b25649d91e6f70fc548bcc1b4",
+    "public_sha256": "ec2bd90302ac5fdf9c6897a375d0d10a4fa314867a52aa8971e9e4728c2c6821",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/colocated_n25_timeout/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "991e43622f71f51cea668ec8044ae4c68e1eece33f98c3290d48ac3ff502fec1",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/colocated_n25_timeout/resources.csv",
+    "source_sha256": "8f0921c5ce8023ce5617066436c18887463633b02686a598c6334753be06e306",
+    "public_sha256": "3b2e96b58d6b26de395eca9d4aab62b326bcb259c9dd81c8edd33e7441b512eb",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_a/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "76ad11e65449906cadb5e7f62d6188ffb6d8407ced37e8b6a11585f21e26dc9b",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_a/result.json",
+    "source_sha256": "af92c0552c300a206cff829825780cf06f16029ed1b3b0eb0123826ff76132b2",
+    "public_sha256": "af92c0552c300a206cff829825780cf06f16029ed1b3b0eb0123826ff76132b2",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_a/resources.csv",
+    "source_sha256": "d5549e4e72d705ad6217c166aa92619961c7d67930946034a756ad3d7e3d5420",
+    "public_sha256": "e58c3287d09942a8e36b570b574838d18bdd9a68c9d4052ad48ddecf4054a74c",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_b/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "a6f344ca97c5b11423f76a2d0f2f6dba3b8477048dffbed9a3ff689a12ccd4ea",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_b/result.json",
+    "source_sha256": "af92c0552c300a206cff829825780cf06f16029ed1b3b0eb0123826ff76132b2",
+    "public_sha256": "af92c0552c300a206cff829825780cf06f16029ed1b3b0eb0123826ff76132b2",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/dual_n9_worker_b/resources.csv",
+    "source_sha256": "1c1b160fc72db85c4244d64a0e0c15d77b20b87acdff78bece973a2c8ca46aff",
+    "public_sha256": "2cd07d148e073b6b0f23ee9928bbc625c8bc66574908f13a8fb75df51ab605c7",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_a/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "c8fd615c248f8c9d7b32da59620b18c8752c4b9cc03daf27e74de2240a473bb9",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_a/result.json",
+    "source_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "public_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_a/resources.csv",
+    "source_sha256": "f11c577eb21cef0c73a3d84c2ae62cbccaeba76b03e1e4860e6e8b966582f4be",
+    "public_sha256": "d3cf3e9bf62061c1ca4842932d9b4388f5083224c2df41b492cbe45c6fcc55fa",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_b/summary.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "427d51ca606b69d42d8b201d438c532910eadd4187952148619ec23e20bec443",
+    "transformation": "Selected metrics; run/GPU aliases; absolute source paths and timestamps omitted."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_b/result.json",
+    "source_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "public_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae",
+    "transformation": "Official result values unchanged; JSON formatting normalized."
+  },
+  {
+    "artifact": "evidence/runs/dual_n4_worker_b/resources.csv",
+    "source_sha256": "64caa3f7f67d0e8facd0cdd8c33d9bea88737b2ad31154d570fb9e87dcbd0da5",
+    "public_sha256": "a1e95329b76efc0835e4ae6526e1a8682574a1e252afa6a0c9a7f3c9389085dd",
+    "transformation": "Only this run GPU(s), elapsed time, process-tree RSS and cumulative action counts; other GPUs, process identities, system inventory and raw success lines excluded."
+  },
+  {
+    "artifact": "evidence/groups.json",
+    "source_sha256": "4ad039c0f3d07cd53ebd0819ec516cab6f5df9bfb271580ba419ec94ce79b491",
+    "public_sha256": "8379b6b50b9d1ddd69d173b93f9d6316413a2f7a45b1536019842759baf15cd6",
+    "transformation": "Selected completed groups with anonymous run/GPU labels."
+  },
+  {
+    "artifact": "media/colocated_n16_episode_0000015_cam_head_success.png",
+    "source_sha256": "850296e2877f26925659b5565956aa52443acfd84ff1131e0d2a9c53e54b9e7f",
+    "public_sha256": "850296e2877f26925659b5565956aa52443acfd84ff1131e0d2a9c53e54b9e7f",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/colocated_n16_episode_0000015_cam_left_wrist_success.png",
+    "source_sha256": "ff6cb000e7089c283a2970ca2eb0128e7e3651f1ccba67dc8e7c68e935174121",
+    "public_sha256": "ff6cb000e7089c283a2970ca2eb0128e7e3651f1ccba67dc8e7c68e935174121",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/colocated_n16_episode_0000015_cam_right_wrist_success.png",
+    "source_sha256": "8419d7861fb99ee8971d9b237df0d4454dbc3a514feda3d8eb4e4d703c82a343",
+    "public_sha256": "8419d7861fb99ee8971d9b237df0d4454dbc3a514feda3d8eb4e4d703c82a343",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n9_worker_a_episode_0000008_cam_head_success.png",
+    "source_sha256": "83afa1ccecd243e43145a1acf72062912c04ad034035c7fe55eee49057c907d5",
+    "public_sha256": "83afa1ccecd243e43145a1acf72062912c04ad034035c7fe55eee49057c907d5",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n9_worker_a_episode_0000008_cam_left_wrist_success.png",
+    "source_sha256": "1cf7bdf3b206b5fc647c29232b8ef353b9be400a8131d847331b789fe20a4c71",
+    "public_sha256": "1cf7bdf3b206b5fc647c29232b8ef353b9be400a8131d847331b789fe20a4c71",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n9_worker_a_episode_0000008_cam_right_wrist_success.png",
+    "source_sha256": "8c33b6fe7df0fa2c9e71de1e96df012f1218628353a1f781ecdd6959e059990d",
+    "public_sha256": "8c33b6fe7df0fa2c9e71de1e96df012f1218628353a1f781ecdd6959e059990d",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n4_worker_a_episode_0000003_cam_head_success.png",
+    "source_sha256": "ffaa5ccef33c776b650c8a9946319a01af257ac6e24cf0f354b4e82fb53f7dc9",
+    "public_sha256": "ffaa5ccef33c776b650c8a9946319a01af257ac6e24cf0f354b4e82fb53f7dc9",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n4_worker_a_episode_0000003_cam_left_wrist_success.png",
+    "source_sha256": "8940877716c4d7a37f1c04c8983f57bfd2bdb0df5280120fe40ea70d46b293c3",
+    "public_sha256": "8940877716c4d7a37f1c04c8983f57bfd2bdb0df5280120fe40ea70d46b293c3",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "media/dual_n4_worker_a_episode_0000003_cam_right_wrist_success.png",
+    "source_sha256": "a513448bb48815c176fa88e513e98537bee30166ef9e5b99705d1da06d0462d4",
+    "public_sha256": "a513448bb48815c176fa88e513e98537bee30166ef9e5b99705d1da06d0462d4",
+    "transformation": "Native frame bytes unchanged; output filename uses an anonymous run alias."
+  },
+  {
+    "artifact": "scripts/check_evidence.py",
+    "source_sha256": "9bb8c9c11dcda5ad71af8eaa9f49c0000a788a94869cd85fd0b4d792e2e6adbb",
+    "public_sha256": "9bb8c9c11dcda5ad71af8eaa9f49c0000a788a94869cd85fd0b4d792e2e6adbb",
+    "transformation": "Portable checker, unchanged."
+  },
+  {
+    "artifact": "scripts/dojo_sweep.py",
+    "source_sha256": "0fd4b6c7c5e24200d8c0ce53fe619b100ae6fc45b0ea9cc933149b4d3252e7c9",
+    "public_sha256": "2f497930e9e925fe09c1ee974debb0e9b3a257c14bca395283d3c33e70ec9b2d",
+    "transformation": "Only module description and outer-coordinator error wording generalized; runtime logic unchanged."
+  },
+  {
+    "artifact": "scripts/process_guard.py",
+    "source_sha256": "90b8605e4a687d6512e3a2dd4dd49299dd933f8cf1b7c5c9513623631beb92a6",
+    "public_sha256": "90b8605e4a687d6512e3a2dd4dd49299dd933f8cf1b7c5c9513623631beb92a6",
+    "transformation": "Explicitly reviewed portable launcher file, unchanged."
+  },
+  {
+    "artifact": "scripts/dojo_sweep.config.example.json",
+    "source_sha256": "a7c6a27cfe80883871c86c0573e0e4c850bad1694d1f1848e260fa876c1e8d9a",
+    "public_sha256": "313c91be5e2fd8bccee7f49d00387f9a587c5a7954711cb5e326bf1d253de3b4",
+    "transformation": "Deployment paths, run label and UID replaced by portable examples; deployment commit is an explicit fill-in, upstream dependency versions unchanged."
+  }
+]

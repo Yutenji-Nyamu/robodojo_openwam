@@ -1,0 +1,123 @@
+{
+  "status": "complete",
+  "wall_seconds": 504.62506198883057,
+  "successes": 4,
+  "episodes": 4,
+  "formal_result_counts_complete": true,
+  "observed_result_counts": {
+    "successes": 4,
+    "episodes": 4,
+    "note": "Raw collected result counts; only status=complete enters formal success/episode statistics."
+  },
+  "server_ready_after_seconds": 151.90296864509583,
+  "server_ready_to_end_seconds": 352.72209334373474,
+  "step_count_source": "stdout_ansi_stripped_counters",
+  "steps": {
+    "observed_step_events": 1315,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 1315,
+    "episode_step_counts_by_env": {
+      "0": [
+        335
+      ],
+      "1": [
+        298
+      ],
+      "2": [
+        246
+      ],
+      "3": [
+        436
+      ]
+    },
+    "counter_episode_count": 4
+  },
+  "action_window": {
+    "available": false,
+    "reason": "No timestamped action_steps in collected resources; stdout counters alone do not establish action times."
+  },
+  "process_tree_rss_peak_gib": 48.172332763671875,
+  "post_ready_process_tree_rss_peak_gib": 32.90081787109375,
+  "resource_samples": 223,
+  "sample_interval_mean_seconds": 2.27187109100926,
+  "throughput": {
+    "whole_run_control_steps_per_second": 2.6058951468191376,
+    "whole_run_episodes_per_hour": 28.536038109654434,
+    "observed_action_control_steps_per_second": null,
+    "observed_action_control_steps_per_second_per_physical_gpu": null
+  },
+  "warnings": [],
+  "run_id": "split_n4",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 4,
+  "requested_episodes": 4,
+  "exit_code": 0,
+  "gpu": {
+    "simulation_gpu": {
+      "roles": [
+        "sim"
+      ],
+      "whole_run": {
+        "samples": 223,
+        "peak_memory_mib": 9966,
+        "peak_memory_gib": 9.732421875,
+        "utilization_time_weighted_mean_percent": 21.58526835938465,
+        "utilization_sample_mean_percent": 21.49775784753363,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.484304932735426,
+        "busy_samples_only_mean_percent": 44.388888888888886,
+        "time_weighted_coverage_seconds": 504.3553822040558
+      },
+      "post_server_ready": {
+        "samples": 155,
+        "peak_memory_mib": 9966,
+        "peak_memory_gib": 9.732421875,
+        "utilization_time_weighted_mean_percent": 30.864683622234487,
+        "utilization_sample_mean_percent": 30.929032258064517,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.6967741935483871,
+        "busy_samples_only_mean_percent": 44.388888888888886,
+        "time_weighted_coverage_seconds": 352.72178411483765
+      },
+      "observed_action_window": null
+    },
+    "policy_gpu": {
+      "roles": [
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 223,
+        "peak_memory_mib": 25056,
+        "peak_memory_gib": 24.46875,
+        "utilization_time_weighted_mean_percent": 1.895211502078989,
+        "utilization_sample_mean_percent": 1.8923766816143497,
+        "utilization_peak_observed_percent": 90,
+        "nonzero_utilization_sample_fraction": 0.05829596412556054,
+        "busy_samples_only_mean_percent": 32.46153846153846,
+        "time_weighted_coverage_seconds": 504.3553822040558
+      },
+      "post_server_ready": {
+        "samples": 155,
+        "peak_memory_mib": 25056,
+        "peak_memory_gib": 24.46875,
+        "utilization_time_weighted_mean_percent": 2.567197691255707,
+        "utilization_sample_mean_percent": 2.574193548387097,
+        "utilization_peak_observed_percent": 90,
+        "nonzero_utilization_sample_fraction": 0.04516129032258064,
+        "busy_samples_only_mean_percent": 57,
+        "time_weighted_coverage_seconds": 352.72178411483765
+      },
+      "observed_action_window": null
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 0.0
+}

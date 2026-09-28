@@ -1,0 +1,262 @@
+[
+  {
+    "worker_count": 1,
+    "complete": true,
+    "physical_gpu_count": 1,
+    "normalization": "Sum completed worker action counts divided by the envelope from earliest first-action sample to latest last-action sample, then divided by distinct physical GPU count. Shared-GPU memory counters are merged, never added.",
+    "whole_group_window_seconds": 1654.7798058986664,
+    "total_control_steps": 6845,
+    "total_episodes": 16,
+    "observed_action_window_seconds": 1320.8996169567108,
+    "aggregate_control_steps_per_second": 5.182074331863727,
+    "control_steps_per_second_per_physical_gpu": 5.182074331863727,
+    "estimated_simultaneous_process_tree_rss_peak_gib": 49.001739501953125,
+    "rss_alignment_note": "Per-worker RSS samples combined using latest sample no older than 5 seconds; this is approximate and RSS shared pages may be counted more than once.",
+    "scenario_eta_four_gpus_hours": {
+      "400": 33.77026047734469,
+      "600": 50.65539071601703,
+      "781": 65.93643358201551
+    },
+    "eta_note": "Scenarios use 6300 episodes and the measured action-window throughput per physical GPU. Excludes cross-task model/simulator startup and reset, asset loading, retries and task-dependent throughput changes. Within-window resets or idle tails, if present in these probes, remain included. Not a promised full-benchmark runtime.",
+    "group": "colocated_n16",
+    "run_ids": [
+      "colocated_n16"
+    ],
+    "gpu": {
+      "shared_gpu": {
+        "whole_group_window": {
+          "samples": 707,
+          "peak_memory_mib": 44314,
+          "peak_memory_gib": 43.275390625,
+          "utilization_time_weighted_mean_percent": 35.95675628431635,
+          "utilization_sample_mean_percent": 35.49080622347949,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.7072135785007072,
+          "busy_samples_only_mean_percent": 50.184,
+          "time_weighted_coverage_seconds": 1654.4851648807526
+        },
+        "observed_action_window": {
+          "samples": 560,
+          "peak_memory_mib": 44314,
+          "peak_memory_gib": 43.275390625,
+          "utilization_time_weighted_mean_percent": 42.00238226870048,
+          "utilization_sample_mean_percent": 41.65714285714286,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.8107142857142857,
+          "busy_samples_only_mean_percent": 51.38325991189427,
+          "time_weighted_coverage_seconds": 1320.8996169567108
+        }
+      }
+    }
+  },
+  {
+    "worker_count": 1,
+    "complete": true,
+    "physical_gpu_count": 2,
+    "normalization": "Sum completed worker action counts divided by the envelope from earliest first-action sample to latest last-action sample, then divided by distinct physical GPU count. Shared-GPU memory counters are merged, never added.",
+    "whole_group_window_seconds": 599.1124174594879,
+    "total_control_steps": 1297,
+    "total_episodes": 4,
+    "observed_action_window_seconds": null,
+    "aggregate_control_steps_per_second": null,
+    "control_steps_per_second_per_physical_gpu": null,
+    "estimated_simultaneous_process_tree_rss_peak_gib": 47.84701156616211,
+    "rss_alignment_note": "Per-worker RSS samples combined using latest sample no older than 5 seconds; this is approximate and RSS shared pages may be counted more than once.",
+    "scenario_eta_four_gpus_hours": {
+      "400": null,
+      "600": null,
+      "781": null
+    },
+    "eta_note": "Scenarios use 6300 episodes and the measured action-window throughput per physical GPU. Excludes cross-task model/simulator startup and reset, asset loading, retries and task-dependent throughput changes. Within-window resets or idle tails, if present in these probes, remain included. Not a promised full-benchmark runtime.",
+    "group": "split_n1",
+    "run_ids": [
+      "split_n1"
+    ],
+    "gpu": {
+      "simulation_gpu": {
+        "whole_group_window": {
+          "samples": 264,
+          "peak_memory_mib": 10226,
+          "peak_memory_gib": 9.986328125,
+          "utilization_time_weighted_mean_percent": 20.70746528141231,
+          "utilization_sample_mean_percent": 20.606060606060606,
+          "utilization_peak_observed_percent": 75,
+          "nonzero_utilization_sample_fraction": 0.5416666666666666,
+          "busy_samples_only_mean_percent": 38.04195804195804,
+          "time_weighted_coverage_seconds": 598.8674023151398
+        },
+        "observed_action_window": null
+      },
+      "policy_gpu": {
+        "whole_group_window": {
+          "samples": 264,
+          "peak_memory_mib": 24936,
+          "peak_memory_gib": 24.3515625,
+          "utilization_time_weighted_mean_percent": 2.186384283262843,
+          "utilization_sample_mean_percent": 2.1856060606060606,
+          "utilization_peak_observed_percent": 49,
+          "nonzero_utilization_sample_fraction": 0.07954545454545454,
+          "busy_samples_only_mean_percent": 27.476190476190474,
+          "time_weighted_coverage_seconds": 598.8674023151398
+        },
+        "observed_action_window": null
+      }
+    }
+  },
+  {
+    "worker_count": 1,
+    "complete": true,
+    "physical_gpu_count": 2,
+    "normalization": "Sum completed worker action counts divided by the envelope from earliest first-action sample to latest last-action sample, then divided by distinct physical GPU count. Shared-GPU memory counters are merged, never added.",
+    "whole_group_window_seconds": 504.62506198883057,
+    "total_control_steps": 1315,
+    "total_episodes": 4,
+    "observed_action_window_seconds": null,
+    "aggregate_control_steps_per_second": null,
+    "control_steps_per_second_per_physical_gpu": null,
+    "estimated_simultaneous_process_tree_rss_peak_gib": 48.172332763671875,
+    "rss_alignment_note": "Per-worker RSS samples combined using latest sample no older than 5 seconds; this is approximate and RSS shared pages may be counted more than once.",
+    "scenario_eta_four_gpus_hours": {
+      "400": null,
+      "600": null,
+      "781": null
+    },
+    "eta_note": "Scenarios use 6300 episodes and the measured action-window throughput per physical GPU. Excludes cross-task model/simulator startup and reset, asset loading, retries and task-dependent throughput changes. Within-window resets or idle tails, if present in these probes, remain included. Not a promised full-benchmark runtime.",
+    "group": "split_n4",
+    "run_ids": [
+      "split_n4"
+    ],
+    "gpu": {
+      "simulation_gpu": {
+        "whole_group_window": {
+          "samples": 223,
+          "peak_memory_mib": 9966,
+          "peak_memory_gib": 9.732421875,
+          "utilization_time_weighted_mean_percent": 21.58526835938465,
+          "utilization_sample_mean_percent": 21.49775784753363,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.484304932735426,
+          "busy_samples_only_mean_percent": 44.388888888888886,
+          "time_weighted_coverage_seconds": 504.3553822040558
+        },
+        "observed_action_window": null
+      },
+      "policy_gpu": {
+        "whole_group_window": {
+          "samples": 223,
+          "peak_memory_mib": 25056,
+          "peak_memory_gib": 24.46875,
+          "utilization_time_weighted_mean_percent": 1.895211502078989,
+          "utilization_sample_mean_percent": 1.8923766816143497,
+          "utilization_peak_observed_percent": 90,
+          "nonzero_utilization_sample_fraction": 0.05829596412556054,
+          "busy_samples_only_mean_percent": 32.46153846153846,
+          "time_weighted_coverage_seconds": 504.3553822040558
+        },
+        "observed_action_window": null
+      }
+    }
+  },
+  {
+    "worker_count": 2,
+    "complete": true,
+    "physical_gpu_count": 1,
+    "normalization": "Sum completed worker action counts divided by the envelope from earliest first-action sample to latest last-action sample, then divided by distinct physical GPU count. Shared-GPU memory counters are merged, never added.",
+    "whole_group_window_seconds": 599.3957741260529,
+    "total_control_steps": 2636,
+    "total_episodes": 8,
+    "observed_action_window_seconds": 309.3980305194855,
+    "aggregate_control_steps_per_second": 8.51976981099105,
+    "control_steps_per_second_per_physical_gpu": 8.51976981099105,
+    "estimated_simultaneous_process_tree_rss_peak_gib": 97.40751647949219,
+    "rss_alignment_note": "Per-worker RSS samples combined using latest sample no older than 5 seconds; this is approximate and RSS shared pages may be counted more than once.",
+    "scenario_eta_four_gpus_hours": {
+      "400": 20.540461054973427,
+      "600": 30.810691582460144,
+      "781": 40.10525020983562
+    },
+    "eta_note": "Scenarios use 6300 episodes and the measured action-window throughput per physical GPU. Excludes cross-task model/simulator startup and reset, asset loading, retries and task-dependent throughput changes. Within-window resets or idle tails, if present in these probes, remain included. Not a promised full-benchmark runtime.",
+    "group": "dual_n4_worker_a+dual_n4_worker_b",
+    "run_ids": [
+      "dual_n4_worker_a",
+      "dual_n4_worker_b"
+    ],
+    "gpu": {
+      "shared_gpu": {
+        "whole_group_window": {
+          "samples": 494,
+          "peak_memory_mib": 70027,
+          "peak_memory_gib": 68.3857421875,
+          "utilization_time_weighted_mean_percent": 40.317389471075025,
+          "utilization_sample_mean_percent": 40.825910931174086,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.6538461538461539,
+          "busy_samples_only_mean_percent": 62.43962848297214,
+          "time_weighted_coverage_seconds": 599.0682272911072
+        },
+        "observed_action_window": {
+          "samples": 258,
+          "peak_memory_mib": 70027,
+          "peak_memory_gib": 68.3857421875,
+          "utilization_time_weighted_mean_percent": 70.09144106937525,
+          "utilization_sample_mean_percent": 70.46124031007751,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.9922480620155039,
+          "busy_samples_only_mean_percent": 71.01171875,
+          "time_weighted_coverage_seconds": 309.3980305194855
+        }
+      }
+    }
+  },
+  {
+    "worker_count": 2,
+    "complete": true,
+    "physical_gpu_count": 1,
+    "normalization": "Sum completed worker action counts divided by the envelope from earliest first-action sample to latest last-action sample, then divided by distinct physical GPU count. Shared-GPU memory counters are merged, never added.",
+    "whole_group_window_seconds": 1320.9804470539093,
+    "total_control_steps": 8139,
+    "total_episodes": 18,
+    "observed_action_window_seconds": 1028.2538402080536,
+    "aggregate_control_steps_per_second": 7.9153606645934635,
+    "control_steps_per_second_per_physical_gpu": 7.9153606645934635,
+    "estimated_simultaneous_process_tree_rss_peak_gib": 73.6159439086914,
+    "rss_alignment_note": "Per-worker RSS samples combined using latest sample no older than 5 seconds; this is approximate and RSS shared pages may be counted more than once.",
+    "scenario_eta_four_gpus_hours": {
+      "400": 22.10891043573036,
+      "600": 33.163365653595534,
+      "781": 43.16764762576353
+    },
+    "eta_note": "Scenarios use 6300 episodes and the measured action-window throughput per physical GPU. Excludes cross-task model/simulator startup and reset, asset loading, retries and task-dependent throughput changes. Within-window resets or idle tails, if present in these probes, remain included. Not a promised full-benchmark runtime.",
+    "group": "dual_n9_worker_a+dual_n9_worker_b",
+    "run_ids": [
+      "dual_n9_worker_a",
+      "dual_n9_worker_b"
+    ],
+    "gpu": {
+      "shared_gpu": {
+        "whole_group_window": {
+          "samples": 1111,
+          "peak_memory_mib": 76889,
+          "peak_memory_gib": 75.0869140625,
+          "utilization_time_weighted_mean_percent": 59.081785007305605,
+          "utilization_sample_mean_percent": 59.68856885688569,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.8721872187218722,
+          "busy_samples_only_mean_percent": 68.43550051599587,
+          "time_weighted_coverage_seconds": 1320.6557977199554
+        },
+        "observed_action_window": {
+          "samples": 866,
+          "peak_memory_mib": 76889,
+          "peak_memory_gib": 75.0869140625,
+          "utilization_time_weighted_mean_percent": 71.71502417463196,
+          "utilization_sample_mean_percent": 72.41916859122402,
+          "utilization_peak_observed_percent": 100,
+          "nonzero_utilization_sample_fraction": 0.9953810623556582,
+          "busy_samples_only_mean_percent": 72.75522041763341,
+          "time_weighted_coverage_seconds": 1028.2538402080536
+        }
+      }
+    }
+  }
+]

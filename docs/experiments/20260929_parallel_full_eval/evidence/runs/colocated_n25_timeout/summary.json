@@ -1,0 +1,180 @@
+{
+  "status": "timed_out",
+  "wall_seconds": 1803.374652147293,
+  "successes": null,
+  "episodes": null,
+  "formal_result_counts_complete": false,
+  "observed_result_counts": null,
+  "server_ready_after_seconds": 147.24365377426147,
+  "server_ready_to_end_seconds": 1656.1309983730316,
+  "step_count_source": "resources.action_steps",
+  "steps": {
+    "observed_step_events": 9544,
+    "consecutive_duplicate_events": 0,
+    "counter_sequences_contiguous": true,
+    "total_control_steps": 9544,
+    "episode_step_counts_by_env": {
+      "0": [
+        335
+      ],
+      "1": [
+        298
+      ],
+      "2": [
+        239
+      ],
+      "3": [
+        437
+      ],
+      "4": [
+        354
+      ],
+      "5": [
+        442
+      ],
+      "6": [
+        442
+      ],
+      "7": [
+        352
+      ],
+      "8": [
+        430
+      ],
+      "9": [
+        383
+      ],
+      "10": [
+        320
+      ],
+      "11": [
+        320
+      ],
+      "12": [
+        336
+      ],
+      "13": [
+        442
+      ],
+      "14": [
+        442
+      ],
+      "15": [
+        442
+      ],
+      "16": [
+        287
+      ],
+      "17": [
+        442
+      ],
+      "18": [
+        442
+      ],
+      "19": [
+        419
+      ],
+      "20": [
+        296
+      ],
+      "21": [
+        365
+      ],
+      "22": [
+        442
+      ],
+      "23": [
+        430
+      ],
+      "24": [
+        407
+      ]
+    },
+    "counter_episode_count": 25
+  },
+  "action_window": {
+    "available": true,
+    "observed_window_seconds": 1446.0626893043518,
+    "window_seconds_bounds_from_sampling": [
+      1443.7954676151276,
+      1448.3313636779785
+    ],
+    "timed_step_events": 9544,
+    "sampling_note": "Events occurred since the previous resource sample. First/last timestamps are observation times, not exact action timestamps.",
+    "aggregate_control_steps_per_second": 6.599990491830801,
+    "rate_bounds_from_sampling": [
+      6.589652229696525,
+      6.610354592513614
+    ],
+    "first_observed_group_elapsed_s": 355.05347204208374,
+    "last_observed_group_elapsed_s": 1801.1161613464355
+  },
+  "process_tree_rss_peak_gib": 47.25333023071289,
+  "post_ready_process_tree_rss_peak_gib": 45.350669860839844,
+  "resource_samples": 773,
+  "sample_interval_mean_seconds": 2.335707137621746,
+  "throughput": {
+    "whole_run_control_steps_per_second": 5.292300182125706,
+    "whole_run_episodes_per_hour": null,
+    "observed_action_control_steps_per_second": 6.599990491830801,
+    "observed_action_control_steps_per_second_per_physical_gpu": 6.599990491830801
+  },
+  "warnings": [
+    "Outer timeout truncated this capacity probe; unfinished episodes are not model failures."
+  ],
+  "run_id": "colocated_n25_timeout",
+  "task": "stack_bowls",
+  "seed": 0,
+  "num_envs": 25,
+  "requested_episodes": 25,
+  "exit_code": 124,
+  "gpu": {
+    "shared_gpu": {
+      "roles": [
+        "sim",
+        "policy"
+      ],
+      "whole_run": {
+        "samples": 773,
+        "peak_memory_mib": 49193,
+        "peak_memory_gib": 48.0400390625,
+        "utilization_time_weighted_mean_percent": 33.7335991635274,
+        "utilization_sample_mean_percent": 33.82664941785252,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.6765847347994826,
+        "busy_samples_only_mean_percent": 49.996175908221794,
+        "time_weighted_coverage_seconds": 1803.165910243988
+      },
+      "post_server_ready": {
+        "samples": 708,
+        "peak_memory_mib": 49193,
+        "peak_memory_gib": 48.0400390625,
+        "utilization_time_weighted_mean_percent": 36.7099882396955,
+        "utilization_sample_mean_percent": 36.91242937853107,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.7330508474576272,
+        "busy_samples_only_mean_percent": 50.35452793834297,
+        "time_weighted_coverage_seconds": 1656.1303584575653
+      },
+      "observed_action_window": {
+        "samples": 616,
+        "peak_memory_mib": 49193,
+        "peak_memory_gib": 48.0400390625,
+        "utilization_time_weighted_mean_percent": 38.193237536429805,
+        "utilization_sample_mean_percent": 38.48376623376623,
+        "utilization_peak_observed_percent": 100,
+        "nonzero_utilization_sample_fraction": 0.7483766233766234,
+        "busy_samples_only_mean_percent": 51.42299349240781,
+        "time_weighted_coverage_seconds": 1446.0626893043518
+      }
+    }
+  },
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "control_hz": 25,
+  "action_chunk": 32,
+  "denoise_steps": 10,
+  "start_offset_seconds_in_group": 0.0
+}
