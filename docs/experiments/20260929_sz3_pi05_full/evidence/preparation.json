@@ -1,0 +1,10 @@
+{
+  "state": "prepared; no RLT stop or formal launch yet",
+  "cycle": "rlt-cycle-sz3-pi05-full-20260929-v1",
+  "rlt_test_count": 10,
+  "dojo_test_count": 13,
+  "cpu_tests_passed": true,
+  "helper_sha256": "009cb0179795d6b4011d35478e8dc962fc5af3603ea6773be976136cf0aeb788",
+  "restoration": "latest valid checkpoint with same accumulated 3000-round target; resume only after exact Dojo process and GPU release",
+  "shared_ray_action": "none"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "step": "p001-sz3-live",
+    "host": "sz3",
+    "started": "2026-09-29T15:00:53.684689+08:00",
+    "command_sha256": "951b11e3ff4521ce61f29cd591b71813005edbea34118c3d7b52bc12d27b9c91",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:00:57.448327+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p002-sz2-reference",
+    "host": "sz2",
+    "started": "2026-09-29T15:01:58.339804+08:00",
+    "command_sha256": "b995bbbbb28bca2023cf4c750eec16aa35d18cc2e3d6da91990df20c53c4ea5f",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:01:59.602384+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p003-sz2-controller-diagnostic",
+    "host": "sz2",
+    "started": "2026-09-29T15:02:35.467832+08:00",
+    "command_sha256": "38769c2cd52b85bcdfe07fa7607784198d3ff1ad9db0c1b8e7a9acca3523ee7c",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:02:35.599807+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p004-start-extra-checkpoints",
+    "host": "sz3",
+    "started": "2026-09-29T15:04:40.736773+08:00",
+    "command_sha256": "2ad52b170863cddf46f1db6435a906b6c2ee94501c639b982490620c5f25b2ff",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:04:41.028851+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p005-download-progress",
+    "host": "sz3",
+    "started": "2026-09-29T15:05:17.024666+08:00",
+    "command_sha256": "536a6830eeb2ba378d327da7f4016fd098ba70688eef5ed05898ca3c55042b51",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:05:17.158331+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p006-formal-prepare-directories",
+    "host": "sz3",
+    "started": "2026-09-29T15:07:45.734564+08:00",
+    "command_sha256": "8fdb8762b0c6a11a9f854fa895074af350d6aaad2d19a909bc48e093a149b680",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:07:45.870706+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p007-formal-cpu-checks",
+    "host": "sz3",
+    "started": "2026-09-29T15:08:44.619369+08:00",
+    "command_sha256": "886c7b8a5b456bb31f4615063eb4ba5abc17bcc52ecae6f67270794e4b2fdb18",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:08:48.044569+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p008-formal-config-rlt-prepare",
+    "host": "sz3",
+    "started": "2026-09-29T15:10:49.616938+08:00",
+    "command_sha256": "2d4a02be6e77a47e04a123943d9430494e6d3ef9ef23c3499190e35c645458b0",
+    "exit_code": 1,
+    "finished": "2026-09-29T15:10:54.899317+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p009-preparation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T15:11:47.479533+08:00",
+    "command_sha256": "bcc74384cf6bf9fb16a1f98fbdc8f0ca2b436e3efb95cf0c9c78489a7761e2fe",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:11:47.861750+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p010-current-rlt-prepare",
+    "host": "sz3",
+    "started": "2026-09-29T15:11:52.776787+08:00",
+    "command_sha256": "56a1747410fae3be4b4264bf952aee267bf1e48fd985c2f766599a3705b1d6d1",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:12:22.219491+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p011-asset-import-detail",
+    "host": "sz3",
+    "started": "2026-09-29T15:12:23.754439+08:00",
+    "command_sha256": "0a9a322ae3891f7cf79a880e4bbb6596f76b46b7f7757374c02043487ff0606d",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:12:24.207827+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p012-stop-asset-transfer-for-resume",
+    "host": "sz3",
+    "started": "2026-09-29T15:13:41.064591+08:00",
+    "command_sha256": "9086765ac32052386191c9434287432c381a143c9e528c0509bbbebfc9b636e8",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:13:42.648667+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p013-assets-retry-progress",
+    "host": "sz3",
+    "started": "2026-09-29T15:15:12.139131+08:00",
+    "command_sha256": "07a2edf73123d9042730ba02d7b017f4918ca9d94a7c923ce54ee345e46f22af",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:15:12.269764+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p014-seed-readiness-regression",
+    "host": "sz3",
+    "started": "2026-09-29T15:15:56.276977+08:00",
+    "command_sha256": "ecd38a6d94331f7cca8c8ffbc975954265d3e453232fcb4312b71a4cef2c2976",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:15:59.469750+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p015-formal-plan-check",
+    "host": "sz3",
+    "started": "2026-09-29T15:16:40.177287+08:00",
+    "command_sha256": "d283f02ef0bd1eacdfae229275687b85ac9feabec9c0e2defe109352e109e18c",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:16:41.925297+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p016-process-identity-checks",
+    "host": "sz3",
+    "started": "2026-09-29T15:17:38.585124+08:00",
+    "command_sha256": "fe8be3954e812a591db5936c6d7def7d285769347f770d3fd130caaa65e06ef6",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:17:42.902637+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p017-readiness-progress",
+    "host": "sz3",
+    "started": "2026-09-29T15:18:22.599152+08:00",
+    "command_sha256": "54736164723ae53df0df11fedbce7b6addc245e6add102daa7d9d51eb32a004e",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:18:22.813215+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p018-preparation-status",
+    "host": "sz3",
+    "started": "2026-09-29T15:21:57.375305+08:00",
+    "command_sha256": "54736164723ae53df0df11fedbce7b6addc245e6add102daa7d9d51eb32a004e",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:21:57.746319+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p019-preparation-status",
+    "host": "sz3",
+    "started": "2026-09-29T15:22:56.451349+08:00",
+    "command_sha256": "54736164723ae53df0df11fedbce7b6addc245e6add102daa7d9d51eb32a004e",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:22:56.581040+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p020-stage-formal-publication",
+    "host": "sz3",
+    "started": "2026-09-29T15:24:49.821681+08:00",
+    "command_sha256": "40d80b9d34c524c3ddd3a9cc3c4d4374c2ef125b0cafb30a55744a1b0e4cb9c0",
+    "exit_code": 1,
+    "finished": "2026-09-29T15:24:53.095509+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  }
+]
