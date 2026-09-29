@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-09-29T13:58:00+08:00",
+  "source_head": "64e43bcc3036ca68091347530225d657df18feb0",
+  "branch": "codex/sz3-dojo-openwam-pi05",
+  "task_episodes_completed": 0,
+  "task_successes": 0,
+  "successful_videos": 0,
+  "probes": [
+    {
+      "name": "sz3_sim_probe_g1_cuda_20260929_134546",
+      "bytes": 135680,
+      "exit": "124",
+      "constructor_returned": false,
+      "device_lost": true
+    },
+    {
+      "name": "sz3_sim_probe_g2_20260929_133955",
+      "bytes": 133262,
+      "exit": "124",
+      "constructor_returned": false,
+      "device_lost": true
+    },
+    {
+      "name": "sz3_sim_probe_g2_cuda_20260929_134247",
+      "bytes": 148015,
+      "exit": "124",
+      "constructor_returned": false,
+      "device_lost": true
+    },
+    {
+      "name": "sz3_sim_probe_g2_registration_20260929_135327",
+      "bytes": 136410,
+      "exit": "124",
+      "constructor_returned": false,
+      "device_lost": true
+    },
+    {
+      "name": "sz3_sim_probe_g3_cuda_20260929_134905",
+      "bytes": 136083,
+      "exit": "124",
+      "constructor_returned": false,
+      "device_lost": true
+    }
+  ],
+  "runs": [
+    {
+      "name": "sz3_openwam_stack_bowls_s0_20260929_131209_compat",
+      "exit": "2"
+    },
+    {
+      "name": "sz3_openwam_stack_bowls_s0_20260929_132541_eglfix",
+      "exit": "139"
+    },
+    {
+      "name": "sz3_pi05_load_20260929_135607",
+      "exit": "0"
+    }
+  ],
+  "gpu_snapshot": "0, 442 MiB, 0 %\n1, 4 MiB, 0 %\n2, 5 MiB, 0 %\n3, 4 MiB, 0 %\n4, 11482 MiB, 0 %\n5, 11482 MiB, 1 %\n6, 23792 MiB, 0 %\n7, 23792 MiB, 0 %\n",
+  "pi05_load": {
+    "run": "sz3_pi05_load_20260929_135607",
+    "kind": "model_load_only",
+    "ready": true,
+    "gpu_memory_mib": 24880,
+    "helper_exit": 0,
+    "planned_child_cleanup_exit": -15,
+    "task_inference_tested": false
+  },
+  "install_exit": {
+    "sim": 0,
+    "openwam": 0,
+    "pi05_r2": 0,
+    "prepare_sim": 0
+  },
+  "gpu_reset_attempted": false,
+  "rlt_stopped": false
+}

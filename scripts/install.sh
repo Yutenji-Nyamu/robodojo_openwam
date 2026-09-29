@@ -125,7 +125,7 @@ setup_submodules() {
   git submodule sync "${subs[@]}"
   for sub in "${subs[@]}"; do
     info "    Updating ${sub} from remote..."
-    git submodule update --init --remote --progress "$sub" || {
+    git submodule update --init --progress "$sub" || {
       [ "$sub" = "XPolicyLab" ] && error "Failed to clone XPolicyLab. Ensure HTTPS auth (e.g. gh auth login)."
       error "Failed to update $sub."
     }

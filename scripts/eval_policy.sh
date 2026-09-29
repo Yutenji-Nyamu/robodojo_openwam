@@ -3,6 +3,14 @@ set -euo pipefail
 
 # Local environment libraries provide libGLU and C++ runtime for Isaac Sim.
 export LD_LIBRARY_PATH="${CONDA_PREFIX:?}/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+# Optional process-local links for missing NVIDIA driver library names.
+if [[ -n "${ROBODOJO_NVIDIA_LIBRARY_DIR:-}" ]]; then
+  export LD_LIBRARY_PATH="$ROBODOJO_NVIDIA_LIBRARY_DIR:$LD_LIBRARY_PATH"
+fi
+# Optional process-local EGL vendor registration for incomplete host manifests.
+if [[ -n "${ROBODOJO_EGL_VENDOR_FILE:-}" ]]; then
+  export __EGL_VENDOR_LIBRARY_FILENAMES="$ROBODOJO_EGL_VENDOR_FILE"
+fi
 
 # Ensure project root is on PYTHONPATH so first-party imports like `env`, `task`, and `utils` work.
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

@@ -1,0 +1,27 @@
+{
+  "base_commit": "64e43bcc3036ca68091347530225d657df18feb0",
+  "upstream_robodojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "xpolicylab": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "isaaclab": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+  "curobo": "895c6517243f8cb091c73c018c8167192d39599a",
+  "robodawn_compat": "9247f366cd31f278e10f2fbe5fe8469b5f1b5b94",
+  "assets": {
+    "revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+    "verified_files": 284,
+    "verified_bytes": 573739871,
+    "scope": "stack_bowls seed0 subset"
+  },
+  "openwam": {
+    "repository": "OpenWAM/OpenWAM-Alpha-Sim-RoboDojo",
+    "revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+    "main_sha256": "78ca4ef5d2f6c8fa877bcae8b40c36b3d8700547fd5a708b472c4564e5f40abb"
+  },
+  "pi05": {
+    "repository": "RoboDojo-Benchmark/RoboDojo",
+    "revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+    "checkpoint": "ckpt/RoboDojo/Pi_05/RoboDojo-sim-arx_x5-joint-0/59999",
+    "inference_files": 18,
+    "verified_bytes": 12440992402,
+    "train_state_downloaded": false
+  }
+}
