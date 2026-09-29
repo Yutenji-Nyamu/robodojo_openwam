@@ -1,0 +1,141 @@
+{
+  "preservation": {
+    "episodes": 440,
+    "protocol_unchanged": true,
+    "source_hashes_unchanged": true,
+    "controller_hashes_unchanged": true,
+    "config_sha256": "4e70ef9d614c89fbeb87d7293526481c89d27ccc0d74fa4700cf1cfb2ef0735d",
+    "continuation_sha256": "4e7f4cb53d28653e4c9f2931308010ddaa41bac0c46b8430b9707abaf982323b",
+    "tasks": [
+      {
+        "task": "build_tower",
+        "seed": 0,
+        "expected": 50,
+        "action": "skip_complete",
+        "episodes": 50,
+        "successes": 16
+      },
+      {
+        "task": "classify_objects",
+        "seed": 0,
+        "expected": 50,
+        "action": "skip_complete",
+        "episodes": 50,
+        "successes": 6
+      },
+      {
+        "task": "classify_objects_by_language",
+        "seed": 0,
+        "expected": 50,
+        "action": "skip_complete",
+        "episodes": 50,
+        "successes": 0
+      },
+      {
+        "task": "fasten_screws",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 44,
+        "successes": 2
+      },
+      {
+        "task": "fill_pen_holder",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 20,
+        "successes": 1
+      },
+      {
+        "task": "imitate_sorting_sequence",
+        "seed": 0,
+        "expected": 50,
+        "action": "skip_complete",
+        "episodes": 50,
+        "successes": 0
+      },
+      {
+        "task": "make_toast_random",
+        "seed": 0,
+        "expected": 25,
+        "action": "reuse_manifest",
+        "episodes": 4,
+        "successes": 0
+      },
+      {
+        "task": "organize_table",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 16,
+        "successes": 0
+      },
+      {
+        "task": "play_stacking_toy",
+        "seed": 0,
+        "expected": 50,
+        "action": "skip_complete",
+        "episodes": 50,
+        "successes": 0
+      },
+      {
+        "task": "play_tic_tac_toe",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 34,
+        "successes": 0
+      },
+      {
+        "task": "pour_by_language",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 48,
+        "successes": 0
+      },
+      {
+        "task": "store_tools_in_toolbox",
+        "seed": 0,
+        "expected": 50,
+        "action": "reuse_manifest",
+        "episodes": 24,
+        "successes": 0
+      }
+    ]
+  },
+  "rlt": {
+    "cycle": "rlt-cycle-sz3-pi05-gpu7-v1",
+    "all_original_drivers_stopped": true,
+    "all_original_namespaces_empty": true,
+    "gpus_released": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "recovery": {
+      "gpu4": {
+        "mode": "resume_checkpoint",
+        "checkpoint_step": 25
+      },
+      "gpu5": {
+        "mode": "resume_checkpoint",
+        "checkpoint_step": 25
+      },
+      "gpu6": {
+        "mode": "resume_checkpoint",
+        "checkpoint_step": 25
+      },
+      "gpu7": {
+        "mode": "resume_checkpoint",
+        "checkpoint_step": 25
+      }
+    },
+    "resume_dispatched": false
+  },
+  "current_plan_sha256": "637c8cfb624f2758c578779bbb42146cd63f43d454a05039c89abce4cff9f75f",
+  "deployment_head": "50aab2b28298db42c4b25c59c8967eae8d91e84c",
+  "time": 1790688757.3470068
+}

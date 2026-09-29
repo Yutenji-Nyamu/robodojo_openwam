@@ -1,0 +1,10 @@
+{
+  "state": "reset_completed",
+  "uuid": "GPU-0423def8-ef84-a808-6582-7dc2130f58fc",
+  "gpu": 7,
+  "pci": "00000000:C1:00.0",
+  "time": 1790688151.2307615,
+  "exit_code": 0,
+  "stdout": "GPU 00000000:C1:00.0 was successfully reset.\nAll done.\n",
+  "stderr": ""
+}

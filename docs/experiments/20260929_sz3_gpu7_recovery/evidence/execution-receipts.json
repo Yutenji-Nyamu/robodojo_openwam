@@ -1,0 +1,272 @@
+[
+  {
+    "step": "p061-stage-32-env-launch",
+    "host": "sz3",
+    "started": "2026-09-29T15:56:07.744516+08:00",
+    "command_sha256": "b5b421a1ecc2adcad2129167667ec10fe2e5ca8778d2a41af87f999ec845a25d",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:56:08.059854+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p062-publish-confirmed-launch",
+    "host": "sz3",
+    "started": "2026-09-29T15:56:30.169074+08:00",
+    "command_sha256": "3398d0b46291f9c604cda3bcd311cf058a4e4082526ce944759ca72de9be91f3",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:56:41.236862+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p063-final-runtime-identity",
+    "host": "sz3",
+    "started": "2026-09-29T15:57:05.656966+08:00",
+    "command_sha256": "fa4856c55698bfbd28bf1416fd056f72a2135bf8a71f925c6893fa3abac365e5",
+    "exit_code": 0,
+    "finished": "2026-09-29T15:57:05.868852+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p064-final-status",
+    "host": "sz3",
+    "started": "2026-09-29T16:00:30.717165+08:00",
+    "command_sha256": "12c8213517f94986a3ee0728c56f5be975bd0a93f37ddca746337309466a5147",
+    "exit_code": 0,
+    "finished": "2026-09-29T16:00:31.489805+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p065-evening-audit",
+    "host": "sz3",
+    "started": "2026-09-29T21:10:33.811855+08:00",
+    "command_sha256": "f7aa4843247f5f39c7863778b21f785da6701af42ecb0f22b5edc1ae928a8c60",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:10:42.330441+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p066-evening-identity",
+    "host": "sz3",
+    "started": "2026-09-29T21:11:03.898104+08:00",
+    "command_sha256": "fa4856c55698bfbd28bf1416fd056f72a2135bf8a71f925c6893fa3abac365e5",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:11:04.111312+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p067-evening-gpu-diagnostic",
+    "host": "sz3",
+    "started": "2026-09-29T21:11:55.202307+08:00",
+    "command_sha256": "0d58be6b1f8e3bfe2aba2c359cb5ff5fc3c006181e4ffe0171d4ec7c51adf923",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:11:56.704272+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p068-exact-gpu7-recovery",
+    "host": "sz3",
+    "started": "2026-09-29T21:15:26.358282+08:00",
+    "command_sha256": "d9fa5938aaa4e1acf22c360605be07b08430b37b86216d90b568caadd375b2c1",
+    "exit_code": 1,
+    "finished": "2026-09-29T21:15:35.735764+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p069-cleanup-diagnostic",
+    "host": "sz3",
+    "started": "2026-09-29T21:16:15.741074+08:00",
+    "command_sha256": "22bdc5595f11451684bb2528f55451ef85960ab563da4ee7f343dc5e98f906b3",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:16:15.872294+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p070-prepare-gpu7-recovery",
+    "host": "sz3",
+    "started": "2026-09-29T21:17:54.715408+08:00",
+    "command_sha256": "e60ac350ea6a6dcb9d1f3a531355e335eb565b43a76697beaf76de85a3dced67",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:17:54.847711+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p071-validate-preserve-resume",
+    "host": "sz3",
+    "started": "2026-09-29T21:18:54.860588+08:00",
+    "command_sha256": "651f613f9fad2b476478794319c8303bc779578ec6fa09bcdd69fc77ea5b2b98",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:19:31.454431+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p072-reborrow-exact-rlt",
+    "host": "sz3",
+    "started": "2026-09-29T21:21:15.695478+08:00",
+    "command_sha256": "652e658302229393352aa8a5971446152733029b3b7bc3b26619ad0945ee6507",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:22:08.713616+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p073-reset-idle-gpu7",
+    "host": "sz3",
+    "started": "2026-09-29T21:22:23.164566+08:00",
+    "command_sha256": "8cd9e6b193091643b80ff9a03d0a77cc8888c29ddc93bc9c443ff0f17ee43993",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:22:31.090916+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p074-check-native-resume-counters",
+    "host": "sz3",
+    "started": "2026-09-29T21:23:22.903302+08:00",
+    "command_sha256": "cebcd8e2cbc7c0255b29ed2148925ef9069d66b0ff6b57388049569a54c59007",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:23:23.038366+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p075-launch-same-protocol-continuation",
+    "host": "sz3",
+    "started": "2026-09-29T21:23:46.196062+08:00",
+    "command_sha256": "4ff0a29fcbc5aa62ee97bf768b4b400efeb96e53f66ed677c9797e7d8490a09b",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:23:46.413102+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p076-continuation-startup",
+    "host": "sz3",
+    "started": "2026-09-29T21:24:54.512296+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:24:55.773616+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p077-post-reset-kernel",
+    "host": "sz3",
+    "started": "2026-09-29T21:26:06.345473+08:00",
+    "command_sha256": "fe5aea4861ca17a2763996ae50bc0c87d70e2c9af86a703a25c69ec8ac81bf02",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:26:06.808981+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p078-continuation-actions",
+    "host": "sz3",
+    "started": "2026-09-29T21:27:11.235971+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:27:11.689304+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p079-continuation-actions",
+    "host": "sz3",
+    "started": "2026-09-29T21:28:46.352763+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:28:46.979809+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p080-continuation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T21:29:56.960290+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:29:57.735188+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p081-post-reset-kernel",
+    "host": "sz3",
+    "started": "2026-09-29T21:29:58.064469+08:00",
+    "command_sha256": "fe5aea4861ca17a2763996ae50bc0c87d70e2c9af86a703a25c69ec8ac81bf02",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:29:58.681939+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p082-continuation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T21:31:12.380947+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:31:13.002988+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p083-recovery-artifacts",
+    "host": "sz3",
+    "started": "2026-09-29T21:32:36.960011+08:00",
+    "command_sha256": "f2ca55a477e27abcd66f6add92207722e0095693a429d9bfe49595a360940e7c",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:32:37.186189+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p084-continuation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T21:33:05.619613+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:33:06.314486+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p085-continuation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T21:37:32.800638+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:37:33.501445+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p086-continuation-progress",
+    "host": "sz3",
+    "started": "2026-09-29T21:38:29.296314+08:00",
+    "command_sha256": "ccde3df715ceb5f83832e3e6c231a21754adbce76cae393c201b7583e92563ab",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:38:30.073207+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  },
+  {
+    "step": "p087-post-reset-kernel-final",
+    "host": "sz3",
+    "started": "2026-09-29T21:38:41.023639+08:00",
+    "command_sha256": "fe5aea4861ca17a2763996ae50bc0c87d70e2c9af86a703a25c69ec8ac81bf02",
+    "exit_code": 0,
+    "finished": "2026-09-29T21:38:41.723948+08:00",
+    "identity_verified": true,
+    "host_key_verified": true
+  }
+]

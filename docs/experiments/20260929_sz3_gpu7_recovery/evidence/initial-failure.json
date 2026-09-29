@@ -1,0 +1,283 @@
+{
+  "time": "2026-09-29T21:10:35.760462+08:00",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "summary": {
+    "episodes": 436,
+    "successes": 25,
+    "videos": 1359,
+    "video_bytes": 4848025302
+  },
+  "task_states": {
+    "seed0": {
+      "PENDING": 41,
+      "COMPLETE": 5,
+      "RUNNING": 8
+    }
+  },
+  "workers": [
+    {
+      "seed": "seed0",
+      "worker": "worker0",
+      "task_log": "seed0/worker0/tasks/fill_egg_holder/stdout-1790668012022772162.log",
+      "log_age_seconds": 0.9,
+      "env_steps": {
+        "0": {
+          "step": 315,
+          "max_steps": 700
+        },
+        "1": {
+          "step": 315,
+          "max_steps": 700
+        },
+        "2": {
+          "step": 315,
+          "max_steps": 700
+        },
+        "3": {
+          "step": 314,
+          "max_steps": 700
+        }
+      },
+      "tail": [
+        "env0 step: 315 / 700",
+        "env1 step: 315 / 700",
+        "env2 step: 315 / 700"
+      ],
+      "fatal_signatures": [
+        "Traceback (most recent call last):",
+        "Traceback (most recent call last):",
+        "Traceback (most recent call last):"
+      ]
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker1",
+      "task_log": "seed0/worker1/tasks/play_tic_tac_toe/stdout-1790668012022772162.log",
+      "log_age_seconds": 0.3,
+      "env_steps": {
+        "0": {
+          "step": 792,
+          "max_steps": 1100
+        },
+        "1": {
+          "step": 792,
+          "max_steps": 1100
+        },
+        "2": {
+          "step": 792,
+          "max_steps": 1100
+        },
+        "3": {
+          "step": 792,
+          "max_steps": 1100
+        }
+      },
+      "tail": [
+        "env1 step: 792 / 1100",
+        "env2 step: 792 / 1100",
+        "env3 step: 792 / 1100"
+      ],
+      "fatal_signatures": []
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker2",
+      "task_log": "seed0/worker2/tasks/pour_by_language/stdout-1790668012022772162.log",
+      "log_age_seconds": 0.1,
+      "env_steps": {
+        "0": {
+          "step": 521,
+          "max_steps": 800
+        },
+        "1": {
+          "step": 521,
+          "max_steps": 800
+        },
+        "2": {
+          "step": 800,
+          "max_steps": 800
+        },
+        "3": {
+          "step": 800,
+          "max_steps": 800
+        }
+      },
+      "tail": [
+        "env1 step: 520 / 800",
+        "env0 step: 521 / 800",
+        "env1 step: 521 / 800"
+      ],
+      "fatal_signatures": []
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker3",
+      "task_log": "seed0/worker3/tasks/fasten_screws/stdout-1790668012022772162.log",
+      "log_age_seconds": 1.3,
+      "env_steps": {
+        "0": {
+          "step": 1900,
+          "max_steps": 1900
+        },
+        "1": {
+          "step": 1900,
+          "max_steps": 1900
+        },
+        "2": {
+          "step": 1900,
+          "max_steps": 1900
+        },
+        "3": {
+          "step": 1900,
+          "max_steps": 1900
+        }
+      },
+      "tail": [
+        "[INFO]: Time taken for simulation start : 1.790223 seconds",
+        "[INFO]: Completed setting up the environment...",
+        "[INFO] Resetting all environments"
+      ],
+      "fatal_signatures": []
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker4",
+      "task_log": "seed0/worker4/tasks/organize_table/stdout-1790668012022772162.log",
+      "log_age_seconds": 0.1,
+      "env_steps": {
+        "0": {
+          "step": 1000,
+          "max_steps": 1000
+        },
+        "1": {
+          "step": 400,
+          "max_steps": 1000
+        },
+        "2": {
+          "step": 400,
+          "max_steps": 1000
+        },
+        "3": {
+          "step": 400,
+          "max_steps": 1000
+        }
+      },
+      "tail": [
+        "env1 step: 400 / 1000",
+        "env2 step: 400 / 1000",
+        "env3 step: 400 / 1000"
+      ],
+      "fatal_signatures": []
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker5",
+      "task_log": "seed0/worker5/tasks/store_tools_in_toolbox/stdout-1790668012022772162.log",
+      "log_age_seconds": 1.0,
+      "env_steps": {
+        "0": {
+          "step": 873,
+          "max_steps": 900
+        },
+        "1": {
+          "step": 873,
+          "max_steps": 900
+        },
+        "2": {
+          "step": 873,
+          "max_steps": 900
+        },
+        "3": {
+          "step": 873,
+          "max_steps": 900
+        }
+      },
+      "tail": [
+        "env1 step: 873 / 900",
+        "env2 step: 873 / 900",
+        "env3 step: 873 / 900"
+      ],
+      "fatal_signatures": []
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker6",
+      "task_log": "seed0/worker6/tasks/make_toast_random/stdout-1790668012022772162.log",
+      "log_age_seconds": 0.5,
+      "env_steps": {
+        "0": {
+          "step": 1271,
+          "max_steps": 1400
+        },
+        "1": {
+          "step": 1271,
+          "max_steps": 1400
+        },
+        "2": {
+          "step": 1271,
+          "max_steps": 1400
+        },
+        "3": {
+          "step": 1271,
+          "max_steps": 1400
+        }
+      },
+      "tail": [
+        "2026-09-29T13:10:37Z [2,235ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'metadataFile' = '/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/de630c4f-549b-401a-5db219b5-d75e57b0.dmp.toml'",
+        "2026-09-29T13:10:37Z [2,236ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'upload_file_minidump' = '/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/de630c4f-549b-401a-5db219b5-d75e57b0.dmp'",
+        "2026-09-29T13:10:37Z [2,236ms] [Warning] [carb.crashreporter-breakpad.plugin] [crash]   'upload_file_traceback' = '/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/de630c4f-549b-401a-5db219b5-d75e57b0.py.txt'"
+      ],
+      "fatal_signatures": [
+        "2026-09-29T13:06:53Z [34,346ms] [Error] [carb.graphics-vulkan.plugin] VkResult: ERROR_DEVICE_LOST",
+        "2026-09-29T13:08:18Z [30,982ms] [Error] [carb.graphics-vulkan.plugin] VkResult: ERROR_DEVICE_LOST",
+        "2026-09-29T13:09:52Z [35,350ms] [Error] [carb.graphics-vulkan.plugin] VkResult: ERROR_DEVICE_LOST"
+      ]
+    },
+    {
+      "seed": "seed0",
+      "worker": "worker7",
+      "task_log": "seed0/worker7/tasks/fill_pen_holder/stdout-1790668012022772162.log",
+      "log_age_seconds": 79.1,
+      "env_steps": {
+        "0": {
+          "step": 1086,
+          "max_steps": 1100
+        },
+        "1": {
+          "step": 1086,
+          "max_steps": 1100
+        },
+        "2": {
+          "step": 1086,
+          "max_steps": 1100
+        },
+        "3": {
+          "step": 1086,
+          "max_steps": 1100
+        }
+      },
+      "tail": [
+        "sh: 1: zenity: not found",
+        "sh: 1: zenity: not found",
+        "sh: 1: zenity: not found"
+      ],
+      "fatal_signatures": []
+    }
+  ],
+  "gpu_snapshot": [
+    "0, 131, 81559, 0",
+    "1, 1, 81559, 0",
+    "2, 1, 81559, 0",
+    "3, 1, 81559, 0",
+    "4, 72394, 81559, 100",
+    "5, 73900, 81559, 59",
+    "6, 72972, 81559, 71",
+    "7, 62115, 81559, 0"
+  ],
+  "mem_available_gib": 1724.17,
+  "cycle": {
+    "name": "rlt-cycle-sz3-pi05-full-r2",
+    "stopped": true,
+    "resume_dispatched": false
+  }
+}

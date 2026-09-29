@@ -1,0 +1,395 @@
+{
+  "time": "2026-09-29T21:38:29.671014+08:00",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "continuation": "continuation-20260929-gpu7-v1",
+  "pipeline-current.json": {
+    "time": 1790688229.7851923,
+    "phase": "EVALUATING",
+    "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+    "pid": 466585,
+    "gpus": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "workers": 8,
+    "environments_per_worker": 4,
+    "expected_episodes": 6300,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "wall_time_limit": null
+  },
+  "identities": {
+    "pipeline-launch.json": {
+      "pid": 466585,
+      "start": 665925027,
+      "alive": true
+    },
+    "dojo-controller-identity.json": {
+      "pid": 466737,
+      "start": 665925350,
+      "alive": true
+    }
+  },
+  "gpu": [
+    "0, 131, 81559, 0",
+    "1, 1, 81559, 0",
+    "2, 1, 81559, 0",
+    "3, 1, 81559, 0",
+    "4, 73619, 81559, 13",
+    "5, 77187, 81559, 69",
+    "6, 74299, 81559, 30",
+    "7, 76134, 81559, 29"
+  ],
+  "mem_available_gib": 1733.49,
+  "attempt": "1790688232132720307",
+  "controller_errors": [],
+  "workers": [
+    {
+      "worker": "worker0",
+      "seed": "seed0",
+      "task": "fill_egg_holder",
+      "log": "seed0/worker0/tasks/fill_egg_holder/stdout-1790688232132720307.log",
+      "age_seconds": 0.9,
+      "env_steps": {
+        "0": {
+          "step": 700,
+          "max_steps": 700
+        },
+        "1": {
+          "step": 700,
+          "max_steps": 700
+        },
+        "2": {
+          "step": 700,
+          "max_steps": 700
+        },
+        "3": {
+          "step": 700,
+          "max_steps": 700
+        }
+      },
+      "tail": [
+        "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "AttributeError: 'NoneType' object has no attribute 'scroll_y_max'",
+        "2026-09-29T13:38:29Z [817,754ms] [Warning] [carb] Client omni.hydratexture.plugin has acquired [carb::settings::ISettings v1.0] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker1",
+      "seed": "seed0",
+      "task": "play_tic_tac_toe",
+      "log": "seed0/worker1/tasks/play_tic_tac_toe/stdout-1790688232132720307.log",
+      "age_seconds": 1.2,
+      "env_steps": {
+        "0": {
+          "step": 395,
+          "max_steps": 1100
+        },
+        "1": {
+          "step": 395,
+          "max_steps": 1100
+        },
+        "2": {
+          "step": 395,
+          "max_steps": 1100
+        },
+        "3": {
+          "step": 395,
+          "max_steps": 1100
+        }
+      },
+      "tail": [
+        "env1 step: 395 / 1100",
+        "env2 step: 395 / 1100",
+        "env3 step: 395 / 1100"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker2",
+      "seed": "seed0",
+      "task": "pour_by_language",
+      "log": "seed0/worker2/tasks/pour_by_language/stdout-1790688232132720307.log",
+      "age_seconds": 1.5,
+      "env_steps": {
+        "0": {
+          "step": 406,
+          "max_steps": 800
+        },
+        "1": {
+          "step": 406,
+          "max_steps": 800
+        }
+      },
+      "tail": [
+        "env1 step: 405 / 800",
+        "env0 step: 406 / 800",
+        "env1 step: 406 / 800"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker3",
+      "seed": "seed0",
+      "task": "fasten_screws",
+      "log": "seed0/worker3/tasks/fasten_screws/stdout-1790688232132720307.log",
+      "age_seconds": 0.7,
+      "env_steps": {
+        "0": {
+          "step": 752,
+          "max_steps": 1900
+        },
+        "1": {
+          "step": 752,
+          "max_steps": 1900
+        },
+        "2": {
+          "step": 752,
+          "max_steps": 1900
+        },
+        "3": {
+          "step": 752,
+          "max_steps": 1900
+        }
+      },
+      "tail": [
+        "env1 step: 752 / 1900",
+        "env2 step: 752 / 1900",
+        "env3 step: 752 / 1900"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker4",
+      "seed": "seed0",
+      "task": "organize_table",
+      "log": "seed0/worker4/tasks/organize_table/stdout-1790688232132720307.log",
+      "age_seconds": 0.7,
+      "env_steps": {
+        "1": {
+          "step": 690,
+          "max_steps": 1000
+        },
+        "2": {
+          "step": 690,
+          "max_steps": 1000
+        },
+        "3": {
+          "step": 690,
+          "max_steps": 1000
+        }
+      },
+      "tail": [
+        "env1 step: 690 / 1000",
+        "env2 step: 690 / 1000",
+        "env3 step: 690 / 1000"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker5",
+      "seed": "seed0",
+      "task": "store_tools_in_toolbox",
+      "log": "seed0/worker5/tasks/store_tools_in_toolbox/stdout-1790688232132720307.log",
+      "age_seconds": 0.8,
+      "env_steps": {
+        "0": {
+          "step": 752,
+          "max_steps": 900
+        },
+        "1": {
+          "step": 752,
+          "max_steps": 900
+        },
+        "2": {
+          "step": 752,
+          "max_steps": 900
+        },
+        "3": {
+          "step": 752,
+          "max_steps": 900
+        }
+      },
+      "tail": [
+        "env1 step: 752 / 900",
+        "env2 step: 752 / 900",
+        "env3 step: 752 / 900"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker6",
+      "seed": "seed0",
+      "task": "make_toast_random",
+      "log": "seed0/worker6/tasks/make_toast_random/stdout-1790688232132720307.log",
+      "age_seconds": 0.2,
+      "env_steps": {
+        "0": {
+          "step": 320,
+          "max_steps": 1400
+        },
+        "1": {
+          "step": 320,
+          "max_steps": 1400
+        },
+        "2": {
+          "step": 320,
+          "max_steps": 1400
+        },
+        "3": {
+          "step": 319,
+          "max_steps": 1400
+        }
+      },
+      "tail": [
+        "env0 step: 320 / 1400",
+        "env1 step: 320 / 1400",
+        "env2 step: 320 / 1400"
+      ],
+      "fatal_device_errors": 0
+    },
+    {
+      "worker": "worker7",
+      "seed": "seed0",
+      "task": "fill_pen_holder",
+      "log": "seed0/worker7/tasks/fill_pen_holder/stdout-1790688232132720307.log",
+      "age_seconds": 0.8,
+      "env_steps": {
+        "0": {
+          "step": 784,
+          "max_steps": 1100
+        },
+        "1": {
+          "step": 784,
+          "max_steps": 1100
+        },
+        "2": {
+          "step": 784,
+          "max_steps": 1100
+        },
+        "3": {
+          "step": 784,
+          "max_steps": 1100
+        }
+      },
+      "tail": [
+        "env1 step: 784 / 1100",
+        "env2 step: 784 / 1100",
+        "env3 step: 784 / 1100"
+      ],
+      "fatal_device_errors": 0
+    }
+  ],
+  "results": [
+    {
+      "task": "classify_objects_by_language",
+      "seed": 0,
+      "episodes": 50,
+      "successes": 0,
+      "sha256": "f30e7a5873f2df6404295c486a6a916972be7362b626184ac69fc824ce1dfbe9"
+    },
+    {
+      "task": "fill_egg_holder",
+      "seed": 0,
+      "episodes": 4,
+      "successes": 0,
+      "sha256": "6df52fc04abdca0df086a870c6a50419749b2846fc57363872662e2b5917cef8"
+    },
+    {
+      "task": "fasten_screws",
+      "seed": 0,
+      "episodes": 44,
+      "successes": 2,
+      "sha256": "2c8221c86cbb9c15771239d115b615d7afe30548ceb3b4f0c6623513b3914431"
+    },
+    {
+      "task": "build_tower",
+      "seed": 0,
+      "episodes": 50,
+      "successes": 16,
+      "sha256": "864085c88578d0fce2a1f7dc2667808d87acf950bebc707631202ea49c918cf4"
+    },
+    {
+      "task": "organize_table",
+      "seed": 0,
+      "episodes": 16,
+      "successes": 0,
+      "sha256": "76f720bcf5e7df0cb5993d354e2f559e3d34014622f0b2aae4bd6b7dcee82472"
+    },
+    {
+      "task": "fill_pen_holder",
+      "seed": 0,
+      "episodes": 20,
+      "successes": 1,
+      "sha256": "a633f91acca408c26daea23e8341342d7007437dadba9dc704633aa99c2e92a4"
+    },
+    {
+      "task": "store_tools_in_toolbox",
+      "seed": 0,
+      "episodes": 24,
+      "successes": 0,
+      "sha256": "5e774ffe8d26f53802faee89f11a86b33ea0ac378b3e65466e4e24f0ba3cb67e"
+    },
+    {
+      "task": "pour_by_language",
+      "seed": 0,
+      "episodes": 48,
+      "successes": 0,
+      "sha256": "cd6d754fd7b9045bdc2018ff49365b81e4b4050cde98fc954513756a20087e69"
+    },
+    {
+      "task": "play_stacking_toy",
+      "seed": 0,
+      "episodes": 50,
+      "successes": 0,
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445"
+    },
+    {
+      "task": "play_tic_tac_toe",
+      "seed": 0,
+      "episodes": 34,
+      "successes": 0,
+      "sha256": "3b70584fa8e21cfa446924ea9993ae07c8da13edac5afce098c16b0243cdc588"
+    },
+    {
+      "task": "imitate_sorting_sequence",
+      "seed": 0,
+      "episodes": 50,
+      "successes": 0,
+      "sha256": "a8e78caf83c9ad77ba7ad25016063185fe4060c71bea33090a2ae68999988705"
+    },
+    {
+      "task": "make_toast_random",
+      "seed": 0,
+      "episodes": 4,
+      "successes": 0,
+      "sha256": "c53015bbe3b5242f6385bb736e5b01cac6a7cd8ea5ae445cc0126d392e96a8aa"
+    },
+    {
+      "task": "classify_objects",
+      "seed": 0,
+      "episodes": 50,
+      "successes": 6,
+      "sha256": "c01eea2c3721bf30e66604dc0b762c6fe5012e7acf7732a8846fcdcb1915c0e2"
+    }
+  ],
+  "episodes": 444,
+  "successes": 25,
+  "preserved_details_verified": 440,
+  "source_hashes_unchanged": true,
+  "controller_hashes_unchanged": true,
+  "task_states": {
+    "seed0": {
+      "PENDING": 41,
+      "COMPLETE": 5,
+      "RUNNING": 8
+    }
+  },
+  "rlt_resume_dispatched": false
+}

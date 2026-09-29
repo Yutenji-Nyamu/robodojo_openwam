@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "rc": 0,
+    "stdout": "Sep 29 21:03:18 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 31, pid=4054286, name=python, channel 0x00000040, intr 00000000. MMU Fault: ENGINE GRAPHICS GPC1 GPCCLIENT_T1_8 faulted @ 0x7f50_b1e3a000. Fault is of type FAULT_PDE ACCESS_TYPE_VIRT_READ\nSep 29 21:03:18 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 31, pid=4014299, name=python, channel 0x00000062, intr 00000000. MMU Fault: ENGINE GRAPHICS GPC0 GPCCLIENT_PE_2 faulted @ 0x0_00000000. Fault is of type FAULT_PDE ACCESS_TYPE_VIRT_READ\nSep 29 21:04:03 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=2579403, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\nSep 29 21:05:20 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=2690982, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\nSep 29 21:06:52 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=2897504, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\nSep 29 21:08:17 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=3001335, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\nSep 29 21:09:51 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=3205657, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\nSep 29 21:11:30 h100-gpu01 kernel: NVRM: Xid (PCI:0000:c1:00): 109, pid=3309844, name=python, channel 0x00000064, errorString CTX SWITCH TIMEOUT, Info 0x10c020\n",
+    "stderr": ""
+  },
+  "gpu": {
+    "rc": 0,
+    "stdout": "0, GPU-aa8dbad5-91f7-11f1-527e-201b6b606671, 00000000:16:00.0, 131, 0, 0\n1, GPU-6577382f-f55d-e83d-547d-7830bd4c9297, 00000000:17:00.0, 1, 0, 0\n2, GPU-9a1ca518-42ce-a702-dc4c-e04cbbf81c12, 00000000:40:00.0, 1, 0, 0\n3, GPU-a61c0c5b-cba7-2159-ab09-be5651f58972, 00000000:41:00.0, 1, 0, 0\n4, GPU-6c7afe5c-5238-60af-3ce2-329b3497133c, 00000000:96:00.0, 72394, 16, 0\n5, GPU-e656886b-e472-125f-6139-5ade9cf609a4, 00000000:97:00.0, 74532, 46, 0\n6, GPU-fd35b6f1-d724-0bda-2444-7c75ba5c2715, 00000000:C0:00.0, 72590, 100, 0\n7, GPU-0423def8-ef84-a808-6582-7dc2130f58fc, 00000000:C1:00.0, 62379, 0, 0\n",
+    "stderr": ""
+  },
+  "scope": "Own SZ3 GPU7; no signal during diagnostic"
+}
