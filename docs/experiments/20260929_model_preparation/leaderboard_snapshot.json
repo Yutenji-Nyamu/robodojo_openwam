@@ -1,0 +1,136 @@
+{
+  "observed_date": "2026-09-29",
+  "page_update_label": "2026-09-28",
+  "source": "https://robodojo-benchmark.com/leaderboard",
+  "method": "Read visible Sim and RealWorld tables in built-in browser",
+  "metric_order": [
+    "score_0_to_100",
+    "success_rate_percent"
+  ],
+  "sim": {
+    "OpenWAM-alpha": {
+      "average": [
+        17.18,
+        11.92
+      ],
+      "generalization": [
+        20.71,
+        14.83
+      ],
+      "precision": [
+        18.45,
+        9.25
+      ],
+      "long_horizon": [
+        34.93,
+        25.33
+      ],
+      "memory": [
+        10.41,
+        9.11
+      ],
+      "open": [
+        1.41,
+        1.08
+      ]
+    },
+    "Pi-05": {
+      "average": [
+        11.44,
+        6.93
+      ],
+      "generalization": [
+        13.38,
+        8.17
+      ],
+      "precision": [
+        12.4,
+        5.5
+      ],
+      "long_horizon": [
+        23.54,
+        14.67
+      ],
+      "memory": [
+        5.89,
+        4.67
+      ],
+      "open": [
+        1.98,
+        1.67
+      ]
+    },
+    "Fast-WAM": {
+      "average": [
+        3.48,
+        2.03
+      ],
+      "generalization": [
+        2.33,
+        1.11
+      ],
+      "precision": [
+        1.96,
+        0.0
+      ],
+      "long_horizon": [
+        9.14,
+        5.17
+      ],
+      "memory": [
+        3.55,
+        3.44
+      ],
+      "open": [
+        0.42,
+        0.42
+      ]
+    },
+    "Pi-0": {
+      "average": [
+        3.48,
+        1.53
+      ],
+      "generalization": [
+        3.94,
+        2.55
+      ],
+      "precision": [
+        3.56,
+        0.75
+      ],
+      "long_horizon": [
+        6.19,
+        2.0
+      ],
+      "memory": [
+        3.47,
+        2.11
+      ],
+      "open": [
+        0.25,
+        0.25
+      ]
+    }
+  },
+  "realworld": {
+    "OpenWAM-alpha": [
+      37.6,
+      24.4
+    ],
+    "Pi-05": [
+      22.9,
+      12.8
+    ],
+    "Pi-0": [
+      5.8,
+      1.7
+    ],
+    "Fast-WAM": null
+  },
+  "notes": [
+    "These are public official results, not local evaluation results.",
+    "Fast-WAM absent from visible RealWorld table; null is not zero.",
+    "RoboTwin embedded table excluded."
+  ]
+}
