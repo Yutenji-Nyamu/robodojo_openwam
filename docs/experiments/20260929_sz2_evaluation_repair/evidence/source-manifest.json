@@ -1,0 +1,40 @@
+{
+  "deployed_head": "1d3e375add2557557291cc3050d8068ed0dc3f31",
+  "configuration_sha256": "7bdb8b2b19c51db4de4142e4a6c993d9df79aeecf54ca90315548b52390d8197",
+  "sources": {
+    "process_guard.py": {
+      "deployed_sha256": "6701a171cbfc59d73ce98c74938996bc15a9455dd431102541d59987bc381d3a",
+      "published_sha256": "6701a171cbfc59d73ce98c74938996bc15a9455dd431102541d59987bc381d3a"
+    },
+    "dojo_sweep.py": {
+      "deployed_sha256": "e34af9fba321392b842518ccf743074852229ee05b5be332c7a991a165e0a8ac",
+      "published_sha256": "e34af9fba321392b842518ccf743074852229ee05b5be332c7a991a165e0a8ac"
+    },
+    "test_dojo_sweep.py": {
+      "deployed_sha256": "ed7c861395609844fda0f449d931738b25b3ce614f2ced77d93598dc1494df4b",
+      "published_sha256": "ed7c861395609844fda0f449d931738b25b3ce614f2ced77d93598dc1494df4b"
+    },
+    "resume_results.py": {
+      "deployed_sha256": "60b8b751f6eb7d8c38079899e4f53de139fd9e7b4122d7f25e038647ce922fdc",
+      "published_sha256": "60b8b751f6eb7d8c38079899e4f53de139fd9e7b4122d7f25e038647ce922fdc"
+    },
+    "test_resume_results.py": {
+      "deployed_sha256": "c8cc1836ab213b53dc3e43a12f33e91adf2da608787920334909c822e2b512b6",
+      "published_sha256": "c8cc1836ab213b53dc3e43a12f33e91adf2da608787920334909c822e2b512b6"
+    },
+    "fix_prompt_cache.py": {
+      "deployed_sha256": "eb8c99178e590bb2b2ede99566f4bda024d3ca5a76c8298a69caa97904815575",
+      "published_sha256": "eb8c99178e590bb2b2ede99566f4bda024d3ca5a76c8298a69caa97904815575"
+    }
+  },
+  "model_revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+  "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+  "valid_assets": 15365,
+  "new_private_supervisor_sha256": {
+    "reborrow_cycle.py": "db0453f8e5ada360523d9933c5f04dd73bc496d9ed82b4447cd78a2d0e1c2cfa",
+    "continue_pipeline.py": "7ce788cfb9754f63aae7bf7010e34d884ce48fbe6d85031b8aa81d8ae5ebfd21",
+    "prepare_continuation.py": "945045cad038209d703ffe7cce506297a449f71b995fbf21bd5c4b7bfc45c97c",
+    "execute_continuation.py": "6350a333941b1268f8074d013757c26b92b4e72afec87b4bef7a90dc83dd4400"
+  },
+  "public_copy_format": "LF newlines; Python AST matches the deployed source"
+}

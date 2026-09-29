@@ -1,0 +1,80 @@
+[
+  {
+    "attempt": "continuation-20260929-gpu7-v3",
+    "time": 1790688545.9350908,
+    "phase": "VERIFYING_SAME_PROTOCOL_AND_RESUME"
+  },
+  {
+    "attempt": "continuation-20260929-gpu7-v3",
+    "time": 1790688546.9464245,
+    "phase": "EVALUATING"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668341.9013834,
+    "phase": "VERIFYING_SAME_PROTOCOL_AND_RESUME"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668342.9102833,
+    "phase": "EVALUATING"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668346.9274752,
+    "phase": "CLEANING_THIS_DOJO_SWEEP",
+    "dojo_exit_code": 4
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668348.9687898,
+    "phase": "RESTORING_FOUR_RLT_RUNS",
+    "terminal_status": "failed"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668393.0343037,
+    "phase": "RLT_RESTORE_DISPATCHED",
+    "dojo_exit_code": 4
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v1",
+    "time": 1790668946.7427006,
+    "phase": "RLT_FIRST_ROUNDS_VERIFIED",
+    "attempts": 10
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790669461.3683114,
+    "phase": "VERIFYING_SAME_PROTOCOL_AND_RESUME"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790669462.3788192,
+    "phase": "EVALUATING"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790687710.0547671,
+    "phase": "CLEANING_THIS_DOJO_SWEEP",
+    "dojo_exit_code": 4
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790687712.1704397,
+    "phase": "RESTORING_FOUR_RLT_RUNS",
+    "terminal_status": "failed"
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790687752.232029,
+    "phase": "RLT_RESTORE_DISPATCHED",
+    "dojo_exit_code": 4
+  },
+  {
+    "attempt": "continuation-20260929-ssh-v2",
+    "time": 1790688304.8842072,
+    "phase": "RLT_FIRST_ROUNDS_VERIFIED",
+    "attempts": 10
+  }
+]

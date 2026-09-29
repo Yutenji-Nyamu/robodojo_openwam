@@ -1,0 +1,30 @@
+{
+  "cache": {
+    "upstream": "https://github.com/OpenWAM-Official/OpenWAM/pull/37",
+    "upstream_merge": "f6d9f1059eb63a8a76dc60e07da2dad21615a161",
+    "before_sha256": "4d78462a5affd7d8e1022517a6ebd6d543fcb518dbfd2c40e14bc02aab4f07fa",
+    "after_sha256": "3fe9377115154bf965ff03fcbdab7f7ce42b0b75662be678fae7c21a7eb13b70",
+    "original_keyerror_reproduced": true,
+    "fixed_lru_checks_passed": true,
+    "applied": true
+  },
+  "afternoon_preserved_episodes": 422,
+  "targeted_checks": {
+    "process_and_controller": 14,
+    "partial_resume": 4
+  },
+  "current_results": {
+    "completed": 1075,
+    "expected": 6300
+  },
+  "gpu7_pre_resume_preserved": 1067,
+  "protocol_unchanged": true,
+  "plan_sha256": "5c5fd13574f881962e4f2cc02bff1c47d51c6297d5eed0e6564cf67500e612fa",
+  "all_1067_original_details_identical": true,
+  "gpu7_reset": {
+    "exit": 0,
+    "gpu": 7,
+    "time": 1790688500.6466842,
+    "scope": "GPU7 only; verified no workload device handles before reset"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "snapshot_time": "2026-09-29T21:43:58+0800",
+  "model": "OpenWAM-Alpha-Sim-RoboDojo",
+  "run": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+  "attempt": "continuation-20260929-gpu7-v3",
+  "phase": "EVALUATING",
+  "episodes_completed": 1075,
+  "expected_episodes": 6300,
+  "full_budget_task_seeds": 20,
+  "all_complete": false,
+  "rows": [
+    {
+      "seed": 0,
+      "task": "align_blocks",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445"
+    },
+    {
+      "seed": 0,
+      "task": "arrange_largest_number_random",
+      "episodes": 25,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "89add16d332c2b41a33396e56f179ff8ba00e4104bfc0e9b0f46129fe8e991fc"
+    },
+    {
+      "seed": 0,
+      "task": "build_tower",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 22,
+      "raw_sha256": "c9d94455747fa1485c5a9f43cefb64c0f1c6314f213818bdb00d99ab72e315cf"
+    },
+    {
+      "seed": 0,
+      "task": "classify_objects",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 1,
+      "raw_sha256": "6567ede934d32df5a7737c231bc00108457dcffbe9377045730f43e66e9562ec"
+    },
+    {
+      "seed": 0,
+      "task": "classify_objects_by_language",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445"
+    },
+    {
+      "seed": 0,
+      "task": "fasten_screws",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 3,
+      "raw_sha256": "aaaa8f97e8a30c9a982a79057fffd24dfc7a156da7d3db41a24bb1d8f1f3019c"
+    },
+    {
+      "seed": 0,
+      "task": "fill_egg_holder",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "d77d4994ad8babeb21a5ef98b001dfeb549cd0ded5fb3931438b70db10cf6e47"
+    },
+    {
+      "seed": 0,
+      "task": "fill_pen_holder",
+      "episodes": 32,
+      "expected": 50,
+      "successes": 4,
+      "raw_sha256": "2ec5e681a6cb457de8ab18aa029e1ee22bfa0974c26d6834e8d94e362abc62de"
+    },
+    {
+      "seed": 0,
+      "task": "imitate_sorting_sequence",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "3a892a1967262abc16bc078cfead403ba51dfff23b6d0c7a3b03867177d04871"
+    },
+    {
+      "seed": 0,
+      "task": "insert_tubes",
+      "episodes": 36,
+      "expected": 50,
+      "successes": 6,
+      "raw_sha256": "dd5e7f761a1b199d295a0ce201c2a77f6ae67bd53fc6dcd57031eff254dcbe84"
+    },
+    {
+      "seed": 0,
+      "task": "make_kong",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 17,
+      "raw_sha256": "eeadf2f08f5b98cdd6b29b52f209797e04934758300f5bc23f30c82f8ca4361a"
+    },
+    {
+      "seed": 0,
+      "task": "make_toast",
+      "episodes": 25,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "4779692b90c20a0e46f1244c1aebddb113829f0cd96decc5e1366fddbfb1f741"
+    },
+    {
+      "seed": 0,
+      "task": "make_toast_random",
+      "episodes": 16,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "2eb84ea992eb77d47f80afd184cdf812649cd5e0dc21eb2fc3f1a7723d144799"
+    },
+    {
+      "seed": 0,
+      "task": "match_and_pick_from_conveyor",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 20,
+      "raw_sha256": "1dae17303f3ff3cdae84d818c554fda689c963096441e0969fcc43d312e997f6"
+    },
+    {
+      "seed": 0,
+      "task": "organize_table",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 7,
+      "raw_sha256": "751a6e62652da36c75577a25642113b1851e4a991793694c846e499d65a42964"
+    },
+    {
+      "seed": 0,
+      "task": "pack_objects_into_box",
+      "episodes": 12,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "7a3704f8d6a68df20ca164c206beb72cd5415cfe247a2cb6c3dcea40f04bd848"
+    },
+    {
+      "seed": 0,
+      "task": "pick_from_conveyor_by_image",
+      "episodes": 40,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "952599e7cfdaf4af7fed1c1324fda6c8720904e73d641ff617c42869077cee81"
+    },
+    {
+      "seed": 0,
+      "task": "play_stacking_toy",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "79019e3bce979d2b580ca55e29c5ed08354ea7af691bb934cd1c354732d571f0"
+    },
+    {
+      "seed": 0,
+      "task": "play_tic_tac_toe",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 11,
+      "raw_sha256": "147b6d4565aa9cdda79570f3234f5511871be65e8c706898ee359ad032d0d1fa"
+    },
+    {
+      "seed": 0,
+      "task": "pour_by_language",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445"
+    },
+    {
+      "seed": 0,
+      "task": "pour_liquid_into_cup",
+      "episodes": 25,
+      "expected": 25,
+      "successes": 13,
+      "raw_sha256": "da68ebdf7d00ccd66f44e2f770b25aaf21c4eff3472dd28249d74c12af67c9ee"
+    },
+    {
+      "seed": 0,
+      "task": "press_by_number",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 1,
+      "raw_sha256": "66c102866ed8256d7dff982bf031bed3b39f1ee9dbf5f6651e7efcccb4ec43b0"
+    },
+    {
+      "seed": 0,
+      "task": "sort_nesting_dolls_by_size",
+      "episodes": 16,
+      "expected": 25,
+      "successes": 1,
+      "raw_sha256": "fdb6c5d5cc61870aa034ffc505e881aabf45d99ff7ec51fb6b68445ccbc66184"
+    },
+    {
+      "seed": 0,
+      "task": "sort_nesting_dolls_by_size_random",
+      "episodes": 25,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316"
+    },
+    {
+      "seed": 0,
+      "task": "store_tools_in_toolbox",
+      "episodes": 50,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "ee8212a7544ff42cd6c0540654c20618240b20d5ed3418f730254f69a3e4749f"
+    },
+    {
+      "seed": 0,
+      "task": "swap_T",
+      "episodes": 32,
+      "expected": 50,
+      "successes": 0,
+      "raw_sha256": "d6519b73827926b98945ccec33d7ed1fca9156a4ebf4128d132cd4aeaeae2510"
+    },
+    {
+      "seed": 0,
+      "task": "sweep_blocks",
+      "episodes": 16,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "254be5e698b64b1274e3c6f093f6f23b275665830355507651f4d34b198fc088"
+    },
+    {
+      "seed": 0,
+      "task": "sweep_blocks_random",
+      "episodes": 25,
+      "expected": 25,
+      "successes": 0,
+      "raw_sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316"
+    }
+  ],
+  "rlt_cycle": "rlt-cycle-20260929-official6300-gpu7-retry4",
+  "rlt_stopped": true,
+  "rlt_return_dispatched": false,
+  "deployed_head": "1d3e375add2557557291cc3050d8068ed0dc3f31",
+  "protocol": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "task_configurations": 54,
+    "native_episodes": [
+      25,
+      50
+    ],
+    "workers": 8,
+    "environments_per_worker": 4,
+    "gpus": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "action_type": "ee",
+    "action_chunk": 32,
+    "denoising_steps": 10
+  },
+  "interpretation": "Partial infrastructure recovery; full benchmark is not yet complete.",
+  "all_native_budgets_met": false
+}

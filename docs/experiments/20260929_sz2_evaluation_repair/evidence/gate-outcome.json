@@ -1,0 +1,6 @@
+{
+  "pipeline_resumed": true,
+  "gpu_reset_performed": false,
+  "reason": "controller stopped and GPU workload cleared, but strict expected exit code rejected exit4; original automatic RLT return resumed",
+  "time": 1790687709.4496093
+}
