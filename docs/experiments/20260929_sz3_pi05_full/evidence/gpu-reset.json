@@ -1,0 +1,37 @@
+{
+  "state": "finished",
+  "actions": [
+    {
+      "gpu": 4,
+      "time": 1790667976.2799118,
+      "state": "reset",
+      "exit": 0,
+      "stdout": "GPU 00000000:96:00.0 was successfully reset.\nAll done.\n",
+      "stderr": ""
+    },
+    {
+      "gpu": 5,
+      "time": 1790667983.2163098,
+      "state": "reset",
+      "exit": 0,
+      "stdout": "GPU 00000000:97:00.0 was successfully reset.\nAll done.\n",
+      "stderr": ""
+    },
+    {
+      "gpu": 6,
+      "time": 1790667990.112649,
+      "state": "reset",
+      "exit": 0,
+      "stdout": "GPU 00000000:C0:00.0 was successfully reset.\nAll done.\n",
+      "stderr": ""
+    },
+    {
+      "gpu": 7,
+      "time": 1790667997.145817,
+      "state": "reset",
+      "exit": 0,
+      "stdout": "GPU 00000000:C1:00.0 was successfully reset.\nAll done.\n",
+      "stderr": ""
+    }
+  ]
+}

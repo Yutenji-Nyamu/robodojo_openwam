@@ -84,6 +84,18 @@ class ProcessGuard:
             return start_ticks < self.anchor['start_ticks'] and (pid, start_ticks) not in self.known_pids
 
     def identity(self, pid: int):
+        # Linux may briefly deny /proc/PID/environ while an owned process execs.
+        # Retry a fresh identity read; never reuse an old identity to signal it.
+        # Persistent denial is still an error, with its exact path retained.
+        for attempt in range(10):
+            try:
+                return self._identity_once(pid)
+            except PermissionError:
+                if attempt == 9:
+                    raise
+                time.sleep(0.05)
+
+    def _identity_once(self, pid: int):
         path = Path("/proc") / str(pid)
         try:
             if path.stat().st_uid != self.uid:

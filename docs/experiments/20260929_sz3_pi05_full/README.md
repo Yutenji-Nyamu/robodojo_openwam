@@ -31,7 +31,7 @@
 
 部署项目：`/data/chenyiteng/projects/robodojo-openwam-sz3`；源码在内部`RoboDojo/`，分支`codex/sz3-dojo-openwam-pi05`。
 
-本次run：`sz3_pi05_official_6300_n4_dual_20260929`；控制器位于`$PROJECT/scripts/pi05_formal_20260929/`，端口计划39800–39807。外层读取`dojo_sweep.config.json`，依次完成资产、权重与配置核验、暂停四组RLT、全量评测、归还GPU并恢复RLT。
+当前run：`sz3_pi05_official_6300_n4_dual_20260929_r2`；控制器位于`$PROJECT/scripts/pi05_formal_20260929_r2/`，端口63080–63087。外层读取`dojo_sweep.config.json`，依次完成资产、权重与配置核验、暂停四组RLT、全量评测、归还GPU并恢复RLT。原无后缀attempt因端口冲突退出；_r1在仿真启动时遇到瞬时进程权限读取竞态，均回合0，单独保留。
 
 实际任务入口形状：
 
@@ -58,4 +58,25 @@ bash scripts/robodojo.sh client --policy-dir XPolicyLab/policy/Pi_05 \
 
 seed0权重已完整验证，先运行seed0；seed1/2后台下载固定官方revision，进入各seed前检查ready回执、固定manifest和实际文件。不会把seed0权重代替其他训练seed；下载失败会中止本批并走资源归还。等待权重最多6小时，仅限制无模型可运行的等待，不给正式回合加墙钟截止。
 
+15:47更新：seed1于15:41:35、seed2于15:41:53全部文件hash通过并写ready；现在三个seed权重和全部资产都已齐全，无需再等待下载。
+
 细粒度原始命令/stdout/stderr/退出回执：E盘`exp2-research/implementation-sz3-20260929/steps/p001-*`起。公开版本仅发布脱敏配置、控制器、日志摘要和轻量证据；运行期间维持部署源码不变。
+
+## 发布与借卡
+
+- p018–022：全资产15:25完成，15365/15365文件、41,269,513,111字节核验成功。p020公开JSON的CRLF被Git格式检查拒绝，修为LF后p021通过，未改变JSON语义。
+- p023：15:27准备记录推送SZ3分支，commit `50aab2b28298db42c4b25c59c8967eae8d91e84c`，新增10、修改1、删除0；SSH远端SHA和内置浏览器均核验。实际代码配置仅num_envs1→4。运行源码锁此commit，后续状态在独立发布checkout记录。
+- p024：15:28四组RLT精确停止，真实checkpoint校验后均从CP25恢复；共享Ray未操作。
+- p025：GPU4空闲reset成功；GPU5被共享Ray Dashboard监控句柄占用，预检查拒绝reset，未向该进程发信号。p026仅对剩余5–7尝试等待空闲句柄后逐卡reset；不能确认空闲的卡保留原状。
+- p026实测：共享监控句柄自行释放后，5/6/7均reset成功；未停共享Ray。
+- p027–029：15:30首次正式控制器启动，但在任何worker启动前因`39806 Address already in use`退出。官方任务回合0；清理与GPU释放检查通过，15:30:54自动从CP25派发恢复四组RLT。39800段落在本机临时端口32768–60999内；这次固定端口选择有缺陷。
+- p030–032：在独立publication checkout保留运行源码HEAD。新attempt为`sz3_pi05_official_6300_n4_dual_20260929_r1`，改用已核验空闲且在临时端口范围外的63080–63087，Ray固定worker端口26400–26599也不冲突。新借卡cycle=`rlt-cycle-sz3-pi05-full-r1`，精确引用刚恢复的四个run。旧pipeline仅停止只读首轮观察；训练由新cycle检查身份后停止。模型、任务、预算、并发均未修改。
+- p033–036：4–7空闲reset均exit0。15:37:02启动_r1，外层PID2325558/start663844612，真实进入EVALUATING；8份Pi05服务加载开始，每卡约49,749MiB，仿真当时尚未启动。p035只读状态脚本访问尚未初始化的complete_tasks键失败，修为缺省0；评测进程未受影响。p036健康快照正常。
+- p037–038：8个Pi05服务全部ready；随后两个worker在检查其他刚exec的本批进程时遇到`/proc/PID/environ` PermissionError，控制器中止全部worker，尚无任务回合。精确清理、GPU释放和RLT自动恢复派发再次通过。
+- p039–040：首个只读身份采样只覆盖fork后瞬间，400次无复现；改为覆盖整个exec转换期后，400次出现49次PermissionError，全部带`/proc/PID/environ`路径，确认是Linux exec瞬时权限竞态。
+- p041–042：进程身份读取增加50ms间隔、最多10次的有界重试，每次重新读取身份，不用旧身份发信号；持续不可读仍报错。相同400次并发exec测试0错误；13项控制器检查通过。worker错误同时保留完整traceback。使用新控制器目录保留旧失败代码快照。
+- p043：_r2继承相同任务/seed/权重/并行和63080端口，借卡cycle=`rlt-cycle-sz3-pi05-full-r2`精确引用_r1归还后新恢复的四组RLT。固定环境和RoboDojo部署HEAD不变。
+- p044–048：第三次精确切卡和4–7逐卡reset均通过；15:46:45启动_r2，外层PID3373285/start663902919。15:47:55八服务已加载且八任务进入仿真初始化，RUNNING8/PENDING46，所有seed权重ready。此时尚未落盘回合。
+- p049–052：八个Isaac App均完成初始化，随后载入资产/reset。15:50四卡各约58.5–58.9GiB，主机可用1738GiB；每卡明确为两个Pi05服务（各24866MiB）及两个仿真进程。服务日志的`InvalidMessage: did not receive a valid HTTP request`来自官方scripts/robodojo.sh:69的`/dev/tcp`空连接探测；服务仍存活，不将这条探测日志误判为模型退出。pour_by_language另有官方酒瓶资产RigidBody层级警告，原样保留，后续用真实回合判断影响。
+- p053–056：15:53确认8个worker全进入实际动作循环，首批步骤为45/68/22/107/165/52/61/107，8任务RUNNING、46待调度。四卡显存71713/74234/71890/71981MiB，主机可用1692.75GiB；暂无完整回合落盘，此为全量评测健康启动，不是完整benchmark结果。
+- p057–060：全部worker持续推进；p058公开状态校验被ANSI颜色码解析问题挡住，p059逐条确认env0–3均正常。只读快照解析改用去颜色后的文本，评测进程和结果未改。

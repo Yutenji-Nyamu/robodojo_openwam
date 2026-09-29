@@ -26,6 +26,7 @@ import subprocess
 import sys
 import threading
 import time
+import traceback
 
 import yaml
 
@@ -401,7 +402,7 @@ class Sweep:
         except Exception as error:
             if current_task:
                 self.update(seed, current_task, status="ERROR", error=repr(error))
-            self.event("worker_error", worker=worker, seed=seed, error=repr(error))
+            self.event("worker_error", worker=worker, seed=seed, error=repr(error), traceback=traceback.format_exc())
             self.stop.set()
             raise
         finally:

@@ -1,0 +1,31 @@
+{
+  "cycle": "rlt-cycle-sz3-pi05-full-r2",
+  "all_original_drivers_stopped": true,
+  "all_original_namespaces_empty": true,
+  "gpus_released_before_dojo": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "recovery": {
+    "gpu4": {
+      "mode": "resume_checkpoint",
+      "checkpoint_step": 25
+    },
+    "gpu5": {
+      "mode": "resume_checkpoint",
+      "checkpoint_step": 25
+    },
+    "gpu6": {
+      "mode": "resume_checkpoint",
+      "checkpoint_step": 25
+    },
+    "gpu7": {
+      "mode": "resume_checkpoint",
+      "checkpoint_step": 25
+    }
+  },
+  "automatic_restore": "formal_pipeline.py waits for exact Dojo release receipt, then resumes these four unchanged RLT runs",
+  "shared_ray_action": "none"
+}

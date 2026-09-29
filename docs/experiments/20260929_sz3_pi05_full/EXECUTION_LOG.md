@@ -1,6 +1,6 @@
 # 细粒度执行记录
 
-截至发布前准备阶段；后续启动现场另存 LAUNCH_STATUS.md。时间为UTC+8。失败步骤保留，未执行的启动不计成功。
+逐步命令回执；正式启动现场另存 LAUNCH_STATUS.md。时间为UTC+8。失败步骤保留，未完成的启动不计为健康评测。
 
 | 步骤 | 开始 | 结束 | 退出码 | 身份/固定host-key |
 |---|---|---|---:|---|
@@ -24,6 +24,46 @@
 | p018-preparation-status | 15:21:57 | 15:21:57 | 0 | 已核验 |
 | p019-preparation-status | 15:22:56 | 15:22:56 | 0 | 已核验 |
 | p020-stage-formal-publication | 15:24:49 | 15:24:53 | 1 | 已核验 |
+| p021-stage-formal-publication-retry | 15:26:31 | 15:26:34 | 0 | 已核验 |
+| p022-preparation-status | 15:26:38 | 15:26:38 | 0 | 已核验 |
+| p023-publish-formal-preparation | 15:27:08 | 15:27:16 | 0 | 已核验 |
+| p024-stop-rlt-for-formal | 15:27:29 | 15:28:23 | 0 | 已核验 |
+| p025-reset-formal-idle-gpus | 15:28:42 | 15:28:51 | 1 | 已核验 |
+| p026-reset-remaining-idle-gpus | 15:29:36 | 15:29:57 | 0 | 已核验 |
+| p027-launch-formal-pipeline | 15:30:17 | 15:30:18 | 0 | 已核验 |
+| p028-formal-startup-status | 15:30:38 | 15:30:39 | 0 | 已核验 |
+| p029-port-conflict-readonly | 15:31:20 | 15:31:21 | 0 | 已核验 |
+| p030-prepare-status-checkout | 15:31:54 | 15:31:55 | 0 | 已核验 |
+| p031-prepare-formal-retry | 15:32:47 | 15:33:17 | 0 | 已核验 |
+| p032-stop-rlt-for-formal-r1 | 15:34:10 | 15:35:01 | 0 | 已核验 |
+| p033-reset-formal-r1-idle-gpus | 15:36:02 | 15:36:32 | 0 | 已核验 |
+| p034-launch-formal-r1 | 15:37:01 | 15:37:02 | 0 | 已核验 |
+| p035-formal-r1-startup-status | 15:37:12 | 15:37:12 | 1 | 已核验 |
+| p036-formal-health | 15:37:51 | 15:37:51 | 0 | 已核验 |
+| p037-formal-health | 15:38:27 | 15:38:27 | 0 | 已核验 |
+| p038-formal-r1-failure-detail | 15:38:59 | 15:38:59 | 0 | 已核验 |
+| p039-reproduce-guard-exec-race | 15:39:51 | 15:39:54 | 0 | 已核验 |
+| p040-reproduce-guard-transition | 15:40:31 | 15:40:33 | 0 | 已核验 |
+| p041-prepare-r2-scripts | 15:41:44 | 15:41:44 | 0 | 已核验 |
+| p042-test-r2-guard | 15:42:11 | 15:42:17 | 0 | 已核验 |
+| p043-prepare-formal-r2 | 15:43:30 | 15:44:07 | 0 | 已核验 |
+| p044-stop-rlt-for-formal-r2 | 15:44:26 | 15:45:19 | 0 | 已核验 |
+| p045-reset-formal-r2-idle-gpus | 15:46:09 | 15:46:37 | 0 | 已核验 |
+| p046-launch-formal-r2 | 15:46:45 | 15:46:45 | 0 | 已核验 |
+| p047-weights-and-assets-status | 15:47:19 | 15:47:19 | 0 | 已核验 |
+| p048-formal-r2-health | 15:47:54 | 15:47:55 | 0 | 已核验 |
+| p049-formal-r2-health | 15:48:33 | 15:48:34 | 0 | 已核验 |
+| p050-formal-r2-health | 15:49:33 | 15:49:34 | 0 | 已核验 |
+| p051-official-probe-and-processes | 15:50:06 | 15:50:06 | 0 | 已核验 |
+| p052-formal-r2-health | 15:50:23 | 15:50:24 | 0 | 已核验 |
+| p053-formal-r2-health | 15:51:33 | 15:51:34 | 0 | 已核验 |
+| p054-stage-launch-publication | 15:52:02 | 15:52:02 | 0 | 已核验 |
+| p055-formal-r2-health | 15:52:16 | 15:52:16 | 0 | 已核验 |
+| p056-formal-r2-health | 15:53:16 | 15:53:16 | 0 | 已核验 |
+| p057-formal-progress-confirmed | 15:54:13 | 15:54:14 | 0 | 已核验 |
+| p058-stage-confirmed-launch | 15:54:42 | 15:54:42 | 1 | 已核验 |
+| p059-all-env-steps | 15:55:06 | 15:55:06 | 0 | 已核验 |
+| p060-confirm-32-environments | 15:55:25 | 15:55:26 | 0 | 已核验 |
 
 逐步命令hash及回执见 evidence/execution-receipts.json。完整原始命令、stdout、stderr在本地实验归档中保留，不发布账户凭据或进程环境。
 

@@ -1,0 +1,530 @@
+{
+  "time": "2026-09-29T15:55:25.954938+08:00",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "pipeline-current.json": {
+    "time": 1790668009.7376595,
+    "phase": "EVALUATING"
+  },
+  "deployment_commit": "50aab2b28298db42c4b25c59c8967eae8d91e84c",
+  "gpu_snapshot": [
+    "0, 131, 81559, 0",
+    "1, 1, 81559, 0",
+    "2, 1, 81559, 0",
+    "3, 1, 81559, 0",
+    "4, 71713, 81559, 0",
+    "5, 74234, 81559, 87",
+    "6, 71890, 81559, 31",
+    "7, 72429, 81559, 10"
+  ],
+  "mem_available_gib": 1690.52,
+  "mem_total_gib": 2014.92,
+  "seeds": {
+    "0": {
+      "ready": true,
+      "status": "ready",
+      "revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+      "files": 18
+    },
+    "1": {
+      "ready": true,
+      "status": "ready",
+      "revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+      "files": 18
+    },
+    "2": {
+      "ready": true,
+      "status": "ready",
+      "revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+      "files": 25
+    }
+  },
+  "workers": [
+    {
+      "worker": "worker0",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker0/server/stdout-1790668012022772162.log",
+        "bytes": 3175,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker0/tasks/imitate_sorting_sequence/stdout-1790668012022772162.log",
+        "bytes": 89244,
+        "tail": [
+          "env3 step: 171 / 1600",
+          "env0 step: 172 / 1600",
+          "env1 step: 172 / 1600",
+          "env2 step: 172 / 1600",
+          "env3 step: 172 / 1600"
+        ],
+        "progress_lines": [
+          "env2 step: 171 / 1600",
+          "env3 step: 171 / 1600",
+          "env0 step: 172 / 1600",
+          "env1 step: 172 / 1600",
+          "env2 step: 172 / 1600",
+          "env3 step: 172 / 1600"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 172,
+            "max_steps": 1600
+          },
+          "1": {
+            "step": 172,
+            "max_steps": 1600
+          },
+          "2": {
+            "step": 172,
+            "max_steps": 1600
+          },
+          "3": {
+            "step": 172,
+            "max_steps": 1600
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker1",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker1/server/stdout-1790668012022772162.log",
+        "bytes": 3151,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker1/tasks/play_tic_tac_toe/stdout-1790668012022772162.log",
+        "bytes": 85635,
+        "tail": [
+          "env3 step: 147 / 1100",
+          "env0 step: 148 / 1100",
+          "env1 step: 148 / 1100",
+          "env2 step: 148 / 1100",
+          "env3 step: 148 / 1100"
+        ],
+        "progress_lines": [
+          "env2 step: 147 / 1100",
+          "env3 step: 147 / 1100",
+          "env0 step: 148 / 1100",
+          "env1 step: 148 / 1100",
+          "env2 step: 148 / 1100",
+          "env3 step: 148 / 1100"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 148,
+            "max_steps": 1100
+          },
+          "1": {
+            "step": 148,
+            "max_steps": 1100
+          },
+          "2": {
+            "step": 148,
+            "max_steps": 1100
+          },
+          "3": {
+            "step": 148,
+            "max_steps": 1100
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker2",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker2/server/stdout-1790668012022772162.log",
+        "bytes": 3151,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker2/tasks/pour_by_language/stdout-1790668012022772162.log",
+        "bytes": 84026,
+        "tail": [
+          "env3 step: 96 / 800",
+          "env0 step: 97 / 800",
+          "env1 step: 97 / 800",
+          "env2 step: 97 / 800",
+          "env3 step: 97 / 800"
+        ],
+        "progress_lines": [
+          "env2 step: 96 / 800",
+          "env3 step: 96 / 800",
+          "env0 step: 97 / 800",
+          "env1 step: 97 / 800",
+          "env2 step: 97 / 800",
+          "env3 step: 97 / 800"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 97,
+            "max_steps": 800
+          },
+          "1": {
+            "step": 97,
+            "max_steps": 800
+          },
+          "2": {
+            "step": 97,
+            "max_steps": 800
+          },
+          "3": {
+            "step": 97,
+            "max_steps": 800
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker3",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker3/server/stdout-1790668012022772162.log",
+        "bytes": 3142,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker3/tasks/fasten_screws/stdout-1790668012022772162.log",
+        "bytes": 99131,
+        "tail": [
+          "env3 step: 251 / 1900",
+          "env0 step: 252 / 1900",
+          "env1 step: 252 / 1900",
+          "env2 step: 252 / 1900",
+          "env3 step: 252 / 1900"
+        ],
+        "progress_lines": [
+          "env2 step: 251 / 1900",
+          "env3 step: 251 / 1900",
+          "env0 step: 252 / 1900",
+          "env1 step: 252 / 1900",
+          "env2 step: 252 / 1900",
+          "env3 step: 252 / 1900"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 252,
+            "max_steps": 1900
+          },
+          "1": {
+            "step": 252,
+            "max_steps": 1900
+          },
+          "2": {
+            "step": 252,
+            "max_steps": 1900
+          },
+          "3": {
+            "step": 252,
+            "max_steps": 1900
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker4",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker4/server/stdout-1790668012022772162.log",
+        "bytes": 3154,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker4/tasks/play_stacking_toy/stdout-1790668012022772162.log",
+        "bytes": 105662,
+        "tail": [
+          "env3 step: 305 / 1200",
+          "env0 step: 306 / 1200",
+          "env1 step: 306 / 1200",
+          "env2 step: 306 / 1200",
+          "env3 step: 306 / 1200"
+        ],
+        "progress_lines": [
+          "env2 step: 305 / 1200",
+          "env3 step: 305 / 1200",
+          "env0 step: 306 / 1200",
+          "env1 step: 306 / 1200",
+          "env2 step: 306 / 1200",
+          "env3 step: 306 / 1200"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 306,
+            "max_steps": 1200
+          },
+          "1": {
+            "step": 306,
+            "max_steps": 1200
+          },
+          "2": {
+            "step": 306,
+            "max_steps": 1200
+          },
+          "3": {
+            "step": 306,
+            "max_steps": 1200
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker5",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker5/server/stdout-1790668012022772162.log",
+        "bytes": 3187,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker5/tasks/classify_objects_by_language/stdout-1790668012022772162.log",
+        "bytes": 92088,
+        "tail": [
+          "env3 step: 194 / 1100",
+          "env0 step: 195 / 1100",
+          "env1 step: 195 / 1100",
+          "env2 step: 195 / 1100",
+          "env3 step: 195 / 1100"
+        ],
+        "progress_lines": [
+          "env2 step: 194 / 1100",
+          "env3 step: 194 / 1100",
+          "env0 step: 195 / 1100",
+          "env1 step: 195 / 1100",
+          "env2 step: 195 / 1100",
+          "env3 step: 195 / 1100"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 195,
+            "max_steps": 1100
+          },
+          "1": {
+            "step": 195,
+            "max_steps": 1100
+          },
+          "2": {
+            "step": 195,
+            "max_steps": 1100
+          },
+          "3": {
+            "step": 195,
+            "max_steps": 1100
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker6",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker6/server/stdout-1790668012022772162.log",
+        "bytes": 3151,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker6/tasks/classify_objects/stdout-1790668012022772162.log",
+        "bytes": 92516,
+        "tail": [
+          "env3 step: 196 / 1100",
+          "env0 step: 197 / 1100",
+          "env1 step: 197 / 1100",
+          "env2 step: 197 / 1100",
+          "env3 step: 197 / 1100"
+        ],
+        "progress_lines": [
+          "env2 step: 196 / 1100",
+          "env3 step: 196 / 1100",
+          "env0 step: 197 / 1100",
+          "env1 step: 197 / 1100",
+          "env2 step: 197 / 1100",
+          "env3 step: 197 / 1100"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 197,
+            "max_steps": 1100
+          },
+          "1": {
+            "step": 197,
+            "max_steps": 1100
+          },
+          "2": {
+            "step": 197,
+            "max_steps": 1100
+          },
+          "3": {
+            "step": 197,
+            "max_steps": 1100
+          }
+        }
+      }
+    },
+    {
+      "worker": "worker7",
+      "seed": "seed0",
+      "server": {
+        "log": "seed0/worker7/server/stdout-1790668012022772162.log",
+        "bytes": 3136,
+        "tail": [
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 356, in conn_handler",
+          "    await connection.handshake(",
+          "  File \"/home/nvme/team-data/chenyiteng/projects/robodojo-openwam-sz3/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py\", line 207, in handshake",
+          "    raise self.protocol.handshake_exc",
+          "websockets.exceptions.InvalidMessage: did not receive a valid HTTP request"
+        ],
+        "progress_lines": [],
+        "fatal_signatures": [
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):",
+          "Traceback (most recent call last):"
+        ],
+        "env_steps": {}
+      },
+      "task": {
+        "log": "seed0/worker7/tasks/build_tower/stdout-1790668012022772162.log",
+        "bytes": 99339,
+        "tail": [
+          "env3 step: 253 / 1050",
+          "env0 step: 254 / 1050",
+          "env1 step: 254 / 1050",
+          "env2 step: 254 / 1050",
+          "env3 step: 254 / 1050"
+        ],
+        "progress_lines": [
+          "env2 step: 253 / 1050",
+          "env3 step: 253 / 1050",
+          "env0 step: 254 / 1050",
+          "env1 step: 254 / 1050",
+          "env2 step: 254 / 1050",
+          "env3 step: 254 / 1050"
+        ],
+        "fatal_signatures": [],
+        "env_steps": {
+          "0": {
+            "step": 254,
+            "max_steps": 1050
+          },
+          "1": {
+            "step": 254,
+            "max_steps": 1050
+          },
+          "2": {
+            "step": 254,
+            "max_steps": 1050
+          },
+          "3": {
+            "step": 254,
+            "max_steps": 1050
+          }
+        }
+      }
+    }
+  ],
+  "task_states": {
+    "seed0": {
+      "PENDING": 46,
+      "RUNNING": 8
+    }
+  },
+  "results": []
+}

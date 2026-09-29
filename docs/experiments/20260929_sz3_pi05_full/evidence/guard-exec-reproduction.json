@@ -1,0 +1,13 @@
+{
+  "before": {
+    "runs": 400,
+    "errors": 49
+  },
+  "after": {
+    "runs": 400,
+    "errors": 0
+  },
+  "failed_path_pattern": "/proc/PID/environ during exec",
+  "persistent_denial_still_errors": true,
+  "controller_checks_passed": 13
+}
