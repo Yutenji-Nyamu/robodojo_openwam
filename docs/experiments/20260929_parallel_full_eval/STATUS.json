@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-09-29T00:33:50+08:00",
-  "phase": "armed_waiting_official_assets",
+  "as_of": "2026-09-29T11:13:40+0800",
+  "phase": "evaluating_rollouts",
   "full_evaluation_complete": false,
   "requested_episodes": 6300,
   "completed_episodes": 0,
   "completed_task_seed_configurations": 0,
-  "note": "后台流程已于上述时间启动，当前等待完整官方资产。资产校验与源码发布两个条件满足后，自动开始四卡正式评测；目前正式回合数为 0，没有全基准结果。批次结束并确认进程退出、资源释放后，按原计划归还资源。",
-  "run_id": "official6300-n4-dual-20260929",
-  "launch_time": "2026-09-29T00:33:50+08:00",
-  "assets_verified": false,
-  "active_seed": null,
+  "note": "原批次资产校验失败后已修复；11:06重试，已观察到真实模型动作与仿真步数。正式批次尚未完成。completed_episodes目前按已写出完整任务_result.json计数，未包含任务内中间进度；此为时间戳快照。",
+  "run_id": "official6300-n4-dual-20260929-r2",
+  "launch_time": "2026-09-29T11:06:01+08:00",
+  "assets_verified": true,
+  "active_seed": 0,
   "evaluation_seeds": [
     0,
     1,
@@ -21,5 +21,8 @@
   "launcher_validation": {
     "dojo_controller_cpu_tests_passed": 9,
     "scope": "CPU-only controller checks; no formal simulator episodes."
-  }
+  },
+  "original_attempt": "asset_verification_failed_before_evaluation",
+  "active_workers": 8,
+  "workers_with_action_steps": 8
 }
