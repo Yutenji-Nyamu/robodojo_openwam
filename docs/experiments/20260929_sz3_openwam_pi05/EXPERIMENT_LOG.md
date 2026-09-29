@@ -7,8 +7,14 @@
 - Pi_05安装曾因辅助脚本`UV_PYTHON`指向sim环境，令后续editable安装选择错误目标。检查发现后精确终止该子步骤，关键sim包未出现版本变化；改为Pi_05自己的`.venv/bin/python`重跑官方脚本，退出0。原失败记录保留。
 - 13:12：OpenWAM首轮`sz3_openwam_stack_bowls_s0_20260929_131209_compat`加载模型成功，但Vulkan探针返回-9，整体退出2，无任务回合。
 - 13:23：对比SZ2与SZ3动态库hash、GLVND配置及文件打开轨迹，确认SZ3缺`10_nvidia.json`，只加载Mesa。项目内补NVIDIA厂商描述并由进程环境指定，Vulkan正常枚举8H100，与595内存上限兼容层联合检查通过。
-- 13:25–13:30：第二轮OpenWAM`sz3_openwam_stack_bowls_s0_20260929_132541_eglfix`通过Vulkan初始化，进入Kit后出现`ERROR_DEVICE_LOST`，退出139，无任务回合。内核对应PCI40:00/PID1619973的Xid109上下文切换超时。
+- 13:25–13:30：第二轮OpenWAM`sz3_openwam_stack_bowls_s0_20260929_132541_eglfix`通过Vulkan初始化，进入Kit后出现`ERROR_DEVICE_LOST`，退出139，无任务回合。内核记录GPU2对应进程的Xid109上下文切换超时。
 - 13:39–13:56：用独立SimulationApp短测试定位，strace确认无版本`libcuda.so`和`libnvidia-ml.so`加载失败。仅在项目内创建指向本机已安装库的链接，另在项目内补GBM EGL注册描述；已补已定位的项目局部链接/登记，CUDA链接加载已确认；GPU1/2/3仍在图形工作提交时失败。五次探针均没有完成构造，最后因150秒上限退出124。缺库修复与剩余GPU超时分别记录，不称为已修复全部问题。
 - 单卡恢复准备：只读核对NVIDIA官方Xid与Hopper重置说明、目标GPU显存及设备句柄。RLT进程也持有GPU2句柄，未重置或停止它们。13:54核实四组Stage2尚无checkpoint，暂停后不能承诺保留当前回放池进度。两机kernel参数存在`iommu=pt`等可见差异；GPU无iommu_group，未证明IOMMU因果。
 - 13:56:07–13:56:55：π0.5官方策略服务独立加载检查`sz3_pi05_load_20260929_135607`通过，使用seed0专用权重59999、14维joint动作配置、官方0.3 JAX内存比例；端口57145就绪，观察GPU3占24,880MiB。随后只停止本检查的策略进程，GPU3回到4MiB。**这是模型加载检查，不是任务推理成功。**
-- 13:58：所有本轮GPU探针和加载检查已结束，GPU1/2/3分别4/5/4MiB。SZ2完整评测与SZ3 RLT保持原状。暂停训练做单卡恢复、跨机仿真或继续用户环境排障的路线等待用户选择；没有成功视频。
+- 13:58：所有本轮GPU探针和加载检查已结束，GPU1/2/3分别4/5/4MiB。SZ2完整评测与SZ3 RLT保持原状。暂停训练做单卡恢复、跨机仿真或继续用户环境排障的路线等待用户选择；当时没有成功视频。
+- 14:29：获得用户借卡授权后，精确停止本人 GPU4–7 的四组 RLT；停机检查四组均已有有效 checkpoint 25，冻结完整恢复点，保留累计3000轮目标及原实配。
+- 14:30–14:35：GPU4 在停训后仍复现 Xid109；清理该 probe 并确认目标卡空闲后执行一次单卡 reset。相同配置 probe 约32秒完成启动并正常退出。GPU6 也在空闲条件下单卡 reset，未单独做前后对照。根因未据此确定。
+- 14:35–14:43：两个官方单回合入口同时运行：OpenWAM 使用 GPU4 仿真/5策略，π0.5 使用 GPU6 仿真/7策略。共同设置为 stack_bowls、arx_x5、seed0、layout0、num_envs1、eval_num1。**两模型都完成一个成功回合，原生分数100，进程退出0**；入口总耗时分别422/407秒。π0.5三路视频各11.16秒，OpenWAM各12.8秒。这是部署里程碑，不是完整基准成功率。
+- 14:43：监督器确认本次全部 worker 停止、GPU4–7释放，自动从四组 checkpoint 25 派发 RLT；恢复 helper 退出0。后续核验48 actor为ALIVE，四张卡各约23GiB并进入 rollout；14:54最终确认四组全部从CP25推进到第26轮，回放池增长，恢复验收通过（s179）。
+
+成功证据与视频见 [π0.5里程碑](MILESTONE_pi05.md)、[OpenWAM里程碑](MILESTONE_openwam.md)，本机处理和自动归还机制见 [切换记录](CUTOVER_AND_GPU_RESET.md)。

@@ -1,0 +1,10 @@
+{
+  "url": "https://packages.lunarg.com/vulkan/pool/main/v/vulkan-profiles/vulkan-profiles_1.4.313.0~rc1-1lunarg22.04-1_amd64.deb",
+  "package_sha256": "e126f4ea78a3d7a5fb9a3976ff1da12647854455959e26a6e34f60b4410087c9",
+  "layer_sha256": "9699dce1cae0e3eabc751af596858ec5aade20f40584509ee23a19f2b995a0f3",
+  "maxMemoryAllocationSize": 4292870144,
+  "jsoncpp_url": "https://archive.ubuntu.com/ubuntu/pool/main/libj/libjsoncpp/libjsoncpp25_1.9.5-3_amd64.deb",
+  "jsoncpp_package_sha256": "8844bfab4691b56cf49e741b65389147b03168bef4254b31ae97ad679d199a78",
+  "jsoncpp_sha256": "7d699962170ac3142f81ed55df0bcdd49d035c0e3374378d49020435b68f68d9",
+  "issue": "https://github.com/isaac-sim/IsaacSim/issues/568"
+}

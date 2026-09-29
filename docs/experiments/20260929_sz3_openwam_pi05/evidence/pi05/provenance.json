@@ -1,0 +1,126 @@
+{
+  "run_id": "sz3_pair_20260929_143536_pi05",
+  "model": "pi05",
+  "selected_episode": 0,
+  "layout_id": 0,
+  "selection": "Lowest successful episode index in this run's native details; no seed/layout reranking.",
+  "native_exit": 0,
+  "native_result_sha256": "117b7aac5c033705b64fc53e97b00912e1fec4f50cff9869aee75b750b3529a6",
+  "source_files": [
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pair_20260929_143536_pi05/_result.json",
+      "source_sha256": "117b7aac5c033705b64fc53e97b00912e1fec4f50cff9869aee75b750b3529a6",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/result.json",
+      "transform": "JSON_string_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536/pi05.log",
+      "source_sha256": "e96b246583ac396900ec0556c29547a718d60e997be94c3bc8282343200dcc9b",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/sz3_pair_20260929_143536_pi05.log",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/exit.txt",
+      "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/exit.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/command.sh",
+      "source_sha256": "5dc74f36d33054b90b7c5739829140e06ff7b9cf08fc58bd421dc6a725b29836",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/command.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/sim_config.yml",
+      "source_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/sim_config.yml",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/dojo-head.txt",
+      "source_sha256": "2d6937fbd3aacb80a08531b90f62ebb4493312905d63673e2040946cd65ec382",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/dojo-head.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/submodules.txt",
+      "source_sha256": "26d4e182bc7229f06d8e3c673074d0dc10ba73a68bade37c818c5add47fbfb4e",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/submodules.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/start.txt",
+      "source_sha256": "7be929e8c83fa230c80329d4378c08342bd09f3268722be5ba7788b9ff101806",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/start.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/end.txt",
+      "source_sha256": "cec319f2140ad378f660d14cba8d89fd41d01e6c560bb7f26c02871dd91e0abb",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/end.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/project-env.sh",
+      "source_sha256": "f99d6afb596fa6aecea6a9167819f3a540c515b1ce2f46c13d740af0283718a8",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/project-env.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/eval_single.sh",
+      "source_sha256": "b85971340a37f1a73e06fedc64e90728285380e95dcd4d8cbf14864028eb66dd",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/eval_single.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/egl-vendor.json",
+      "source_sha256": "c4ddd234201d02c306eaa3ad49c4ccc26ea6630e695948cedd4dd0be86aec917",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/egl-vendor.json",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/local-config.patch",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/local-config.patch",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/vulkan-compat.sha256",
+      "source_sha256": "b5a89130ac73a13f6b0d81337d9e539250702496974e178385ba99f143044cfd",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/vulkan-compat.sha256",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_pi05/vulkan-layer-package.json",
+      "source_sha256": "6651c55e96f44d35c98fe6fe53d918aafbc955498fd2bf6320467e589aa0ccaa",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/pi05/vulkan-layer-package.json",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pair_20260929_143536_pi05/episode_0000000_cam_head_success.mp4",
+      "source_sha256": "9cfee9b2487ce6b3c441846ca5bf1ff5739e5247f3c6903d9cf3f5778eb34993",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/pi05/episode_0000000_cam_head_success.mp4",
+      "transform": "none"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pair_20260929_143536_pi05/episode_0000000_cam_left_wrist_success.mp4",
+      "source_sha256": "32ca7e3422466e72f3e420b72f3c70f258fc91dc3b1445d2c58c2273039ebae4",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/pi05/episode_0000000_cam_left_wrist_success.mp4",
+      "transform": "none"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pair_20260929_143536_pi05/episode_0000000_cam_right_wrist_success.mp4",
+      "source_sha256": "fd75a8683956d207f8d5e2d1747fb78c061a63419ea7da6ed93931c5a5d3b840",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/pi05/episode_0000000_cam_right_wrist_success.mp4",
+      "transform": "none"
+    }
+  ],
+  "redactions": [
+    "Project and home paths",
+    "IP addresses",
+    "URL userinfo/query/fragment",
+    "Credential-shaped values"
+  ],
+  "video_validation": "ffprobe video stream, positive dimensions/duration, byte-for-byte SHA256 copy; no claim of full frame decoding."
+}

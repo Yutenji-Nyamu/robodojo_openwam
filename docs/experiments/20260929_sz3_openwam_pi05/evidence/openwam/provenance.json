@@ -1,0 +1,126 @@
+{
+  "run_id": "sz3_pair_20260929_143536_openwam",
+  "model": "openwam",
+  "selected_episode": 0,
+  "layout_id": 0,
+  "selection": "Lowest successful episode index in this run's native details; no seed/layout reranking.",
+  "native_exit": 0,
+  "native_result_sha256": "117b7aac5c033705b64fc53e97b00912e1fec4f50cff9869aee75b750b3529a6",
+  "source_files": [
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/_result.json",
+      "source_sha256": "117b7aac5c033705b64fc53e97b00912e1fec4f50cff9869aee75b750b3529a6",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/result.json",
+      "transform": "JSON_string_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536/openwam.log",
+      "source_sha256": "71b2fe5d9d56eb8976bc6b611eebebf112cb12d205d0773e56e347f50100f737",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/sz3_pair_20260929_143536_openwam.log",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/exit.txt",
+      "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/exit.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/command.sh",
+      "source_sha256": "eb5c5b43cbeff3282034c0e1a06faa96030e108b251c7ea20614a31a523f2d21",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/command.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/sim_config.yml",
+      "source_sha256": "385e29a6fe2981b3d7e2e7c127f79ff8ad2e9ff94c590f62a2fbaf059fb9c2ac",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/sim_config.yml",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/dojo-head.txt",
+      "source_sha256": "2d6937fbd3aacb80a08531b90f62ebb4493312905d63673e2040946cd65ec382",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/dojo-head.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/submodules.txt",
+      "source_sha256": "26d4e182bc7229f06d8e3c673074d0dc10ba73a68bade37c818c5add47fbfb4e",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/submodules.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/start.txt",
+      "source_sha256": "7be929e8c83fa230c80329d4378c08342bd09f3268722be5ba7788b9ff101806",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/start.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/end.txt",
+      "source_sha256": "0a5b02af6cfc7ca989932ef9c0413c11f4eab8320f874a85065a46682df529fb",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/end.txt",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/project-env.sh",
+      "source_sha256": "f99d6afb596fa6aecea6a9167819f3a540c515b1ce2f46c13d740af0283718a8",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/project-env.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/eval_single.sh",
+      "source_sha256": "b85971340a37f1a73e06fedc64e90728285380e95dcd4d8cbf14864028eb66dd",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/eval_single.sh",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/egl-vendor.json",
+      "source_sha256": "c4ddd234201d02c306eaa3ad49c4ccc26ea6630e695948cedd4dd0be86aec917",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/egl-vendor.json",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/local-config.patch",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/local-config.patch",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/vulkan-compat.sha256",
+      "source_sha256": "b5a89130ac73a13f6b0d81337d9e539250702496974e178385ba99f143044cfd",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/vulkan-compat.sha256",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "runs/sz3_pair_20260929_143536_openwam/vulkan-layer-package.json",
+      "source_sha256": "6651c55e96f44d35c98fe6fe53d918aafbc955498fd2bf6320467e589aa0ccaa",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/evidence/openwam/vulkan-layer-package.json",
+      "transform": "text_redaction"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_head_success.mp4",
+      "source_sha256": "ff378008e7195a69f49c17d764b6cf716aa116a566a39c1a1d7086edac8e1ea2",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/openwam/episode_0000000_cam_head_success.mp4",
+      "transform": "none"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_left_wrist_success.mp4",
+      "source_sha256": "9819c005fb03b6f4bb0aab837dfcd7748e16629b816de9df8d6876290a32293d",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/openwam/episode_0000000_cam_left_wrist_success.mp4",
+      "transform": "none"
+    },
+    {
+      "source": "RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_right_wrist_success.mp4",
+      "source_sha256": "e863ee95e534091b5d9b6b51dceb4b6f46c6096c58501b92597fe7f06b33d49b",
+      "payload": "docs/experiments/20260929_sz3_openwam_pi05/media/openwam/episode_0000000_cam_right_wrist_success.mp4",
+      "transform": "none"
+    }
+  ],
+  "redactions": [
+    "Project and home paths",
+    "IP addresses",
+    "URL userinfo/query/fragment",
+    "Credential-shaped values"
+  ],
+  "video_validation": "ffprobe video stream, positive dimensions/duration, byte-for-byte SHA256 copy; no claim of full frame decoding."
+}

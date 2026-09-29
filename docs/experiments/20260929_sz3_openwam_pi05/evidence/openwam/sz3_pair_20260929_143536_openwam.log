@@ -1,0 +1,934 @@
+RUN_ID=sz3_pair_20260929_143536_openwam MODEL=openwam MODE=compat
+[robodojo eval] policy_dir=$PROJECT/RoboDojo/XPolicyLab/policy/OpenWAM
+[robodojo eval] task=stack_bowls env_cfg=arx_x5 eval_num=1
+[INFO] Using socket port: 42573
+[MAIN] start server, policy_server_port=42573
+[CONNECTING] Policy server -> localhost:42573 (PID=186151, timeout=600s)
+[SERVER] policy=OpenWAM, task=stack_bowls, ckpt=OpenWAM-Alpha-Sim-RoboDojo
+[SERVER] ckpt_dir: $PROJECT/checkpoints/OpenWAM-Alpha-Sim-RoboDojo
+[SERVER] openwam_deploy_config: $PROJECT/RoboDojo/XPolicyLab/policy/OpenWAM/OpenWAM/configs/deploy.yaml
+[SERVER] policy_server_host=localhost policy_server_port=42573
+[SERVER] action_dim=14
+[OpenWAM] loading checkpoint from $PROJECT/checkpoints/OpenWAM-Alpha-Sim-RoboDojo on cuda ...
+[CONNECTING] Policy server still waiting for localhost:42573 (30/600s)
+[CONNECTING] Policy server still waiting for localhost:42573 (60/600s)
+[CONNECTING] Policy server still waiting for localhost:42573 (90/600s)
+[CONNECTING] Policy server still waiting for localhost:42573 (120/600s)
+[OpenWAM] initialized | {'denoise_steps': 10, 'denoise_mode': 'sync', 'num_frames': 33, 'video_num_frames': 9, 'replan_steps': 'full chunk', 'dit_cache': False, 'compile': False}
+[CONNECTED] Policy server ready on localhost:42573 (PID=186151)
+[MAIN] start client, server=localhost:42573
+[CLIENT] policy=OpenWAM, task=stack_bowls, ckpt=OpenWAM-Alpha-Sim-RoboDojo
+[CLIENT] server=localhost:42573
+[CLIENT] EVAL_ENV_TYPE=sim -> sim
+[CLIENT] Activating Conda environment: $PROJECT/envs/RoboDojo
+[CLIENT] Connecting to server localhost:42573...
+[CLIENT] Watch for green [CONNECTED]; yellow [RECONNECT] means the client is retrying.
+[INFO] PYTHONPATH=$PROJECT/RoboDojo:$PROJECT/RoboDojo/XPolicyLab:
+[INFO] policy transport = WebSocket (protocol: ws)
+[INFO] policy_server_url = ws://localhost:42573
+[INFO] device_id = 4 → CUDA_VISIBLE_DEVICES=4
+[INFO] eval_batch     = true
+[INFO] render_interval = 10
+[INFO] num_envs        = 1
+[INFO] single GPU render: 4
+[eval_policy] ROBODOJO_RUN_ID=sz3_pair_20260929_143536_openwam
+[vulkan_compat] NVIDIA 595 allocation limit: UINT64_MAX -> 4292870144
+[main] PhysX monitor enabled=False (task=stack_bowls)
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: $PROJECT/RoboDojo/third_party/IsaacLab/apps/isaaclab.python.kit
+Loading user config located at: '$PROJECT/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit$DATA/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: $PROJECT/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20260929_143828.log
+[0.199s] [ext: omni.kit.async_engine-0.0.3] startup
+[1.789s] [ext: omni.metrics.core-0.0.3] startup
+[1.791s] [ext: omni.client.lib-1.1.0] startup
+[1.882s] [ext: omni.blobkey-1.1.2] startup
+[1.885s] [ext: omni.stats-1.0.1] startup
+[1.889s] [ext: omni.datastore-0.0.0] startup
+[1.933s] [ext: omni.client-1.3.0] startup
+[1.962s] [ext: omni.ujitso.default-1.0.0] startup
+[1.969s] [ext: omni.hsscclient-1.1.2] startup
+[1.990s] [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] startup
+[1.998s] [ext: omni.assets.plugins-0.0.0] startup
+[2.005s] [ext: omni.gpu_foundation-0.0.0] startup
+[2.093s] [ext: carb.windowing.plugins-1.0.0] startup
+2026-09-29T06:38:30Z [2,044ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:30Z [2,044ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[2.100s] [ext: omni.kit.renderer.init-0.0.0] startup
+2026-09-29T06:38:30Z [2,138ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-09-29T06:38:30Z [2,146ms] [Warning] [carb.cudainterop.plugin] CUDA_VISIBLE_DEVICES environment variable is set.
+2026-09-29T06:38:30Z [2,146ms] [Warning] [carb.cudainterop.plugin] Note CUDA device enumeration and Omniverse device enumeration are different.
+2026-09-29T06:38:30Z [2,147ms] [Warning] [carb.cudainterop.plugin] Setting CUDA_VISIBLE_DEVICES can lead to undesired behavior or crashes.
+2026-09-29T06:38:31Z [3,795ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,797ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,800ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,800ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,801ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,802ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,804ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,804ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,807ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,808ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,809ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,809ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,812ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,812ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,813ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,813ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,813ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,813ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,814ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,814ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,814ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,814ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,814ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,815ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,815ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,815ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+2026-09-29T06:38:31Z [3,815ms] [Warning] [gpu.foundation.plugin] Skipping NVIDIA GPU due CUDA being in bad state: NVIDIA H100 80GB HBM3
+2026-09-29T06:38:31Z [3,815ms] [Warning] [gpu.foundation.plugin] Please restart your system if CUDA is known to work in your system.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.71.05     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | aa8dbad5.. |
+|     |                                  |        |     |            | 16        |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 6577382f.. |
+|     |                                  |        |     |            | 17        |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 9a1ca518.. |
+|     |                                  |        |     |            | 40        |            |
+|---------------------------------------------------------------------------------------------|
+| 3   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | a61c0c5b.. |
+|     |                                  |        |     |            | 41        |            |
+|---------------------------------------------------------------------------------------------|
+| 4   | NVIDIA H100 80GB HBM3            | Yes: 0 |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 6c7afe5c.. |
+|     |                                  |        |     |            | 96        |            |
+|---------------------------------------------------------------------------------------------|
+| 5   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | e656886b.. |
+|     |                                  |        |     |            | 97        |            |
+|---------------------------------------------------------------------------------------------|
+| 6   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | fd35b6f1.. |
+|     |                                  |        |     |            | c0        |            |
+|---------------------------------------------------------------------------------------------|
+| 7   | NVIDIA H100 80GB HBM3            |        |     | 81559   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2330      | 0423def8.. |
+|     |                                  |        |     |            | c1        |            |
+|=============================================================================================|
+| OS: 22.04.1 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.1, Kernel: 5.15.0-50-generic
+| Processor: Intel(R) Xeon(R) Gold 6430
+| Cores: 64 | Logical Cores: 128
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 2063278 | Free Memory: 1897633
+| Total Page/Swap (MB): 952 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-09-29T06:38:32Z [4,478ms] [Warning] [gpu.foundation.plugin] ECC is enabled on physical device 4
+[5.043s] [ext: omni.materialx.libs-1.0.7] startup
+[5.076s] [ext: omni.kit.loop-isaac-1.3.7] startup
+[5.080s] [ext: omni.kit.test-2.0.1] startup
+[5.285s] [ext: omni.kit.pipapi-0.0.0] startup
+[5.287s] [ext: omni.usd.config-1.0.6] startup
+[5.310s] [ext: omni.gpucompute.plugins-0.0.0] startup
+[5.312s] [ext: omni.usd.libs-1.0.1] startup
+[5.573s] [ext: omni.kit.pip_archive-0.0.0] startup
+[5.575s] [ext: omni.mdl-56.0.3] startup
+[5.758s] [ext: omni.iray.libs-0.0.0] startup
+[5.814s] [ext: omni.mdl.neuraylib-0.2.12] startup
+[5.824s] [ext: omni.kit.usd.mdl-1.1.5] startup
+[6.044s] [ext: omni.kit.telemetry-0.5.2] startup
+[6.097s] [ext: omni.appwindow-1.1.10] startup
+2026-09-29T06:38:34Z [6,051ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,051ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[6.111s] [ext: omni.kit.renderer.core-1.1.0] startup
+2026-09-29T06:38:34Z [6,427ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,428ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-09-29T06:38:34Z [6,461ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,462ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[6.524s] [ext: omni.kit.renderer.capture-0.0.0] startup
+[6.536s] [ext: omni.kit.renderer.imgui-2.0.5] startup
+2026-09-29T06:38:34Z [6,498ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,498ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-09-29T06:38:34Z [6,506ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,506ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-09-29T06:38:34Z [6,510ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:38:34Z [6,510ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[6.768s] [ext: omni.ui-2.27.1] startup
+[6.796s] [ext: omni.kit.mainwindow-1.0.3] startup
+[6.801s] [ext: carb.audio-0.1.0] startup
+[6.836s] [ext: omni.uiaudio-1.0.0] startup
+[6.840s] [ext: omni.kit.uiapp-0.0.0] startup
+[6.840s] [ext: omni.usd.schema.metrics.assembler-107.3.1] startup
+[6.852s] [ext: omni.usd.schema.omnigraph-1.0.0] startup
+[6.866s] [ext: omni.usd.schema.semantics-0.0.0] startup
+[6.874s] [ext: omni.usd.schema.audio-0.0.0] startup
+[6.882s] [ext: omni.usd.schema.geospatial-0.0.0] startup
+[6.889s] [ext: omni.usd.schema.anim-0.0.0] startup
+[6.934s] [ext: omni.usd_resolver-1.0.0] startup
+[6.949s] [ext: omni.usd.core-1.5.3] startup
+[6.956s] [ext: omni.usd.schema.omni_lens_distortion-0.0.0] startup
+[6.999s] [ext: isaacsim.robot.schema-3.6.0] startup
+[7.018s] [ext: omni.usd.schema.physx-107.3.26] startup
+[7.089s] [ext: omni.usd.schema.render_settings.rtx-0.0.0] startup
+[7.093s] [ext: omni.usd.schema.omni_sensors-0.0.0] startup
+[7.095s] [ext: omni.usd.schema.omniscripting-1.0.0] startup
+[7.105s] [ext: omni.graph.exec-0.9.6] startup
+[7.107s] [ext: omni.kit.actions.core-1.0.0] startup
+[7.114s] [ext: omni.kit.usd_undo-0.1.8] startup
+[7.116s] [ext: omni.kit.exec.core-0.13.4] startup
+[7.122s] [ext: omni.kit.commands-1.4.10] startup
+[7.133s] [ext: omni.kit.window.popup_dialog-2.0.24] startup
+[7.144s] [ext: omni.activity.core-1.0.3] startup
+[7.147s] [ext: omni.resourcemonitor-107.0.1] startup
+[7.154s] [ext: omni.timeline-1.0.14] startup
+[7.159s] [ext: omni.kit.widget.nucleus_connector-2.0.1] startup
+[7.171s] [ext: usdrt.scenegraph-7.6.1] startup
+[7.265s] [ext: omni.kit.audiodeviceenum-1.0.2] startup
+[7.270s] [ext: omni.hydra.usdrt_delegate-7.5.1] startup
+[7.287s] [ext: omni.hydra.scene_delegate-0.3.4] startup
+[7.297s] [ext: omni.usd-1.13.10] startup
+[7.348s] [ext: omni.kit.asset_converter-5.0.17] startup
+[7.389s] [ext: omni.index.libs-380600.8087.0] startup
+[7.390s] [ext: omni.volume-0.5.2] startup
+[7.407s] [ext: omni.ujitso.client-0.0.0] startup
+[7.409s] [ext: omni.index-1.0.1] startup
+[7.412s] [ext: omni.hydra.rtx.shadercache.vulkan-1.0.0] startup
+[7.418s] [ext: omni.hydra.rtx-1.0.0] startup
+2026-09-29T06:38:35Z [7,439ms] [Warning] [omni.log] Source: omni.hydra was already registered.
+[7.555s] [ext: omni.kit.notification_manager-1.0.10] startup
+[7.561s] [ext: omni.kit.clipboard-1.0.5] startup
+[7.564s] [ext: omni.kit.viewport.legacy_gizmos-1.0.19] startup
+[7.570s] [ext: omni.kit.raycast.query-1.1.0] startup
+[7.580s] [ext: omni.kit.menu.core-1.1.2] startup
+[7.583s] [ext: omni.kit.widget.options_menu-1.1.6] startup
+[7.593s] [ext: omni.kit.helper.file_utils-0.1.9] startup
+[7.598s] [ext: omni.kit.widget.path_field-2.0.11] startup
+[7.601s] [ext: omni.kit.widget.context_menu-1.2.5] startup
+[7.605s] [ext: omni.kit.widget.options_button-1.0.3] startup
+[7.607s] [ext: omni.kit.widget.filebrowser-2.12.3] startup
+[7.623s] [ext: omni.kit.widget.browser_bar-2.0.10] startup
+[7.627s] [ext: omni.kit.usd.layers-2.2.11] startup
+[7.650s] [ext: omni.ui.scene-1.11.5] startup
+[7.662s] [ext: omni.kit.viewport.registry-104.0.6] startup
+[7.664s] [ext: omni.kit.window.filepicker-2.13.4] startup
+[7.722s] [ext: omni.kit.menu.utils-2.0.5] startup
+[7.742s] [ext: omni.kit.context_menu-1.8.6] startup
+[7.748s] [ext: omni.kit.viewport.scene_camera_model-1.0.6] startup
+[7.757s] [ext: omni.kit.hydra_texture-1.4.6] startup
+[7.765s] [ext: omni.kit.window.file_importer-1.1.18] startup
+[7.778s] [ext: omni.kit.widget.searchable_combobox-1.0.6] startup
+[7.781s] [ext: omni.kit.window.drop_support-1.0.5] startup
+[7.783s] [ext: omni.kit.widget.viewport-107.1.3] startup
+[7.795s] [ext: omni.kit.material.library-2.0.7] startup
+[7.808s] [ext: omni.hydra.engine.stats-1.0.3] startup
+[7.813s] [ext: omni.kit.widget.settings-1.2.6] startup
+[7.819s] [ext: omni.kit.viewport.window-107.2.0] startup
+[7.855s] [ext: omni.kit.window.preferences-1.8.0] startup
+[7.872s] [ext: omni.kit.widget.toolbar-2.0.1] startup
+[7.889s] [ext: omni.kit.viewport.utility-1.1.2] startup
+[7.892s] [ext: omni.kit.manipulator.transform-107.0.0] startup
+[7.904s] [ext: omni.kit.manipulator.tool.snap-1.5.13] startup
+[7.917s] [ext: omni.kit.manipulator.selector-1.1.3] startup
+[7.922s] [ext: omni.kit.property.adapter.core-1.0.2] startup
+[7.932s] [ext: omni.kit.viewport.manipulator.transform-107.0.4] startup
+[7.940s] [ext: omni.kit.manipulator.viewport-107.0.1] startup
+[7.944s] [ext: omni.kit.property.adapter.fabric-1.0.3] startup
+[7.948s] [ext: omni.kit.manipulator.prim.core-107.0.8] startup
+[7.966s] [ext: omni.kit.primitive.mesh-1.0.17] startup
+[7.979s] [ext: omni.kit.widget.filter-1.1.4] startup
+[7.982s] [ext: omni.kit.hotkeys.core-1.3.10] startup
+[7.985s] [ext: omni.kit.manipulator.prim.usd-107.0.3] startup
+[7.990s] [ext: omni.fabric.commands-1.1.6] startup
+[7.997s] [ext: omni.kit.window.file_exporter-1.0.33] startup
+[8.000s] [ext: omni.kit.widget.searchfield-1.1.8] startup
+[8.004s] [ext: omni.kit.manipulator.prim.fabric-107.0.4] startup
+[8.008s] [ext: omni.debugdraw-0.1.4] startup
+[8.016s] [ext: omni.kit.widget.stage-3.1.4] startup
+[8.049s] [ext: omni.kit.property.adapter.usd-1.0.2] startup
+[8.055s] [ext: omni.kit.manipulator.prim-107.0.0] startup
+[8.055s] [ext: omni.kvdb-107.3.26] startup
+[8.061s] [ext: omni.convexdecomposition-107.3.26] startup
+[8.069s] [ext: omni.physx.foundation-107.3.26] startup
+[8.090s] [ext: omni.localcache-107.3.26] startup
+[8.096s] [ext: omni.kit.window.content_browser_registry-0.0.6] startup
+[8.098s] [ext: omni.kit.widget.highlight_label-1.0.3] startup
+[8.101s] [ext: omni.kit.stage_template.core-1.1.22] startup
+[8.103s] [ext: omni.usdphysics-107.3.26] startup
+[8.109s] [ext: omni.kit.window.file-2.0.5] startup
+[8.118s] [ext: omni.physx.cooking-107.3.26] startup
+[8.127s] [ext: omni.physics-107.3.26] startup
+[8.137s] [ext: omni.kit.window.property-1.12.1] startup
+[8.145s] [ext: omni.kit.window.content_browser-3.1.3] startup
+[8.168s] [ext: omni.physx-107.3.26] startup
+[8.195s] [ext: omni.physics.stageupdate-107.3.26] startup
+[8.202s] [ext: omni.kit.property.usd-4.5.12] startup
+[8.231s] [ext: omni.kit.manipulator.selection-106.0.1] startup
+[8.235s] [ext: omni.physics.physx-107.3.26] startup
+2026-09-29T06:38:36Z [8,183ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+[8.240s] [ext: omni.kit.widget.prompt-1.0.7] startup
+[8.243s] [ext: omni.kit.viewport.menubar.core-107.2.1] startup
+[8.282s] [ext: omni.kit.viewport.actions-107.0.2] startup
+[8.290s] [ext: omni.inspect-1.0.2] startup
+[8.294s] [ext: omni.kit.widget.layers-1.8.6] startup
+[8.325s] [ext: omni.kit.viewport.menubar.display-107.0.3] startup
+[8.329s] [ext: omni.usd.metrics.assembler-107.3.1] startup
+[8.350s] [ext: omni.graph.core-2.184.5] startup
+[8.363s] [ext: omni.kit.numpy.common-0.1.3] startup
+[8.366s] [ext: omni.usdphysics.ui-107.3.26] startup
+[8.415s] [ext: omni.physx.commands-107.3.26] startup
+[8.427s] [ext: isaacsim.core.deprecation_manager-0.2.7] startup
+[8.429s] [ext: omni.isaac.dynamic_control-2.0.7] startup
+2026-09-29T06:38:36Z [8,387ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+[8.444s] [ext: omni.physx.ui-107.3.26] startup
+[8.514s] [ext: isaacsim.core.version-2.0.6] startup
+[8.517s] [ext: omni.physics.tensors-107.3.26] startup
+[8.530s] [ext: omni.warp.core-1.8.2] startup
+[8.851s] [ext: omni.usd.metrics.assembler.physics-107.3.26] startup
+[8.857s] [ext: isaacsim.storage.native-1.5.1] startup
+[8.863s] [ext: omni.physx.tensors-107.3.26] startup
+[8.875s] [ext: isaacsim.core.utils-3.5.1] startup
+[8.883s] [ext: isaacsim.core.simulation_manager-1.4.4] startup
+[12.406s] [ext: omni.kit.widget.stage_icons-1.0.8] startup
+[12.411s] [ext: omni.kit.widget.text_editor-1.1.1] startup
+[12.416s] [ext: omni.kit.window.stage-2.6.1] startup
+[12.425s] [ext: omni.kit.menu.create-2.0.1] startup
+[12.429s] [ext: omni.kit.window.extensions-1.4.27] startup
+[12.446s] [ext: omni.kit.scripting-107.3.2] startup
+[12.460s] [ext: omni.kit.stagerecorder.core-107.0.3] startup
+[12.468s] [ext: isaacsim.replicator.behavior-1.1.16] startup
+[12.471s] [ext: omni.graph.tools-1.79.2] startup
+[12.534s] [ext: omni.ui_query-1.1.8] startup
+[12.537s] [ext: omni.kit.widget.zoombar-1.0.6] startup
+[12.540s] [ext: omni.graph-1.141.2] startup
+[12.635s] [ext: omni.graph.action_core-1.1.7] startup
+[12.641s] [ext: omni.kit.ui_test-1.3.7] startup
+[12.648s] [ext: omni.kit.browser.core-2.3.13] startup
+[12.661s] [ext: omni.kit.usd.collect-2.4.5] startup
+[12.670s] [ext: omni.graph.action_nodes-1.50.4] startup
+[12.680s] [ext: omni.kit.menu.stage-1.2.7] startup
+[12.687s] [ext: omni.kit.browser.folder.core-1.10.9] startup
+[12.718s] [ext: omni.kit.usdz_export-1.0.9] startup
+[12.728s] [ext: omni.graph.visualization.nodes-2.1.3] startup
+[12.783s] [ext: omni.graph.action-1.130.0] startup
+[12.788s] [ext: omni.kit.tool.collect-2.2.18] startup
+[12.801s] [ext: omni.kit.tool.asset_importer-4.3.2] startup
+[12.820s] [ext: isaacsim.gui.components-1.2.1] startup
+[12.831s] [ext: isaacsim.examples.browser-0.2.1] startup
+[12.840s] [ext: isaacsim.asset.importer.urdf-2.4.31] startup
+[12.975s] [ext: isaacsim.core.cloner-1.4.10] startup
+[12.984s] [ext: omni.kit.stagerecorder.ui-107.0.1] startup
+[13.012s] [ext: isaacsim.asset.browser-1.3.23] startup
+$PROJECT/envs/RoboDojo/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.6.0)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+[13.160s] [ext: semantics.schema.editor-2.0.2] startup
+2026-09-29T06:38:41Z [13,120ms] [Warning] [pxr.Semantics] pxr.Semantics is deprecated - please use Semantics instead
+[13.179s] [ext: omni.kit.stagerecorder.bundle-105.0.2] startup
+[13.181s] [ext: omni.kit.window.status_bar-0.1.9] startup
+[13.193s] [ext: omni.kit.widget.graph-2.0.0] startup
+[13.210s] [ext: omni.kit.stage_templates-2.0.0] startup
+[13.218s] [ext: omni.graph.image.core-0.6.1] startup
+[13.222s] [ext: omni.kit.graph.delegate.default-1.2.3] startup
+[13.225s] [ext: isaacsim.core.experimental.utils-0.3.0] startup
+[13.232s] [ext: omni.graph.image.nodes-1.3.1] startup
+[13.236s] [ext: omni.kit.graph.editor.core-1.5.3] startup
+[13.244s] [ext: omni.kit.graph.usd.commands-1.3.1] startup
+[13.248s] [ext: omni.graph.nodes-1.170.10] startup
+[13.293s] [ext: omni.graph.ui_nodes-1.50.5] startup
+[13.303s] [ext: omni.kit.widget.material_preview-1.0.16] startup
+[13.313s] [ext: omni.syntheticdata-0.6.13] startup
+[13.391s] [ext: omni.videoencoding-0.1.2] startup
+[13.402s] [ext: omni.warp-1.8.2] startup
+[13.460s] [ext: omni.kit.window.material_graph-1.9.1] startup
+[13.512s] [ext: omni.graph.scriptnode-1.50.0] startup
+[13.522s] [ext: isaacsim.core.prims-0.6.1] startup
+[13.686s] [ext: isaacsim.test.docstring-1.1.0] startup
+[13.714s] [ext: omni.replicator.core-1.12.27] startup
+2026-09-29T06:38:42Z [14,089ms] [Warning] [omni.graph.core.plugin] Found duplicate of category 'Replicator' - was 'Annotators', adding 'Fabric Reader'
+2026-09-29T06:38:42Z [14,089ms] [Warning] [omni.graph.core.plugin] Category 'Replicator' not accepted on node type 'omni.replicator.core.FabricReader' in extension 'omni.replicator.core'
+2026-09-29T06:38:42Z [14,091ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+[14.152s] [ext: isaacsim.core.api-4.8.0] startup
+[14.233s] [ext: isaacsim.core.experimental.prims-0.8.1] startup
+[14.365s] [ext: isaacsim.core.nodes-3.4.3] startup
+[14.405s] [ext: isaacsim.robot.surface_gripper-3.3.1] startup
+[14.438s] [ext: isaacsim.util.debug_draw-3.1.0] startup
+[14.454s] [ext: omni.sensors.nv.common-3.0.0] startup
+[14.516s] [ext: isaacsim.robot.manipulators-3.3.6] startup
+[14.538s] [ext: isaacsim.sensors.physx-2.3.2] startup
+[14.571s] [ext: omni.sensors.nv.materials-2.0.0] startup
+[14.590s] [ext: omni.sensors.net-1.0.0] startup
+[14.605s] [ext: isaacsim.app.about-2.0.11] startup
+[14.625s] [ext: isaacsim.simulation_app-2.12.2] startup
+[14.628s] [ext: omni.sensors.nv.ids-2.0.0] startup
+[14.643s] [ext: omni.sensors.nv.lidar-3.0.0] startup
+[14.673s] [ext: omni.kit.property.audio-1.0.16] startup
+[14.682s] [ext: omni.kit.property.camera-1.0.10] startup
+[14.688s] [ext: omni.kit.property.geometry-2.0.4] startup
+[14.700s] [ext: omni.hydra.scene_api-0.1.2] startup
+[14.733s] [ext: omni.kit.property.light-1.0.12] startup
+[14.809s] [ext: omni.sensors.nv.wpm-3.0.0] startup
+[14.818s] [ext: omni.kit.selection-0.1.6] startup
+[14.912s] [ext: omni.kit.property.material-1.11.9] startup
+[15.173s] [ext: omni.kit.property.transform-1.5.13] startup
+[15.361s] [ext: omni.kit.property.render-1.2.1] startup
+[15.413s] [ext: omni.sensors.nv.radar-3.0.0] startup
+[15.438s] [ext: isaacsim.gui.menu-2.4.4] startup
+[15.480s] [ext: omni.kit.manipulator.camera-106.0.4] startup
+[15.513s] [ext: isaacsim.gui.property-1.1.3] startup
+[15.523s] [ext: omni.kit.property.bundle-1.4.1] startup
+[15.533s] [ext: isaacsim.sensors.rtx-15.8.4] startup
+[15.582s] [ext: isaacsim.sensors.physics-0.4.3] startup
+[15.621s] [ext: omni.kit.viewport.menubar.camera-107.0.6] startup
+[15.665s] [ext: omni.kit.viewport.menubar.lighting-107.3.1] startup
+[15.683s] [ext: omni.kit.viewport.menubar.settings-107.0.3] startup
+[15.699s] [ext: omni.kit.viewport.menubar.render-107.0.10] startup
+[15.708s] [ext: isaacsim.robot.policy.examples-4.1.11] startup
+[15.714s] [ext: isaacsim.asset.importer.mjcf-2.5.13] startup
+[15.739s] [ext: omni.kit.window.console-1.1.4] startup
+[15.755s] [ext: omni.rtx.window.settings-0.6.19] startup
+[15.769s] [ext: omni.ocio-0.1.1] startup
+[15.776s] [ext: omni.physx.demos-107.3.26] startup
+[15.843s] [ext: omni.kit.property.physx-107.3.26] startup
+[15.887s] [ext: omni.replicator.replicator_yaml-2.0.11] startup
+[15.901s] [ext: omni.asset_validator.core-1.1.6] startup
+[16.031s] [ext: omni.rtx.settings.core-0.6.5] startup
+[16.045s] [ext: omni.physx.vehicle-107.3.26] startup
+[16.088s] [ext: omni.usd.metrics.assembler.ui-107.3.1] startup
+[16.110s] [ext: omni.kit.window.script_editor-2.0.1] startup
+[16.121s] [ext: isaacsim.robot.wheeled_robots-4.0.24] startup
+[16.144s] [ext: omni.physx.asset_validator-107.3.26] startup
+[16.172s] [ext: omni.kit.window.toolbar-2.0.0] startup
+[16.184s] [ext: omni.physx.camera-107.3.26] startup
+[16.215s] [ext: omni.anim.curve.core-1.3.1] startup
+[16.251s] [ext: omni.physx.cct-107.3.26] startup
+[16.281s] [ext: omni.physx.graph-107.3.26] startup
+[16.322s] [ext: omni.physx.supportui-107.3.26] startup
+[16.366s] [ext: omni.physx.telemetry-107.3.26] startup
+[16.375s] [ext: isaaclab-0.54.3] startup
+[17.182s] [ext: isaaclab_contrib-0.0.2] startup
+[17.186s] [ext: isaacsim.core.throttling-2.2.2] startup
+[17.192s] [ext: omni.kit.ui.actions-1.0.5] startup
+[17.200s] [ext: semantics.schema.property-2.0.1] startup
+[17.207s] [ext: omni.physx.bundle-107.3.26] startup
+[17.211s] [ext: isaacsim.sensors.camera-1.3.6] startup
+[17.222s] [ext: isaaclab_assets-0.2.4] startup
+[17.829s] [ext: isaaclab_tasks-0.11.14] startup
+[18.333s] [ext: omni.kit.menu.common-2.0.1] startup
+[18.339s] [ext: isaaclab_rl-0.5.0] startup
+[18.343s] [ext: isaaclab_mimic-1.0.16] startup
+[18.345s] [ext: isaaclab.python-2.3.2] startup
+[18.350s] Simulation App Starting
+2026-09-29T06:38:46Z [18,567ms] [Warning] [omni.kvdb.plugin] Disabling key-value database because another kit process is locking it
+2026-09-29T06:38:46Z [18,581ms] [Warning] [carb.audio.device] audio device is misconfigured or broken {deviceIndex = 0, name = 'default'} (The device is likely misconfigured, check your $HOME/.asoundrc)
+2026-09-29T06:38:46Z [18,581ms] [Warning] [carb.audio.output] failed to retrieve the capabilities for device 0 {result = eDeviceLost (2)}
+2026-09-29T06:38:46Z [18,581ms] [Warning] [carb.audio.context] failed to set the requested output during context creation.  Using a null streamer instead {result = eDeviceLost (2)}
+2026-09-29T06:38:46Z [18,623ms] [Warning] [omni.fabric.plugin] Warning: attribute viewportHandle not found for bucket id 9
+
+2026-09-29T06:38:46Z [18,739ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-09-29T06:38:46Z [18,740ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-09-29T06:38:46Z [18,740ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+[18.815s] app ready
+[22.209s] Simulation App Startup Complete
+[CONNECTING] websocket policy server ws://localhost:42573 (attempt 1/180, timeout=30s)
+[CONNECTED] websocket policy server connected: ws://localhost:42573
+[INFO]: Parsing configuration from: env.environment.isaac.isaac_rl_env:IsaacRLEnvCfg
+
+====================================================================================================================================
+[INFO][IsaacLab]: Logging to file: $PROJECT/tmp/isaaclab/logs/isaaclab_2026-09-29_14-39-28.log
+====================================================================================================================================
+
+14:39:29 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.
+[INFO]: Base environment:
+	Environment device    : cpu
+	Environment seed      : 0
+	Physics step-size     : 0.004
+	Rendering step-size   : 0.04
+	Environment step-size : 0.004
+2026-09-29T06:39:30Z [62,150ms] [Warning] [env.scene_manager.objects.background] `/omni/replicator/RTSubframes` must be > 3 to avoid blank textures while randomizing dome light texture. RTSubframes has been automatically increased from None to 3
+2026-09-29T06:39:30Z [62,308ms] [Warning] [isaacsim.sensors.camera.camera] 'verticalAperture' (1.5290800094604493) and 'horizontalAperture' (2.0954999923706055) are inconsistent with the pixel resolution aspect ratio (1.3333333333333333). Setting 'verticalAperture' to 1.571624994277954 to ensure square pixels.
+2026-09-29T06:39:30Z [62,331ms] [Warning] [isaacsim.sensors.camera.camera] 'verticalAperture' (1.5290800094604493) and 'horizontalAperture' (2.0954999923706055) are inconsistent with the pixel resolution aspect ratio (1.3333333333333333). Setting 'verticalAperture' to 1.571624994277954 to ensure square pixels.
+2026-09-29T06:39:30Z [62,346ms] [Warning] [isaacsim.sensors.camera.camera] 'verticalAperture' (1.5290800094604493) and 'horizontalAperture' (2.0954999923706055) are inconsistent with the pixel resolution aspect ratio (1.3333333333333333). Setting 'verticalAperture' to 1.571624994277954 to ensure square pixels.
+[INFO]: Time taken for scene creation : 0.589325 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 1
+	Environment spacing   : 7
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : False
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+2026-09-29T06:39:30Z [62,371ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot0>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:30Z [62,388ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot1>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,701ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot0>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,702ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot1>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,708ms] [Warning] [omni.usd] Warning (secondary thread): in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot0/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding>: The relationship target </Flattened_Prototype_9/camera/World/Looks/ID10> from </X5A/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot0>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot0/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,709ms] [Warning] [omni.usd] Warning (secondary thread): in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot0>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot0/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,710ms] [Warning] [omni.usd] Warning (secondary thread): in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot1/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding>: The relationship target </Flattened_Prototype_9/camera/World/Looks/ID10> from </X5A/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot1>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot1/link3/visuals/link3/node_STL_BINARY_/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+2026-09-29T06:39:32Z [64,711ms] [Warning] [omni.usd] Warning (secondary thread): in _ReportErrors at line 3172 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding>: The relationship target </OmniKit_Viewport_LightRig/Looks/Ground_Material> from </X5A/camera/visuals/camera/World/mesh.material:binding> in layer @$PROJECT/RoboDojo/Assets/Robots/x5/ARX.usd@ refers to a path outside the scope of the reference from </World/envs/env_0/robot1>.  Ignoring. (getting targets for relationship </World/envs/env_0/robot1/camera/visuals/camera/World/mesh.material:binding> on stage @anon:0x55b0818443c0:World0.usd@ <0x55b081845a10>)
+
+[INFO]: Time taken for simulation start : 2.679618 seconds
+[INFO]: Completed setting up the environment...
+[INFO] Resetting all environments
+2026-09-29T06:39:52Z [84,033ms] [Warning] [omni.fabric.plugin] USD->Fabric: Unhandled array type string[]
+2026-09-29T06:39:52Z [84,490ms] [Warning] [rtx.neuraylib.plugin] [MDLC:COMPILER]   1.0   MDLC   comp warn : file:$PROJECT/RoboDojo/Assets/Material/material_0122/Mahogany_Planks.mdl(49,24): C302 conversion from 'float' to 'float2' must be explicit
+2026-09-29T06:39:52Z [84,490ms] [Warning] [rtx.neuraylib.plugin] [MDLC:COMPILER]   1.0   MDLC   comp warn : file:$PROJECT/RoboDojo/Assets/Material/material_0122/Mahogany_Planks.mdl(51,20): C302 conversion from 'float' to 'float2' must be explicit
+2026-09-29T06:39:52Z [84,490ms] [Warning] [rtx.neuraylib.plugin] [MDLC:COMPILER]   1.0   MDLC   comp warn : file:$PROJECT/RoboDojo/Assets/Material/material_0122/Mahogany_Planks.mdl(52,31): C302 conversion from 'float' to 'float2' must be explicit
+2026-09-29T06:39:52Z [84,491ms] [Warning] [rtx.neuraylib.plugin] [MDLC:COMPILER]   1.0   MDLC   comp warn : file:$PROJECT/RoboDojo/Assets/Material/material_0122/Mahogany_Planks.mdl(54,27): C302 conversion from 'float' to 'float2' must be explicit
+2026-09-29T06:40:12Z [104,450ms] [Warning] [rtx.postprocessing.plugin] DLSS-RR is not supported in the current build due to some known bugs with this GPU: NVIDIA H100 80GB HBM3.Note that RTX Real-Time raytracing mode will not be able to denoise the output correctly.
+[render_sync] zero-delay Kit settings active; one delivered frame per capture.
+2026-09-29T06:40:18Z [110,641ms] [Warning] [carb] Client gpu.foundation.plugin has acquired [gpu::unstable::IMemoryBudgetManagerFactory v0.1] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libtinfo.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libtinfo.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libncursesw.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+ffmpeg: $PROJECT/envs/RoboDojo/lib/libtinfo.so.6: no version information available (required by /lib/x86_64-linux-gnu/libcaca.so.0)
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:01<00:15,  1.77s/it]
+Joint denoising:  20%|██        | 2/10 [00:01<00:06,  1.27it/s]
+Joint denoising:  30%|███       | 3/10 [00:01<00:03,  2.10it/s]
+Joint denoising:  40%|████      | 4/10 [00:02<00:01,  3.02it/s]
+Joint denoising:  50%|█████     | 5/10 [00:02<00:01,  3.99it/s]
+Joint denoising:  60%|██████    | 6/10 [00:02<00:00,  4.98it/s]
+Joint denoising:  70%|███████   | 7/10 [00:02<00:00,  5.86it/s]
+Joint denoising:  80%|████████  | 8/10 [00:02<00:00,  6.65it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:02<00:00,  7.31it/s]
+Joint denoising: 100%|██████████| 10/10 [00:02<00:00,  7.74it/s]
+Joint denoising: 100%|██████████| 10/10 [00:02<00:00,  3.66it/s]
+env0 step: 1 / 800
+env0 step: 2 / 800
+env0 step: 3 / 800
+env0 step: 4 / 800
+env0 step: 5 / 800
+env0 step: 6 / 800
+env0 step: 7 / 800
+env0 step: 8 / 800
+env0 step: 9 / 800
+env0 step: 10 / 800
+env0 step: 11 / 800
+env0 step: 12 / 800
+env0 step: 13 / 800
+env0 step: 14 / 800
+env0 step: 15 / 800
+env0 step: 16 / 800
+env0 step: 17 / 800
+env0 step: 18 / 800
+env0 step: 19 / 800
+env0 step: 20 / 800
+env0 step: 21 / 800
+env0 step: 22 / 800
+env0 step: 23 / 800
+env0 step: 24 / 800
+env0 step: 25 / 800
+env0 step: 26 / 800
+env0 step: 27 / 800
+env0 step: 28 / 800
+env0 step: 29 / 800
+env0 step: 30 / 800
+env0 step: 31 / 800
+env0 step: 32 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:00,  9.68it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00, 11.43it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00, 11.01it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00, 10.30it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00, 11.39it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 11.21it/s]
+env0 step: 33 / 800
+env0 step: 34 / 800
+env0 step: 35 / 800
+env0 step: 36 / 800
+env0 step: 37 / 800
+env0 step: 38 / 800
+env0 step: 39 / 800
+env0 step: 40 / 800
+env0 step: 41 / 800
+env0 step: 42 / 800
+env0 step: 43 / 800
+env0 step: 44 / 800
+env0 step: 45 / 800
+env0 step: 46 / 800
+env0 step: 47 / 800
+env0 step: 48 / 800
+env0 step: 49 / 800
+env0 step: 50 / 800
+env0 step: 51 / 800
+env0 step: 52 / 800
+env0 step: 53 / 800
+env0 step: 54 / 800
+env0 step: 55 / 800
+env0 step: 56 / 800
+env0 step: 57 / 800
+env0 step: 58 / 800
+env0 step: 59 / 800
+env0 step: 60 / 800
+env0 step: 61 / 800
+env0 step: 62 / 800
+env0 step: 63 / 800
+env0 step: 64 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  8.71it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00, 10.71it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00, 11.16it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00, 11.36it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00, 11.48it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 11.26it/s]
+env0 step: 65 / 800
+env0 step: 66 / 800
+env0 step: 67 / 800
+env0 step: 68 / 800
+env0 step: 69 / 800
+env0 step: 70 / 800
+env0 step: 71 / 800
+env0 step: 72 / 800
+env0 step: 73 / 800
+env0 step: 74 / 800
+env0 step: 75 / 800
+env0 step: 76 / 800
+env0 step: 77 / 800
+env0 step: 78 / 800
+env0 step: 79 / 800
+env0 step: 80 / 800
+env0 step: 81 / 800
+env0 step: 82 / 800
+env0 step: 83 / 800
+env0 step: 84 / 800
+env0 step: 85 / 800
+env0 step: 86 / 800
+env0 step: 87 / 800
+env0 step: 88 / 800
+env0 step: 89 / 800
+env0 step: 90 / 800
+env0 step: 91 / 800
+env0 step: 92 / 800
+env0 step: 93 / 800
+env0 step: 94 / 800
+env0 step: 95 / 800
+env0 step: 96 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  7.99it/s]
+Joint denoising:  20%|██        | 2/10 [00:00<00:00,  9.03it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00,  9.37it/s]
+Joint denoising:  40%|████      | 4/10 [00:00<00:00,  9.50it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00,  9.41it/s]
+Joint denoising:  60%|██████    | 6/10 [00:00<00:00,  9.56it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00,  9.39it/s]
+Joint denoising:  80%|████████  | 8/10 [00:00<00:00,  9.32it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00,  9.32it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.27it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.29it/s]
+env0 step: 97 / 800
+env0 step: 98 / 800
+env0 step: 99 / 800
+env0 step: 100 / 800
+env0 step: 101 / 800
+env0 step: 102 / 800
+env0 step: 103 / 800
+env0 step: 104 / 800
+env0 step: 105 / 800
+env0 step: 106 / 800
+env0 step: 107 / 800
+env0 step: 108 / 800
+env0 step: 109 / 800
+env0 step: 110 / 800
+env0 step: 111 / 800
+env0 step: 112 / 800
+env0 step: 113 / 800
+env0 step: 114 / 800
+env0 step: 115 / 800
+env0 step: 116 / 800
+env0 step: 117 / 800
+env0 step: 118 / 800
+env0 step: 119 / 800
+env0 step: 120 / 800
+env0 step: 121 / 800
+env0 step: 122 / 800
+env0 step: 123 / 800
+env0 step: 124 / 800
+env0 step: 125 / 800
+env0 step: 126 / 800
+env0 step: 127 / 800
+env0 step: 128 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  20%|██        | 2/10 [00:00<00:00, 14.09it/s]
+Joint denoising:  40%|████      | 4/10 [00:00<00:00, 14.20it/s]
+Joint denoising:  60%|██████    | 6/10 [00:00<00:00, 14.23it/s]
+Joint denoising:  80%|████████  | 8/10 [00:00<00:00, 14.25it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 14.27it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 14.24it/s]
+env0 step: 129 / 800
+env0 step: 130 / 800
+env0 step: 131 / 800
+env0 step: 132 / 800
+env0 step: 133 / 800
+env0 step: 134 / 800
+env0 step: 135 / 800
+env0 step: 136 / 800
+env0 step: 137 / 800
+env0 step: 138 / 800
+env0 step: 139 / 800
+env0 step: 140 / 800
+env0 step: 141 / 800
+env0 step: 142 / 800
+env0 step: 143 / 800
+env0 step: 144 / 800
+env0 step: 145 / 800
+env0 step: 146 / 800
+env0 step: 147 / 800
+env0 step: 148 / 800
+env0 step: 149 / 800
+env0 step: 150 / 800
+env0 step: 151 / 800
+env0 step: 152 / 800
+env0 step: 153 / 800
+env0 step: 154 / 800
+env0 step: 155 / 800
+env0 step: 156 / 800
+env0 step: 157 / 800
+env0 step: 158 / 800
+env0 step: 159 / 800
+env0 step: 160 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  8.41it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00,  9.76it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00,  9.99it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00, 10.09it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00, 10.16it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 10.06it/s]
+env0 step: 161 / 800
+env0 step: 162 / 800
+env0 step: 163 / 800
+env0 step: 164 / 800
+env0 step: 165 / 800
+env0 step: 166 / 800
+env0 step: 167 / 800
+env0 step: 168 / 800
+env0 step: 169 / 800
+env0 step: 170 / 800
+env0 step: 171 / 800
+env0 step: 172 / 800
+env0 step: 173 / 800
+env0 step: 174 / 800
+env0 step: 175 / 800
+env0 step: 176 / 800
+env0 step: 177 / 800
+env0 step: 178 / 800
+env0 step: 179 / 800
+env0 step: 180 / 800
+env0 step: 181 / 800
+env0 step: 182 / 800
+env0 step: 183 / 800
+env0 step: 184 / 800
+env0 step: 185 / 800
+env0 step: 186 / 800
+env0 step: 187 / 800
+env0 step: 188 / 800
+env0 step: 189 / 800
+env0 step: 190 / 800
+env0 step: 191 / 800
+env0 step: 192 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  8.37it/s]
+Joint denoising:  20%|██        | 2/10 [00:00<00:00,  9.08it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00,  9.15it/s]
+Joint denoising:  40%|████      | 4/10 [00:00<00:00,  9.12it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00,  9.26it/s]
+Joint denoising:  60%|██████    | 6/10 [00:00<00:00,  9.16it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00,  9.17it/s]
+Joint denoising:  80%|████████  | 8/10 [00:00<00:00,  9.19it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00,  9.30it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.30it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.19it/s]
+env0 step: 193 / 800
+env0 step: 194 / 800
+env0 step: 195 / 800
+env0 step: 196 / 800
+env0 step: 197 / 800
+env0 step: 198 / 800
+env0 step: 199 / 800
+env0 step: 200 / 800
+env0 step: 201 / 800
+env0 step: 202 / 800
+env0 step: 203 / 800
+env0 step: 204 / 800
+env0 step: 205 / 800
+env0 step: 206 / 800
+env0 step: 207 / 800
+env0 step: 208 / 800
+env0 step: 209 / 800
+env0 step: 210 / 800
+env0 step: 211 / 800
+env0 step: 212 / 800
+env0 step: 213 / 800
+env0 step: 214 / 800
+env0 step: 215 / 800
+env0 step: 216 / 800
+env0 step: 217 / 800
+env0 step: 218 / 800
+env0 step: 219 / 800
+env0 step: 220 / 800
+env0 step: 221 / 800
+env0 step: 222 / 800
+env0 step: 223 / 800
+env0 step: 224 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  8.23it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00,  9.69it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00, 10.07it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00, 10.19it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00, 10.24it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 10.11it/s]
+env0 step: 225 / 800
+env0 step: 226 / 800
+env0 step: 227 / 800
+env0 step: 228 / 800
+env0 step: 229 / 800
+env0 step: 230 / 800
+env0 step: 231 / 800
+env0 step: 232 / 800
+env0 step: 233 / 800
+env0 step: 234 / 800
+env0 step: 235 / 800
+env0 step: 236 / 800
+env0 step: 237 / 800
+env0 step: 238 / 800
+env0 step: 239 / 800
+env0 step: 240 / 800
+env0 step: 241 / 800
+env0 step: 242 / 800
+env0 step: 243 / 800
+env0 step: 244 / 800
+env0 step: 245 / 800
+env0 step: 246 / 800
+env0 step: 247 / 800
+env0 step: 248 / 800
+env0 step: 249 / 800
+env0 step: 250 / 800
+env0 step: 251 / 800
+env0 step: 252 / 800
+env0 step: 253 / 800
+env0 step: 254 / 800
+env0 step: 255 / 800
+env0 step: 256 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:00,  9.25it/s]
+Joint denoising:  20%|██        | 2/10 [00:00<00:00,  9.17it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00,  9.36it/s]
+Joint denoising:  40%|████      | 4/10 [00:00<00:00,  9.32it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00,  9.29it/s]
+Joint denoising:  60%|██████    | 6/10 [00:00<00:00,  9.24it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00,  9.44it/s]
+Joint denoising:  80%|████████  | 8/10 [00:00<00:00,  9.51it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00,  9.39it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.47it/s]
+Joint denoising: 100%|██████████| 10/10 [00:01<00:00,  9.38it/s]
+env0 step: 257 / 800
+env0 step: 258 / 800
+env0 step: 259 / 800
+env0 step: 260 / 800
+env0 step: 261 / 800
+env0 step: 262 / 800
+env0 step: 263 / 800
+env0 step: 264 / 800
+env0 step: 265 / 800
+env0 step: 266 / 800
+env0 step: 267 / 800
+env0 step: 268 / 800
+env0 step: 269 / 800
+env0 step: 270 / 800
+env0 step: 271 / 800
+env0 step: 272 / 800
+env0 step: 273 / 800
+env0 step: 274 / 800
+env0 step: 275 / 800
+env0 step: 276 / 800
+env0 step: 277 / 800
+env0 step: 278 / 800
+env0 step: 279 / 800
+env0 step: 280 / 800
+env0 step: 281 / 800
+env0 step: 282 / 800
+env0 step: 283 / 800
+env0 step: 284 / 800
+env0 step: 285 / 800
+env0 step: 286 / 800
+env0 step: 287 / 800
+env0 step: 288 / 800
+
+Joint denoising:   0%|          | 0/10 [00:00<?, ?it/s]
+Joint denoising:  10%|█         | 1/10 [00:00<00:01,  8.65it/s]
+Joint denoising:  30%|███       | 3/10 [00:00<00:00, 10.58it/s]
+Joint denoising:  50%|█████     | 5/10 [00:00<00:00, 11.14it/s]
+Joint denoising:  70%|███████   | 7/10 [00:00<00:00, 11.37it/s]
+Joint denoising:  90%|█████████ | 9/10 [00:00<00:00, 11.53it/s]
+Joint denoising: 100%|██████████| 10/10 [00:00<00:00, 11.28it/s]
+env0 step: 289 / 800
+env0 step: 290 / 800
+env0 step: 291 / 800
+env0 step: 292 / 800
+env0 step: 293 / 800
+env0 step: 294 / 800
+env0 step: 295 / 800
+env0 step: 296 / 800
+env0 step: 297 / 800
+env0 step: 298 / 800
+env0 step: 299 / 800
+env0 step: 300 / 800
+env0 step: 301 / 800
+env0 step: 302 / 800
+env0 step: 303 / 800
+env0 step: 304 / 800
+env0 step: 305 / 800
+env0 step: 306 / 800
+env0 step: 307 / 800
+env0 step: 308 / 800
+env0 step: 309 / 800
+env0 step: 310 / 800
+env0 step: 311 / 800
+env0 step: 312 / 800
+env0 step: 313 / 800
+env0 step: 314 / 800
+env0 step: 315 / 800
+env0 step: 316 / 800
+env0 step: 317 / 800
+env0 step: 318 / 800
+env0 step: 319 / 800
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_head_success.mp4`, containing 320 frames at 640×480 resolution and 25 FPS.
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_left_wrist_success.mp4`, containing 320 frames at 640×480 resolution and 25 FPS.
+🎬 Video is saved to `eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz3_pair_20260929_143536_openwam/episode_0000000_cam_right_wrist_success.mp4`, containing 320 frames at 640×480 resolution and 25 FPS.
+Success nums: 1, Fail nums: 0, Unstable nums: 0
+[main] removed resume manifest eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/_resume_sz3_pair_20260929_143536_openwam.json (eval completed)
+2026-09-29T06:42:30Z [241,991ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-09-29T06:42:30Z [241,991ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[242.578s] Simulation App Shutting Down
+[MAIN] eval finished
+[MAIN] kill server tree 186151
+[robodojo eval] wall_clock=422s
+RUN_EXIT=0

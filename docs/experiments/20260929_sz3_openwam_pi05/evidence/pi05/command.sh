@@ -1,0 +1,1 @@
+bash scripts/robodojo.sh eval --policy-dir XPolicyLab/policy/Pi_05 --task stack_bowls --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --eval-num 1 --policy-env uv --eval-env $PROJECT/envs/RoboDojo --policy-gpu 7 --env-gpu 6

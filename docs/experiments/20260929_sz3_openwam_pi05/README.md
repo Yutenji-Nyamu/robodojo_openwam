@@ -1,20 +1,27 @@
-# SZ3：RoboDojo + OpenWAM / π0.5 部署记录
+# SZ3：RoboDojo + OpenWAM / π0.5 首次成功
 
-截至2026-09-29 13:58，三套环境与两份官方权重已就绪，π0.5策略服务加载检查通过；Isaac Sim在任务初始化前触发GPU上下文切换超时。**本目录没有成功回合或成功视频，不计入模型成功率。**
+2026-09-29，深圳3已使用官方 RoboDojo 专用权重，分别完成 **π0.5 和 OpenWAM 的一个成功叠碗回合**，两个程序均正常退出并产出头部、左腕、右腕三路成功视频。
 
-目标是先复现SZ2的OpenWAM叠碗成功回合，再切换同一仿真环境到官方π0.5。固定源码，使用独立数据盘目录；模型和仿真环境分离。首回合配置为`stack_bowls / arx_x5 / seed 0 / layout 0 / num_envs 1 / eval_num 1`，OpenWAM使用`ee`，π0.5使用`joint`。
+| 模型 | 原生任务结果 | 三路视频规格 | 详情 |
+|---|---|---|---|
+| π0.5 | 1 回合，成功，阶段分 100 | 各 279 帧，25 fps，640×480，11.16 秒 | [π0.5 里程碑与视频](MILESTONE_pi05.md) |
+| OpenWAM | 1 回合，成功，阶段分 100 | 各 320 帧，25 fps，640×480，12.8 秒 | [OpenWAM 里程碑与视频](MILESTONE_openwam.md) |
 
-| 项目 | 实际结果 |
-|---|---|
-| Isaac Sim5.1 / IsaacLab / cuRobo | 官方安装完成，GLU已补齐；真实任务尚未启动成功 |
-| OpenWAM | 官方Dojo专用checkpoint加载完成两次；仿真前置失败，无任务结果 |
-| π0.5 | 官方Dojo seed0、step59999 checkpoint加载完成；48秒内服务ready，GPU观察值24,880MiB，随后按计划释放 |
-| EGL厂商注册 | 项目内补标准JSON后，Vulkan探针由-9变为正常枚举8张H100 |
-| CUDA/NVML库名 | 本机缺无版本链接；strace确认加载失败，只在项目内补链接到现有595.71.05库 |
-| 真实仿真 | GPU1/2/3独立短测试均出现`ERROR_DEVICE_LOST`，部分本轮PID有Xid109内核记录；均未完成SimulationApp构造 |
+共同设置为 `stack_bowls / arx_x5 / seed 0 / layout 0 / num_envs 1 / eval_num 1`。π0.5 使用官方 `sim`、seed0、step59999 权重和 `joint` 动作；OpenWAM 使用 `OpenWAM-Alpha-Sim-RoboDojo` 权重和 `ee` 动作。两份原生结果均为 `eval_time=1`、`success_rate=1`、`score=100`，对应回合的 `success=true`。
 
-当前阻塞属于仿真图形端。NVIDIA的Xid目录建议109错误先重置GPU；本机其他训练进程也持有目标设备句柄，因此本次**没有执行GPU重置、停训或整机重启**。IOMMU启动参数存在两机差异，但尚无证据将其认定为根因。[NVIDIA Xid目录](https://docs.nvidia.com/deploy/xid-errors/analyzing-xid-catalog.html)、[单卡重置条件](https://docs.nvidia.com/deploy/gpu-debug-guidelines/gpu-node-triage.html)。
+**这是各一个回合的部署成功里程碑，不是 RoboDojo 完整基准成功率，也不用于比较两模型总体能力。**
 
-详见[粗日志](EXPERIMENT_LOG.md)、[执行记录](EXECUTION_LOG.md)和`evidence/`。权重、资产、完整私有原始日志与环境目录不纳入Git。本分支保留上游代码与许可证；根README沿用原仓库。
+本机沿官方安装和评测入口执行，在独立目录中固定源码、子模块、环境与权重。初期遇到缺失的 EGL 登记与驱动库名链接，按已有日志在项目内补齐；NVIDIA 595 的 Vulkan allocation-limit 兼容处理仅作用于仿真进程。随后仍出现 Xid109，GPU4 精确单卡重置后，同配置短测恢复；GPU6 在空闲状态下也做了单卡重置，两个模型随后完成真实回合。最初触发 Xid109 的根因尚未证实。
 
-官方入口：[RoboDojo安装](https://robodojo-benchmark.com/doc/usage/install-and-download/)、[评测流程](https://robodojo-benchmark.com/doc/usage/quick-evaluation/)、[π0.5适配目录](https://github.com/XPolicyLab/XPolicyLab/tree/10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4/policy/Pi_05)、[OpenWAM权重](https://huggingface.co/OpenWAM/OpenWAM-Alpha-Sim-RoboDojo)。
+用户授权临时将 GPU4–7 从本人 RLT 切给 Dojo：OpenWAM 使用 GPU4 仿真、GPU5 策略，π0.5 使用 GPU6 仿真、GPU7 策略。Dojo 结束后，监督器已确认全部本次进程退出、四卡释放，并自动派发四组 RLT 从有效 checkpoint 25 恢复。14:43:07 恢复 helper 返回 0；14:54 四组均验收通过，真实采集已从 checkpoint 25 推进至第26轮，回放池继续增长。当前仍处于原有 teacher warmup 阶段，累计3000轮目标和实配保持不变。共享 Ray、其他用户实验、系统驱动和服务器启动配置保持原状。
+
+阅读入口：
+
+- [切换 RLT、单卡 reset、资源归还与自动恢复](CUTOVER_AND_GPU_RESET.md)：本次恢复仿真与完成回合的直接证据。
+- [粗日志](EXPERIMENT_LOG.md)：安装与早期排障的经过、判断和结果。
+- [细粒度执行记录](EXECUTION_LOG.md)：分步操作与回执索引，包含失败尝试。
+- `evidence/`：经过筛选的版本与轻量证据；权重、资产、环境、私有原始日志不纳入 Git。
+
+官方依据：[RoboDojo 安装](https://robodojo-benchmark.com/doc/usage/install-and-download/)、[官方评测流程](https://robodojo-benchmark.com/doc/usage/quick-evaluation/)、[π0.5 适配目录](https://github.com/XPolicyLab/XPolicyLab/tree/10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4/policy/Pi_05)、[OpenWAM 官方权重](https://huggingface.co/OpenWAM/OpenWAM-Alpha-Sim-RoboDojo)。
+
+本分支保留上游代码、署名和许可证；本目录集中维护 SZ3 的部署与复现记录。

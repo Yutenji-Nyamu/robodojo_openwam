@@ -1,0 +1,159 @@
+{
+  "pair": "sz3_pair_20260929_143536",
+  "dojo": {
+    "openwam": {
+      "task": "stack_bowls",
+      "seed": 0,
+      "layout": 0,
+      "episodes": 1,
+      "success": true,
+      "score": 100,
+      "exit": 0
+    },
+    "pi05": {
+      "task": "stack_bowls",
+      "seed": 0,
+      "layout": 0,
+      "episodes": 1,
+      "success": true,
+      "score": 100,
+      "exit": 0
+    }
+  },
+  "release": {
+    "all_workers_stopped": true,
+    "gpus_released": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "errors": []
+  },
+  "rlt": {
+    "verified_at": "2026-09-29T14:53:46.923244+08:00",
+    "all_first_rounds_verified": true,
+    "runs": {
+      "gpu4": {
+        "resume_alive": true,
+        "checkpoint_step": 25,
+        "recovery_mode": "resume_checkpoint",
+        "latest_metrics": {
+          "env/success_once": {
+            "round": 26,
+            "value": 0.625
+          },
+          "train/rlt/critic_updates_run": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/global_min_replay_size": {
+            "round": 26,
+            "value": 3957.0
+          },
+          "train/rlt/ready_for_online": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/update_step": {
+            "round": 26,
+            "value": 0.0
+          }
+        },
+        "online": false,
+        "critic_updates_run": 0.0,
+        "first_round_verified": true
+      },
+      "gpu5": {
+        "resume_alive": true,
+        "checkpoint_step": 25,
+        "recovery_mode": "resume_checkpoint",
+        "latest_metrics": {
+          "env/success_once": {
+            "round": 26,
+            "value": 0.375
+          },
+          "train/rlt/critic_updates_run": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/global_min_replay_size": {
+            "round": 26,
+            "value": 3983.0
+          },
+          "train/rlt/ready_for_online": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/update_step": {
+            "round": 26,
+            "value": 0.0
+          }
+        },
+        "online": false,
+        "critic_updates_run": 0.0,
+        "first_round_verified": true
+      },
+      "gpu6": {
+        "resume_alive": true,
+        "checkpoint_step": 25,
+        "recovery_mode": "resume_checkpoint",
+        "latest_metrics": {
+          "env/success_once": {
+            "round": 26,
+            "value": 0.125
+          },
+          "train/rlt/critic_updates_run": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/global_min_replay_size": {
+            "round": 26,
+            "value": 4097.0
+          },
+          "train/rlt/ready_for_online": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/update_step": {
+            "round": 26,
+            "value": 0.0
+          }
+        },
+        "online": false,
+        "critic_updates_run": 0.0,
+        "first_round_verified": true
+      },
+      "gpu7": {
+        "resume_alive": true,
+        "checkpoint_step": 25,
+        "recovery_mode": "resume_checkpoint",
+        "latest_metrics": {
+          "env/success_once": {
+            "round": 26,
+            "value": 0.125
+          },
+          "train/rlt/critic_updates_run": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/global_min_replay_size": {
+            "round": 26,
+            "value": 4088.0
+          },
+          "train/rlt/ready_for_online": {
+            "round": 26,
+            "value": 0.0
+          },
+          "train/rlt/update_step": {
+            "round": 26,
+            "value": 0.0
+          }
+        },
+        "online": false,
+        "critic_updates_run": 0.0,
+        "first_round_verified": true
+      }
+    }
+  }
+}

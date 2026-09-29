@@ -1,0 +1,1 @@
+bash scripts/robodojo.sh eval --policy-dir XPolicyLab/policy/OpenWAM --task stack_bowls --ckpt OpenWAM-Alpha-Sim-RoboDojo --env-cfg arx_x5 --action-type ee --seed 0 --eval-num 1 --policy-env $PROJECT/envs/openwam --eval-env $PROJECT/envs/RoboDojo --policy-gpu 5 --env-gpu 4

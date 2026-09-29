@@ -1,0 +1,21 @@
+{
+  "recorded_deployment_head": "b60d81b4a2ebb331b925988fae41064f3179d6bd",
+  "recorded_submodules": "submodules.txt",
+  "planned_fixed_upstream_refs": {
+    "RoboDojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+    "XPolicyLab": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+    "IsaacLab": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+    "cuRobo": "895c6517243f8cb091c73c018c8167192d39599a",
+    "Assets": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+    "OpenWAM_checkpoint": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+    "Pi05_checkpoint_dataset": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+    "RoboDawn_compat": "9247f366cd31f278e10f2fbe5fe8469b5f1b5b94"
+  },
+  "checkpoint": {
+    "model": "Pi_05",
+    "name": "sim",
+    "eval_seed": 0,
+    "path": "checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-0/59999"
+  },
+  "note": "Recorded run snapshots are authoritative; fixed upstream refs document the deployment plan. No git command was run during packaging."
+}
