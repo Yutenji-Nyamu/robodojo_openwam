@@ -1,0 +1,36 @@
+--- a/continue_pipeline.py
++++ b/continue_pipeline.py
+@@ -4 +4 @@
+-from process_guard import atomic_json
++from process_guard import atomic_json, error_context
+@@ -15,2 +15,2 @@
+-run=R/'continuation-20260930-single-v2'
+-F=R/'repair-single-20260930-v2'
++run=R/'continuation-20260930-single-v4'
++F=R/'repair-single-20260930-v4'
+@@ -154,9 +154,10 @@
+-    state('WAITING_FOR_EMPTY_GPU_RESET',gpu=7 if HOST=='sz2' else 5)
+-    deadline=time.monotonic()+300
+-    reset_path=STAGE/'gpu-reset.json'
+-    while not reset_path.exists() and time.monotonic()<deadline and not stop_requested:
+-        time.sleep(1)
+-    assert reset_path.exists(),'GPU reset receipt not available within 300 seconds'
+-    reset=json.loads(reset_path.read_text())
+-    assert reset['cycle']==str(STAGE) and reset['exit']==0
+-    assert reset['gpu']==(7 if HOST=='sz2' else 5)
++    if HOST=='sz2':
++        state('WAITING_FOR_EMPTY_GPU_RESET',gpu=7)
++        deadline=time.monotonic()+300
++        reset_path=STAGE/'gpu-reset.json'
++        while not reset_path.exists() and time.monotonic()<deadline and not stop_requested:
++            time.sleep(1)
++        assert reset_path.exists(),'GPU reset receipt not available within 300 seconds'
++        reset=json.loads(reset_path.read_text())
++        assert reset['cycle']==str(STAGE) and reset['exit']==0
++        assert reset['gpu']==7
+@@ -171 +172 @@
+-    state('PIPELINE_ERROR',error=error)
++    state('PIPELINE_ERROR',error=error,error_context=error_context(exc))
+@@ -189 +190 @@
+-            state('RESOURCE_RETURN_NEEDS_ATTENTION', error=error)
++            state('RESOURCE_RETURN_NEEDS_ATTENTION', error=error, error_context=error_context(exc))

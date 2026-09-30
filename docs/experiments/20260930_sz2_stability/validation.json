@@ -1,0 +1,212 @@
+{
+  "host": "sz2",
+  "verified_at": 1790756667.0515501,
+  "phase": "EVALUATING",
+  "attempt": "continuation-20260930-single-v4",
+  "source_version": "eval-recovery-20260930-v4",
+  "episodes": 2737,
+  "preserved_episodes": 2712,
+  "new_completed_episodes": 25,
+  "preserved_unchanged": true,
+  "workers_per_gpu": 1,
+  "num_envs": 4,
+  "expected_episodes": 6300,
+  "watchdog": "WATCHING",
+  "workers": [
+    {
+      "gpu": 7,
+      "worker": 6,
+      "seed": 1,
+      "task": "make_toast_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          3,
+          543,
+          1400
+        ],
+        [
+          0,
+          544,
+          1400
+        ],
+        [
+          1,
+          544,
+          1400
+        ],
+        [
+          2,
+          544,
+          1400
+        ]
+      ]
+    },
+    {
+      "gpu": 5,
+      "worker": 2,
+      "seed": 1,
+      "task": "match_and_pick_from_conveyor",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          287,
+          700
+        ],
+        [
+          1,
+          287,
+          700
+        ],
+        [
+          2,
+          287,
+          700
+        ],
+        [
+          3,
+          287,
+          700
+        ]
+      ]
+    },
+    {
+      "gpu": 6,
+      "worker": 4,
+      "seed": 1,
+      "task": "organize_table",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          422,
+          1000
+        ],
+        [
+          1,
+          422,
+          1000
+        ],
+        [
+          0,
+          423,
+          1000
+        ],
+        [
+          1,
+          423,
+          1000
+        ]
+      ]
+    },
+    {
+      "gpu": 4,
+      "worker": 0,
+      "seed": 1,
+      "task": "sweep_blocks_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          773,
+          1000
+        ],
+        [
+          0,
+          774,
+          1000
+        ],
+        [
+          0,
+          775,
+          1000
+        ],
+        [
+          0,
+          776,
+          1000
+        ]
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "test": "test_recovery.py",
+      "returncode": 0,
+      "tests_run": 6,
+      "skipped": 0
+    },
+    {
+      "test": "test_gpu_lanes.py",
+      "returncode": 0,
+      "tests_run": 5,
+      "skipped": 1
+    },
+    {
+      "test": "test_permission_diagnostics.py",
+      "returncode": 0,
+      "tests_run": 7,
+      "skipped": 0
+    },
+    {
+      "test": "test_batch_isolation.py",
+      "returncode": 0,
+      "tests_run": 20,
+      "skipped": 0
+    },
+    {
+      "test": "test_batch_return.py",
+      "returncode": 0,
+      "tests_run": 1,
+      "skipped": 0
+    }
+  ],
+  "limit": "Point-in-time progression and CPU checks; not root-cause closure or long-run stability proof",
+  "toast_isolation": {
+    "planned_exit_and_restored_queue_markers_observed": false,
+    "planned_manifest_and_restored_queue_verified": true,
+    "new_simulator_identity_with_same_policy_identity_verified": true,
+    "completed_toast_episodes_at_snapshot": 20,
+    "native_task_budget": 25,
+    "environment_object_budget_snapshot": 50,
+    "post_restore_action_steps": [
+      [
+        "3",
+        "543",
+        "1400"
+      ],
+      [
+        "0",
+        "544",
+        "1400"
+      ],
+      [
+        "1",
+        "544",
+        "1400"
+      ],
+      [
+        "2",
+        "544",
+        "1400"
+      ]
+    ],
+    "next_layouts_at_first_boundary": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "following_batch_completion_independently_verified": false
+  },
+  "gpu_reset": {
+    "gpu": 7,
+    "exit": 0,
+    "time": 1790754829.8528976
+  }
+}

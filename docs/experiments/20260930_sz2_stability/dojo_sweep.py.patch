@@ -1,0 +1,82 @@
+--- a/dojo_sweep.py
++++ b/dojo_sweep.py
+@@ -32 +32 @@
+-from process_guard import ProcessGuard, atomic_json
++from process_guard import ProcessGuard, atomic_json, error_context
+@@ -132 +132 @@
+-        "src/eval_client/main.py", "src/eval_client/eval_env.py", "env_cfg/arx_x5.yml",
++        "src/eval_client/main.py", "src/eval_client/eval_env.py", "src/eval_client/batch_isolation.py", "env_cfg/arx_x5.yml",
+@@ -263,0 +264 @@
++            "ROBODOJO_ISOLATE_TOAST_BATCHES": "1", "ROBODOJO_MAX_PLANNED_BATCH_RESTARTS": "8",
+@@ -297,0 +299,17 @@
++
++    def gpu_lane(self, gpu):
++        """Keep original groups/ports, but never wait on another GPU's seed."""
++        groups = sorted((group for group in self.plan["groups"] if group["gpu"] == gpu),
++                        key=lambda group: group["worker"])
++        if len(groups) != 2 or len({group["worker"] for group in groups}) != 2:
++            raise RuntimeError(f"Expected original two distinct groups for GPU{gpu}")
++        for seed in SEEDS:
++            if self.stop.is_set():
++                return
++            self.event("gpu_lane_seed_started", gpu=gpu, seed=seed,
++                       workers=[group["worker"] for group in groups])
++            for group in groups:
++                if self.stop.is_set():
++                    return
++                self.worker(seed, group)
++        self.event("gpu_lane_finished", gpu=gpu)
+@@ -353,2 +371,2 @@
+-                self.update(seed, current_task, status="ERROR", error=repr(error))
+-            self.event("worker_error", worker=worker, seed=seed, error=repr(error))
++                self.update(seed, current_task, status="ERROR", error=repr(error), error_context=error_context(error))
++            self.event("worker_error", worker=worker, seed=seed, error=repr(error), error_context=error_context(error))
+@@ -401 +419 @@
+-                self.event("telemetry_error", error=repr(error))
++                self.event("telemetry_error", error=repr(error), error_context=error_context(error))
+@@ -413,0 +432 @@
++                self.event("gpu_status_error", error=repr(exc), error_context=error_context(exc))
+@@ -425,0 +445 @@
++        cleanup_error_context = None
+@@ -430,0 +451 @@
++            cleanup_error_context = error_context(exc)
+@@ -433,0 +455 @@
++                  "error_context": cleanup_error_context,
+@@ -475,0 +498 @@
++            # All summaries must exist before different lanes reach different seeds.
+@@ -483,13 +506,12 @@
+-                if self.stop.is_set():
+-                    break
+-                with ThreadPoolExecutor(max_workers=8) as pool:
+-                    futures = [pool.submit(self.worker, seed, group) for group in self.plan["groups"]]
+-                    errors = []
+-                    for future in as_completed(futures):
+-                        try:
+-                            future.result()
+-                        except Exception as error:
+-                            self.stop.set()
+-                            errors.append(repr(error))
+-                    if errors:
+-                        raise RuntimeError("; ".join(errors))
++            with ThreadPoolExecutor(max_workers=len(set(GPUS))) as pool:
++                futures = [pool.submit(self.gpu_lane, gpu) for gpu in sorted(set(GPUS))]
++                errors = []
++                for future in as_completed(futures):
++                    try:
++                        future.result()
++                    except Exception as error:
++                        self.stop.set()
++                        self.event("gpu_lane_error", error=repr(error), error_context=error_context(error))
++                        errors.append(repr(error))
++                if errors:
++                    raise RuntimeError("; ".join(errors))
+@@ -508 +530 @@
+-            self.event("sweep_error", error=error_text)
++            self.event("sweep_error", error=error_text, error_context=error_context(error))
+@@ -516,0 +539 @@
++                self.event("cleanup_error", error=repr(error), error_context=error_context(error))
+@@ -524,0 +548 @@
++                self.event("release_error", error=repr(error), error_context=error_context(error))
+@@ -561 +585 @@
+-                          "error": repr(error)}, ensure_ascii=False), file=sys.stderr, flush=True)
++                          "error": repr(error), "error_context": error_context(error)}, ensure_ascii=False), file=sys.stderr, flush=True)

@@ -1,0 +1,12 @@
+--- a/eval_recovery.py
++++ b/eval_recovery.py
+@@ -79,0 +80,9 @@
++        if client is not None and client.returncode == 97:
++            # Planned-isolation integrity refusal is not an ordinary incomplete
++            # episode. Never retry or accept even a full result after this code.
++            reason='planned_batch_integrity_refused'
++            sweep.update(seed,task,status='ERROR',error=reason,exit_code=97,
++                         cleanup_receipt=receipt)
++            sweep.event('task_integrity_refused',task=task,seed=seed,worker=worker,
++                        reason=reason,exit_code=97,cleanup_receipt=receipt)
++            raise RuntimeError(f'{task}/s{seed}: planned batch integrity refused (exit 97)')

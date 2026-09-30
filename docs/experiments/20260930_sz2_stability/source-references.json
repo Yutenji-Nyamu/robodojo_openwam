@@ -1,0 +1,43 @@
+{
+  "repository": "https://github.com/Yutenji-Nyamu/robodojo_openwam",
+  "publication_base_commit": "ab16f4db241b9e9cc72ba79c1a6041ab1caab644",
+  "runtime_baseline": "eval-recovery-20260930-v2",
+  "runtime_candidate": "eval-recovery-20260930-v4",
+  "runtime_baseline_sha256": {
+    "dojo_sweep.py": "bc2a413021a886460d8c880a5426dc64847439c8262c9700ee10444b42559695",
+    "continue_pipeline.py": "7fd3d7ec0cc5c05df3cab4f28de14dafab086d5abf4bb54593606ccdf9edeb02",
+    "eval_recovery.py": "179ee5c6b0f1595af3fb598f0435d08f9385951e892854a7934923d91534e171"
+  },
+  "runtime_candidate_sha256": {
+    "process_guard.py": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6",
+    "test_permission_diagnostics.py": "4aa1acef1d210cff71b8f1023be31babea65c5b96bc47292c71d9c3b0db310d2",
+    "dojo_sweep.py": "06b90c86ec303c680b20f372072f083bc43dcff976a01a9e7a45fd5396daf332",
+    "test_recovery.py": "34910b141f7265b0016272e8a6318782e05ef81a13b511babea1ed21ec1bef3f",
+    "test_gpu_lanes.py": "90ab99bb3cb5a6b81d92dec4742ea36a0a95bd7bad147d23c924f64bec79f3b5",
+    "eval_recovery.py": "1ca7fdf0e28f075cbe6faf6976273a78608c1191e6b36c3d50a9e75433f0c0df",
+    "continue_pipeline.py": "e05795d1de0fc31495457a18153e90c1ade76c8801423059602d76bab33f6372",
+    "batch_isolation.py": "b2e55d4ad3802e0892cfd33b64dc1ab2c485913cc61274df458e5173fd20904b",
+    "test_batch_isolation.py": "b0e1c529e54283bd94427187856748345f253837ac54e98a5d42d7da47139c6a",
+    "test_batch_return.py": "b8913d2a96987ff00dc1534b2d3a461dd6f1d83dad495273e9f438804e44d4a3"
+  },
+  "production": {
+    "base_commit": "1d3e375add2557557291cc3050d8068ed0dc3f31",
+    "deployed_commit": "b96822f333b008ac5bab24ced1fee242865328d2",
+    "before_sha256": {
+      "src/eval_client/main.py": "ca6ba652b6f123506370f1907b1d88060d83f56c9e91ce6e6930f63d9f2b71a8",
+      "src/eval_client/eval_env.py": "3ae75304d8a840ede2589441f987824f50b2a89cc2ef37f4d43ce0a8dbc4fd88",
+      "scripts/eval_policy.sh": "e7400746f44cf29f4e37a4a15b3a2237c0715dfc539add02fd4e41e724637737"
+    },
+    "after_sha256": {
+      "scripts/eval_policy.sh": "80bc684378b8ba2dd10bbefdeb4ef232f0c32ea88ebe549d4bc192272ebae4b5",
+      "src/eval_client/batch_isolation.py": "b2e55d4ad3802e0892cfd33b64dc1ab2c485913cc61274df458e5173fd20904b",
+      "src/eval_client/eval_env.py": "fccddb34d1907e499896281e11bdb74e55f7289d6762b279e872ed5005f05a03",
+      "src/eval_client/main.py": "1c1bca7b46f3a9ce6a7926b146b8fa7894786e02e3750b292a0999874b30d561"
+    }
+  },
+  "patch_validation": {
+    "context": 0,
+    "application": "git apply --unidiff-zero --whitespace=error-all",
+    "reconstructed_source_sha256_matches": true
+  }
+}
