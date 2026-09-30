@@ -1,0 +1,12 @@
+
+test_incomplete_cannot_advance_to_next_task (__main__.TestRecovery) ... ok
+test_one_worker_per_gpu (__main__.TestRecovery) ... ok
+test_oom_and_illegal_address_bounded (__main__.TestRecovery) ... ok
+test_real_steps_and_episode_progress (__main__.TestRecovery) ... ok
+test_retries_have_fresh_progress_state (__main__.TestRecovery) ... ok
+test_warning_writes_are_not_progress (__main__.TestRecovery) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.046s
+
+OK

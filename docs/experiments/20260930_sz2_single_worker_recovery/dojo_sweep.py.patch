@@ -1,0 +1,56 @@
+--- a/dojo_sweep.py
++++ b/dojo_sweep.py
+@@ -32,0 +33 @@
++from eval_recovery import run_client
+@@ -94,0 +96,2 @@
++    if cfg.get("workers_per_gpu") != 1:
++        raise RuntimeError("Approved recovery requires one simultaneous worker per GPU")
+@@ -147 +150 @@
+-            "num_envs": 4, "gpus": GPUS, "seeds": SEEDS, "episode_total": 6300,
++            "num_envs": 4, "workers_per_gpu": 1, "gpus": GPUS, "seeds": SEEDS, "episode_total": 6300,
+@@ -151 +154 @@
+-                                  for name in ("dojo_sweep.py", "process_guard.py")},
++                                  for name in ("dojo_sweep.py", "process_guard.py", "eval_recovery.py", "resume_results.py")},
+@@ -217,0 +221 @@
++        self.gpu_slots = {gpu: threading.Lock() for gpu in set(GPUS)}
+@@ -295,0 +300,9 @@
++        slot = self.gpu_slots[group["gpu"]]
++        while not self.stop.is_set():
++            if slot.acquire(timeout=1):
++                try:
++                    return self.worker_body(seed, group)
++                finally:
++                    slot.release()
++
++    def worker_body(self, seed, group):
+@@ -318,0 +332 @@
++            server_command = command
+@@ -335,20 +349,2 @@
+-                started = time.time()
+-                self.update(seed, task, status="RUNNING", worker=worker, gpu=gpu, started_at=started)
+-                client = None
+-                try:
+-                    client = self.launch(command, run_id, "client", gpu, self.cfg["sim_env"],
+-                                         work_dir / "tasks" / task)
+-                    while client.poll() is None and not self.stop.wait(2):
+-                        if server.poll() is not None:
+-                            raise RuntimeError(f"Policy server died during {task}")
+-                finally:
+-                    receipt = self.guard.cleanup(run_id, "task_finished_or_interrupted")
+-                    if client is not None:
+-                        client.wait(timeout=10)
+-                check = result_check(self.result_path(seed, task), self.plan["budgets"][task])
+-                status = "COMPLETE" if check["complete"] else ("INTERRUPTED" if self.stop.is_set() else "INCOMPLETE")
+-                self.update(seed, task, status=status, result=check,
+-                            exit_code=client.returncode if client else None,
+-                            wall_seconds=time.time() - started, cleanup_receipt=receipt)
+-                self.event("task_finished", task=task, seed=seed, worker=worker, status=status,
+-                           complete_episodes=check.get("eval_time"), expected=self.plan["budgets"][task])
++                server = run_client(self, seed, task, worker, gpu, command, work_dir,
++                                    server, server_id, server_command, self.cfg["policy_env"])
+@@ -453 +449 @@
+-                    "checkpoint_files", "tasks", "budgets")
++                    "checkpoint_files", "tasks", "budgets", "workers_per_gpu")
+@@ -460 +456 @@
+-            for name in ("dojo_sweep.py", "process_guard.py"):
++            for name in ("dojo_sweep.py", "process_guard.py", "eval_recovery.py", "resume_results.py"):

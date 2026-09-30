@@ -1,0 +1,183 @@
+{
+  "host": "sz2",
+  "verified_at": 1790745529.549261,
+  "phase": "EVALUATING",
+  "episodes": 2696,
+  "preserved_episodes": 2688,
+  "new_completed_episodes": 8,
+  "preserved_unchanged": true,
+  "faulted_gpu_progress": true,
+  "fault_task": {
+    "key": "1/make_toast_random",
+    "before": 12,
+    "current": 12
+  },
+  "known_nonfatal_errors": [
+    {
+      "task": "make_toast_random",
+      "gpu": 7,
+      "error": "omni.kit property window scroll_y_max; real actions continue",
+      "evidence": "dojo-active-ui-error-0930-1316"
+    }
+  ],
+  "workers_per_gpu": 1,
+  "num_envs": 4,
+  "watchdog": "WATCHING",
+  "workers": [
+    {
+      "seed": 1,
+      "worker": 2,
+      "gpu": 5,
+      "task": "arrange_largest_number_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "0",
+          "927",
+          "1050"
+        ],
+        [
+          "1",
+          "927",
+          "1050"
+        ],
+        [
+          "2",
+          "927",
+          "1050"
+        ],
+        [
+          "3",
+          "927",
+          "1050"
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "worker": 6,
+      "gpu": 7,
+      "task": "make_toast_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "3",
+          "751",
+          "1400"
+        ],
+        [
+          "0",
+          "752",
+          "1400"
+        ],
+        [
+          "1",
+          "752",
+          "1400"
+        ],
+        [
+          "2",
+          "752",
+          "1400"
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "worker": 4,
+      "gpu": 6,
+      "task": "organize_table",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "0",
+          "1000",
+          "1000"
+        ],
+        [
+          "1",
+          "1000",
+          "1000"
+        ],
+        [
+          "2",
+          "1000",
+          "1000"
+        ],
+        [
+          "3",
+          "1000",
+          "1000"
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "worker": 0,
+      "gpu": 4,
+      "task": "sweep_blocks_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "0",
+          "1000",
+          "1000"
+        ],
+        [
+          "1",
+          "1000",
+          "1000"
+        ],
+        [
+          "2",
+          "1000",
+          "1000"
+        ],
+        [
+          "3",
+          "1000",
+          "1000"
+        ]
+      ]
+    }
+  ],
+  "gpus": [
+    {
+      "gpu": 4,
+      "memory_mib": 38470,
+      "util_percent": 0,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 5,
+      "memory_mib": 41972,
+      "util_percent": 16,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 6,
+      "memory_mib": 37331,
+      "util_percent": 15,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 7,
+      "memory_mib": 41524,
+      "util_percent": 13,
+      "ecc_uncorrected": 0
+    }
+  ],
+  "reset": {
+    "gpu": 7,
+    "exit": 0,
+    "time": 1790744582.7977693
+  },
+  "tests": {
+    "cpu_tests": 6,
+    "passed": 6
+  }
+}
