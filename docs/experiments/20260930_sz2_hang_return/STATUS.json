@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-09-30T11:58:34.022748+08:00",
+  "server": "sz2",
+  "evaluation": "paused_partial_results_preserved",
+  "retained_episodes": 2688,
+  "expected_episodes": 6300,
+  "all_four_first_rounds_verified": true,
+  "first_round_observed_at": "2026-09-30T11:47:56.103263+08:00",
+  "rlt_target_rounds": 3000,
+  "runs": [
+    {
+      "gpu": 4,
+      "task": "pick_diverse_bottles",
+      "variant": "clean",
+      "restored_checkpoint_step": 1075,
+      "first_round_verified": true,
+      "latest_observed_round": 1077,
+      "online": 1.0,
+      "update_step": 356950.0
+    },
+    {
+      "gpu": 5,
+      "task": "pick_diverse_bottles",
+      "variant": "combo",
+      "restored_checkpoint_step": 1075,
+      "first_round_verified": true,
+      "latest_observed_round": 1077,
+      "online": 1.0,
+      "update_step": 355670.0
+    },
+    {
+      "gpu": 6,
+      "task": "place_object_scale",
+      "variant": "clean",
+      "restored_checkpoint_step": 1025,
+      "first_round_verified": true,
+      "latest_observed_round": 1026,
+      "online": 1.0,
+      "update_step": 362340.0
+    },
+    {
+      "gpu": 7,
+      "task": "place_object_scale",
+      "variant": "combo",
+      "restored_checkpoint_step": 1025,
+      "first_round_verified": true,
+      "latest_observed_round": 1026,
+      "online": 1.0,
+      "update_step": 360915.0
+    }
+  ],
+  "watchdog": {
+    "state": "IDLE_RLT_OR_FINISHED",
+    "poll_seconds": 30,
+    "fatal_no_progress_seconds": 300,
+    "ordinary_no_progress_seconds": 1800,
+    "scope": "this sweep and its subsequent registered continuation",
+    "boot_service": false
+  },
+  "validation": {
+    "server_cpu_tests": 12,
+    "server_cpu_tests_passed": true,
+    "recorded_binding_replay": true,
+    "actual_stall_logs": [
+      {
+        "task": "fill_pen_holder",
+        "reason": "gpu_fatal_and_no_progress",
+        "fatal_seen": true
+      }
+    ],
+    "all_previous_episode_details_unchanged": true
+  },
+  "gpu_root_cause_fixed": false,
+  "live_frozen_helper_changed": false,
+  "automatic_gpu_reset": false
+}
