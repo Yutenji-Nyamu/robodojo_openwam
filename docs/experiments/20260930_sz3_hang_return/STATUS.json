@@ -1,0 +1,140 @@
+{
+  "as_of": "2026-09-30T11:58:34.406825+08:00",
+  "server": "sz3",
+  "evaluation": "paused_partial_results_preserved",
+  "retained_episodes": 1606,
+  "expected_episodes": 6300,
+  "all_four_first_rounds_verified": true,
+  "first_round_observed_at": "2026-09-30T11:53:15.981454+08:00",
+  "rlt_target_rounds": 3000,
+  "runs": [
+    {
+      "gpu": 4,
+      "task": "move_pillbottle_pad",
+      "variant": "clean",
+      "restored_checkpoint_step": 25,
+      "first_round_verified": true,
+      "latest_observed_round": 26,
+      "online": 0.0,
+      "update_step": 0.0
+    },
+    {
+      "gpu": 5,
+      "task": "move_pillbottle_pad",
+      "variant": "combo",
+      "restored_checkpoint_step": 25,
+      "first_round_verified": true,
+      "latest_observed_round": 26,
+      "online": 0.0,
+      "update_step": 0.0
+    },
+    {
+      "gpu": 6,
+      "task": "rotate_qrcode",
+      "variant": "clean",
+      "restored_checkpoint_step": 25,
+      "first_round_verified": true,
+      "latest_observed_round": 26,
+      "online": 0.0,
+      "update_step": 0.0
+    },
+    {
+      "gpu": 7,
+      "task": "rotate_qrcode",
+      "variant": "combo",
+      "restored_checkpoint_step": 25,
+      "first_round_verified": true,
+      "latest_observed_round": 26,
+      "online": 0.0,
+      "update_step": 0.0
+    }
+  ],
+  "watchdog": {
+    "state": "IDLE_RLT_OR_FINISHED",
+    "poll_seconds": 30,
+    "fatal_no_progress_seconds": 300,
+    "ordinary_no_progress_seconds": 1800,
+    "scope": "this sweep and its subsequent registered continuation",
+    "boot_service": false
+  },
+  "validation": {
+    "server_cpu_tests": 12,
+    "server_cpu_tests_passed": true,
+    "recorded_binding_replay": true,
+    "actual_stall_logs": [
+      {
+        "task": "arrange_largest_number_random",
+        "reason": "gpu_fatal_and_no_progress",
+        "fatal_seen": true
+      },
+      {
+        "task": "sort_nesting_dolls_by_size_random",
+        "reason": "gpu_fatal_and_no_progress",
+        "fatal_seen": true
+      },
+      {
+        "task": "play_Xylophone",
+        "reason": "no_action_or_episode_progress",
+        "fatal_seen": false
+      }
+    ],
+    "all_previous_episode_details_unchanged": true
+  },
+  "gpu_root_cause_fixed": false,
+  "live_frozen_helper_changed": false,
+  "automatic_gpu_reset": false,
+  "path_fix": {
+    "gpu4": {
+      "old_name_bytes": 265,
+      "new_name_bytes": 100,
+      "changed_config_keys": [
+        "env.eval.task_config.save_path",
+        "env.eval.video_cfg.video_base_dir",
+        "env.train.task_config.save_path",
+        "env.train.video_cfg.video_base_dir",
+        "runner.logger.experiment_name",
+        "runner.logger.log_path"
+      ],
+      "algorithm_unchanged": true
+    },
+    "gpu5": {
+      "old_name_bytes": 265,
+      "new_name_bytes": 100,
+      "changed_config_keys": [
+        "env.eval.task_config.save_path",
+        "env.eval.video_cfg.video_base_dir",
+        "env.train.task_config.save_path",
+        "env.train.video_cfg.video_base_dir",
+        "runner.logger.experiment_name",
+        "runner.logger.log_path"
+      ],
+      "algorithm_unchanged": true
+    },
+    "gpu6": {
+      "old_name_bytes": 259,
+      "new_name_bytes": 94,
+      "changed_config_keys": [
+        "env.eval.task_config.save_path",
+        "env.eval.video_cfg.video_base_dir",
+        "env.train.task_config.save_path",
+        "env.train.video_cfg.video_base_dir",
+        "runner.logger.experiment_name",
+        "runner.logger.log_path"
+      ],
+      "algorithm_unchanged": true
+    },
+    "gpu7": {
+      "old_name_bytes": 259,
+      "new_name_bytes": 94,
+      "changed_config_keys": [
+        "env.eval.task_config.save_path",
+        "env.eval.video_cfg.video_base_dir",
+        "env.train.task_config.save_path",
+        "env.train.video_cfg.video_base_dir",
+        "runner.logger.experiment_name",
+        "runner.logger.log_path"
+      ],
+      "algorithm_unchanged": true
+    }
+  }
+}

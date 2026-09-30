@@ -1,0 +1,18 @@
+
+test_actual_steps_allow_unlimited_task_duration (__main__.ProgressTests) ... ok
+test_completed_episode_is_progress_without_log_steps (__main__.ProgressTests) ... ok
+test_completed_workers_and_old_attempts_excluded (__main__.ProgressTests) ... ok
+test_exact_child_term_does_not_touch_other_child (__main__.ProgressTests) ... ok
+test_fatal_gets_shorter_stall_but_can_recover (__main__.ProgressTests) ... ok
+test_parent_change_refuses_signal (__main__.ProgressTests) ... ok
+test_pid_reuse_fails_before_signal (__main__.ProgressTests) ... ok
+test_repeated_recovery_names_stay_bounded_and_unique (__main__.ProgressTests) ... ok
+test_repeated_warning_is_not_progress (__main__.ProgressTests) ... ok
+test_rlt_phase_is_inactive (__main__.ProgressTests) ... ok
+test_split_carriage_return_steps_and_warning_mtime (__main__.ProgressTests) ... ok
+test_unicode_name_bound (__main__.ProgressTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.108s
+
+OK
