@@ -1,0 +1,116 @@
+{
+  "host": "sz3",
+  "verified_at": 1790745367.6087103,
+  "phase": "EVALUATING",
+  "episodes": 1610,
+  "preserved_episodes": 1606,
+  "new_completed_episodes": 4,
+  "preserved_unchanged": true,
+  "faulted_gpu_progress": true,
+  "fault_task": {
+    "key": "0/arrange_largest_number_random",
+    "before": 24,
+    "current": 24
+  },
+  "known_nonfatal_errors": [],
+  "workers_per_gpu": 1,
+  "num_envs": 4,
+  "watchdog": "WATCHING",
+  "workers": [
+    {
+      "seed": 0,
+      "worker": 2,
+      "gpu": 5,
+      "task": "arrange_largest_number_random",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "0",
+          "800",
+          "1050"
+        ],
+        [
+          "0",
+          "801",
+          "1050"
+        ],
+        [
+          "0",
+          "802",
+          "1050"
+        ],
+        [
+          "0",
+          "803",
+          "1050"
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worker": 6,
+      "gpu": 7,
+      "task": "play_Xylophone",
+      "status": "RUNNING",
+      "retry": 0,
+      "steps": [
+        [
+          "0",
+          "215",
+          "500"
+        ],
+        [
+          "1",
+          "215",
+          "500"
+        ],
+        [
+          "2",
+          "215",
+          "500"
+        ],
+        [
+          "3",
+          "215",
+          "500"
+        ]
+      ]
+    }
+  ],
+  "gpus": [
+    {
+      "gpu": 4,
+      "memory_mib": 1,
+      "util_percent": 0,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 5,
+      "memory_mib": 38197,
+      "util_percent": 10,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 6,
+      "memory_mib": 1,
+      "util_percent": 0,
+      "ecc_uncorrected": 0
+    },
+    {
+      "gpu": 7,
+      "memory_mib": 36428,
+      "util_percent": 1,
+      "ecc_uncorrected": 0
+    }
+  ],
+  "reset": {
+    "gpu": 5,
+    "exit": 0,
+    "time": 1790744590.177434
+  },
+  "tests": {
+    "cpu_tests": 6,
+    "passed": 6
+  }
+}

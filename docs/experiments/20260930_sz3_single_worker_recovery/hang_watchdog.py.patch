@@ -1,0 +1,10 @@
+--- a/hang_watchdog.py
++++ b/hang_watchdog.py
+@@ -119,0 +120,4 @@
++            if row.get('log_path'):
++                selected=Path(row['log_path']).resolve()
++                assert selected.is_relative_to((run/f"seed{row['seed']}/worker{row['worker']}/tasks/{task}").resolve())
++                log=selected
+@@ -133 +137 @@
+-            rows.append((f"{row['seed']}/{task}",log,count,row['worker']))
++            rows.append((f"{row['seed']}/{task}/retry{row.get('recovery_attempt',0)}",log,count,row['worker']))
