@@ -1,0 +1,80 @@
+--- a/dojo_sweep.py
++++ b/dojo_sweep.py
+@@ -33 +33 @@
+-from process_guard import ProcessGuard, atomic_json
++from process_guard import ProcessGuard, atomic_json, error_context
+@@ -345,0 +346,18 @@
++    def gpu_lane(self, gpu):
++        """Keep original groups/ports, but never wait on another GPU's seed."""
++        groups = sorted((group for group in self.plan["groups"] if group["gpu"] == gpu),
++                        key=lambda group: group["worker"])
++        if len(groups) != 2 or len({group["worker"] for group in groups}) != 2:
++            raise RuntimeError(f"Expected original two distinct groups for GPU{gpu}")
++        for seed in SEEDS:
++            if self.stop.is_set():
++                return
++            self.wait_checkpoint(seed)
++            self.event("gpu_lane_seed_started", gpu=gpu, seed=seed,
++                       workers=[group["worker"] for group in groups])
++            for group in groups:
++                if self.stop.is_set():
++                    return
++                self.worker(seed, group)
++        self.event("gpu_lane_finished", gpu=gpu)
++
+@@ -400,2 +418,2 @@
+-                self.update(seed, current_task, status="ERROR", error=repr(error))
+-            self.event("worker_error", worker=worker, seed=seed, error=repr(error), traceback=traceback.format_exc())
++                self.update(seed, current_task, status="ERROR", error=repr(error), error_context=error_context(error))
++            self.event("worker_error", worker=worker, seed=seed, error=repr(error), traceback=traceback.format_exc(), error_context=error_context(error))
+@@ -448 +466 @@
+-                self.event("telemetry_error", error=repr(error))
++                self.event("telemetry_error", error=repr(error), error_context=error_context(error))
+@@ -460,0 +479 @@
++                self.event("gpu_status_error", error=repr(exc), error_context=error_context(exc))
+@@ -472,0 +492 @@
++        cleanup_error_context = None
+@@ -477,0 +498 @@
++            cleanup_error_context = error_context(exc)
+@@ -480,0 +502 @@
++                  "error_context": cleanup_error_context,
+@@ -524,0 +547 @@
++            # All summaries must exist before different lanes reach different seeds.
+@@ -526 +548,0 @@
+-                self.wait_checkpoint(seed)
+@@ -533,13 +555,12 @@
+-                if self.stop.is_set():
+-                    break
+-                with ThreadPoolExecutor(max_workers=8) as pool:
+-                    futures = [pool.submit(self.worker, seed, group) for group in self.plan["groups"]]
+-                    errors = []
+-                    for future in as_completed(futures):
+-                        try:
+-                            future.result()
+-                        except Exception as error:
+-                            self.stop.set()
+-                            errors.append(repr(error))
+-                    if errors:
+-                        raise RuntimeError("; ".join(errors))
++            with ThreadPoolExecutor(max_workers=len(set(GPUS))) as pool:
++                futures = [pool.submit(self.gpu_lane, gpu) for gpu in sorted(set(GPUS))]
++                errors = []
++                for future in as_completed(futures):
++                    try:
++                        future.result()
++                    except Exception as error:
++                        self.stop.set()
++                        self.event("gpu_lane_error", error=repr(error), error_context=error_context(error))
++                        errors.append(repr(error))
++                if errors:
++                    raise RuntimeError("; ".join(errors))
+@@ -558 +579 @@
+-            self.event("sweep_error", error=error_text)
++            self.event("sweep_error", error=error_text, error_context=error_context(error))
+@@ -566,0 +588 @@
++                self.event("cleanup_error", error=repr(error), error_context=error_context(error))
+@@ -574,0 +597 @@
++                self.event("release_error", error=repr(error), error_context=error_context(error))
+@@ -611 +634 @@
+-                          "error": repr(error)}, ensure_ascii=False), file=sys.stderr, flush=True)
++                          "error": repr(error), "error_context": error_context(error)}, ensure_ascii=False), file=sys.stderr, flush=True)

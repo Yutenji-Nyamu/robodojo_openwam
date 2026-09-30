@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/Yutenji-Nyamu/robodojo_openwam",
+  "publication_base_commit": "d0e2513c516ff03c6e3cff2d9f2e4cf6595e3500",
+  "runtime_baseline": "eval-recovery-20260930-v2",
+  "runtime_candidate": "eval-recovery-20260930-v3",
+  "runtime_baseline_sha256": {
+    "dojo_sweep.py": "8cddeac2318db0b7ef8da078414c0adfb7ff4d289866985345718fc303a12d89",
+    "continue_pipeline.py": "7fd3d7ec0cc5c05df3cab4f28de14dafab086d5abf4bb54593606ccdf9edeb02",
+    "eval_recovery.py": "179ee5c6b0f1595af3fb598f0435d08f9385951e892854a7934923d91534e171"
+  },
+  "runtime_candidate_sha256": {
+    "test_recovery.py": "34910b141f7265b0016272e8a6318782e05ef81a13b511babea1ed21ec1bef3f",
+    "test_gpu_lanes.py": "90ab99bb3cb5a6b81d92dec4742ea36a0a95bd7bad147d23c924f64bec79f3b5",
+    "eval_recovery.py": "179ee5c6b0f1595af3fb598f0435d08f9385951e892854a7934923d91534e171",
+    "process_guard.py": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6",
+    "test_permission_diagnostics.py": "4aa1acef1d210cff71b8f1023be31babea65c5b96bc47292c71d9c3b0db310d2",
+    "dojo_sweep.py": "c61c02bc479921288af1b075e86722767de2f215b0c45b8b9df9b6aba5ae4f3e",
+    "continue_pipeline.py": "d46857b958b7a88b2852a5180e0cb8de97f8a6009d9b8684dc1ef60fa7a00cb2"
+  },
+  "production": {
+    "deployed_commit": "50aab2b28298db42c4b25c59c8967eae8d91e84c",
+    "production_source_changed_by_this_update": false
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "host": "sz3",
+  "verified_at": 1790754718.5988672,
+  "phase": "EVALUATING",
+  "attempt": "continuation-20260930-single-v3",
+  "source_version": "eval-recovery-20260930-v3",
+  "episodes": 1722,
+  "preserved_episodes": 1709,
+  "new_completed_episodes": 13,
+  "preserved_unchanged": true,
+  "workers_per_gpu": 1,
+  "num_envs": 4,
+  "expected_episodes": 6300,
+  "watchdog": "WATCHING",
+  "workers": [
+    {
+      "gpu": 7,
+      "worker": 6,
+      "seed": 0,
+      "task": "deposit_coin",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          300,
+          300
+        ],
+        [
+          1,
+          300,
+          300
+        ],
+        [
+          2,
+          300,
+          300
+        ],
+        [
+          3,
+          300,
+          300
+        ]
+      ]
+    },
+    {
+      "gpu": 5,
+      "worker": 2,
+      "seed": 0,
+      "task": "match_and_pick_from_conveyor",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          378,
+          700
+        ],
+        [
+          1,
+          378,
+          700
+        ],
+        [
+          0,
+          379,
+          700
+        ],
+        [
+          1,
+          379,
+          700
+        ]
+      ]
+    },
+    {
+      "gpu": 4,
+      "worker": 0,
+      "seed": 1,
+      "task": "imitate_sorting_sequence",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          3,
+          960,
+          1600
+        ],
+        [
+          1,
+          961,
+          1600
+        ],
+        [
+          2,
+          961,
+          1600
+        ],
+        [
+          3,
+          961,
+          1600
+        ]
+      ]
+    },
+    {
+      "gpu": 6,
+      "worker": 4,
+      "seed": 1,
+      "task": "play_stacking_toy",
+      "status": "RUNNING",
+      "retry": 0,
+      "last_logged_steps": [
+        [
+          0,
+          1174,
+          1200
+        ],
+        [
+          1,
+          1174,
+          1200
+        ],
+        [
+          2,
+          1174,
+          1200
+        ],
+        [
+          3,
+          1174,
+          1200
+        ]
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "test": "test_recovery.py",
+      "returncode": 0,
+      "tests_run": 6,
+      "skipped": 0
+    },
+    {
+      "test": "test_gpu_lanes.py",
+      "returncode": 0,
+      "tests_run": 5,
+      "skipped": 0
+    },
+    {
+      "test": "test_permission_diagnostics.py",
+      "returncode": 0,
+      "tests_run": 7,
+      "skipped": 0
+    }
+  ],
+  "limit": "Point-in-time progression and CPU checks; not root-cause closure or long-run stability proof"
+}
