@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "scope": "Minimal camera cleanup source repair; isolated initialization/render/close diagnostics only",
+  "source": {
+    "base_commit": "b96822f333b008ac5bab24ced1fee242865328d2",
+    "repair_commit": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+    "files_changed": 2,
+    "additions": 20,
+    "deletions": 7,
+    "files": {
+      "env/camera_manager/capture/camera_view.py": {
+        "additions": 16,
+        "deletions": 5,
+        "sha256": "ad407b638fb085dd729e6235cb3e61c0b179b11af95d31d097646cf999069fff"
+      },
+      "env/camera_manager/capture/tiled_capture_manager.py": {
+        "additions": 4,
+        "deletions": 2,
+        "sha256": "64fbff9a1570b8368c5db8494b0c62831a4a13b4bd9a80d4feed56f896356f96"
+      }
+    }
+  },
+  "server_cpu_checks": {
+    "evidence_id": "i031",
+    "result": "PASS",
+    "exact_observed_sdk_exception_handled": true,
+    "unrelated_failure_propagates": true,
+    "no_repeated_product_destroy": true
+  },
+  "native_gpu_checks": {
+    "gpu_model": "H100",
+    "task": "stack_bowls_random",
+    "eval_seed": 1,
+    "num_envs": 4,
+    "layout_indices": [0, 1, 2, 3],
+    "layout_paths_and_sha256_identical_between_variants": true,
+    "same_resolved_configuration_except_candidate_render_fields": true,
+    "rgb_shape": [480, 640, 3],
+    "rgb_dtype": "uint8",
+    "rgb_snapshots_per_cycle": 12,
+    "warmup_capture_calls_per_cycle": 40,
+    "variants": [
+      {
+        "name": "Original renderer with camera cleanup repair",
+        "evidence_id": "i036",
+        "elapsed_seconds": 174.41258161701262,
+        "exit_code": 0,
+        "same_process_reset_calls": 2,
+        "healthy_closes": 2,
+        "rgb_snapshots": 24,
+        "owned_native_resources_released": true,
+        "repeated_capture_destroy_passed": true,
+        "app_close_entered": true,
+        "app_close_returned": false,
+        "contract_completion_file_exists": false,
+        "completion_evidence": "Two RGB/owner-release cycles and external process exit receipt"
+      },
+      {
+        "name": "Diagnostic TAA and DL denoiser off with same source repair",
+        "evidence_id": "i040",
+        "elapsed_seconds": 194.4192688711919,
+        "exit_code": 0,
+        "same_process_reset_calls": 2,
+        "healthy_closes": 2,
+        "rgb_snapshots": 24,
+        "owned_native_resources_released": true,
+        "repeated_capture_destroy_passed": true,
+        "app_close_entered": true,
+        "app_close_returned": false,
+        "contract_completion_file_exists": true,
+        "contract_completion_file_written_before_app_close": true,
+        "candidate_render_fields": {
+          "antialiasing_mode": "TAA",
+          "enable_dl_denoiser": false,
+          "enable_dlssg": false
+        },
+        "changes_rgb_appearance": true,
+        "used_for_formal_scoring": false
+      }
+    ],
+    "total_reset_cycles": 4,
+    "total_rgb_snapshots": 48,
+    "owner_release_checks": {
+      "view_render_product_references_cleared": true,
+      "view_annotator_references_cleared": true,
+      "native_textures_released": true,
+      "callbacks_cleared": true,
+      "prim_path_references_cleared": true,
+      "annotator_nodes_invalid_after_close": true,
+      "manager_views_products_buffers_cleared": true,
+      "remaining_product_graphs": 0,
+      "all_old_annotator_binding_string_metadata_cleared": false
+    }
+  },
+  "final_cross_check": {
+    "evidence_id": "i041",
+    "source_commit_evidence_id": "i042",
+    "source_commit_contains_only_two_reviewed_files": true,
+    "source_worktree_clean_after_commit": true,
+    "original_formal_checkout_unchanged": true,
+    "diagnostic_gpu_processes_after": 0,
+    "gpu_recovery_action_after": "None",
+    "gpu_reset_performed": false,
+    "diagnostic_retries": 0
+  },
+  "limits": {
+    "policy_loaded": false,
+    "actions": 0,
+    "scores": 0,
+    "historical_failed_layout_ids_known": false,
+    "historical_mmu_reproduced": false,
+    "historical_mmu_fixed_proven": false,
+    "formal_evaluation_stability_verified": false,
+    "renderer_candidate_is_part_of_source_repair": false
+  }
+}

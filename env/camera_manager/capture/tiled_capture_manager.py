@@ -192,10 +192,12 @@ class TiledCaptureManager:
         self.annotator.clear()
         self.annotator_type.clear()
         self.annotator_device.clear()
+        for camera in self.tiled_cameras:
+            camera.destroy()
         self.tiled_cameras.clear()
+        self.tiled_render_products.clear()
+        self._output_buffers.clear()
         self.cameras.clear()
         self.camera_names.clear()
         self.sim = None
-        for rp in self.tiled_render_products:
-            rp.destroy()
         self.camera_prim_paths.clear()

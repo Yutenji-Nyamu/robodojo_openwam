@@ -195,20 +195,31 @@ class CameraView(XFormPrim):
         self._output_annotators = output_annotators
         self._annotators = dict()
         self.camera_resolution = camera_resolution
-        self._tiled_render_product = None
+        self._render_product = None
         self._setup_tiled_sensor()
 
     def __del__(self):
-        XFormPrim.__del__(self)
+        self.destroy()
+
+    def destroy(self):
         self._clean_up_tiled_sensor()
+        super().destroy()
 
     def _clean_up_tiled_sensor(self):
         """Clean up the sensor by detaching annotators and destroying render products, and removing related prims."""
-        if self._tiled_render_product is not None:
+        if getattr(self, "_render_product", None) is not None:
             # detach annotators from render product
-            self._tiled_annotator.detach([self._tiled_render_product.path])
+            for annotator in self._annotators.values():
+                try:
+                    annotator.detach(self._render_product)
+                except TypeError as exc:
+                    if str(exc) != "Invalid NodeObj object in Py_Node in getAttributes":
+                        raise
+                    print("[CameraView] Invalid cached tiled node during detach; destroying render product")
             # delete tiled render products
-            self._tiled_render_product.destroy()
+            self._render_product.destroy()
+            self._annotators.clear()
+            self._render_product = None
 
     def _get_tiled_resolution(self, num_cameras, resolution) -> Tuple[int, int]:
         """Calculate the resolution for the tiled sensor based on the number of cameras and individual camera resolution.
