@@ -1,0 +1,11 @@
+--- a/rlt_cycle_sz1.py
++++ b/rlt_cycle_sz1.py
+@@ -777,7 +777,7 @@ def status(stage):
+             and replay and replay[-1]>=(cp['replay_samples'] if cp else 1)
+             and rounds and max(rounds)>step and loaded)
+         result['runs'][key]={'original_alive':same(row['original_identity']),'resume_identity':identity,
+-            'resume_alive':bool(identity and same(identity)),'checkpoint_step':cp['step'] if cp else None,
++            'resume_alive':same(identity) if identity is not None else None,'checkpoint_step':cp['step'] if cp else None,
+             'recovery_mode':recovery['mode'],'latest_metrics':metrics,
+             'online':bool(online[-1]) if online else None,
+             'critic_updates_run':critics[-1] if critics else None,

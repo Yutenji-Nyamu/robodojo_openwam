@@ -1,0 +1,153 @@
+{
+  "observed_at": "2026-10-03T03:33:16.769455+00:00",
+  "tested_source": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+  "camera_published_commit": "215bad21b0c02761df2f949663324a083ec88541",
+  "new_formal_physics_edits": 0,
+  "current_lanes": {
+    "4": "OpenWAM",
+    "5": "OpenWAM",
+    "6": "Pi05",
+    "7": "Pi05"
+  },
+  "results": {
+    "openwam": {
+      "episodes": 4248,
+      "successes": 463,
+      "partial_success_rate": 0.1089924670433145,
+      "fraction_of_6300": 0.6742857142857143,
+      "laptop": []
+    },
+    "pi05": {
+      "episodes": 3206,
+      "successes": 198,
+      "partial_success_rate": 0.061759201497192766,
+      "fraction_of_6300": 0.5088888888888888,
+      "laptop": [
+        {
+          "task": "store_laptop_and_headphones_random",
+          "seed": 0,
+          "episodes": 25,
+          "success": 0,
+          "layout_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        }
+      ]
+    }
+  },
+  "gpu7_owner_elapsed_at_1131": "13:32:04",
+  "gpu7_log_scan": {
+    "files": 10,
+    "bytes": 11586758,
+    "first_matches": [],
+    "scope": "new GPU7 formal continuation: seed*/worker*/tasks/*/recovery-*/*.log only",
+    "signatures": [
+      "Invalid PhysX transform",
+      "CUDA error.*700",
+      "CUDA_ERROR_ILLEGAL_ADDRESS",
+      "cudaErrorIllegalAddress",
+      "ERROR_DEVICE_LOST",
+      "Fatal GPU",
+      "cudaMainGjkEpa.*700"
+    ]
+  },
+  "diagnostic": {
+    "environments": 4,
+    "episodes": 4,
+    "successes": 0,
+    "actions": 800,
+    "physics_ticks": 8000,
+    "videos": 12,
+    "exit_code": 85,
+    "formal_client_hook_enabled": false,
+    "historical_action_replay": false
+  },
+  "rlt_recovery": {
+    "checkpoint": 625,
+    "indexed_payloads": 83554,
+    "initial_payloads": 80000,
+    "missing_original_payloads_recovered": 3554,
+    "exact_entry_donor_checkpoint": 575,
+    "strict_cpu_restore_validation": "passed",
+    "model_optimizer_rng_counters_rolled_back": false,
+    "original_checkpoint_modified": false,
+    "new_cycle_post_dojo_return_verified": false
+  },
+  "tests": {
+    "trace_cpu": 15,
+    "recovery_selection_cpu": 3,
+    "identity_race_cpu": 4
+  },
+  "gpu_root_cause_fixed": false,
+  "acceptance": "Formal evaluation continues; no causal claim of CUDA700 repair",
+  "receipts": [
+    "g022-rlt-race-cpu",
+    "j005-repair-cp625",
+    "j007-gpu7-cpu-final",
+    "j019-probe-end",
+    "j020-trace-analysis",
+    "j025-formal-acceptance",
+    "j027-next-batch-status",
+    "k002-current-dojo",
+    "k003-repair-audit",
+    "k004-result-counts"
+  ],
+  "frozen_diagnostic_sources": [
+    {
+      "name": "diagnostic_then_formal.py",
+      "sha256": "33cbc05ecf3346edd187eee941d9198093bc4d8f50b1f6b9e64202e8adcce81b"
+    },
+    {
+      "name": "owner_sz1.py",
+      "sha256": "57d2701a4c3185aeab06da1677e01a012c5a7ac041c2f6e6c1453d11e73f56ac"
+    },
+    {
+      "name": "prepare_recovery_copy.py",
+      "sha256": "7a1469a0c2366cf0164aab06d82373c9949c1986c21ad311adbf8fed55bfad72"
+    },
+    {
+      "name": "rlt_cycle_sz1.py",
+      "sha256": "f179dc416d9ee8b1c1da5e069b8d6e84c53ff22eeb6fe0fbbe1e4910a55bb3c8"
+    },
+    {
+      "name": "run_trace.py",
+      "sha256": "f68af0ee98e15dd66ca1d37b8c35756db6df82c5f47167451864d53bdb92d10b"
+    },
+    {
+      "name": "test_recovery_selection.py",
+      "sha256": "0dc7a293404e3e03b4902ddf48d67113f439ad89426f936885fe65fae29e8167"
+    },
+    {
+      "name": "test_trace_hook.py",
+      "sha256": "f5249dac1466d1d88d0b282668d96e8ff1fc276626bfade7ae9f28259610f5e2"
+    },
+    {
+      "name": "trace_hook.py",
+      "sha256": "979936979bdb1e2670b8609b2087ab5714e104a0bc65f3c555c80817a7df2c00"
+    }
+  ]
+}
