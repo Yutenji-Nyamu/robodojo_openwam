@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-03",
+  "model": "OpenWAM",
+  "task": "stack_bowls",
+  "seed": 0,
+  "gpu": "SZ1 physical 3, H100 80GB",
+  "cases": [
+    {
+      "environments": 4,
+      "workers": 1,
+      "episodes": 9,
+      "successes": 8,
+      "wall_seconds": 1125.2475681304932,
+      "after_model_ready_seconds": 1035.4667384624481,
+      "peak_gpu_gib": 36.0556640625,
+      "logged_actions": 3782,
+      "actions_per_total_wall_second": 3.3610381458397494,
+      "layouts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "videos": 27,
+      "sampled_decodes": 4,
+      "client_exit": 0,
+      "observed_envs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gpu_released": true
+    },
+    {
+      "environments": 9,
+      "workers": 1,
+      "episodes": 9,
+      "successes": 9,
+      "wall_seconds": 735.040206193924,
+      "after_model_ready_seconds": 637.3104708194733,
+      "peak_gpu_gib": 37.38671875,
+      "logged_actions": 3133,
+      "actions_per_total_wall_second": 4.262351873542857,
+      "layouts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "videos": 27,
+      "sampled_decodes": 4,
+      "client_exit": 0,
+      "observed_envs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "gpu_released": true
+    }
+  ],
+  "time_reduction_percent": 34.67746769583042,
+  "episode_throughput_ratio": 1.5308653304246893,
+  "extra_gpu_gib": 1.3310546875,
+  "formal_source_unchanged": true,
+  "gpu3_final_idle": true,
+  "owned_processes_remaining": 0,
+  "formal_counts": {
+    "openwam": 4469,
+    "pi05": 3373
+  },
+  "formal_states": {
+    "4": "DOJO_RUNNING",
+    "5": "DOJO_RUNNING",
+    "6": "DOJO_RUNNING",
+    "7": "DOJO_RUNNING"
+  },
+  "caveats": [
+    "One sequential test per N; different policy trajectories and action totals.",
+    "N9 ANSI step observation corrected from original logs; original status preserved; no simulation restart.",
+    "N4 action_gpu_util_mean available but full N9 action-window timestamps were not captured; do not compare full-window utilization.",
+    "Standard task only; random tasks default cap N at 5; no Pi05 N9 test; formal lanes remain N4."
+  ]
+}
