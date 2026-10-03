@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "/srv/dojo/scripts/rlt/pi-yamlfix/owner_sz1.py",
+      "sha256": "b5f77f530fe2476e537b5192b703cc3fdd7b533fd4e2bb2b026704c8004f7151"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/pi-yamlfix/rlt_cycle_sz1.py",
+      "sha256": "811c8aa5756cb81d122cf5da1799be82cf67b691772324e3df5f876629988072"
+    },
+    {
+      "path": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu6.json",
+      "sha256": "dd42fbffa3869e48ccd115a32c03769cf389fa7bb66c9a5143630b1d6e432f0d"
+    },
+    {
+      "path": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu7.json",
+      "sha256": "7db6006b37c08436cb2496c7af4295c749adff349ea3eddddbf5298f6b52a587"
+    }
+  ]
+}

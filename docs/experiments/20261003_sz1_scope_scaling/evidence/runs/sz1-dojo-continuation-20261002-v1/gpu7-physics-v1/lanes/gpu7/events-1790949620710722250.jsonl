@@ -1,0 +1,3 @@
+{"time": 1790949621.401602, "event": "checkpoint_verified_for_seed", "seed": 0, "files": 18, "revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41"}
+{"time": 1790949621.4037066, "event": "process_started", "role": "server", "run_id": "diag-gpu7-20261002-laptop-v1-server", "pid": 1089596, "log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/diagnostics/diag-gpu7-20261002-laptop-v1/server/stdout-1790949620710722250.log"}
+{"time": 1790949635.5319138, "event": "process_started", "role": "client", "run_id": "diag-gpu7-20261002-laptop-v1", "pid": 1090484, "log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/diagnostics/diag-gpu7-20261002-laptop-v1/client/stdout-1790949620710722250.log"}

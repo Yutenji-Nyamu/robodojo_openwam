@@ -1,0 +1,103 @@
+{
+  "terminal": {
+    "kind": "diagnostic_complete",
+    "reason": "first_batch_returned_normally",
+    "tick": 8000,
+    "action": 800,
+    "elapsed_s": 598.2217267858796
+  },
+  "actions_recorded": 800,
+  "max_raw_action_abs": 2.437531457955928,
+  "laptops": {
+    "env0_articulation_laptop_1_14": {
+      "first_position": [
+        3.5305850505828857,
+        -3.554063320159912,
+        0.845954179763794
+      ],
+      "max_displacement": 0.33834114652011726,
+      "max_speed": 0.6088821582903705,
+      "max_angular_speed": 8.6200289924041,
+      "joint_min": -1.8984253406524658,
+      "joint_max": 0.00021085610205773264,
+      "max_joint_speed": 3.041395902633667,
+      "max_speed_action": 445,
+      "max_speed_tick": 4449,
+      "max_angular_speed_action": 460,
+      "max_angular_speed_tick": 4598,
+      "max_displacement_action": 399,
+      "max_displacement_tick": 3988,
+      "max_joint_speed_action": 205,
+      "max_joint_speed_tick": 2049
+    },
+    "env1_articulation_laptop_3_33": {
+      "first_position": [
+        3.5383365154266357,
+        3.442345142364502,
+        0.8459661602973938
+      ],
+      "max_displacement": 0.31196075028847625,
+      "max_speed": 0.5950068579266398,
+      "max_angular_speed": 12.537676413964686,
+      "joint_min": -1.897724986076355,
+      "joint_max": 5.556828455155483e-07,
+      "max_joint_speed": 2.8362226486206055,
+      "max_speed_action": 385,
+      "max_speed_tick": 3849,
+      "max_angular_speed_action": 447,
+      "max_angular_speed_tick": 4468,
+      "max_displacement_action": 399,
+      "max_displacement_tick": 3984,
+      "max_joint_speed_action": 370,
+      "max_joint_speed_tick": 3694
+    },
+    "env2_articulation_laptop_1_52": {
+      "first_position": [
+        -3.4639229774475098,
+        -3.55729079246521,
+        0.8459640145301819
+      ],
+      "max_displacement": 0.15742275616027235,
+      "max_speed": 0.7096762227530573,
+      "max_angular_speed": 10.758875337752812,
+      "joint_min": -1.9198765754699707,
+      "joint_max": -1.4385474920272827,
+      "max_joint_speed": 13.359206199645996,
+      "max_speed_action": 318,
+      "max_speed_tick": 3179,
+      "max_angular_speed_action": 324,
+      "max_angular_speed_tick": 3232,
+      "max_displacement_action": 483,
+      "max_displacement_tick": 4824,
+      "max_joint_speed_action": 324,
+      "max_joint_speed_tick": 3233
+    },
+    "env3_articulation_laptop_3_71": {
+      "first_position": [
+        -3.4771766662597656,
+        3.4424686431884766,
+        0.8459814786911011
+      ],
+      "max_displacement": 0.11917144022822454,
+      "max_speed": 0.4172341095717743,
+      "max_angular_speed": 7.574379855217689,
+      "joint_min": -1.9198867082595825,
+      "joint_max": -1.5492414236068726,
+      "max_joint_speed": 4.766075611114502,
+      "max_speed_action": 339,
+      "max_speed_tick": 3381,
+      "max_angular_speed_action": 339,
+      "max_angular_speed_tick": 3381,
+      "max_displacement_action": 800,
+      "max_displacement_tick": 8000,
+      "max_joint_speed_action": 339,
+      "max_joint_speed_tick": 3383
+    }
+  },
+  "checkpoint_backend_files": [],
+  "params_directories": [
+    "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-0/59999/params",
+    "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-2/59999/params",
+    "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-1/59999/params"
+  ]
+}

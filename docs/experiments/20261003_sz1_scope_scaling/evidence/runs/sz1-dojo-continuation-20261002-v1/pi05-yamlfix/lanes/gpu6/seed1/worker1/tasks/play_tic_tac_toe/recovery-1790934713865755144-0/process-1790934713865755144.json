@@ -1,0 +1,11 @@
+{
+  "pid": 886246,
+  "uid": 1003,
+  "ppid": 559646,
+  "start_ticks": 383036726,
+  "command_sha256": "91d86d4eff45d60a8009eb40637b80e5d265be6d3f73c1f67cca66004955d217",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6/seed1/worker1/tasks/play_tic_tac_toe/recovery-1790934713865755144-0/command-1790934713865755144.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_play_tic_tac_toe",
+  "role": "client"
+}

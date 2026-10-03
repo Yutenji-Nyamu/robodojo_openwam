@@ -1,0 +1,60 @@
+{
+  "time": 1790935739.2983344,
+  "processes": [
+    {
+      "pid": 560983,
+      "uid": 1003,
+      "ppid": 560867,
+      "start_ticks": 382146139,
+      "command_sha256": "c801cb732a836ba6ef385ada582db8b5122fe11969875b6d9d9639db822492f8",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task sort_nesting_dolls_by_size --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --policy-env uv --policy-gpu 7 --policy-port 63163 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server"
+    },
+    {
+      "pid": 561006,
+      "uid": 1003,
+      "ppid": 560983,
+      "start_ticks": 382146170,
+      "command_sha256": "0f8fce2960cbf29b1b96363aa432920f52b4fcb062db5e0e1218cd1069440589",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63163 host=127.0.0.1 bench_name=RoboDojo task_name=sort_nesting_dolls_by_size ckpt_name=sim env_cfg_type=arx_x5 seed=0 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server"
+    },
+    {
+      "pid": 579993,
+      "uid": 1003,
+      "ppid": 560867,
+      "start_ticks": 382191540,
+      "command_sha256": "326e6b597a24525aa3c8d7f38863e186ed51a2d7321462ff5a7bd229db8011df",
+      "command": "bash scripts/robodojo.sh client --policy-dir XPolicyLab/policy/Pi_05 --task store_laptop_and_headphones_random --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --eval-num native --policy-host 127.0.0.1 --policy-port 63163 --env-gpu 7 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random",
+      "role": "client"
+    },
+    {
+      "pid": 580014,
+      "uid": 1003,
+      "ppid": 579993,
+      "start_ticks": 382191578,
+      "command_sha256": "8055d88fe6119e6f49fdbcccec32fb07a8ba3adbc9e746febf0fe757052d2bc5",
+      "command": "bash /srv/dojo/RoboDojo/scripts/eval_policy.sh --dataset_name RoboDojo --task_name store_laptop_and_headphones_random --env_cfg_type arx_x5 --policy_name Pi_05 --host 127.0.0.1 --port 63163 --protocol ws --root_dir /srv/dojo/RoboDojo --device_id 7 --additional_info ckpt_name=sim,action_type=joint --seed 0 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random",
+      "role": "client"
+    },
+    {
+      "pid": 580021,
+      "uid": 1003,
+      "ppid": 580014,
+      "start_ticks": 382191593,
+      "command_sha256": "bbf2f72ebdfd0a6268998b626d12ffd6ad6df0780aff41df532e12a626c05fe6",
+      "command": "python -u src/eval_client/main.py --task_name store_laptop_and_headphones_random --env_cfg_type arx_x5 --num_envs 4 --enable_cameras --kit_args  --enable isaacsim.replicator.behavior --enable isaacsim.sensors.camera --/renderer/multiGpu/enabled=false --/renderer/activeGpu=7 --device_id 7 --policy_name Pi_05 --port 63163 --protocol ws --policy_server_url ws://127.0.0.1:63163 --additional_info ckpt_name=sim,action_type=joint --seed 0 --host 127.0.0.1 --headless ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random",
+      "role": "client"
+    }
+  ]
+}

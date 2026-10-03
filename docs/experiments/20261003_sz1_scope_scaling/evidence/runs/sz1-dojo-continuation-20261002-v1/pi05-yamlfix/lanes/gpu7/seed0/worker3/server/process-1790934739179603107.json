@@ -1,0 +1,11 @@
+{
+  "pid": 560983,
+  "uid": 1003,
+  "ppid": 560867,
+  "start_ticks": 382146139,
+  "command_sha256": "89f128220e4825fa928958a86b7068c4357429c8119b008e1537b707eb8c8356",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu7/seed0/worker3/server/command-1790934739179603107.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+  "role": "server"
+}

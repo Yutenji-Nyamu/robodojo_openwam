@@ -1,0 +1,58 @@
+{
+  "owner_id": "gpu7-physics-v1",
+  "host": "admin",
+  "uid": 1003,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "identity": {
+    "pid": 1088548,
+    "uid": 1003,
+    "start_ticks": 383629585,
+    "cmdline_sha256": "0644e404731544a7066f447d5f8b14c0ff2cf1ca667edb6d06779129fa3bba7e"
+  },
+  "created_at": 1790949576.849945,
+  "stage": "RUNNING",
+  "rlt_untouched": false,
+  "lanes": {
+    "7": {
+      "gpu": 7,
+      "state": "DOJO_RUNNING",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "managed_processes": [
+        {
+          "pid": 1089586,
+          "uid": 1003,
+          "ppid": 1088548,
+          "start_ticks": 383633930,
+          "command_sha256": "15300beebaeaca359ee1690811262c9dd637c09157e35b9db7e89b51ae725d8f",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python -u -B /srv/dojo/diagnostics/gpu7-20261002-v1/diagnostic_then_formal.py --config /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/configs/gpu7.json --sweep-script /srv/dojo/scripts/lanes/pi05/dojo_sweep.py --owner-source /srv/dojo/diagnostics/gpu7-20261002-v1/owner_sz1.py --diagnostic-id diag-gpu7-20261002-laptop-v1 ",
+          "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+          "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/diagnostics/gpu7-20261002-v1/diagnostic_then_formal.py",
+        "--config",
+        "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/configs/gpu7.json",
+        "--sweep-script",
+        "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+        "--owner-source",
+        "/srv/dojo/diagnostics/gpu7-20261002-v1/owner_sz1.py",
+        "--diagnostic-id",
+        "diag-gpu7-20261002-laptop-v1"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/gpu7-dojo.log",
+      "started_at": 1790949620.2522674
+    }
+  },
+  "updated_at": 1790949620.2522721,
+  "previous_owner": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix",
+  "deployment": {
+    "path": "/srv/dojo/deployment-ready.json",
+    "sha256": "04720fe5fec151831d631c0ba4d457fe78ecfc1a05f31743f7c677a116cbf24e"
+  },
+  "fresh_preflight_at": 1790949577.5827596
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 1699136,
+  "uid": 1003,
+  "ppid": 559646,
+  "start_ticks": 385551607,
+  "command_sha256": "0b8ad7ed2ef6efca6adb383b976b02231c4ec8d458c1d55e9a6bc9eb2d51b430",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6/seed1/worker1/tasks/insert_tubes/recovery-1790934713865755144-0/command-1790934713865755144.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_insert_tubes",
+  "role": "client"
+}

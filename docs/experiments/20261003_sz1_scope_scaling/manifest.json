@@ -1,0 +1,86 @@
+{
+  "schema": "sanitized-dojo-publication-v1",
+  "prepared_date": "2026-10-03",
+  "source_root": "rl/docs/robodojo-openwam",
+  "source_files_modified": false,
+  "current_server_status_refreshed": false,
+  "current_smoke_result_added": false,
+  "records": [
+    {
+      "filename": "GPU_SCOPE_FIX_20261003.md",
+      "source": "rl/docs/robodojo-openwam/GPU_SCOPE_FIX_20261003.md",
+      "source_sha256": "7be8ada26a68bfb543d1efeb457e7f31933b5fd4a0c3134b75632fee61e36fbf",
+      "source_bytes": 5891,
+      "public_file": "docs/GPU_SCOPE_FIX_20261003.md",
+      "public_sha256": "ddc2f7b2753368cde5987177ef201d1681bff33ee98be928c9765faac162e211",
+      "public_bytes": 6103
+    },
+    {
+      "filename": "SCALING_GPU4_20261003.md",
+      "source": "rl/docs/robodojo-openwam/SCALING_GPU4_20261003.md",
+      "source_sha256": "8a8f8886610e3ea6cd04d83616c4df2fc4ec6c32397cf74c93348f4df924e39e",
+      "source_bytes": 6541,
+      "public_file": "docs/SCALING_GPU4_20261003.md",
+      "public_sha256": "b8306e15af0ba4184f9d603731bb03355135851a7213c5d775cfe4312d19b09e",
+      "public_bytes": 6805
+    },
+    {
+      "filename": "SCALING_GPU3_20261003.md",
+      "source": "rl/docs/robodojo-openwam/SCALING_GPU3_20261003.md",
+      "source_sha256": "5a3a61a8205fb35ec1ecb685dd71abcc995a640c101fb42cdef02cd0170b08dc",
+      "source_bytes": 6208,
+      "public_file": "docs/SCALING_GPU3_20261003.md",
+      "public_sha256": "53a6685191855e0b04b580dd854622266cf1c1e468771013903866fcfd325392",
+      "public_bytes": 6483
+    },
+    {
+      "filename": "PARALLEL_GPU3_20261003.md",
+      "source": "rl/docs/robodojo-openwam/PARALLEL_GPU3_20261003.md",
+      "source_sha256": "0090b2535e58172989e35787edd8726b7524d8d3ee6942b0651c2b2f10913e17",
+      "source_bytes": 5258,
+      "public_file": "docs/PARALLEL_GPU3_20261003.md",
+      "public_sha256": "8b5ddeb5ae6ecd368de9a3b5ee42b86d6a9d50efcc3792bd5a6b12510529d66b",
+      "public_bytes": 5545
+    },
+    {
+      "filename": "DOJO_GPU7_AUDIT_20261002.md",
+      "source": "rl/docs/robodojo-openwam/DOJO_GPU7_AUDIT_20261002.md",
+      "source_sha256": "06813c2ccf6a783985e3535a9f95e551236e9c122c9d888a0315258da33345c8",
+      "source_bytes": 19249,
+      "public_file": "docs/DOJO_GPU7_AUDIT_20261002.md",
+      "public_sha256": "c21f54a8612b619bb2e33debdc589cef0f822357966173122b608a52c937a8f8",
+      "public_bytes": 19205
+    },
+    {
+      "filename": "SZ1_CONTINUATION_20261001.md",
+      "source": "rl/docs/robodojo-openwam/SZ1_CONTINUATION_20261001.md",
+      "source_sha256": "abf1cc0462416770603effe3a3b69da745254bffd3d2ad7f229692e4900ea835",
+      "source_bytes": 33983,
+      "public_file": "docs/SZ1_CONTINUATION_20261001.md",
+      "public_sha256": "24c8ebe56f36ad519356df11f1210d934c3c9d5d9c9c7451f813c0850c9294a9",
+      "public_bytes": 34076
+    },
+    {
+      "filename": "REVIEW_20261003.md",
+      "source": "rl/docs/robodojo-openwam/REVIEW_20261003.md",
+      "source_sha256": "8a47ca8fb2c6809d760cf8e105996c368dd7ebe6a13790c1a6652ea982621461",
+      "source_bytes": 11651,
+      "public_file": "docs/REVIEW_20261003.md",
+      "public_sha256": "9a90d86832c256ec543c45846e3bb9085060cde87af9a488536d0ef389b5b254",
+      "public_bytes": 11800
+    }
+  ],
+  "index": {
+    "file": "README.md",
+    "sha256": "3cd4ca5e0b92d5cc30cc9f9e6d318e8be73f4310e0584ec5b271016f095bc72c",
+    "bytes": 2320
+  },
+  "transformations": [
+    "replace private absolute roots with generic aliases",
+    "replace personal account identity and GitHub account URLs",
+    "keep included document links relative",
+    "render missing local and personal repository sources as plain text",
+    "add dated-publication context and index navigation",
+    "normalize line endings to LF"
+  ]
+}

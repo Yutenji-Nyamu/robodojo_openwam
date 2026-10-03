@@ -1,0 +1,11 @@
+{
+  "pid": 2226293,
+  "uid": 1003,
+  "ppid": 559646,
+  "start_ticks": 387284622,
+  "command_sha256": "3e7906e7f00ce749a054cd5c46ad6c94051645f0267c09df5beae3ac5e6de536",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6/seed1/worker4/tasks/stack_bowls_random/recovery-1790934713865755144-0/command-1790934713865755144.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_stack_bowls_random",
+  "role": "client"
+}

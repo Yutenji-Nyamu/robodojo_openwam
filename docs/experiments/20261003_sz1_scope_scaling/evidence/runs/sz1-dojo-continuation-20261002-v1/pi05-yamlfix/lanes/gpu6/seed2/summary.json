@@ -1,0 +1,190 @@
+{
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "seed": 2,
+  "expected_tasks": 26,
+  "expected_episodes": 975,
+  "results": {
+    "imitate_sorting_sequence": {
+      "task": "imitate_sorting_sequence",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_imitate_sorting_sequence",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "fill_egg_holder": {
+      "task": "fill_egg_holder",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_fill_egg_holder",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "sweep_blocks_random": {
+      "task": "sweep_blocks_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_sweep_blocks_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "align_blocks": {
+      "task": "align_blocks",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_align_blocks",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "swap_T": {
+      "task": "swap_T",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_swap_T",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "push_T": {
+      "task": "push_T",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_push_T",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "play_tic_tac_toe": {
+      "task": "play_tic_tac_toe",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_play_tic_tac_toe",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "make_kong": {
+      "task": "make_kong",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_make_kong",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "pour_liquid_into_cup": {
+      "task": "pour_liquid_into_cup",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pour_liquid_into_cup",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "insert_tubes": {
+      "task": "insert_tubes",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_insert_tubes",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "stack_blocks_random": {
+      "task": "stack_blocks_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_stack_blocks_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "insert_key": {
+      "task": "insert_key",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_insert_key",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "play_stacking_toy": {
+      "task": "play_stacking_toy",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_play_stacking_toy",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "organize_table": {
+      "task": "organize_table",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_organize_table",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "pick_from_conveyor_by_image": {
+      "task": "pick_from_conveyor_by_image",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pick_from_conveyor_by_image",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "pack_objects_into_box_random": {
+      "task": "pack_objects_into_box_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pack_objects_into_box_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "stack_bowls_random": {
+      "task": "stack_bowls_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_stack_bowls_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "pour_liquid_into_cup_random": {
+      "task": "pour_liquid_into_cup_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pour_liquid_into_cup_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "push_T_random": {
+      "task": "push_T_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_push_T_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "classify_objects_by_language": {
+      "task": "classify_objects_by_language",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_classify_objects_by_language",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "store_tools_in_toolbox": {
+      "task": "store_tools_in_toolbox",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_store_tools_in_toolbox",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "make_toast": {
+      "task": "make_toast",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_make_toast",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "pack_objects_into_box": {
+      "task": "pack_objects_into_box",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pack_objects_into_box",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "arrange_largest_number": {
+      "task": "arrange_largest_number",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_arrange_largest_number",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "stack_bowls": {
+      "task": "stack_bowls",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_stack_bowls",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "hang_mugs": {
+      "task": "hang_mugs",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_hang_mugs",
+      "status": "PENDING",
+      "expected_episodes": 25
+    }
+  }
+}

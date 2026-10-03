@@ -1,0 +1,1 @@
+{"time": 1791019860.5234337, "reason": "User restricts experiment GPUs to 4-7; move scaling to GPU4", "pid": 3232543, "start_ticks": 390580307, "command": "/srv/dojo/envs/openwam/bin/python -u /srv/dojo/diagnostics/scaling-gpu3-20261003/scale_probe.py "}

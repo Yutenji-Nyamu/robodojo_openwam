@@ -1,0 +1,11 @@
+{
+  "pid": 2359765,
+  "uid": 1003,
+  "ppid": 559646,
+  "start_ticks": 387670567,
+  "command_sha256": "71207b9bd1f5fda9f299ab372235269b3eebe69b629d453216530993d26f0195",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6/seed1/worker4/tasks/pour_liquid_into_cup_random/recovery-1790934713865755144-0/command-1790934713865755144.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_pour_liquid_into_cup_random",
+  "role": "client"
+}

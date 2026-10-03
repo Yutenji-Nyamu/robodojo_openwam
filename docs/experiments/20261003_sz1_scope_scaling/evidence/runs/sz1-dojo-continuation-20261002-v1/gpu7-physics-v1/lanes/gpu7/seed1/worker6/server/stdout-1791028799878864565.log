@@ -1,0 +1,97 @@
+[robodojo server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05 task=make_toast_random bind_host=127.0.0.1 port=63166
+[run_policy_server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05
+[run_policy_server] task=make_toast_random bind=127.0.0.1:63166
+[run_policy_server] remote clients: bash scripts/robodojo.sh client --policy-host <this_host_ip> --policy-port 63166 ...
+[SERVER] policy=Pi_05, task=make_toast_random, port=63166, action_dim=14
+[SERVER] Activating uv environment: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv
+[SERVER] Using python: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python
+ERROR:websockets.server:opening handshake failed
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+ERROR:websockets.server:opening handshake failed
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+ERROR:websockets.server:opening handshake failed
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request

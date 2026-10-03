@@ -1,0 +1,13 @@
+{
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_push_T",
+  "uid": 1003,
+  "reason": "task_attempt_finished_or_stalled",
+  "started_at": 1790943628.4388716,
+  "initial_targets": [],
+  "initial_scan_complete": true,
+  "actions": [],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1790943629.914855
+}

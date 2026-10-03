@@ -1,0 +1,61 @@
+{
+  "num_envs": 4,
+  "episodes": 9,
+  "task": "stack_bowls",
+  "seed": 0,
+  "run_id": "sz1-gpu3-parallel-20261003-v1-n4",
+  "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n4/_result.json",
+  "gpu_before": {
+    "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+    "memory_mib": 3,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "start": 1791011879.4307745,
+  "server_ready": 1791011969.211604,
+  "client_exit": 0,
+  "check": {
+    "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n4/_result.json",
+    "expected": 9,
+    "complete": true,
+    "eval_time": 9,
+    "success_rate": 0.8888888888888888,
+    "score": 90.55555555555556,
+    "layout_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "result_sha256": "c34fae1d15c3a0b23205ca7bca8524b275a75361267e6781091e0b30086ef024"
+  },
+  "layouts_0_to_8": true,
+  "observed_envs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "end": 1791013004.6783426,
+  "peak_mib": 36921,
+  "actions": 3782,
+  "first_action": 1791012048.1884944,
+  "last_action": 1791012997.8204398,
+  "action_gpu_util_mean": 40.011210762331835,
+  "cleanup": [
+    "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791013004678363779-c6d6f10b.json",
+    "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791013006278666914-d22a2649.json"
+  ],
+  "gpu_after": {
+    "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+    "memory_mib": 3,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "state": "COMPLETE"
+}

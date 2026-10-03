@@ -1,0 +1,65 @@
+{
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+  "uid": 1003,
+  "reason": "worker_finished_or_interrupted",
+  "started_at": 1790935744.3804677,
+  "initial_targets": [
+    {
+      "pid": 560983,
+      "uid": 1003,
+      "ppid": 560867,
+      "start_ticks": 382146139,
+      "command_sha256": "c801cb732a836ba6ef385ada582db8b5122fe11969875b6d9d9639db822492f8",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task sort_nesting_dolls_by_size --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --policy-env uv --policy-gpu 7 --policy-port 63163 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server"
+    },
+    {
+      "pid": 561006,
+      "uid": 1003,
+      "ppid": 560983,
+      "start_ticks": 382146170,
+      "command_sha256": "0f8fce2960cbf29b1b96363aa432920f52b4fcb062db5e0e1218cd1069440589",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63163 host=127.0.0.1 bench_name=RoboDojo task_name=sort_nesting_dolls_by_size ckpt_name=sim env_cfg_type=arx_x5 seed=0 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server"
+    }
+  ],
+  "initial_scan_complete": true,
+  "actions": [
+    {
+      "pid": 561006,
+      "uid": 1003,
+      "ppid": 560983,
+      "start_ticks": 382146170,
+      "command_sha256": "0f8fce2960cbf29b1b96363aa432920f52b4fcb062db5e0e1218cd1069440589",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63163 host=127.0.0.1 bench_name=RoboDojo task_name=sort_nesting_dolls_by_size ckpt_name=sim env_cfg_type=arx_x5 seed=0 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1790935744.916857
+    },
+    {
+      "pid": 560983,
+      "uid": 1003,
+      "ppid": 560867,
+      "start_ticks": 382146139,
+      "command_sha256": "c801cb732a836ba6ef385ada582db8b5122fe11969875b6d9d9639db822492f8",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task sort_nesting_dolls_by_size --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --policy-env uv --policy-gpu 7 --policy-port 63163 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1790935744.9178944
+    }
+  ],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1790935746.6773074
+}

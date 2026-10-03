@@ -1,0 +1,90 @@
+{
+  "owner_id": "pi05-yamlfix",
+  "host": "admin",
+  "uid": 1003,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "identity": {
+    "pid": 556492,
+    "uid": 1003,
+    "start_ticks": 382138424,
+    "cmdline_sha256": "56eae68acd83bd1eeda22c2ba4d76751cb5c8b5b2173565dec011ce4f55f9e4b"
+  },
+  "created_at": 1790934665.236993,
+  "stage": "RUNNING",
+  "rlt_untouched": false,
+  "lanes": {
+    "6": {
+      "gpu": 6,
+      "state": "DOJO_RUNNING",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "managed_processes": [
+        {
+          "pid": 559646,
+          "uid": 1003,
+          "ppid": 556492,
+          "start_ticks": 382143240,
+          "command_sha256": "0b1a5ca327bdd4ae92b534570dc5d4b74ea80995ff4b578c2be86d076720fb8f",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python -u -B /srv/dojo/scripts/lanes/pi05/dojo_sweep.py --config /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu6.json ",
+          "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+          "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu6.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/gpu6-dojo.log",
+      "started_at": 1790934713.357128
+    },
+    "7": {
+      "gpu": 7,
+      "state": "NEEDS_ATTENTION",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "managed_processes": [
+        {
+          "pid": 560867,
+          "uid": 1003,
+          "ppid": 556492,
+          "start_ticks": 382145776,
+          "command_sha256": "138e71bc31e98e9818e2bcbe8aed2192e231d97e3a1ba8eaaaa9042b6dc2f921",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python -u -B /srv/dojo/scripts/lanes/pi05/dojo_sweep.py --config /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu7.json ",
+          "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+          "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/configs/gpu7.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/gpu7-dojo.log",
+      "started_at": 1790934738.7129831,
+      "owner_cleanup_receipt": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu7/cleanup/1790935758725389719-56c02534.json",
+      "dojo_terminal": "failed",
+      "release_receipt": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/gpu7-release.json",
+      "resumed_at": 1790935772.383937,
+      "resume_receipt": {
+        "resumed_dispatched": true,
+        "cycle_id": "rlt-cycle-pi05-yamlfix-gpu7",
+        "first_round_validation_pending": true
+      },
+      "error": "RuntimeError('Resumed RLT exited before first true collection round')"
+    }
+  },
+  "updated_at": 1790935772.8548794,
+  "previous_owner": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1",
+  "deployment": {
+    "path": "/srv/dojo/deployment-ready.json",
+    "sha256": "04720fe5fec151831d631c0ba4d457fe78ecfc1a05f31743f7c677a116cbf24e"
+  },
+  "fresh_preflight_at": 1790934666.5609303
+}

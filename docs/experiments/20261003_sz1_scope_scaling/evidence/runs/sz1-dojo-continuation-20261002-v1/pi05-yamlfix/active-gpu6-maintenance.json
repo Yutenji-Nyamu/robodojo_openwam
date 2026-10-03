@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "pid": 3544747,
+    "uid": 1003,
+    "start_ticks": 391527513,
+    "cmdline_sha256": "6645dbffa134618f26900b7b901c463f0a2d57c915917a6baa875d6635a60660"
+  },
+  "directory": "/srv/dojo/runs/gpu6-scope-maintenance-20261003-v1",
+  "resume_original": true
+}

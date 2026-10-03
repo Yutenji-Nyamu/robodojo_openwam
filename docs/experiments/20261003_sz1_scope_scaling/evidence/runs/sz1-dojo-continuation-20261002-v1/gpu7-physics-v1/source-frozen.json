@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/diagnostic_then_formal.py",
+      "sha256": "33cbc05ecf3346edd187eee941d9198093bc4d8f50b1f6b9e64202e8adcce81b"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/owner_sz1.py",
+      "sha256": "57d2701a4c3185aeab06da1677e01a012c5a7ac041c2f6e6c1453d11e73f56ac"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/prepare_recovery_copy.py",
+      "sha256": "7a1469a0c2366cf0164aab06d82373c9949c1986c21ad311adbf8fed55bfad72"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/rlt_cycle_sz1.py",
+      "sha256": "f179dc416d9ee8b1c1da5e069b8d6e84c53ff22eeb6fe0fbbe1e4910a55bb3c8"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/run_trace.py",
+      "sha256": "f68af0ee98e15dd66ca1d37b8c35756db6df82c5f47167451864d53bdb92d10b"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/test_recovery_selection.py",
+      "sha256": "0dc7a293404e3e03b4902ddf48d67113f439ad89426f936885fe65fae29e8167"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/test_trace_hook.py",
+      "sha256": "f5249dac1466d1d88d0b282668d96e8ff1fc276626bfade7ae9f28259610f5e2"
+    },
+    {
+      "path": "/srv/dojo/diagnostics/gpu7-20261002-v1/trace_hook.py",
+      "sha256": "979936979bdb1e2670b8609b2087ab5714e104a0bc65f3c555c80817a7df2c00"
+    },
+    {
+      "path": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/configs/gpu7.json",
+      "sha256": "b745b86889d1f9798c54b47d756f46a87ebb2eb124a965b52bd411005ca6218f"
+    }
+  ]
+}

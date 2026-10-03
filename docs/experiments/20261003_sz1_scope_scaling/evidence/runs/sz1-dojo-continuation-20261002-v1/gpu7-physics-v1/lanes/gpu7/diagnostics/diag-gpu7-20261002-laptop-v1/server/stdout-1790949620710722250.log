@@ -1,0 +1,7 @@
+[robodojo server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05 task=store_laptop_and_headphones_random bind_host=127.0.0.1 port=63163
+[run_policy_server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05
+[run_policy_server] task=store_laptop_and_headphones_random bind=127.0.0.1:63163
+[run_policy_server] remote clients: bash scripts/robodojo.sh client --policy-host <this_host_ip> --policy-port 63163 ...
+[SERVER] policy=Pi_05, task=store_laptop_and_headphones_random, port=63163, action_dim=14
+[SERVER] Activating uv environment: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv
+[SERVER] Using python: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python

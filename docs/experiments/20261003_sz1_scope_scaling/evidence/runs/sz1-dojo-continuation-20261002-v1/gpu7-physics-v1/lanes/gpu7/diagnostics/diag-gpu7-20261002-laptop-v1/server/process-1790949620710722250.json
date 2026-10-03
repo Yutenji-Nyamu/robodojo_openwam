@@ -1,0 +1,11 @@
+{
+  "pid": 1089596,
+  "uid": 1003,
+  "ppid": 1089586,
+  "start_ticks": 383634045,
+  "command_sha256": "2d6f6fe9ddf554982c91f72106260b3b74b3d6ce7f64a33439993386440cb739",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/diagnostics/diag-gpu7-20261002-laptop-v1/server/command-1790949620710722250.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "diag-gpu7-20261002-laptop-v1-server",
+  "role": "server"
+}

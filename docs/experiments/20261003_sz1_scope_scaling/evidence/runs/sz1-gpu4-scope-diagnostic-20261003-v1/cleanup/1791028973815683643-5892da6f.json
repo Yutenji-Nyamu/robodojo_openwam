@@ -1,0 +1,13 @@
+{
+  "sweep_id": "sz1-gpu4-scope-diagnostic-20261003-v1",
+  "run_id": null,
+  "uid": 1003,
+  "reason": "maintenance_probe_exception",
+  "started_at": 1791028973.8157728,
+  "initial_targets": [],
+  "initial_scan_complete": true,
+  "actions": [],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1791028975.0066493
+}

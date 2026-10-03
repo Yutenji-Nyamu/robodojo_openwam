@@ -1,0 +1,11 @@
+{
+  "pid": 3535795,
+  "uid": 1003,
+  "ppid": 3535764,
+  "start_ticks": 391509895,
+  "command_sha256": "7bb75c08c44a8252030273a265b3a6c91936fce5cbaced2d9da4a8c5028df495",
+  "command": "bash /srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1/n4/server.sh ",
+  "sweep_id": "sz1-gpu4-scope-diagnostic-20261003-v1",
+  "run_id": "sz1-gpu4-scope-diagnostic-20261003-v1-n4-server",
+  "role": "server"
+}

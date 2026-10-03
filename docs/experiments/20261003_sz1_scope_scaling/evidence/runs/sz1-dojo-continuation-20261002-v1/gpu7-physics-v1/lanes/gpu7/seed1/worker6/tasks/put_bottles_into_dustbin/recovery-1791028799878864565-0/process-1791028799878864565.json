@@ -1,0 +1,11 @@
+{
+  "pid": 3896346,
+  "uid": 1003,
+  "ppid": 3552451,
+  "start_ticks": 392422518,
+  "command_sha256": "c0789bfa76fc29278d0fc9cd322bb49a13a6b4e6f8c140ee20206aa343fae6c0",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/seed1/worker6/tasks/put_bottles_into_dustbin/recovery-1791028799878864565-0/command-1791028799878864565.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+  "role": "client"
+}

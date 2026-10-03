@@ -1,0 +1,11 @@
+{
+  "pid": 1932845,
+  "uid": 1003,
+  "ppid": 1089586,
+  "start_ticks": 386329887,
+  "command_sha256": "53ed571a5e3bd2419c41e2c03522603a9cd38525078f84851c3f5e039e2a719c",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/seed1/worker2/tasks/match_and_pick_from_conveyor/recovery-1790950283739718473-0/command-1790950283739718473.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_match_and_pick_from_conveyor",
+  "role": "client"
+}

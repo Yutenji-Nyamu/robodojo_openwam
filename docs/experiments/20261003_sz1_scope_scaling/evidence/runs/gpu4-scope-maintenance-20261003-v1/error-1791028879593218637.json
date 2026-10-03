@@ -1,0 +1,5 @@
+{
+  "time": 1791028879.5932865,
+  "phase": "PROBE",
+  "error": "RuntimeError('GPU not empty and healthy; no automatic reset: {\"gpu\": 4, \"uuid\": \"GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5\", \"processes\": [3557734], \"gpu_recovery_action\": \"None\", \"memory_mib\": 24, \"checked_at\": 1791028879.5930893}')"
+}

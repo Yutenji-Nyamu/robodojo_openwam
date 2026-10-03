@@ -1,0 +1,11 @@
+{
+  "pid": 3912949,
+  "uid": 1003,
+  "ppid": 3549314,
+  "start_ticks": 392480214,
+  "command_sha256": "777421ffe98a5f61660aad52faf47ed2260e987e8f226d9f27900e96f1a8ef7b",
+  "command": "bash /srv/dojo/runs/sz1-gpu6-pi05-scaling-20261003-v1/n16/server.sh ",
+  "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+  "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n16-server",
+  "role": "server"
+}

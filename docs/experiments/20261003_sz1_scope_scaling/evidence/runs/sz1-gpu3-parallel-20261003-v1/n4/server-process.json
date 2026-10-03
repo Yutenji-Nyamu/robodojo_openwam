@@ -1,0 +1,11 @@
+{
+  "pid": 3016566,
+  "uid": 1003,
+  "ppid": 3005577,
+  "start_ticks": 389859848,
+  "command_sha256": "fbf97aea941c7c8fcd7263ae98d6f3772ea4c9097fa4aa48efccd8774fc1f3f8",
+  "command": "bash /srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n4/server.sh ",
+  "sweep_id": "sz1-gpu3-parallel-20261003-v1",
+  "run_id": "sz1-gpu3-parallel-20261003-v1-n4-server",
+  "role": "server"
+}

@@ -1,0 +1,11 @@
+{
+  "command": {
+    "nonce": "resume-pi7-egl-scope-v1",
+    "action": "resume",
+    "environment": {
+      "DOJO_GPU_SCOPE": "7",
+      "PYTHONPATH": "/srv/dojo/diagnostics/gpu-scope-20261003"
+    }
+  },
+  "accepted_at": 1791028798.4684849
+}

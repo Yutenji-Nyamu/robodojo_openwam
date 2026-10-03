@@ -1,0 +1,61 @@
+{
+  "observed_at": "2026-10-02T13:33:16.003625+00:00",
+  "observed_epoch": 1790947996.003693,
+  "owner_directory": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix",
+  "owner_state": "NEEDS_ATTENTION",
+  "owner_error": "RuntimeError('Resumed RLT exited before first true collection round')",
+  "read_only_training": true,
+  "status": {
+    "time": "2026-10-02T13:33:10.261649+00:00",
+    "cycle_id": "rlt-cycle-pi05-yamlfix-gpu7",
+    "runs": {
+      "gpu7": {
+        "original_alive": false,
+        "resume_identity": {
+          "pid": 599576,
+          "uid": 1003,
+          "start": 382248975,
+          "state": "R",
+          "ppid": 1,
+          "cmdline_sha256": "6d96cadcae11cbdc82d11e6c635dd64814201a314413e0e7311df5843e0b64a1",
+          "namespace": "dr-sz1-rlt-cycle-pi05-yamlfix-gpu7-g7",
+          "time": "2026-10-02T10:09:32.948455+00:00"
+        },
+        "resume_alive": true,
+        "checkpoint_step": 575,
+        "recovery_mode": "resume_checkpoint",
+        "latest_metrics": {
+          "env/success_once": {
+            "round": 623,
+            "value": 0.5
+          },
+          "train/actor/rlt_dvac_controls/update_step": {
+            "round": 623,
+            "value": 346232.0
+          },
+          "train/rlt/critic_updates_run": {
+            "round": 622,
+            "value": 525.0
+          },
+          "train/rlt/global_min_replay_size": {
+            "round": 622,
+            "value": 83204.0
+          },
+          "train/rlt/ready_for_online": {
+            "round": 622,
+            "value": 1.0
+          },
+          "train/rlt/update_step": {
+            "round": 622,
+            "value": 345405.0
+          }
+        },
+        "online": true,
+        "critic_updates_run": 525.0,
+        "first_round_verified": true,
+        "finished": null
+      }
+    },
+    "all_first_rounds_verified": true
+  }
+}

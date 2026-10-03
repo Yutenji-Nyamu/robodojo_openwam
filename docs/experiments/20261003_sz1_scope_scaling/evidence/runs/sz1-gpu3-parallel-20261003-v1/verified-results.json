@@ -1,0 +1,579 @@
+{
+  "time": 1791013056.8025007,
+  "cases": [
+    {
+      "n": 9,
+      "state": {
+        "num_envs": 9,
+        "episodes": 9,
+        "task": "stack_bowls",
+        "seed": 0,
+        "run_id": "sz1-gpu3-parallel-20261003-v1-n9",
+        "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n9/_result.json",
+        "gpu_before": {
+          "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+          "memory_mib": 1,
+          "utilization": 0,
+          "recovery": "None"
+        },
+        "start": 1791011135.1163378,
+        "server_ready": 1791011232.8460732,
+        "client_exit": 0,
+        "check": {
+          "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n9/_result.json",
+          "expected": 9,
+          "complete": true,
+          "eval_time": 9,
+          "success_rate": 1.0,
+          "score": 100.0,
+          "layout_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "result_sha256": "d666fc66af57a03586d3befecf256b1ca99c66e88f1be20ebb6000d4182e2eaf"
+        },
+        "layouts_0_to_8": true,
+        "observed_envs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "end": 1791011870.156544,
+        "peak_mib": 38284,
+        "actions": 3133,
+        "first_action": null,
+        "last_action": null,
+        "action_gpu_util_mean": null,
+        "cleanup": [
+          "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791011870156554443-931da4a2.json",
+          "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791011871764165686-4b20a25f.json"
+        ],
+        "gpu_after": {
+          "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+          "memory_mib": 3,
+          "utilization": 0,
+          "recovery": "None"
+        },
+        "state": "COMPLETE",
+        "observation_correction": "ANSI color codes omitted in original step parser",
+        "original_status_preserved": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n9/status.json"
+      },
+      "eval_time": 9,
+      "successes": 9,
+      "details": {
+        "0": {
+          "layout_id": 0,
+          "success": true,
+          "score": 1.0
+        },
+        "1": {
+          "layout_id": 1,
+          "success": true,
+          "score": 1.0
+        },
+        "2": {
+          "layout_id": 2,
+          "success": true,
+          "score": 1.0
+        },
+        "3": {
+          "layout_id": 3,
+          "success": true,
+          "score": 1.0
+        },
+        "4": {
+          "layout_id": 4,
+          "success": true,
+          "score": 1.0
+        },
+        "5": {
+          "layout_id": 5,
+          "success": true,
+          "score": 1.0
+        },
+        "6": {
+          "layout_id": 6,
+          "success": true,
+          "score": 1.0
+        },
+        "7": {
+          "layout_id": 7,
+          "success": true,
+          "score": 1.0
+        },
+        "8": {
+          "layout_id": 8,
+          "success": true,
+          "score": 1.0
+        }
+      },
+      "videos": [
+        {
+          "name": "episode_0000000_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "336"
+        },
+        {
+          "name": "episode_0000000_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "336"
+        },
+        {
+          "name": "episode_0000000_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "336"
+        },
+        {
+          "name": "episode_0000001_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "298"
+        },
+        {
+          "name": "episode_0000001_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "298"
+        },
+        {
+          "name": "episode_0000001_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "298"
+        },
+        {
+          "name": "episode_0000002_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "240"
+        },
+        {
+          "name": "episode_0000002_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "240"
+        },
+        {
+          "name": "episode_0000002_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "240"
+        },
+        {
+          "name": "episode_0000003_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "437"
+        },
+        {
+          "name": "episode_0000003_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "437"
+        },
+        {
+          "name": "episode_0000003_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "437"
+        },
+        {
+          "name": "episode_0000004_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "355"
+        },
+        {
+          "name": "episode_0000004_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "355"
+        },
+        {
+          "name": "episode_0000004_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "355"
+        },
+        {
+          "name": "episode_0000005_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "282"
+        },
+        {
+          "name": "episode_0000005_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "282"
+        },
+        {
+          "name": "episode_0000005_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "282"
+        },
+        {
+          "name": "episode_0000006_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "402"
+        },
+        {
+          "name": "episode_0000006_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "402"
+        },
+        {
+          "name": "episode_0000006_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "402"
+        },
+        {
+          "name": "episode_0000007_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "359"
+        },
+        {
+          "name": "episode_0000007_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "359"
+        },
+        {
+          "name": "episode_0000007_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "359"
+        },
+        {
+          "name": "episode_0000008_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "433"
+        },
+        {
+          "name": "episode_0000008_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "433"
+        },
+        {
+          "name": "episode_0000008_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "433"
+        }
+      ],
+      "decoded": {
+        "episode_0000000_cam_right_wrist_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n9/episode_0000000_cam_right_wrist_success.mp4.preview.jpg",
+        "episode_0000000_cam_left_wrist_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n9/episode_0000000_cam_left_wrist_success.mp4.preview.jpg",
+        "episode_0000008_cam_head_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n9/episode_0000008_cam_head_success.mp4.preview.jpg",
+        "episode_0000000_cam_head_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n9/episode_0000000_cam_head_success.mp4.preview.jpg"
+      }
+    },
+    {
+      "n": 4,
+      "state": {
+        "num_envs": 4,
+        "episodes": 9,
+        "task": "stack_bowls",
+        "seed": 0,
+        "run_id": "sz1-gpu3-parallel-20261003-v1-n4",
+        "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n4/_result.json",
+        "gpu_before": {
+          "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+          "memory_mib": 3,
+          "utilization": 0,
+          "recovery": "None"
+        },
+        "start": 1791011879.4307745,
+        "server_ready": 1791011969.211604,
+        "client_exit": 0,
+        "check": {
+          "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_bowls/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu3-parallel-20261003-v1-n4/_result.json",
+          "expected": 9,
+          "complete": true,
+          "eval_time": 9,
+          "success_rate": 0.8888888888888888,
+          "score": 90.55555555555556,
+          "layout_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "result_sha256": "c34fae1d15c3a0b23205ca7bca8524b275a75361267e6781091e0b30086ef024"
+        },
+        "layouts_0_to_8": true,
+        "observed_envs": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "end": 1791013004.6783426,
+        "peak_mib": 36921,
+        "actions": 3782,
+        "first_action": 1791012048.1884944,
+        "last_action": 1791012997.8204398,
+        "action_gpu_util_mean": 40.011210762331835,
+        "cleanup": [
+          "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791013004678363779-c6d6f10b.json",
+          "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/cleanup/1791013006278666914-d22a2649.json"
+        ],
+        "gpu_after": {
+          "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+          "memory_mib": 3,
+          "utilization": 0,
+          "recovery": "None"
+        },
+        "state": "COMPLETE"
+      },
+      "eval_time": 9,
+      "successes": 8,
+      "details": {
+        "0": {
+          "layout_id": 0,
+          "success": true,
+          "score": 1.0
+        },
+        "1": {
+          "layout_id": 1,
+          "success": true,
+          "score": 1.0
+        },
+        "2": {
+          "layout_id": 2,
+          "success": true,
+          "score": 1.0
+        },
+        "3": {
+          "layout_id": 3,
+          "success": true,
+          "score": 1.0
+        },
+        "4": {
+          "layout_id": 4,
+          "success": false,
+          "score": 0.15
+        },
+        "5": {
+          "layout_id": 5,
+          "success": true,
+          "score": 1.0
+        },
+        "6": {
+          "layout_id": 6,
+          "success": true,
+          "score": 1.0
+        },
+        "7": {
+          "layout_id": 7,
+          "success": true,
+          "score": 1.0
+        },
+        "8": {
+          "layout_id": 8,
+          "success": true,
+          "score": 1.0
+        }
+      },
+      "videos": [
+        {
+          "name": "episode_0000000_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "335"
+        },
+        {
+          "name": "episode_0000000_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "335"
+        },
+        {
+          "name": "episode_0000000_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "335"
+        },
+        {
+          "name": "episode_0000001_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "299"
+        },
+        {
+          "name": "episode_0000001_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "299"
+        },
+        {
+          "name": "episode_0000001_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "299"
+        },
+        {
+          "name": "episode_0000002_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "244"
+        },
+        {
+          "name": "episode_0000002_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "244"
+        },
+        {
+          "name": "episode_0000002_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "244"
+        },
+        {
+          "name": "episode_0000003_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "443"
+        },
+        {
+          "name": "episode_0000003_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "443"
+        },
+        {
+          "name": "episode_0000003_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "443"
+        },
+        {
+          "name": "episode_0000004_cam_head_fail.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "801"
+        },
+        {
+          "name": "episode_0000004_cam_left_wrist_fail.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "801"
+        },
+        {
+          "name": "episode_0000004_cam_right_wrist_fail.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "801"
+        },
+        {
+          "name": "episode_0000005_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "482"
+        },
+        {
+          "name": "episode_0000005_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "482"
+        },
+        {
+          "name": "episode_0000005_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "482"
+        },
+        {
+          "name": "episode_0000006_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "388"
+        },
+        {
+          "name": "episode_0000006_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "388"
+        },
+        {
+          "name": "episode_0000006_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "388"
+        },
+        {
+          "name": "episode_0000007_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "368"
+        },
+        {
+          "name": "episode_0000007_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "368"
+        },
+        {
+          "name": "episode_0000007_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "368"
+        },
+        {
+          "name": "episode_0000008_cam_head_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "431"
+        },
+        {
+          "name": "episode_0000008_cam_left_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "431"
+        },
+        {
+          "name": "episode_0000008_cam_right_wrist_success.mp4",
+          "width": 640,
+          "height": 480,
+          "nb_frames": "431"
+        }
+      ],
+      "decoded": {
+        "episode_0000000_cam_right_wrist_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n4/episode_0000000_cam_right_wrist_success.mp4.preview.jpg",
+        "episode_0000000_cam_left_wrist_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n4/episode_0000000_cam_left_wrist_success.mp4.preview.jpg",
+        "episode_0000008_cam_head_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n4/episode_0000008_cam_head_success.mp4.preview.jpg",
+        "episode_0000000_cam_head_success.mp4": "/srv/dojo/runs/sz1-gpu3-parallel-20261003-v1/n4/episode_0000000_cam_head_success.mp4.preview.jpg"
+      }
+    }
+  ],
+  "formal_source_unchanged": true
+}

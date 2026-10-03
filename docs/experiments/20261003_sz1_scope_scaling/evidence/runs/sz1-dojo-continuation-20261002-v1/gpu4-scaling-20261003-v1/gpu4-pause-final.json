@@ -1,0 +1,50 @@
+{
+  "state": "INTERRUPTED",
+  "exit_code": 3,
+  "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+  "lane_gpu": 4,
+  "completion_scope": "single_gpu_lane",
+  "lane_tasks": [
+    "imitate_sorting_sequence",
+    "fill_egg_holder",
+    "sweep_blocks_random",
+    "align_blocks",
+    "swap_T",
+    "push_T",
+    "play_tic_tac_toe",
+    "make_kong",
+    "pour_liquid_into_cup",
+    "insert_tubes",
+    "stack_blocks_random",
+    "insert_key",
+    "play_stacking_toy",
+    "organize_table",
+    "pick_from_conveyor_by_image",
+    "pack_objects_into_box_random",
+    "stack_bowls_random",
+    "pour_liquid_into_cup_random",
+    "push_T_random",
+    "classify_objects_by_language",
+    "store_tools_in_toolbox",
+    "make_toast",
+    "pack_objects_into_box",
+    "arrange_largest_number",
+    "stack_bowls",
+    "hang_mugs"
+  ],
+  "full_benchmark_episodes": 6300,
+  "finished_at": 1791020636.0936117,
+  "error": null,
+  "processes_clear": true,
+  "gpus_released": true,
+  "gpu_after": [
+    {
+      "gpu": 4,
+      "uuid": "GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5",
+      "memory_mib": 8,
+      "util_percent": 0
+    }
+  ],
+  "cleanup_receipt": "/srv/dojo/runs/sz2_openwam_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu4/cleanup/1791020634372788105-3f4ae23f.json",
+  "rlt_action": "none; outer controller decides and performs restoration"
+}

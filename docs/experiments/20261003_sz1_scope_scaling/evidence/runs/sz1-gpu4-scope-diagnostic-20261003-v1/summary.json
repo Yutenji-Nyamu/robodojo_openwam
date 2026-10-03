@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "num_envs": 4,
+      "episodes": 4,
+      "task": "put_bottles_into_dustbin",
+      "seed": 0,
+      "run_id": "sz1-gpu4-scope-diagnostic-20261003-v1-n4",
+      "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/put_bottles_into_dustbin/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu4-scope-diagnostic-20261003-v1-n4/_result.json",
+      "gpu_before": {
+        "uuid": "GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5",
+        "memory_mib": 8,
+        "utilization": 0,
+        "recovery": "None"
+      },
+      "start": 1791028379.9020946,
+      "server_ready": 1791028476.1226723,
+      "client_exit": 0,
+      "check": {
+        "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/put_bottles_into_dustbin/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu4-scope-diagnostic-20261003-v1-n4/_result.json",
+        "expected": 4,
+        "complete": true,
+        "eval_time": 4,
+        "success_rate": 1.0,
+        "score": 100.0,
+        "layout_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "result_sha256": "5dba894a602a032f5ca736606e879a42a4b17f071b37bc7e64bec258ffb209ae"
+      },
+      "expected_layouts": true,
+      "observed_envs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "end": 1791028870.0912738,
+      "peak_mib": 36762,
+      "actions": 1669,
+      "first_action": 1791028554.394152,
+      "last_action": 1791028865.6970143,
+      "rss_peak_kib": 34152872,
+      "pss_peak_kib": 33905836,
+      "node_available_min_kib": 1984970236,
+      "action_gpu_util_mean": 36.60283687943262,
+      "cleanup": [
+        "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1/cleanup/1791028870091316036-4a7f53cf.json",
+        "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1/cleanup/1791028871226586434-ad6e10d0.json"
+      ],
+      "gpu_after": {
+        "uuid": "GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5",
+        "memory_mib": 24,
+        "utilization": 0,
+        "recovery": "None"
+      },
+      "state": "COMPLETE"
+    }
+  ],
+  "finished": true,
+  "state": "COMPLETE",
+  "cancelled": false,
+  "released": true,
+  "fatal": false,
+  "error": null,
+  "time": 1791028877.0879893
+}

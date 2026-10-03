@@ -1,0 +1,11 @@
+{
+  "pid": 3448111,
+  "uid": 1003,
+  "ppid": 3284935,
+  "start_ticks": 391264428,
+  "command_sha256": "1cc88aa66eb3bd5cd5e51d7c981b63985d423bc4f7bda3bbc12028e4c9f3d81d",
+  "command": "bash /srv/dojo/runs/sz1-gpu4-scaling-20261003-v1/n16/client.sh ",
+  "sweep_id": "sz1-gpu4-scaling-20261003-v1",
+  "run_id": "sz1-gpu4-scaling-20261003-v1-n16",
+  "role": "client"
+}

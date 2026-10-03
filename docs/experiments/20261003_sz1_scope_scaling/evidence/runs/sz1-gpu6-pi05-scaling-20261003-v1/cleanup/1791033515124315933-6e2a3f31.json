@@ -1,0 +1,13 @@
+{
+  "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+  "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4",
+  "uid": 1003,
+  "reason": "bounded_probe_finished",
+  "started_at": 1791033515.1243489,
+  "initial_targets": [],
+  "initial_scan_complete": true,
+  "actions": [],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1791033516.3110425
+}

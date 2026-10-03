@@ -1,0 +1,229 @@
+{
+  "time": 1791028765.435819,
+  "gpu": {
+    "gpu": 7,
+    "uuid": "GPU-00171f89-03fd-5703-b1aa-f5a29f6067ba",
+    "processes": [],
+    "gpu_recovery_action": "None",
+    "memory_mib": 7,
+    "checked_at": 1791028765.409778
+  },
+  "results": [
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/arrange_largest_number_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_arrange_largest_number_random/_result.json",
+      "sha256": "c38e09e4db9e29d4a911f8d5eb0e9311b175f7480e860764ea25538f9f3d95b3",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/arrange_largest_number_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/arrange_largest_number_random/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_arrange_largest_number_random/_result.json",
+      "sha256": "fdbf9a99b5ea9254d920bb6a65970c2c079543c8621a6df9d30841028eb47a24",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/arrange_largest_number_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/build_tower/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_build_tower/_result.json",
+      "sha256": "864085c88578d0fce2a1f7dc2667808d87acf950bebc707631202ea49c918cf4",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/build_tower/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/classify_objects/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_classify_objects/_result.json",
+      "sha256": "c01eea2c3721bf30e66604dc0b762c6fe5012e7acf7732a8846fcdcb1915c0e2",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/classify_objects/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/classify_objects/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_classify_objects/_result.json",
+      "sha256": "21a5de2150e018fb18496b18196df51cbae57e0cb027bc2f1822a93eff563c5d",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/classify_objects/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/cover_blocks/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_cover_blocks/_result.json",
+      "sha256": "c53b690e6a01744aa32e05d0067cde6a746f47475b4e2dd356d29087635fd17b",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/cover_blocks/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/deposit_coin/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_deposit_coin/_result.json",
+      "sha256": "55ccb924ca880aef5f49f52432d4f0ecaa41895966d3698d721af19d271905ad",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/deposit_coin/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/fasten_screws/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_fasten_screws/_result.json",
+      "sha256": "45d1ecf9b71a780cc5da5e1c780fcd8123e7cdbe4017f383b591d1023c1d9e8c",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/fasten_screws/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/fasten_screws/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_fasten_screws/_result.json",
+      "sha256": "71c0d45f80dcfb4f912c20a00185fc60e938d80424f6f2ed1eba165efc6c98f0",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/fasten_screws/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/fill_pen_holder/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_fill_pen_holder/_result.json",
+      "sha256": "f0995825cff7da8d72520f236e3050f52bdfc6879ddedd6a362f3443e776a639",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/fill_pen_holder/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/fold_clothes/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_fold_clothes/_result.json",
+      "sha256": "0639d32537bbd8c9de6b78f7050362a3d9ecf4c1e07ba44edca4fce56b654e1c",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/fold_clothes/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/fold_clothes_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_fold_clothes_random/_result.json",
+      "sha256": "04ecf45b3fba0726fac2272c93d3283605db405dcb12692ea0bec2b41a37dfb0",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/fold_clothes_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/general_pickup/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_general_pickup/_result.json",
+      "sha256": "a3a7a17b6303e433638fbf40a694a305238166c4b7285d87b97fccf69b44e0e3",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/general_pickup/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/general_pickup/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_general_pickup/_result.json",
+      "sha256": "af39822b94ca37a647fbe5746533dfad9e5692f9d8debd10a84c809a28197ff8",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/general_pickup/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/hang_mugs_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_hang_mugs_random/_result.json",
+      "sha256": "0889f1cc570cb0025ed5784ef1bf86c9d59a6cea64eaccadbf6deff9858b9bf1",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/hang_mugs_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/make_toast_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_make_toast_random/_result.json",
+      "sha256": "fa287a89eee6022ef7480695ecd2a05546ff843009c9e8a7f296da1d405a0799",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/make_toast_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/make_toast_random/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_toast_random/_result.json",
+      "sha256": "b58a6b98dbe6772c0d02a8b1c93fb349c994e332709ba2b36c214f7ce2ec2f04",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/make_toast_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/match_and_pick_from_conveyor/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_match_and_pick_from_conveyor/_result.json",
+      "sha256": "3d9aced66c2d41de51f8472d10097f82f9aa85ad9a7ba01d825124a743791fe0",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/match_and_pick_from_conveyor/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/match_and_pick_from_conveyor/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_match_and_pick_from_conveyor/_result.json",
+      "sha256": "e3e578a0bc302cd3fff137638fa6222c0f6eaeda6b5a71fe6f8978eee6987bab",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/match_and_pick_from_conveyor/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/play_Xylophone/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_play_Xylophone/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/play_Xylophone/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/plug_in_charger/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_plug_in_charger/_result.json",
+      "sha256": "2b203c813e7b4ee4460f0cc2dfb50cac200741258e62c95c625a14204961fd99",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/plug_in_charger/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/plug_in_charger/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_plug_in_charger/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/plug_in_charger/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/pour_balls_into_vase/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_pour_balls_into_vase/_result.json",
+      "sha256": "9fb2b0dc3b20aee636fe0255bebf4245a1f0fa231785d7cd9a6d9fb408724900",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/pour_balls_into_vase/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/pour_by_language/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_pour_by_language/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/pour_by_language/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/pour_by_language/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_pour_by_language/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/pour_by_language/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/press_by_number/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_press_by_number/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/press_by_number/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/press_by_number/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_press_by_number/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/press_by_number/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_put_bottles_into_dustbin/_result.json",
+      "sha256": "3570a657cfeab8ff319463142347d2c493ffd2e913ba35e75e87a709b69e0d47",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/put_bottles_into_dustbin/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/solve_equation/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_solve_equation/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/solve_equation/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sort_nesting_dolls_by_size/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_sort_nesting_dolls_by_size/_result.json",
+      "sha256": "f298d3f8c0308fd3223cfd5c8cef6ad71763ca588507c9bc4a934f0ef7741787",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/sort_nesting_dolls_by_size/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sort_nesting_dolls_by_size/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_sort_nesting_dolls_by_size/_result.json",
+      "sha256": "78c49d1386247a9396ef21bf16a8293d968f87bd97896f833b1148fa6e44c8b8",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/sort_nesting_dolls_by_size/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sort_nesting_dolls_by_size_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_sort_nesting_dolls_by_size_random/_result.json",
+      "sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/sort_nesting_dolls_by_size_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sort_nesting_dolls_by_size_random/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_sort_nesting_dolls_by_size_random/_result.json",
+      "sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/sort_nesting_dolls_by_size_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_blocks/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_stack_blocks/_result.json",
+      "sha256": "c88bb9d29b0470260fb960714bb14ac9c78aae78cd0b5b2998a5c9f784e07a84",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/stack_blocks/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_blocks_by_language/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_stack_blocks_by_language/_result.json",
+      "sha256": "6e5f1ddd7c3effaa2ac7a9053d859006ba5a9e74e8fa6ff131edd93be2cfc972",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/stack_blocks_by_language/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/stack_blocks_by_language/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_stack_blocks_by_language/_result.json",
+      "sha256": "50d55e4a1d4047e73dd287a4df4f6189b9bd12d68a9b2c294a67954f6463ad9f",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/stack_blocks_by_language/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/store_laptop_and_headphones/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones/_result.json",
+      "sha256": "70b2135b19ba3b71cfda22a0610d2312a7f5b0457c876c4cee116f33266b150d",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/store_laptop_and_headphones/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/store_laptop_and_headphones/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_store_laptop_and_headphones/_result.json",
+      "sha256": "891e42722e93e97eab1f47c08e236a01beedaafb635fc9b0dc40c5daca728c78",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/store_laptop_and_headphones/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/store_laptop_and_headphones_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random/_result.json",
+      "sha256": "6cc0480f77a883eb20388bb73893ea2f21eb3d1342ef7b1350e5f65c8c2ee42d",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/store_laptop_and_headphones_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/store_laptop_and_headphones_random/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_store_laptop_and_headphones_random/_result.json",
+      "sha256": "6445d58c15dbb8a5aeda94ccc1ecd34e941a403f8dc5922847b477c738ccdbbe",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/store_laptop_and_headphones_random/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/swap_blocks/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_swap_blocks/_result.json",
+      "sha256": "7a2d317fe33e9423f5ac1bad25fb197b3fb0a09afa51be9ea0c620eb8f325445",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/swap_blocks/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sweep_blocks/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_sweep_blocks/_result.json",
+      "sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/0/sweep_blocks/_result.json"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/eval_result/RoboDojo/sweep_blocks/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_sweep_blocks/_result.json",
+      "sha256": "670228d5a2619a793ee0c27fdd5447a150aa9dffbd101f0145d7329721fef316",
+      "snapshot": "/srv/dojo/runs/gpu7-scope-maintenance-20261003-v1/saved-results/1/sweep_blocks/_result.json"
+    }
+  ],
+  "old_probe": null
+}

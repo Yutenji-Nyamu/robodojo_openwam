@@ -1,0 +1,11 @@
+{
+  "pid": 1420514,
+  "uid": 1003,
+  "ppid": 559646,
+  "start_ticks": 384675064,
+  "command_sha256": "3d8c7c279b4089c52b0e185d779be9f46e9bd663610c590f3c8caa0828e00839",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6/seed1/worker1/tasks/make_kong/recovery-1790934713865755144-0/command-1790934713865755144.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_kong",
+  "role": "client"
+}

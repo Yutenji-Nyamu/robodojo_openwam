@@ -1,0 +1,49 @@
+{
+  "time": "2026-10-02T09:41:42.153394+00:00",
+  "cycle_id": "rlt-cycle-sz1-dojo-continuation-20261002-v1-gpu6",
+  "runs": {
+    "gpu6": {
+      "original_alive": false,
+      "resume_identity": {
+        "pid": 510544,
+        "uid": 1003,
+        "start": 382032184,
+        "state": "R",
+        "ppid": 1,
+        "cmdline_sha256": "7c45b6d2d5ce948dfc68a465fe404afc3dee83ab9cd3852325312ff5cd552bb9",
+        "namespace": "dr-sz1-e-sz1-dojo-continuation-20261002-v1-gpu6-g6",
+        "time": "2026-10-02T09:33:24.572813+00:00"
+      },
+      "resume_alive": true,
+      "checkpoint_step": 575,
+      "recovery_mode": "resume_checkpoint",
+      "latest_metrics": {
+        "env/success_once": {
+          "round": 576,
+          "value": 0.25
+        },
+        "train/rlt/critic_updates_run": {
+          "round": 576,
+          "value": 685.0
+        },
+        "train/rlt/global_min_replay_size": {
+          "round": 576,
+          "value": 77746.0
+        },
+        "train/rlt/ready_for_online": {
+          "round": 576,
+          "value": 1.0
+        },
+        "train/rlt/update_step": {
+          "round": 576,
+          "value": 317560.0
+        }
+      },
+      "online": true,
+      "critic_updates_run": 685.0,
+      "first_round_verified": true,
+      "finished": null
+    }
+  },
+  "all_first_rounds_verified": true
+}

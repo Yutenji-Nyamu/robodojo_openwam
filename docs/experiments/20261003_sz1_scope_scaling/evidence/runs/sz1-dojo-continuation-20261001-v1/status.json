@@ -1,0 +1,37 @@
+{
+  "owner_id": "sz1-dojo-continuation-20261001-v1",
+  "host": "admin",
+  "uid": 1003,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "identity": {
+    "pid": 2364673,
+    "uid": 1003,
+    "start_ticks": 375714163,
+    "cmdline_sha256": "0a2fe25c59d4ea4c5fad0e5932289606b9b1be690789933a589795cebee09dd6"
+  },
+  "created_at": 1790870422.6428869,
+  "stage": "CANCELLED_BY_USER",
+  "rlt_untouched": true,
+  "lanes": {
+    "4": {
+      "gpu": 4,
+      "state": "WAITING"
+    },
+    "5": {
+      "gpu": 5,
+      "state": "WAITING"
+    },
+    "6": {
+      "gpu": 6,
+      "state": "WAITING"
+    },
+    "7": {
+      "gpu": 7,
+      "state": "WAITING"
+    }
+  },
+  "updated_at": 1790872792.7019567,
+  "error": "RuntimeError('Preparation interrupted or exceeded deadline; original RLT remains unchanged')",
+  "finished_at": 1790872793.0873544,
+  "cancelled_by_user": true
+}

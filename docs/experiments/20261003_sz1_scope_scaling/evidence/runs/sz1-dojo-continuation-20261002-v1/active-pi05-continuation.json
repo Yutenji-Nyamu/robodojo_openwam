@@ -1,0 +1,21 @@
+{
+  "time": 1790934665.1378372,
+  "gpus": [
+    6,
+    7
+  ],
+  "owner_directory": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix",
+  "source": "/srv/dojo/scripts/rlt/pi-yamlfix/owner_sz1.py",
+  "reason": "Miniforge-base PyYAML 6.0.2 missing in Pi_05 bootstrap; installed and exact deploy.yml lookup verified",
+  "previous_returns_first_round_verified": true,
+  "old_owner_no_longer_mutates_gpus": [
+    6,
+    7
+  ],
+  "protocol": "W1 N4, original seeds/task budgets/results and 6300 per model",
+  "stop": "First terminal/error: exact cleanup, healthy/free GPU only, original RLT cumulative 3000 and first-round proof",
+  "openwam_gpus_unchanged": [
+    4,
+    5
+  ]
+}

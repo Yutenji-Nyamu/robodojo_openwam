@@ -1,0 +1,65 @@
+{
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w1_server",
+  "uid": 1003,
+  "reason": "worker_finished_or_interrupted",
+  "started_at": 1790978229.8228073,
+  "initial_targets": [
+    {
+      "pid": 885172,
+      "uid": 1003,
+      "ppid": 559646,
+      "start_ticks": 383035268,
+      "command_sha256": "13e62183355c93dec24574d738bc056015f814c149b0ffe2c40ba9476e11e733",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task play_tic_tac_toe --ckpt sim --env-cfg arx_x5 --action-type joint --seed 1 --policy-env uv --policy-gpu 6 --policy-port 63161 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w1_server",
+      "role": "server"
+    },
+    {
+      "pid": 885190,
+      "uid": 1003,
+      "ppid": 885172,
+      "start_ticks": 383035298,
+      "command_sha256": "3d2a87cab205e29c551fd490637a4cdc3c895971f9837718242837f82ab691d4",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63161 host=127.0.0.1 bench_name=RoboDojo task_name=play_tic_tac_toe ckpt_name=sim env_cfg_type=arx_x5 seed=1 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w1_server",
+      "role": "server"
+    }
+  ],
+  "initial_scan_complete": true,
+  "actions": [
+    {
+      "pid": 885190,
+      "uid": 1003,
+      "ppid": 885172,
+      "start_ticks": 383035298,
+      "command_sha256": "3d2a87cab205e29c551fd490637a4cdc3c895971f9837718242837f82ab691d4",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63161 host=127.0.0.1 bench_name=RoboDojo task_name=play_tic_tac_toe ckpt_name=sim env_cfg_type=arx_x5 seed=1 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w1_server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1790978230.0674813
+    },
+    {
+      "pid": 885172,
+      "uid": 1003,
+      "ppid": 559646,
+      "start_ticks": 383035268,
+      "command_sha256": "13e62183355c93dec24574d738bc056015f814c149b0ffe2c40ba9476e11e733",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task play_tic_tac_toe --ckpt sim --env-cfg arx_x5 --action-type joint --seed 1 --policy-env uv --policy-gpu 6 --policy-port 63161 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w1_server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1790978230.0687375
+    }
+  ],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1790978231.2612023
+}

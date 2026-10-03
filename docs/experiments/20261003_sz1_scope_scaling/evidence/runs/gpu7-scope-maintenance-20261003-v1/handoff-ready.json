@@ -1,0 +1,24 @@
+{
+  "old": {
+    "pid": 1088548,
+    "uid": 1003,
+    "start_ticks": 383629585,
+    "cmdline_sha256": "0644e404731544a7066f447d5f8b14c0ff2cf1ca667edb6d06779129fa3bba7e"
+  },
+  "new": {
+    "pid": 3550893,
+    "uid": 1003,
+    "start_ticks": 391545546,
+    "cmdline_sha256": "95eafd8696bfc8d4e19c2527186e969693f108674e4203518706c41b82ef9458"
+  },
+  "controllers": {
+    "7": {
+      "pid": 1089586,
+      "uid": 1003,
+      "start_ticks": 383633930,
+      "cmdline_sha256": "290154f02877186ff1ad83363576809a3c47cdf1dcf011361d28a30d8d615572"
+    }
+  },
+  "old_probe": null,
+  "time": 1791028736.587265
+}

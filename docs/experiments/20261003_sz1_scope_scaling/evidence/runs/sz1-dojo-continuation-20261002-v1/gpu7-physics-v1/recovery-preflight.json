@@ -1,0 +1,28 @@
+{
+  "mode": "resume_checkpoint",
+  "checkpoint": {
+    "path": "/srv/dojo/runs/gpu7-dojo-repair-20261002/recovery/global_step_625",
+    "step": 625,
+    "update_step": 347680,
+    "replay_samples": 83554,
+    "replay_bytes": 2113443338,
+    "warmup_ready_total_transitions": 20018,
+    "warmup_ready_total_episodes": 1144,
+    "contract_sha256": "6b30b42c7a285350e901c7029427cdc9aba8f8fd4aece26a292a7783aadb5548",
+    "small_sha256": {
+      "sac_components/rlt_trainer_state/complete.json": "797eb68e9705c51d06ec8ac95a340dc9b5f2e8fecab20ac52cefe82168c1ed61",
+      "sac_components/rlt_trainer_state/checkpoint_rank_0.pt": "48afe53972f3a5515bd1f4ef27a015da52e18492ac8ed05b0301b15301093706",
+      "dcp_checkpoint/.metadata": "3e8c771437881321bd563fe44dd04eee7044d13b3589cdf884d79cca596c3bbb",
+      "sac_components/replay_buffer/rank_0/metadata.json": "4a2afc7b86989fd860abb60246127d70b69533880aa840fdec1fb5a69eac4e67",
+      "sac_components/replay_buffer/rank_0/trajectory_index.json": "bf52b77b15796e8f72ad2621fafa9c457c3081d38298ac22aaadcabd52c7cf5a"
+    },
+    "dcp_shards": {
+      "__0_0.distcp": 26262629
+    },
+    "target_bytes": 8662967,
+    "validated_at": "2026-10-02T13:53:34.378660+00:00",
+    "gpu_used_for_check": false
+  },
+  "newer_rejected": [],
+  "checked_at": "2026-10-02T13:53:34.396182+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "order": [
+    9,
+    4
+  ],
+  "gpu": 3,
+  "episodes_per_case": 9,
+  "deadline_per_case_s": 1800,
+  "source_sha256": {
+    "/srv/dojo/RoboDojo/env_cfg/arx_x5.yml": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f",
+    "/srv/dojo/RoboDojo/env_cfg/sim/sim_config.yml": "a8ceb2345165c721a3504f08e2a8e426e6ee87a117bb9a5e963f790c65a5653e",
+    "/srv/dojo/RoboDojo/scripts/eval_policy.sh": "80bc684378b8ba2dd10bbefdeb4ef232f0c32ea88ebe549d4bc192272ebae4b5",
+    "/srv/dojo/RoboDojo/src/eval_client/main.py": "1c1bca7b46f3a9ce6a7926b146b8fa7894786e02e3750b292a0999874b30d561"
+  },
+  "formal_untouched": true
+}

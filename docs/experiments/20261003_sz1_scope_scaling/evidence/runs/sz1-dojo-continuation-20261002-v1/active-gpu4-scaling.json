@@ -1,0 +1,11 @@
+{
+  "identity": {
+    "pid": 3283651,
+    "uid": 1003,
+    "start_ticks": 390732435,
+    "cmdline_sha256": "81948b293bb4bd1963289ad8d8c5667ef5a32d3f7c0c5d21e963c216b61caa28"
+  },
+  "directory": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu4-scaling-20261003-v1",
+  "probe": "/srv/dojo/runs/sz1-gpu4-scaling-20261003-v1",
+  "resume_original": true
+}

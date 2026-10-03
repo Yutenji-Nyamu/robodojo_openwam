@@ -1,0 +1,13 @@
+{
+  "time": 1791040626.629064,
+  "returncode": 1,
+  "fatal": false,
+  "gpu": {
+    "gpu": 7,
+    "uuid": "GPU-00171f89-03fd-5703-b1aa-f5a29f6067ba",
+    "processes": [],
+    "gpu_recovery_action": "None",
+    "memory_mib": 7,
+    "checked_at": 1791040626.6270328
+  }
+}

@@ -1,0 +1,1004 @@
+{
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "created_at": 1790934665.7369907,
+  "config": {
+    "project": "/srv/dojo",
+    "repo": "/srv/dojo/RoboDojo",
+    "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+    "uid": 1003,
+    "dojo_head": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+    "xpl_head": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+    "policy_env": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv",
+    "sim_env": "/srv/dojo/envs/RoboDojo",
+    "project_env": "/srv/dojo/project-env.sh",
+    "conda_profile": "/home/researcher/miniforge3/etc/profile.d/conda.sh",
+    "compat_script": "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py",
+    "checkpoint": "/srv/dojo/checkpoints/Pi_05",
+    "checkpoint_revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+    "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+    "asset_run_directory": "full-assets-sz1-20261001",
+    "ports": [
+      63160,
+      63161,
+      63162,
+      63163,
+      63164,
+      63165,
+      63166,
+      63167
+    ],
+    "idle_gpu_memory_mib": 512,
+    "workers_per_gpu": 1,
+    "lane_gpu": 6,
+    "control_dir": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu6"
+  },
+  "upstream_dojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "dojo_head": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+  "xpl_head": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "num_envs": 4,
+  "workers_per_gpu": 1,
+  "gpus": [
+    6,
+    6,
+    7,
+    7,
+    6,
+    6,
+    7,
+    7
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "episode_total": 6300,
+  "max_inproc_restarts": 3,
+  "tasks": [
+    "align_blocks",
+    "arrange_largest_number",
+    "arrange_largest_number_random",
+    "build_tower",
+    "classify_objects",
+    "classify_objects_by_language",
+    "cover_blocks",
+    "deposit_coin",
+    "fasten_screws",
+    "fill_egg_holder",
+    "fill_pen_holder",
+    "fold_clothes",
+    "fold_clothes_random",
+    "general_pickup",
+    "hang_mugs",
+    "hang_mugs_random",
+    "imitate_sorting_sequence",
+    "insert_key",
+    "insert_tubes",
+    "make_kong",
+    "make_toast",
+    "make_toast_random",
+    "match_and_pick_from_conveyor",
+    "organize_table",
+    "pack_objects_into_box",
+    "pack_objects_into_box_random",
+    "pick_from_conveyor_by_image",
+    "play_Xylophone",
+    "play_stacking_toy",
+    "play_tic_tac_toe",
+    "plug_in_charger",
+    "pour_balls_into_vase",
+    "pour_by_language",
+    "pour_liquid_into_cup",
+    "pour_liquid_into_cup_random",
+    "press_by_number",
+    "push_T",
+    "push_T_random",
+    "put_bottles_into_dustbin",
+    "solve_equation",
+    "sort_nesting_dolls_by_size",
+    "sort_nesting_dolls_by_size_random",
+    "stack_blocks",
+    "stack_blocks_by_language",
+    "stack_blocks_random",
+    "stack_bowls",
+    "stack_bowls_random",
+    "store_laptop_and_headphones",
+    "store_laptop_and_headphones_random",
+    "store_tools_in_toolbox",
+    "swap_T",
+    "swap_blocks",
+    "sweep_blocks",
+    "sweep_blocks_random"
+  ],
+  "budgets": {
+    "align_blocks": 50,
+    "arrange_largest_number": 25,
+    "arrange_largest_number_random": 25,
+    "build_tower": 50,
+    "classify_objects": 50,
+    "classify_objects_by_language": 50,
+    "cover_blocks": 50,
+    "deposit_coin": 50,
+    "fasten_screws": 50,
+    "fill_egg_holder": 50,
+    "fill_pen_holder": 50,
+    "fold_clothes": 25,
+    "fold_clothes_random": 25,
+    "general_pickup": 50,
+    "hang_mugs": 25,
+    "hang_mugs_random": 25,
+    "imitate_sorting_sequence": 50,
+    "insert_key": 50,
+    "insert_tubes": 50,
+    "make_kong": 50,
+    "make_toast": 25,
+    "make_toast_random": 25,
+    "match_and_pick_from_conveyor": 50,
+    "organize_table": 50,
+    "pack_objects_into_box": 25,
+    "pack_objects_into_box_random": 25,
+    "pick_from_conveyor_by_image": 50,
+    "play_Xylophone": 50,
+    "play_stacking_toy": 50,
+    "play_tic_tac_toe": 50,
+    "plug_in_charger": 50,
+    "pour_balls_into_vase": 50,
+    "pour_by_language": 50,
+    "pour_liquid_into_cup": 25,
+    "pour_liquid_into_cup_random": 25,
+    "press_by_number": 50,
+    "push_T": 25,
+    "push_T_random": 25,
+    "put_bottles_into_dustbin": 50,
+    "solve_equation": 50,
+    "sort_nesting_dolls_by_size": 25,
+    "sort_nesting_dolls_by_size_random": 25,
+    "stack_blocks": 25,
+    "stack_blocks_by_language": 50,
+    "stack_blocks_random": 25,
+    "stack_bowls": 25,
+    "stack_bowls_random": 25,
+    "store_laptop_and_headphones": 25,
+    "store_laptop_and_headphones_random": 25,
+    "store_tools_in_toolbox": 50,
+    "swap_T": 50,
+    "swap_blocks": 50,
+    "sweep_blocks": 25,
+    "sweep_blocks_random": 25
+  },
+  "layout_counts": {
+    "0/align_blocks": 55,
+    "0/arrange_largest_number": 30,
+    "0/arrange_largest_number_random": 30,
+    "0/build_tower": 55,
+    "0/classify_objects": 55,
+    "0/classify_objects_by_language": 55,
+    "0/cover_blocks": 55,
+    "0/deposit_coin": 60,
+    "0/fasten_screws": 55,
+    "0/fill_egg_holder": 65,
+    "0/fill_pen_holder": 55,
+    "0/fold_clothes": 55,
+    "0/fold_clothes_random": 30,
+    "0/general_pickup": 55,
+    "0/hang_mugs": 30,
+    "0/hang_mugs_random": 30,
+    "0/imitate_sorting_sequence": 65,
+    "0/insert_key": 55,
+    "0/insert_tubes": 55,
+    "0/make_kong": 65,
+    "0/make_toast": 70,
+    "0/make_toast_random": 45,
+    "0/match_and_pick_from_conveyor": 55,
+    "0/organize_table": 55,
+    "0/pack_objects_into_box": 55,
+    "0/pack_objects_into_box_random": 30,
+    "0/pick_from_conveyor_by_image": 55,
+    "0/play_Xylophone": 55,
+    "0/play_stacking_toy": 55,
+    "0/play_tic_tac_toe": 75,
+    "0/plug_in_charger": 55,
+    "0/pour_balls_into_vase": 55,
+    "0/pour_by_language": 55,
+    "0/pour_liquid_into_cup": 55,
+    "0/pour_liquid_into_cup_random": 30,
+    "0/press_by_number": 65,
+    "0/push_T": 55,
+    "0/push_T_random": 30,
+    "0/put_bottles_into_dustbin": 55,
+    "0/solve_equation": 55,
+    "0/sort_nesting_dolls_by_size": 30,
+    "0/sort_nesting_dolls_by_size_random": 30,
+    "0/stack_blocks": 55,
+    "0/stack_blocks_by_language": 55,
+    "0/stack_blocks_random": 30,
+    "0/stack_bowls": 55,
+    "0/stack_bowls_random": 30,
+    "0/store_laptop_and_headphones": 55,
+    "0/store_laptop_and_headphones_random": 30,
+    "0/store_tools_in_toolbox": 55,
+    "0/swap_T": 55,
+    "0/swap_blocks": 55,
+    "0/sweep_blocks": 55,
+    "0/sweep_blocks_random": 30,
+    "1/align_blocks": 55,
+    "1/arrange_largest_number": 30,
+    "1/arrange_largest_number_random": 30,
+    "1/build_tower": 55,
+    "1/classify_objects": 55,
+    "1/classify_objects_by_language": 55,
+    "1/cover_blocks": 55,
+    "1/deposit_coin": 60,
+    "1/fasten_screws": 55,
+    "1/fill_egg_holder": 65,
+    "1/fill_pen_holder": 55,
+    "1/fold_clothes": 55,
+    "1/fold_clothes_random": 30,
+    "1/general_pickup": 55,
+    "1/hang_mugs": 30,
+    "1/hang_mugs_random": 30,
+    "1/imitate_sorting_sequence": 65,
+    "1/insert_key": 55,
+    "1/insert_tubes": 55,
+    "1/make_kong": 65,
+    "1/make_toast": 70,
+    "1/make_toast_random": 45,
+    "1/match_and_pick_from_conveyor": 55,
+    "1/organize_table": 55,
+    "1/pack_objects_into_box": 55,
+    "1/pack_objects_into_box_random": 30,
+    "1/pick_from_conveyor_by_image": 55,
+    "1/play_Xylophone": 55,
+    "1/play_stacking_toy": 55,
+    "1/play_tic_tac_toe": 75,
+    "1/plug_in_charger": 55,
+    "1/pour_balls_into_vase": 55,
+    "1/pour_by_language": 55,
+    "1/pour_liquid_into_cup": 55,
+    "1/pour_liquid_into_cup_random": 30,
+    "1/press_by_number": 65,
+    "1/push_T": 55,
+    "1/push_T_random": 30,
+    "1/put_bottles_into_dustbin": 55,
+    "1/solve_equation": 55,
+    "1/sort_nesting_dolls_by_size": 30,
+    "1/sort_nesting_dolls_by_size_random": 30,
+    "1/stack_blocks": 55,
+    "1/stack_blocks_by_language": 55,
+    "1/stack_blocks_random": 30,
+    "1/stack_bowls": 55,
+    "1/stack_bowls_random": 30,
+    "1/store_laptop_and_headphones": 55,
+    "1/store_laptop_and_headphones_random": 30,
+    "1/store_tools_in_toolbox": 55,
+    "1/swap_T": 55,
+    "1/swap_blocks": 55,
+    "1/sweep_blocks": 55,
+    "1/sweep_blocks_random": 30,
+    "2/align_blocks": 55,
+    "2/arrange_largest_number": 30,
+    "2/arrange_largest_number_random": 30,
+    "2/build_tower": 55,
+    "2/classify_objects": 55,
+    "2/classify_objects_by_language": 55,
+    "2/cover_blocks": 55,
+    "2/deposit_coin": 60,
+    "2/fasten_screws": 55,
+    "2/fill_egg_holder": 65,
+    "2/fill_pen_holder": 55,
+    "2/fold_clothes": 55,
+    "2/fold_clothes_random": 30,
+    "2/general_pickup": 55,
+    "2/hang_mugs": 30,
+    "2/hang_mugs_random": 30,
+    "2/imitate_sorting_sequence": 65,
+    "2/insert_key": 55,
+    "2/insert_tubes": 55,
+    "2/make_kong": 65,
+    "2/make_toast": 70,
+    "2/make_toast_random": 45,
+    "2/match_and_pick_from_conveyor": 55,
+    "2/organize_table": 55,
+    "2/pack_objects_into_box": 55,
+    "2/pack_objects_into_box_random": 30,
+    "2/pick_from_conveyor_by_image": 55,
+    "2/play_Xylophone": 55,
+    "2/play_stacking_toy": 55,
+    "2/play_tic_tac_toe": 75,
+    "2/plug_in_charger": 55,
+    "2/pour_balls_into_vase": 55,
+    "2/pour_by_language": 55,
+    "2/pour_liquid_into_cup": 55,
+    "2/pour_liquid_into_cup_random": 30,
+    "2/press_by_number": 65,
+    "2/push_T": 55,
+    "2/push_T_random": 30,
+    "2/put_bottles_into_dustbin": 55,
+    "2/solve_equation": 55,
+    "2/sort_nesting_dolls_by_size": 30,
+    "2/sort_nesting_dolls_by_size_random": 30,
+    "2/stack_blocks": 55,
+    "2/stack_blocks_by_language": 55,
+    "2/stack_blocks_random": 30,
+    "2/stack_bowls": 55,
+    "2/stack_bowls_random": 30,
+    "2/store_laptop_and_headphones": 55,
+    "2/store_laptop_and_headphones_random": 30,
+    "2/store_tools_in_toolbox": 55,
+    "2/swap_T": 55,
+    "2/swap_blocks": 55,
+    "2/sweep_blocks": 55,
+    "2/sweep_blocks_random": 30
+  },
+  "source_sha256": {
+    "/srv/dojo/RoboDojo/scripts/robodojo.sh": "7008023f0fd27fc5f8f2adad30b1286a5e6cce432be981b82cf2ffa3498d6ea3",
+    "/srv/dojo/RoboDojo/scripts/eval_policy.sh": "80bc684378b8ba2dd10bbefdeb4ef232f0c32ea88ebe549d4bc192272ebae4b5",
+    "/srv/dojo/RoboDojo/scripts/internal/smoke_all_tasks.sh": "de7e4b3c4ed7591f43bd774702824051fc95d6ff4800025236310abe368c1cd0",
+    "/srv/dojo/RoboDojo/src/eval_client/main.py": "1c1bca7b46f3a9ce6a7926b146b8fa7894786e02e3750b292a0999874b30d561",
+    "/srv/dojo/RoboDojo/src/eval_client/eval_env.py": "fccddb34d1907e499896281e11bdb74e55f7289d6762b279e872ed5005f05a03",
+    "/srv/dojo/RoboDojo/env_cfg/arx_x5.yml": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f",
+    "/srv/dojo/RoboDojo/task/RoboDojo/config/_task.yml": "655a87cd59fa6272bf352d32deb8ade162737b49a9824e16d428fecf0803380b",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml": "a94f6724afa11809c8381152228afb5c8bfb921e32d3951ec722f97e8997caa2",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/model.py": "e5b855e559685cb330e8322823b7688881983c6a8693997e11285119f6bb76a4",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.py": "4ce7ac892b92ce5eae7d17b94108e7a66f69bcca121bf0cea7b53f5414133680",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/setup_eval_policy_server.sh": "fca7acabf4413efe543fdfe3351aa0d2238ac360542972c55e800bd55fa5cef7",
+    "/srv/dojo/RoboDojo/env_cfg/sim/sim_config.yml": "a8ceb2345165c721a3504f08e2a8e426e6ee87a117bb9a5e963f790c65a5653e",
+    "/srv/dojo/project-env.sh": "409440e2da97fba2d0f7ab962c5086c15bcaadbe7fd5a40ed69fc66577eecc25",
+    "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py": "0d0dc55aad61ab63ee2b8ac541ea05f905d69389728547dd125fd60e565d2529"
+  },
+  "controller_sha256": {
+    "dojo_sweep.py": "2dc3bb5e74a1fa5c8fee25335d94b52c6f43ec011572f025dbf21a1d17a09157",
+    "process_guard.py": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6",
+    "eval_recovery.py": "2f21432bf5c8b8bf6b2e7e3a8cd10cd351b5a7182ac4b080659629f630d65ad7",
+    "resume_results.py": "6a4c67ad5f7ad9d7f10c02b8fa2dea1381bcd241bbdc71ca37755af2ac6716b1"
+  },
+  "partition_sha256": "8dd7c6166ef11792b388760e29f7b8b4b80e5de3efe1f6a94af140a1235861f1",
+  "groups": [
+    {
+      "worker": 0,
+      "gpu": 6,
+      "port": 63160,
+      "tasks": [
+        {
+          "task": "imitate_sorting_sequence",
+          "key": "imitate_sorting_sequence/arx_x5",
+          "seconds": 10596
+        },
+        {
+          "task": "fill_egg_holder",
+          "key": "fill_egg_holder/arx_x5",
+          "seconds": 3063
+        },
+        {
+          "task": "sweep_blocks_random",
+          "key": "sweep_blocks_random/arx_x5",
+          "seconds": 2392
+        },
+        {
+          "task": "align_blocks",
+          "key": "align_blocks/arx_x5",
+          "seconds": 2013
+        },
+        {
+          "task": "swap_T",
+          "key": "swap_T/arx_x5",
+          "seconds": 1746
+        },
+        {
+          "task": "push_T",
+          "key": "push_T/arx_x5",
+          "seconds": 1311
+        }
+      ]
+    },
+    {
+      "worker": 1,
+      "gpu": 6,
+      "port": 63161,
+      "tasks": [
+        {
+          "task": "play_tic_tac_toe",
+          "key": "play_tic_tac_toe/arx_x5",
+          "seconds": 9323
+        },
+        {
+          "task": "make_kong",
+          "key": "make_kong/arx_x5",
+          "seconds": 3818
+        },
+        {
+          "task": "pour_liquid_into_cup",
+          "key": "pour_liquid_into_cup/arx_x5",
+          "seconds": 2543
+        },
+        {
+          "task": "insert_tubes",
+          "key": "insert_tubes/arx_x5",
+          "seconds": 2296
+        },
+        {
+          "task": "stack_blocks_random",
+          "key": "stack_blocks_random/arx_x5",
+          "seconds": 1768
+        },
+        {
+          "task": "insert_key",
+          "key": "insert_key/arx_x5",
+          "seconds": 1396
+        }
+      ]
+    },
+    {
+      "worker": 2,
+      "gpu": 7,
+      "port": 63162,
+      "tasks": [
+        {
+          "task": "pour_by_language",
+          "key": "pour_by_language/arx_x5",
+          "seconds": 9448
+        },
+        {
+          "task": "arrange_largest_number_random",
+          "key": "arrange_largest_number_random/arx_x5",
+          "seconds": 3101
+        },
+        {
+          "task": "match_and_pick_from_conveyor",
+          "key": "match_and_pick_from_conveyor/arx_x5",
+          "seconds": 2915
+        },
+        {
+          "task": "sweep_blocks",
+          "key": "sweep_blocks/arx_x5",
+          "seconds": 2170
+        },
+        {
+          "task": "plug_in_charger",
+          "key": "plug_in_charger/arx_x5",
+          "seconds": 1777
+        },
+        {
+          "task": "stack_blocks_by_language",
+          "key": "stack_blocks_by_language/arx_x5",
+          "seconds": 1733
+        }
+      ]
+    },
+    {
+      "worker": 3,
+      "gpu": 7,
+      "port": 63163,
+      "tasks": [
+        {
+          "task": "fasten_screws",
+          "key": "fasten_screws/arx_x5",
+          "seconds": 7876
+        },
+        {
+          "task": "sort_nesting_dolls_by_size_random",
+          "key": "sort_nesting_dolls_by_size_random/arx_x5",
+          "seconds": 3021
+        },
+        {
+          "task": "press_by_number",
+          "key": "press_by_number/arx_x5",
+          "seconds": 2955
+        },
+        {
+          "task": "sort_nesting_dolls_by_size",
+          "key": "sort_nesting_dolls_by_size/arx_x5",
+          "seconds": 2377
+        },
+        {
+          "task": "store_laptop_and_headphones_random",
+          "key": "store_laptop_and_headphones_random/arx_x5",
+          "seconds": 1981
+        },
+        {
+          "task": "store_laptop_and_headphones",
+          "key": "store_laptop_and_headphones/arx_x5",
+          "seconds": 1715
+        },
+        {
+          "task": "general_pickup",
+          "key": "general_pickup/arx_x5",
+          "seconds": 1201
+        }
+      ]
+    },
+    {
+      "worker": 4,
+      "gpu": 6,
+      "port": 63164,
+      "tasks": [
+        {
+          "task": "play_stacking_toy",
+          "key": "play_stacking_toy/arx_x5",
+          "seconds": 5416
+        },
+        {
+          "task": "organize_table",
+          "key": "organize_table/arx_x5",
+          "seconds": 4104
+        },
+        {
+          "task": "pick_from_conveyor_by_image",
+          "key": "pick_from_conveyor_by_image/arx_x5",
+          "seconds": 3150
+        },
+        {
+          "task": "pack_objects_into_box_random",
+          "key": "pack_objects_into_box_random/arx_x5",
+          "seconds": 2917
+        },
+        {
+          "task": "stack_bowls_random",
+          "key": "stack_bowls_random/arx_x5",
+          "seconds": 2146
+        },
+        {
+          "task": "pour_liquid_into_cup_random",
+          "key": "pour_liquid_into_cup_random/arx_x5",
+          "seconds": 1798
+        },
+        {
+          "task": "push_T_random",
+          "key": "push_T_random/arx_x5",
+          "seconds": 1593
+        }
+      ]
+    },
+    {
+      "worker": 5,
+      "gpu": 6,
+      "port": 63165,
+      "tasks": [
+        {
+          "task": "classify_objects_by_language",
+          "key": "classify_objects_by_language/arx_x5",
+          "seconds": 4955
+        },
+        {
+          "task": "store_tools_in_toolbox",
+          "key": "store_tools_in_toolbox/arx_x5",
+          "seconds": 3783
+        },
+        {
+          "task": "make_toast",
+          "key": "make_toast/arx_x5",
+          "seconds": 3781
+        },
+        {
+          "task": "pack_objects_into_box",
+          "key": "pack_objects_into_box/arx_x5",
+          "seconds": 2725
+        },
+        {
+          "task": "arrange_largest_number",
+          "key": "arrange_largest_number/arx_x5",
+          "seconds": 2346
+        },
+        {
+          "task": "stack_bowls",
+          "key": "stack_bowls/arx_x5",
+          "seconds": 1806
+        },
+        {
+          "task": "hang_mugs",
+          "key": "hang_mugs/arx_x5",
+          "seconds": 1734
+        }
+      ]
+    },
+    {
+      "worker": 6,
+      "gpu": 7,
+      "port": 63166,
+      "tasks": [
+        {
+          "task": "classify_objects",
+          "key": "classify_objects/arx_x5",
+          "seconds": 4881
+        },
+        {
+          "task": "make_toast_random",
+          "key": "make_toast_random/arx_x5",
+          "seconds": 3775
+        },
+        {
+          "task": "swap_blocks",
+          "key": "swap_blocks/arx_x5",
+          "seconds": 2941
+        },
+        {
+          "task": "put_bottles_into_dustbin",
+          "key": "put_bottles_into_dustbin/arx_x5",
+          "seconds": 2887
+        },
+        {
+          "task": "play_Xylophone",
+          "key": "play_Xylophone/arx_x5",
+          "seconds": 2174
+        },
+        {
+          "task": "fold_clothes_random",
+          "key": "fold_clothes_random/arx_x5",
+          "seconds": 1858
+        },
+        {
+          "task": "deposit_coin",
+          "key": "deposit_coin/arx_x5",
+          "seconds": 1373
+        },
+        {
+          "task": "stack_blocks",
+          "key": "stack_blocks/arx_x5",
+          "seconds": 1252
+        }
+      ]
+    },
+    {
+      "worker": 7,
+      "gpu": 7,
+      "port": 63167,
+      "tasks": [
+        {
+          "task": "build_tower",
+          "key": "build_tower/arx_x5",
+          "seconds": 4750
+        },
+        {
+          "task": "fill_pen_holder",
+          "key": "fill_pen_holder/arx_x5",
+          "seconds": 4698
+        },
+        {
+          "task": "cover_blocks",
+          "key": "cover_blocks/arx_x5",
+          "seconds": 3837
+        },
+        {
+          "task": "pour_balls_into_vase",
+          "key": "pour_balls_into_vase/arx_x5",
+          "seconds": 2509
+        },
+        {
+          "task": "hang_mugs_random",
+          "key": "hang_mugs_random/arx_x5",
+          "seconds": 2047
+        },
+        {
+          "task": "solve_equation",
+          "key": "solve_equation/arx_x5",
+          "seconds": 1867
+        },
+        {
+          "task": "fold_clothes",
+          "key": "fold_clothes/arx_x5",
+          "seconds": 1435
+        }
+      ]
+    }
+  ],
+  "checkpoint_revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+  "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+  "checkpoint_manifest_sha256": {
+    "0": "ed5ae22eca4e6ed1bb3bc3438e6470752694f1dc738acabc323b47c18e7a7933",
+    "1": "ea51283b62f664fc7187ee32018394206fc61841a203493ff5cae50243177a79",
+    "2": "f045a21ae4652d8313279d0d167fbe573b72f73028f97eefca8335dc364818d9"
+  },
+  "checkpoint_files": {
+    "0": [
+      {
+        "path": "_CHECKPOINT_METADATA",
+        "size": 426,
+        "sha256": "611068068c5c4b85052e57cc1f89766349182ab736ff96dfc1b2612bb16e427e"
+      },
+      {
+        "path": "assets/arx_x5_sim/norm_stats.json",
+        "size": 3407,
+        "sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5"
+      },
+      {
+        "path": "params/_METADATA",
+        "size": 23491,
+        "sha256": "f7b1dbf26ce9466c9d444c3a7f60dfe21767b3abc3380a455e841972eae4f274"
+      },
+      {
+        "path": "params/_sharding",
+        "size": 18258,
+        "sha256": "77b1fa6b2c8d2a16a94d19eb268bed916c6913565421fdf6312453ac6c4fc621"
+      },
+      {
+        "path": "params/array_metadatas/process_0",
+        "size": 9058,
+        "sha256": "2b650291cb689bb0504470bf03a071c40ae96e203667b89cead0c6adb2d6288f"
+      },
+      {
+        "path": "params/d/e9268d0868cc79dc08071adee3ba67f5",
+        "size": 42398,
+        "sha256": "9482acdbb1250cf3344fad3c8be7f587ba3770441198e7d60f357702486ac2c8"
+      },
+      {
+        "path": "params/manifest.ocdbt",
+        "size": 120,
+        "sha256": "634fea47615fa13f4c0852dc13b05d897ee1694a473d9d0605d02b834fd2befe"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/0a05b3b4870f64154af3641ef1c1eecf",
+        "size": 2284789865,
+        "sha256": "429161d8ab2ac9d13b72095d8b5be5ffba8f99302b12bb2cae149d1ee0a148b0"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/1fbec215d6341f33f041c6145ee3756f",
+        "size": 1200,
+        "sha256": "cdf1415e6f30a9827e52e6d5442b5f819dadbaba7c8e941773290cfc2742f249"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/3749fcdb2abf24595f8ca06ee208e773",
+        "size": 560077054,
+        "sha256": "23ddd7f53b976bd27b1a62a83ad1499925a8a2e90a5b0545affd63c7bbd52bbc"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/42eb48ef345d0e30b95bc9e2a194adc8",
+        "size": 2520305970,
+        "sha256": "41eb65bde7e3d16f63ac71ac80bc4547bdcf3107c41af70ac5174992bd38b709"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/5dd44e9e6c20354d58016a470210b404",
+        "size": 109402,
+        "sha256": "d096237d5373dc120004174e89dc44a341fdffdcc7457d568d0b841700ff2ade"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/a66e531837010ca0fb32ecd927335e53",
+        "size": 2343282541,
+        "sha256": "522d9057a70c021327d3c76132377aa0e6c323feb4dea4db0b8ccb16fc7980f4"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/ce1637cf430319dc033526f7e32d833e",
+        "size": 2165726013,
+        "sha256": "93e3eb49cbbcae7b3e424c4e19a11262ee118355a4676a62681ec2e26fccbc16"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/d7a5b27d8a8c4f63cc9dfe9d12d5e2d3",
+        "size": 232,
+        "sha256": "437c63711361d678a44b06455d0124a50ec79d9ee0bafe2ada78e41d79360fa6"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/d931aec2d1d586717a28915e6c710676",
+        "size": 2240108427,
+        "sha256": "1a8834dd2a575ce5f8bfa7be2fbd554cca261cdf997d928c5a719e77174b1d83"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/fbf78c71d75f5d3cb7ef11cd9cde9ab0",
+        "size": 326494172,
+        "sha256": "9c268e5dfc2248b4c75ae5ccbf2f23a196b2cd55ee798707c0bef5d4b3f6b653"
+      },
+      {
+        "path": "params/ocdbt.process_0/manifest.ocdbt",
+        "size": 368,
+        "sha256": "b2117af3ce683fba15add35bdd5596df488e816ec4c5bcef1a82161a965115bd"
+      }
+    ],
+    "1": [
+      {
+        "path": "_CHECKPOINT_METADATA",
+        "size": 426,
+        "sha256": "638a0e6935135ec9d436776f4af4dda56dc5962a7e2cd34a1a6ad9114695f41f"
+      },
+      {
+        "path": "assets/arx_x5_sim/norm_stats.json",
+        "size": 3407,
+        "sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5"
+      },
+      {
+        "path": "params/_METADATA",
+        "size": 23491,
+        "sha256": "f7b1dbf26ce9466c9d444c3a7f60dfe21767b3abc3380a455e841972eae4f274"
+      },
+      {
+        "path": "params/_sharding",
+        "size": 18258,
+        "sha256": "77b1fa6b2c8d2a16a94d19eb268bed916c6913565421fdf6312453ac6c4fc621"
+      },
+      {
+        "path": "params/array_metadatas/process_0",
+        "size": 9058,
+        "sha256": "2b650291cb689bb0504470bf03a071c40ae96e203667b89cead0c6adb2d6288f"
+      },
+      {
+        "path": "params/d/89285a5911edebedd5797c11667f33da",
+        "size": 41261,
+        "sha256": "9f59a60a396b467a1786cadf9361bad7d5915b2975e92c6fe889cf0dc0812c80"
+      },
+      {
+        "path": "params/manifest.ocdbt",
+        "size": 120,
+        "sha256": "9f5648e8fbf427b078cfd3cd13e50f755a0dcc5ddac3adb4eb8f0bc2c582ad2d"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/1aee732b00629ab2fed18ca4fd614579",
+        "size": 2205136951,
+        "sha256": "6cfb78dfb5f8e501163cbb50280fe49a4a89b96684cc787d858ace7c4eea9adf"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/43ced751db472f885d6a154e21e88ee2",
+        "size": 2190423430,
+        "sha256": "83beecb701e6dc3238b0c395cad40429cfc36b0bda251867654e631acb611b6d"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/4427867c6a53e33584db42764f9ddd5f",
+        "size": 2240070479,
+        "sha256": "29a4bca4e2305c33b1712b80df3debbf323f9128a4a86fa4573215c9a83883a4"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/5d00ca52ba2b67a4fad5e015e0ad5375",
+        "size": 1096,
+        "sha256": "50b8906e9cc8d2fff4cb39a95657c0386280b6dad14e836ef7e78b266690570e"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/614a274e624cbc0fef88d04577d6e026",
+        "size": 2294926271,
+        "sha256": "52c99bc9bfb841eaa319510c336c207e83682d8e1abd2dee690ca5d50b6b2be2"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/6613df0d65b57fcf45f3079de6deba83",
+        "size": 217,
+        "sha256": "1e99d5876e6b8db2e12c43c8079f6b98cffac2c26bbd84e59cc505e983d146d2"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/bd18bc8b33942a045e5791a3fdcc759b",
+        "size": 41244,
+        "sha256": "36b28e8f3b5b76f6b1a5847f2bd85fced4cb67d3aff91ec9bb92283b7f6c3a50"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/d42134e5c665a1d7f33d13219fb7d3d0",
+        "size": 989916396,
+        "sha256": "d713cf200fe39dca51e3f81d1885d0d9fa585343c0a46e36591db24ed4952f2d"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/e094b8adf136f87e427199cf442771dc",
+        "size": 694,
+        "sha256": "e4dcf8ae72a07b2c8251c1c11c8eb9a7c549003e8fb13fd73a43477cbfce5c97"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/e221003166e0afc41006c94699b38609",
+        "size": 2520150842,
+        "sha256": "ee885467103b820631df38c4d1c663ebf63743aaf54e2c81f0d4e66b866cd79b"
+      },
+      {
+        "path": "params/ocdbt.process_0/manifest.ocdbt",
+        "size": 344,
+        "sha256": "075aa04004d44724b58723c2d0c88de8b24390d6bf832c1c6f52f0a62726fbb0"
+      }
+    ],
+    "2": [
+      {
+        "path": "_CHECKPOINT_METADATA",
+        "size": 426,
+        "sha256": "ca057b9e49e91667f97794fa1127cae906b9a29fe7540583f988e5cd56ee871a"
+      },
+      {
+        "path": "assets/arx_x5_sim/norm_stats.json",
+        "size": 3407,
+        "sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5"
+      },
+      {
+        "path": "params/_METADATA",
+        "size": 23491,
+        "sha256": "f7b1dbf26ce9466c9d444c3a7f60dfe21767b3abc3380a455e841972eae4f274"
+      },
+      {
+        "path": "params/_sharding",
+        "size": 18258,
+        "sha256": "77b1fa6b2c8d2a16a94d19eb268bed916c6913565421fdf6312453ac6c4fc621"
+      },
+      {
+        "path": "params/array_metadatas/process_0",
+        "size": 9058,
+        "sha256": "2b650291cb689bb0504470bf03a071c40ae96e203667b89cead0c6adb2d6288f"
+      },
+      {
+        "path": "params/d/d20925706847d9aa1b3f8975657dd8db",
+        "size": 41420,
+        "sha256": "cc1b767e55737c1c8a729058c3f77c8ccce3402c32eed5f240834f193a1258f0"
+      },
+      {
+        "path": "params/manifest.ocdbt",
+        "size": 120,
+        "sha256": "56cfb55d1aa813e696101697c94253d485da2d3817e717e242259e331618f6ed"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/1121abfc013780b3234a792a8f8d864f",
+        "size": 2240131011,
+        "sha256": "af057ba646d33fc11f83073e55e98fb66c98a58a3537f36f5160b4c07b8183d7"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/2258f0b11848410778f637b49f2165ed",
+        "size": 113023953,
+        "sha256": "cbc74e4777b10fc6f62c42529c8f6a45c15d6a19b307a671a98f6088054df468"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/2e1fd4da5a5790c8b35773cdbe4a64e0",
+        "size": 217,
+        "sha256": "1e99d5876e6b8db2e12c43c8079f6b98cffac2c26bbd84e59cc505e983d146d2"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/343b9bf086462536a1857a285c8d8f8a",
+        "size": 560078364,
+        "sha256": "1872f07327804bf06c2b27087f74fafdf521c1c83586de0a1d9a86602c5c8b09"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/365e9e525bb0e4fd4b204dc21b61a2e0",
+        "size": 1120093130,
+        "sha256": "00aacb1d2df498efb5efa7b47a08c8dcb777fc6c4ce08b7e03c9ad5a8a59b314"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/4e7e51e46590cdcc635b2fb4458b40ca",
+        "size": 1114976039,
+        "sha256": "9d277e638ca05cd979234ba434660b37d77677d78474553540fc1514e9ce1aaa"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/51e2c9fb3b93b205eb74ba8afad3ef94",
+        "size": 5578,
+        "sha256": "c612b1abfa030e3fc002715d0b3996f0dbae737b9ab9f9fd029d113f3e64a048"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/5dd8709edb353c8f006315a649769d4f",
+        "size": 343788108,
+        "sha256": "a2e6de08f86e1739af38bd834c6c1d839ef46c9aefbeb2eb615039df1a2ddd42"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/8568400b1d9aad3772bc4ea5eb3e43f0",
+        "size": 40864,
+        "sha256": "8e1b15b1eb729e6d10a48a156785e9713e7eb21a61c2617a1ce4ae3e79411596"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/aa36e6f3f00dc6c071b61cf74ae1ee2a",
+        "size": 1096,
+        "sha256": "50b8906e9cc8d2fff4cb39a95657c0386280b6dad14e836ef7e78b266690570e"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/b406f85e628081256bd2160095a2fb05",
+        "size": 1680447332,
+        "sha256": "9f46d6acade2b0eca87c4c7b8aa67f1ff0eb2824c06bf57ca6b390eb36d70e95"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/bccac9b7ff11a3d65f440183349e0cb6",
+        "size": 244705136,
+        "sha256": "35a2a655991bb3db55f21e5ba866d116288c6219d039c52d993f465ae574046f"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/c7ed2fbbe47d4ad52255024dcf2d5bf8",
+        "size": 2191332464,
+        "sha256": "cb4537bf18d8c34cf5773d57e3a080913d4673d94ba6a1c7e7b98208c59150de"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/dbacb492c822af0f38289a15c7d17e5a",
+        "size": 1783160110,
+        "sha256": "3c397ab04cac35bf28a028029f516e5bcd546d6ee7257f5a40325e8aee1507ce"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/e089164939da7a10c13af2b2c09a055e",
+        "size": 489357229,
+        "sha256": "f1432b5b5113a91596108d61bbd7c35a312319312a4c087d5ca5c01cdb998f44"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/eaf28c80c38136f0743db19975639a5d",
+        "size": 41411,
+        "sha256": "5f69891d9a1491d25880b518eb22917ba753cfdb595d189b28a14c705b59cdd8"
+      },
+      {
+        "path": "params/ocdbt.process_0/d/ed7d868aa8ba78650300e275b87affdd",
+        "size": 560072632,
+        "sha256": "c6e028ecfebe9127070191ab7b30de16916fe93cb9d6b35d9660e130e2fd77f8"
+      },
+      {
+        "path": "params/ocdbt.process_0/manifest.ocdbt",
+        "size": 767,
+        "sha256": "dd45f2a45d99c97dee486b171760c0ef8e592d4606e0709f748674e776dfbe7f"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 579993,
+  "uid": 1003,
+  "ppid": 560867,
+  "start_ticks": 382191540,
+  "command_sha256": "8b20fd45bbde905f62cffbb5202e571f6dcd75421fa61d97d73b6bcd157b0b2b",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu7/seed0/worker3/tasks/store_laptop_and_headphones_random/recovery-1790934739179603107-0/command-1790934739179603107.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random",
+  "role": "client"
+}

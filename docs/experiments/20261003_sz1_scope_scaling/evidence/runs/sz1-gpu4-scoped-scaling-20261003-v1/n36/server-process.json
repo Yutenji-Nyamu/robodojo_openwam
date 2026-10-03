@@ -1,0 +1,11 @@
+{
+  "pid": 3954813,
+  "uid": 1003,
+  "ppid": 3581206,
+  "start_ticks": 392619143,
+  "command_sha256": "7e6a9fb854b690c8b9256d10443cbd93bbb5d025e91ec4e87e0285bc5338a626",
+  "command": "bash /srv/dojo/runs/sz1-gpu4-scoped-scaling-20261003-v1/n36/server.sh ",
+  "sweep_id": "sz1-gpu4-scoped-scaling-20261003-v1",
+  "run_id": "sz1-gpu4-scoped-scaling-20261003-v1-n36-server",
+  "role": "server"
+}

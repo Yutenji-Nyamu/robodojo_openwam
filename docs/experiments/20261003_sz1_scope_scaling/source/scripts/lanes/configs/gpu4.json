@@ -1,0 +1,31 @@
+{
+  "project": "/srv/dojo",
+  "repo": "/srv/dojo/RoboDojo",
+  "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+  "uid": 1003,
+  "dojo_head": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+  "xpl_head": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "policy_env": "/srv/dojo/envs/openwam",
+  "sim_env": "/srv/dojo/envs/RoboDojo",
+  "project_env": "/srv/dojo/project-env.sh",
+  "conda_profile": "/home/researcher/miniforge3/etc/profile.d/conda.sh",
+  "compat_script": "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py",
+  "checkpoint": "/srv/dojo/checkpoints/OpenWAM-Alpha-Sim-RoboDojo",
+  "checkpoint_revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+  "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+  "ports": [
+    63140,
+    63141,
+    63142,
+    63143,
+    63144,
+    63145,
+    63146,
+    63147
+  ],
+  "idle_gpu_memory_mib": 512,
+  "asset_run_directory": "full-assets-sz1-20261001",
+  "workers_per_gpu": 1,
+  "lane_gpu": 4,
+  "control_dir": "/srv/dojo/runs/sz2_openwam_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu4"
+}

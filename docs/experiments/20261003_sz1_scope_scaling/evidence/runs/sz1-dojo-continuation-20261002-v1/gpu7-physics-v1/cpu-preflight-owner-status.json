@@ -1,0 +1,28 @@
+{
+  "owner_id": "gpu7-physics-v1",
+  "host": "admin",
+  "uid": 1003,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "identity": {
+    "pid": 1074490,
+    "uid": 1003,
+    "start_ticks": 383592713,
+    "cmdline_sha256": "d35c5fa206d1e89a4b54c6c316412aba3c412fe3eecc31cf6d3b9a0dea017f21"
+  },
+  "created_at": 1790949214.4060454,
+  "stage": "WAITING_FOR_PREPARATION",
+  "rlt_untouched": true,
+  "lanes": {
+    "7": {
+      "gpu": 7,
+      "state": "WAITING"
+    }
+  },
+  "previous_owner": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix",
+  "deployment": {
+    "path": "/srv/dojo/deployment-ready.json",
+    "sha256": "04720fe5fec151831d631c0ba4d457fe78ecfc1a05f31743f7c677a116cbf24e"
+  },
+  "fresh_preflight_at": 1790949215.0897567,
+  "updated_at": 1790949215.089763
+}

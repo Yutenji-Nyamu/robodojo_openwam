@@ -1,0 +1,12 @@
+{
+  "identity": {
+    "pid": 3531732,
+    "uid": 1003,
+    "start_ticks": 391495592,
+    "cmdline_sha256": "1f7a5f6e586c9fdf4593959f11b1fbb5c873c900f14be56bf292f5bb0bf47918"
+  },
+  "gpu": 4,
+  "phase": "PROBE_RECOVERY",
+  "time": 1791029294.8154097,
+  "error": "RuntimeError('GPU not empty and healthy; no automatic reset: {\"gpu\": 4, \"uuid\": \"GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5\", \"processes\": [3557734], \"gpu_recovery_action\": \"None\", \"memory_mib\": 24, \"checked_at\": 1791029294.8119025}')"
+}

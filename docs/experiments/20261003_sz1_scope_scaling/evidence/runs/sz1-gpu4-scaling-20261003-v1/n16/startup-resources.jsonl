@@ -1,0 +1,5 @@
+{"time": 1791025827.3526595, "ram": {"rss_kib": 7712, "pss_kib": 820, "cpu_ticks": 32, "pids": 4, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 2020981032}, "missing": []}}
+{"time": 1791025848.573796, "ram": {"rss_kib": 11647552, "pss_kib": 11401563, "cpu_ticks": 3869, "pids": 2, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 2009611020}, "missing": []}}
+{"time": 1791025869.4902408, "ram": {"rss_kib": 15188500, "pss_kib": 14941679, "cpu_ticks": 22876, "pids": 2, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 2006033260}, "missing": []}}
+{"time": 1791025890.6000695, "ram": {"rss_kib": 32931928, "pss_kib": 32685107, "cpu_ticks": 24961, "pids": 2, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 1987779676}, "missing": []}}
+{"time": 1791025911.6209853, "ram": {"rss_kib": 23137844, "pss_kib": 22890959, "cpu_ticks": 38028, "pids": 2, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 1998149912}, "missing": []}}

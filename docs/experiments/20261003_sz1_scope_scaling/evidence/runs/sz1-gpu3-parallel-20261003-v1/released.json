@@ -1,0 +1,11 @@
+{
+  "time": 1791011876.7546785,
+  "gpu": {
+    "uuid": "GPU-2f0e1a8f-d784-6388-4e12-d211c97e9174",
+    "memory_mib": 3,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "owned_processes": [],
+  "source_unchanged": true
+}

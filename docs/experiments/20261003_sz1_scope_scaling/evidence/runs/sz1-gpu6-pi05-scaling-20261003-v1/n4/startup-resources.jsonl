@@ -1,0 +1,16 @@
+{"time": 1791028709.6759543, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": {"rss_kib": 65628, "pss_kib": 55459, "cpu_ticks": 31, "pids": 4, "node_kib": {"MemTotal": 2113418768, "MemAvailable": 2017156820}, "missing": []}}
+{"time": 1791028710.826894, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028711.9877994, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028713.1361945, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028714.304514, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028715.4483876, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 8, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028716.5996017, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 45, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028717.7621443, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24877, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028718.90777, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24877, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028720.0487032, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24877, "utilization": 3, "recovery": "None"}, "ram": null}
+{"time": 1791028721.2008822, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24879, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028722.3440354, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24881, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028723.4847538, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24881, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028724.6259313, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24881, "utilization": 0, "recovery": "None"}, "ram": null}
+{"time": 1791028725.7630284, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24885, "utilization": 3, "recovery": "None"}, "ram": null}
+{"time": 1791028726.9136276, "gpu": {"gpu": 6, "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2", "memory_mib": 24885, "utilization": 0, "recovery": "None"}, "ram": null}

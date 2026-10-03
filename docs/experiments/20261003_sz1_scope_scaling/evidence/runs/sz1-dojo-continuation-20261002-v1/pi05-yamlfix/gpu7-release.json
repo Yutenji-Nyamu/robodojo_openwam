@@ -1,0 +1,202 @@
+{
+  "cycle_id": "rlt-cycle-pi05-yamlfix-gpu7",
+  "gpus": [
+    7
+  ],
+  "terminal_status": "failed",
+  "all_workers_stopped": true,
+  "managed_processes": [
+    {
+      "pid": 560867,
+      "start_ticks": 382145776,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 560899,
+      "start_ticks": 382146018,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 560983,
+      "start_ticks": 382146139,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 561006,
+      "start_ticks": 382146170,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 562675,
+      "start_ticks": 382148012,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 562691,
+      "start_ticks": 382148047,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 562700,
+      "start_ticks": 382148061,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 566849,
+      "start_ticks": 382157637,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 566919,
+      "start_ticks": 382157641,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 567063,
+      "start_ticks": 382157645,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 579993,
+      "start_ticks": 382191540,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 580014,
+      "start_ticks": 382191578,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 580021,
+      "start_ticks": 382191593,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588026,
+      "start_ticks": 382222674,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588053,
+      "start_ticks": 382222678,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588198,
+      "start_ticks": 382222683,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588414,
+      "start_ticks": 382222688,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588483,
+      "start_ticks": 382222693,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588638,
+      "start_ticks": 382222697,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588855,
+      "start_ticks": 382222703,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 588942,
+      "start_ticks": 382222707,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 589085,
+      "start_ticks": 382222713,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 589259,
+      "start_ticks": 382222718,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 589364,
+      "start_ticks": 382222724,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 589525,
+      "start_ticks": 382222729,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    }
+  ],
+  "gpu_recovery_action": "None",
+  "gpu_health": {
+    "gpu": 7,
+    "uuid": "GPU-00171f89-03fd-5703-b1aa-f5a29f6067ba",
+    "processes": [],
+    "gpu_recovery_action": "None",
+    "memory_mib": 4,
+    "checked_at": 1790935760.9357924
+  },
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "owner_id": "pi05-yamlfix",
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "finished_at": 1790935760.936219,
+  "lane_final": {
+    "path": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu7/final.json",
+    "sha256": "240a60790e039a86e64ac85aa0a762e7fa0339219705649c92b4209ec2b1a2bf"
+  }
+}

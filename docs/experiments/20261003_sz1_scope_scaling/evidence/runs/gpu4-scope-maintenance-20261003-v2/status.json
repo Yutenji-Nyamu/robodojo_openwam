@@ -1,0 +1,13 @@
+{
+  "identity": {
+    "pid": 3580494,
+    "uid": 1003,
+    "start_ticks": 391608903,
+    "cmdline_sha256": "38cfc7c844d205076082ff1ca90db5a316abc8042350c93899aaf051791efa43"
+  },
+  "gpu": 4,
+  "phase": "PROBE",
+  "time": 1791029409.025779,
+  "probe_run": "/srv/dojo/runs/sz1-gpu4-scoped-scaling-20261003-v1",
+  "command_nonce": "ow4-n16-to36-v1"
+}

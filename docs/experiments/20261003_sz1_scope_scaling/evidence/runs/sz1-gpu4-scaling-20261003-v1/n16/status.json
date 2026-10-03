@@ -1,0 +1,37 @@
+{
+  "num_envs": 16,
+  "episodes": 50,
+  "task": "put_bottles_into_dustbin",
+  "seed": 0,
+  "run_id": "sz1-gpu4-scaling-20261003-v1-n16",
+  "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/put_bottles_into_dustbin/OpenWAM/arx_x5/0_ckpt_name=OpenWAM-Alpha-Sim-RoboDojo,action_type=ee/sz1-gpu4-scaling-20261003-v1-n16/_result.json",
+  "gpu_before": {
+    "uuid": "GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5",
+    "memory_mib": 8,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "start": 1791025827.0058815,
+  "server_ready": 1791025925.2284403,
+  "error": "RuntimeError('Operator stop')",
+  "end": 1791028237.604711,
+  "peak_mib": 43975,
+  "actions": 11885,
+  "first_action": 1791026067.4443011,
+  "last_action": 1791028235.7043116,
+  "rss_peak_kib": 41972884,
+  "pss_peak_kib": 32685107,
+  "node_available_min_kib": 1987779676,
+  "action_gpu_util_mean": 40.254658385093165,
+  "cleanup": [
+    "/srv/dojo/runs/sz1-gpu4-scaling-20261003-v1/cleanup/1791028237604781472-1c6ddb17.json",
+    "/srv/dojo/runs/sz1-gpu4-scaling-20261003-v1/cleanup/1791028260029355612-60190498.json"
+  ],
+  "gpu_after": {
+    "uuid": "GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5",
+    "memory_mib": 8,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "state": "FAILED"
+}

@@ -1,0 +1,13 @@
+{
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+  "uid": 1003,
+  "reason": "before_server_start",
+  "started_at": 1790950285.834166,
+  "initial_targets": [],
+  "initial_scan_complete": true,
+  "actions": [],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1790950287.6699536
+}

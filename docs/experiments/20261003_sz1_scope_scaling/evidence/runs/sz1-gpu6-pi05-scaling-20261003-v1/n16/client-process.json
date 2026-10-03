@@ -1,0 +1,11 @@
+{
+  "pid": 3913920,
+  "uid": 1003,
+  "ppid": 3549314,
+  "start_ticks": 392482081,
+  "command_sha256": "53e35f8e4f4daa5d2de8bc416c208de48c8484b1693d6be7dd4c15e042ec7d32",
+  "command": "bash /srv/dojo/runs/sz1-gpu6-pi05-scaling-20261003-v1/n16/client.sh ",
+  "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+  "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n16",
+  "role": "client"
+}

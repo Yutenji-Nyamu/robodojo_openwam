@@ -1,0 +1,181 @@
+{
+  "time": 1791040467.813467,
+  "processes": [
+    {
+      "pid": 3593659,
+      "uid": 1003,
+      "ppid": 3552451,
+      "start_ticks": 391636167,
+      "command_sha256": "a40cad8486c20dd435ae1a76758a436fa09891fb38b3fc3995dc4ce41e4f6a6b",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task make_toast_random --ckpt sim --env-cfg arx_x5 --action-type joint --seed 1 --policy-env uv --policy-gpu 7 --policy-port 63166 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w6_server",
+      "role": "server"
+    },
+    {
+      "pid": 3594664,
+      "uid": 1003,
+      "ppid": 3593659,
+      "start_ticks": 391636203,
+      "command_sha256": "d8084271f7cf0f67bc163f0314dd719f26fe46ace6e614d648506022ff60b8e1",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=63166 host=127.0.0.1 bench_name=RoboDojo task_name=make_toast_random ckpt_name=sim env_cfg_type=arx_x5 seed=1 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_w6_server",
+      "role": "server"
+    },
+    {
+      "pid": 3896364,
+      "uid": 1003,
+      "ppid": 1,
+      "start_ticks": 392422570,
+      "command_sha256": "eb72110ce230448a28667f653bacc96905f8b08a85f792fcab001a19b0085635",
+      "command": "python -u src/eval_client/main.py --task_name put_bottles_into_dustbin --env_cfg_type arx_x5 --num_envs 4 --enable_cameras --kit_args  --enable isaacsim.replicator.behavior --enable isaacsim.sensors.camera --/renderer/multiGpu/enabled=false --/renderer/activeGpu=7 --device_id 7 --policy_name Pi_05 --port 63166 --protocol ws --policy_server_url ws://127.0.0.1:63166 --additional_info ckpt_name=sim,action_type=joint --seed 1 --host 127.0.0.1 --headless ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 3896712,
+      "uid": 1003,
+      "ppid": 1,
+      "start_ticks": 392423014,
+      "command_sha256": "1e95092bdf821642e8e340251ae0bd53771449cbe6c71e5dd5b6c05a351c2b0c",
+      "command": "/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.kit.telemetry-0.5.2+69cbf6ad.lx64.r.cp311/omni.telemetry.transmitter/omni.telemetry.transmitter --/telemetry/enableAnonymousAppName=true --/telemetry/enableAnonymousData=true --/telemetry/useOpenEndpoint=true --/telemetry/mode=\"\" --/telemetry/logging/warnFilter/0=\"*\" --/telemetry/enableNVDF=false --/telemetry/enableSentry=false --/telemetry/removePIISentry=false --/telemetry/appRootPath=\"\" --/telemetry/dsn=\"https://b61f14dfc36f4beabadf4d9dba8e492b@sentry.perflab.nvidia.com/834\" --/telemetry/openEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector\" --/telemetry/openTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-test-open-collector\" --/telemetry/enterpriseOpenEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-open-collector\" --/telemetry/enterpriseOpenTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-test-open-collector\" --/log/outputStreamLevel=\"Warning\" --/log/debugConsoleLevel=\"Warning\" --/log/fileLogLevel=\"Info\" --/log/fileMaxCount=30 --/log/includeTimeStamp=true --/log/setElapsedTimeUnits=\"milliseconds\" --/log/enabled=true --/log/async=false --/log/fileFlushLevel=\"verbose\" --/log/flushStandardStreamOutput=false --/log/enableDebugConsoleOutput=true --/log/enableColorOutput=true --/log/processGroupId=0 --/log/includeSource=true --/log/includeChannel=true --/log/includeFilename=false --/log/includeLineNumber=false --/log/includeFunctionName=false --/log/includeThreadId=false --/log/includeProcessId=false --/log/includeTraceId=false --/log/detail=false --/log/fullDetail=false --/log/forceAnsiColor=false --/log/fileAppend=false --/log/utcTimestamp=true --/log/microsecondTimestamp=false --/log/enableStandardStreamOutput=false --/log/file=/home/researcher/.nvidia-omniverse/logs/omni.telemetry.transmitter.log --/log/level=Info --/log/file=/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/omni.telemetry.transmitter.log --/log/level=Warning --/privacy/personalization=true --/privacy/performance=true --/privacy/usage=true --/privacy/userId=f24f5c4c9e9e4697 --/telemetry/extraFieldsToAdd=schemaid --/structuredLog/extraFields/schemaid=omniverse-team.open.omni-open-collector:1 --/telemetry/runEnvironment=Individual --/telemetry/transmitter/0/authenticate=false --/telemetry/transmitter/0/eventProtocol=defaultWithList --/telemetry/transmitter/0/endpoint=https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4000940,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392713993,
+      "command_sha256": "d77ea3e8373399f2f934a1c98e01704cdde608ea58d1c49217c2b04d31d3dc5f",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env0_cam_head.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4000965,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392713999,
+      "command_sha256": "ba4a4642193917c3cda1e963657159135a152cf469fa7ec685183a75ed703aab",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env0_cam_left_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001116,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714005,
+      "command_sha256": "7e1cb1d98691166744a90ecf73b464b887d397cfb9ea6e26f110871cecec766b",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env0_cam_right_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001322,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714011,
+      "command_sha256": "adf1ef0bfa82db1851f3183896f16549cf036ab0015fb54d8587d08d16a3ea4f",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env1_cam_head.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001421,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714016,
+      "command_sha256": "36a2420e12e33a73741425fdbde2316fe550db733120f88097596e844327a56e",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env1_cam_left_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001559,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714022,
+      "command_sha256": "c529b3e7d5925e67e51bccb72c6a500141788145c5ee0bd98e9af04e041aed0d",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env1_cam_right_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001738,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714028,
+      "command_sha256": "a66b01c53915ae05ace9ed95366720b6faef935b150662f7e3a3aededa13bf7a",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env2_cam_head.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4001843,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714033,
+      "command_sha256": "bab9558791ce6c8ea30e52249158cfab6fa0420c4589dadf4202d0dd072198ba",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env2_cam_left_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4002004,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714039,
+      "command_sha256": "4fb9c1f91d0afb54e94a05e9de0b718f578185f97455e3d6a934d320c20a887e",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env2_cam_right_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4002216,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714046,
+      "command_sha256": "74813c9a05107599a67829b706d5f6ad3aa7c445fe92b32de3a153bd53e45c91",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env3_cam_head.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4002312,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714052,
+      "command_sha256": "7c6dc52244e37f9534a71c81390fc289762b5707fe9e7c19183e1bcf55c284e7",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env3_cam_left_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    },
+    {
+      "pid": 4002439,
+      "uid": 1003,
+      "ppid": 3896364,
+      "start_ticks": 392714057,
+      "command_sha256": "2dd2d2c8e086bb640df61ee44d26d2297ea6055481bcfce81f90093e4b545b35",
+      "command": "ffmpeg -y -loglevel error -f rawvideo -pixel_format rgb24 -video_size 640x480 -framerate 25 -i - -pix_fmt yuv420p -vcodec libx264 -crf 23 eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/1_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin/_stream/env3_cam_right_wrist.tmp.mp4 ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_put_bottles_into_dustbin",
+      "role": "client"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "owner_id": "sz1-dojo-continuation-20261002-v1",
+  "host": "admin",
+  "uid": 1003,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "identity": {
+    "pid": 3577190,
+    "uid": 1003,
+    "start_ticks": 391602541,
+    "cmdline_sha256": "ad317436c1a04279c2355a3eac4a45344eef37f616d808a60277bb3bbeb14270"
+  },
+  "created_at": 1790911960.3936887,
+  "stage": "RUNNING",
+  "rlt_untouched": false,
+  "lanes": {
+    "4": {
+      "gpu": 4,
+      "state": "MAINTENANCE_IDLE_AFTER_PROBE",
+      "sweep_id": "sz2_openwam_official_6300_n4_dual_20260929_r2:sz1:gpu4",
+      "managed_processes": [
+        {
+          "pid": 504939,
+          "uid": 1003,
+          "ppid": 3881745,
+          "start_ticks": 382019032,
+          "command_sha256": "e5e21aadd70f3ef0f375eec291195b8e35e72445dbfaa65e1667d7e4e2379e82",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/envs/openwam/bin/python -u -B /srv/dojo/scripts/lanes/openwam/dojo_sweep.py --config /srv/dojo/scripts/lanes/configs/gpu4.json ",
+          "sweep_id": "sz2_openwam_official_6300_n4_dual_20260929_r2:sz1:gpu4",
+          "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/envs/openwam/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/openwam/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/scripts/lanes/configs/gpu4.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu4-dojo.log",
+      "started_at": 1790933471.2792275,
+      "pause_requested_at": 1791020605.60389,
+      "probe_run": "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1",
+      "maintenance_phase": "IDLE_AFTER_COMPLETE_PROBE",
+      "ready_deadline": 1791030070.7689552,
+      "command_nonce": "scope4-real-rgb-v1",
+      "error": "RuntimeError('GPU not empty and healthy; no automatic reset: {\"gpu\": 4, \"uuid\": \"GPU-9200fbe8-fdd0-93ae-c221-5f0e9d318bf5\", \"processes\": [3557734], \"gpu_recovery_action\": \"None\", \"memory_mib\": 24, \"checked_at\": 1791029294.8119025}')",
+      "maintenance_idle_receipt": {
+        "directory": "/srv/dojo/runs/gpu4-scope-maintenance-20261003-v1",
+        "probe_run": "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1",
+        "nonce": "scope4-real-rgb-v1",
+        "files": {
+          "/srv/dojo/runs/gpu4-scope-maintenance-20261003-v1/pause-proof.json": "85d51dad63c0279214e7713f95bbee2f1e689599196b83cd7b2e974db2e23d99",
+          "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1/summary.json": "0065ba35e83dae50ff5a5e203e456ebd7a02bd8fca18c38890e0d8c4a9f5ad0e",
+          "/srv/dojo/runs/sz1-gpu4-scope-diagnostic-20261003-v1/released.json": "6080f0237b14c2e15bf694396efdffc25ac0b2a45fac8f4bd3192c00e1da07f6",
+          "/srv/dojo/runs/gpu4-scope-maintenance-20261003-v1/probe-scope4-real-rgb-v1-identity.json": "f71e3a09a1b905c9163d965627aea55993f1710e8b480b6f914b15fd48965f9e"
+        }
+      }
+    },
+    "5": {
+      "gpu": 5,
+      "state": "DOJO_RUNNING",
+      "sweep_id": "sz2_openwam_official_6300_n4_dual_20260929_r2:sz1:gpu5",
+      "managed_processes": [
+        {
+          "pid": 3578093,
+          "uid": 1003,
+          "ppid": 3577190,
+          "start_ticks": 391606511,
+          "command_sha256": "a9e0a88a05f961dd200787baf55785e33f4f6f73859d2e875e91c6e39153eeeb",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 4 /srv/dojo/envs/openwam/bin/python -u -B /srv/dojo/scripts/lanes/openwam/dojo_sweep.py --config /srv/dojo/scripts/lanes/configs/gpu5.json ",
+          "sweep_id": "sz2_openwam_official_6300_n4_dual_20260929_r2:sz1:gpu5",
+          "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/envs/openwam/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/openwam/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/scripts/lanes/configs/gpu5.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu5-dojo.log",
+      "started_at": 1791029346.0656986,
+      "maintenance_phase": "FORMAL_RESUMED",
+      "ready_deadline": 1791031118.29846
+    },
+    "6": {
+      "gpu": 6,
+      "state": "RLT_RESTORED",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "managed_processes": [
+        {
+          "pid": 508562,
+          "uid": 1003,
+          "ppid": 3881745,
+          "start_ticks": 382027389,
+          "command_sha256": "ac8675a65d1b2be16cf865ef86e633b1eedbd54b0996a5f6b77eb06a5d535371",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python -u -B /srv/dojo/scripts/lanes/pi05/dojo_sweep.py --config /srv/dojo/scripts/lanes/configs/gpu6.json ",
+          "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+          "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/scripts/lanes/configs/gpu6.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu6-dojo.log",
+      "started_at": 1790933554.8498154,
+      "owner_cleanup_receipt": "/srv/dojo/runs/sz3_pi05_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu6/cleanup/1790933592734112317-f54ae5b7.json",
+      "dojo_terminal": "failed",
+      "release_receipt": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu6-release.json",
+      "resumed_at": 1790933604.2205513,
+      "resume_receipt": {
+        "resumed_dispatched": true,
+        "cycle_id": "rlt-cycle-sz1-dojo-continuation-20261002-v1-gpu6",
+        "first_round_validation_pending": true
+      },
+      "verified_at": 1790934108.1527631
+    },
+    "7": {
+      "gpu": 7,
+      "state": "RLT_RESTORED",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "managed_processes": [
+        {
+          "pid": 509490,
+          "uid": 1003,
+          "ppid": 3881745,
+          "start_ticks": 382031178,
+          "command_sha256": "3504ac808a01d7f6044205f81cc1d81fbd67153d4c27050bad1dff5bcf8a12aa",
+          "command": "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python -u -B -c import os,sys; fd=int(sys.argv[1]); b=os.read(fd,1); os.close(fd); b==b\"G\" or sys.exit(125); os.execv(sys.argv[2],sys.argv[2:]) 5 /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python -u -B /srv/dojo/scripts/lanes/pi05/dojo_sweep.py --config /srv/dojo/scripts/lanes/configs/gpu7.json ",
+          "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+          "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+          "role": "controller"
+        }
+      ],
+      "controller_argv": [
+        "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python",
+        "-u",
+        "-B",
+        "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+        "--config",
+        "/srv/dojo/scripts/lanes/configs/gpu7.json"
+      ],
+      "controller_log": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-dojo.log",
+      "started_at": 1790933592.7327397,
+      "owner_cleanup_receipt": "/srv/dojo/runs/sz3_pi05_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu7/cleanup/1790933604222738537-ccf8efa0.json",
+      "dojo_terminal": "failed",
+      "release_receipt": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-release.json",
+      "resumed_at": 1790933618.5832508,
+      "resume_receipt": {
+        "resumed_dispatched": true,
+        "cycle_id": "rlt-cycle-sz1-dojo-continuation-20261002-v1-gpu7",
+        "first_round_validation_pending": true
+      },
+      "verified_at": 1790934113.7856615
+    }
+  },
+  "updated_at": 1791029346.067594,
+  "deployment": {
+    "path": "/srv/dojo/deployment-ready.json",
+    "sha256": "04720fe5fec151831d631c0ba4d457fe78ecfc1a05f31743f7c677a116cbf24e"
+  },
+  "fresh_preflight_at": 1790933323.448627,
+  "handoff": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu4-scaling-20261003-v1",
+  "maintenance": "/srv/dojo/runs/gpu5-scope-maintenance-20261003-v1"
+}

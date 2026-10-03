@@ -1,0 +1,13 @@
+{
+  "identity": {
+    "pid": 3544747,
+    "uid": 1003,
+    "start_ticks": 391527513,
+    "cmdline_sha256": "6645dbffa134618f26900b7b901c463f0a2d57c915917a6baa875d6635a60660"
+  },
+  "gpu": 6,
+  "phase": "PROBE",
+  "time": 1791028708.7332637,
+  "probe_run": "/srv/dojo/runs/sz1-gpu6-pi05-scaling-20261003-v1",
+  "command_nonce": "pi05-n4-to36-v1"
+}

@@ -1,0 +1,54 @@
+{
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_toast_random",
+  "uid": 1003,
+  "reason": "task_attempt_finished_or_stalled",
+  "started_at": 1791032208.1926148,
+  "initial_targets": [
+    {
+      "pid": 3601632,
+      "uid": 1003,
+      "ppid": 1,
+      "start_ticks": 391638257,
+      "command_sha256": "d2d56df941c78542071a6900d8110472cdd4937d23140614683110f334076861",
+      "command": "/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.kit.telemetry-0.5.2+69cbf6ad.lx64.r.cp311/omni.telemetry.transmitter/omni.telemetry.transmitter --/telemetry/enableAnonymousAppName=true --/telemetry/enableAnonymousData=true --/telemetry/useOpenEndpoint=true --/telemetry/mode=\"\" --/telemetry/logging/warnFilter/0=\"*\" --/telemetry/enableNVDF=false --/telemetry/enableSentry=false --/telemetry/removePIISentry=false --/telemetry/appRootPath=\"\" --/telemetry/dsn=\"https://b61f14dfc36f4beabadf4d9dba8e492b@sentry.perflab.nvidia.com/834\" --/telemetry/openEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector\" --/telemetry/openTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-test-open-collector\" --/telemetry/enterpriseOpenEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-open-collector\" --/telemetry/enterpriseOpenTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-test-open-collector\" --/log/outputStreamLevel=\"Warning\" --/log/debugConsoleLevel=\"Warning\" --/log/fileLogLevel=\"Info\" --/log/fileMaxCount=30 --/log/includeTimeStamp=true --/log/setElapsedTimeUnits=\"milliseconds\" --/log/enabled=true --/log/async=false --/log/fileFlushLevel=\"verbose\" --/log/flushStandardStreamOutput=false --/log/enableDebugConsoleOutput=true --/log/enableColorOutput=true --/log/processGroupId=0 --/log/includeSource=true --/log/includeChannel=true --/log/includeFilename=false --/log/includeLineNumber=false --/log/includeFunctionName=false --/log/includeThreadId=false --/log/includeProcessId=false --/log/includeTraceId=false --/log/detail=false --/log/fullDetail=false --/log/forceAnsiColor=false --/log/fileAppend=false --/log/utcTimestamp=true --/log/microsecondTimestamp=false --/log/enableStandardStreamOutput=false --/log/file=/home/researcher/.nvidia-omniverse/logs/omni.telemetry.transmitter.log --/log/level=Info --/log/file=/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/omni.telemetry.transmitter.log --/log/level=Warning --/privacy/personalization=true --/privacy/performance=true --/privacy/usage=true --/privacy/userId=88a29d23ceae0b6d --/telemetry/extraFieldsToAdd=schemaid --/structuredLog/extraFields/schemaid=omniverse-team.open.omni-open-collector:1 --/telemetry/runEnvironment=Individual --/telemetry/transmitter/0/authenticate=false --/telemetry/transmitter/0/eventProtocol=defaultWithList --/telemetry/transmitter/0/endpoint=https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_toast_random",
+      "role": "client"
+    }
+  ],
+  "initial_scan_complete": true,
+  "actions": [
+    {
+      "pid": 3601632,
+      "uid": 1003,
+      "ppid": 1,
+      "start_ticks": 391638257,
+      "command_sha256": "d2d56df941c78542071a6900d8110472cdd4937d23140614683110f334076861",
+      "command": "/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.kit.telemetry-0.5.2+69cbf6ad.lx64.r.cp311/omni.telemetry.transmitter/omni.telemetry.transmitter --/telemetry/enableAnonymousAppName=true --/telemetry/enableAnonymousData=true --/telemetry/useOpenEndpoint=true --/telemetry/mode=\"\" --/telemetry/logging/warnFilter/0=\"*\" --/telemetry/enableNVDF=false --/telemetry/enableSentry=false --/telemetry/removePIISentry=false --/telemetry/appRootPath=\"\" --/telemetry/dsn=\"https://b61f14dfc36f4beabadf4d9dba8e492b@sentry.perflab.nvidia.com/834\" --/telemetry/openEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector\" --/telemetry/openTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-test-open-collector\" --/telemetry/enterpriseOpenEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-open-collector\" --/telemetry/enterpriseOpenTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-test-open-collector\" --/log/outputStreamLevel=\"Warning\" --/log/debugConsoleLevel=\"Warning\" --/log/fileLogLevel=\"Info\" --/log/fileMaxCount=30 --/log/includeTimeStamp=true --/log/setElapsedTimeUnits=\"milliseconds\" --/log/enabled=true --/log/async=false --/log/fileFlushLevel=\"verbose\" --/log/flushStandardStreamOutput=false --/log/enableDebugConsoleOutput=true --/log/enableColorOutput=true --/log/processGroupId=0 --/log/includeSource=true --/log/includeChannel=true --/log/includeFilename=false --/log/includeLineNumber=false --/log/includeFunctionName=false --/log/includeThreadId=false --/log/includeProcessId=false --/log/includeTraceId=false --/log/detail=false --/log/fullDetail=false --/log/forceAnsiColor=false --/log/fileAppend=false --/log/utcTimestamp=true --/log/microsecondTimestamp=false --/log/enableStandardStreamOutput=false --/log/file=/home/researcher/.nvidia-omniverse/logs/omni.telemetry.transmitter.log --/log/level=Info --/log/file=/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/omni.telemetry.transmitter.log --/log/level=Warning --/privacy/personalization=true --/privacy/performance=true --/privacy/usage=true --/privacy/userId=88a29d23ceae0b6d --/telemetry/extraFieldsToAdd=schemaid --/structuredLog/extraFields/schemaid=omniverse-team.open.omni-open-collector:1 --/telemetry/runEnvironment=Individual --/telemetry/transmitter/0/authenticate=false --/telemetry/transmitter/0/eventProtocol=defaultWithList --/telemetry/transmitter/0/endpoint=https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_toast_random",
+      "role": "client",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1791032208.5953708
+    },
+    {
+      "pid": 3601632,
+      "uid": 1003,
+      "ppid": 1,
+      "start_ticks": 391638257,
+      "command_sha256": "d2d56df941c78542071a6900d8110472cdd4937d23140614683110f334076861",
+      "command": "/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/extscache/omni.kit.telemetry-0.5.2+69cbf6ad.lx64.r.cp311/omni.telemetry.transmitter/omni.telemetry.transmitter --/telemetry/enableAnonymousAppName=true --/telemetry/enableAnonymousData=true --/telemetry/useOpenEndpoint=true --/telemetry/mode=\"\" --/telemetry/logging/warnFilter/0=\"*\" --/telemetry/enableNVDF=false --/telemetry/enableSentry=false --/telemetry/removePIISentry=false --/telemetry/appRootPath=\"\" --/telemetry/dsn=\"https://b61f14dfc36f4beabadf4d9dba8e492b@sentry.perflab.nvidia.com/834\" --/telemetry/openEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector\" --/telemetry/openTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-test-open-collector\" --/telemetry/enterpriseOpenEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-open-collector\" --/telemetry/enterpriseOpenTestEndpointUrl=\"https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-ove-test-open-collector\" --/log/outputStreamLevel=\"Warning\" --/log/debugConsoleLevel=\"Warning\" --/log/fileLogLevel=\"Info\" --/log/fileMaxCount=30 --/log/includeTimeStamp=true --/log/setElapsedTimeUnits=\"milliseconds\" --/log/enabled=true --/log/async=false --/log/fileFlushLevel=\"verbose\" --/log/flushStandardStreamOutput=false --/log/enableDebugConsoleOutput=true --/log/enableColorOutput=true --/log/processGroupId=0 --/log/includeSource=true --/log/includeChannel=true --/log/includeFilename=false --/log/includeLineNumber=false --/log/includeFunctionName=false --/log/includeThreadId=false --/log/includeProcessId=false --/log/includeTraceId=false --/log/detail=false --/log/fullDetail=false --/log/forceAnsiColor=false --/log/fileAppend=false --/log/utcTimestamp=true --/log/microsecondTimestamp=false --/log/enableStandardStreamOutput=false --/log/file=/home/researcher/.nvidia-omniverse/logs/omni.telemetry.transmitter.log --/log/level=Info --/log/file=/srv/dojo/envs/RoboDojo/lib/python3.11/site-packages/isaacsim/kit/logs/omni.telemetry.transmitter.log --/log/level=Warning --/privacy/personalization=true --/privacy/performance=true --/privacy/usage=true --/privacy/userId=88a29d23ceae0b6d --/telemetry/extraFieldsToAdd=schemaid --/structuredLog/extraFields/schemaid=omniverse-team.open.omni-open-collector:1 --/telemetry/runEnvironment=Individual --/telemetry/transmitter/0/authenticate=false --/telemetry/transmitter/0/eventProtocol=defaultWithList --/telemetry/transmitter/0/endpoint=https://opentelemetry.analytics.nvidiagrid.net/api/v3/topic/omniverse-team.open.omni-open-collector ",
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_make_toast_random",
+      "role": "client",
+      "signal": "SIGKILL",
+      "pidfd": false,
+      "signalled_at": 1791032229.3014095
+    }
+  ],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1791032230.7900276
+}

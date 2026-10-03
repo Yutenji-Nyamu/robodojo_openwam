@@ -1,0 +1,37 @@
+{
+  "command": {
+    "action": "probe",
+    "nonce": "signals-smoke-v2",
+    "run_dir": "/srv/dojo/runs/pi05-signal-smoke-20261003-v2",
+    "cleanup_dir": "/srv/dojo/runs/pi05-signal-smoke-20261003-v2/cleanup",
+    "sweep_id": "pi05-signal-smoke-20261003-v2",
+    "timeout_s": 3600,
+    "return_to_ready": true,
+    "argv": [
+      "/usr/bin/python3",
+      "-u",
+      "-B",
+      "/srv/rlinf/worktrees/pi05-signals-sz1-20261003/tools/pi05_signals/run_queue.py",
+      "--phase",
+      "smoke",
+      "--gpus",
+      "7",
+      "--run-dir",
+      "/srv/dojo/runs/pi05-signal-smoke-20261003-v2",
+      "--output",
+      "/srv/research/results/pi05-signals/20261003-v1",
+      "--repo",
+      "/srv/rlinf/worktrees/pi05-signals-sz1-20261003",
+      "--guard-source",
+      "/srv/dojo/scripts/lanes/pi05/process_guard.py",
+      "--python",
+      "/home/researcher/venvs/rlinf-7d07-openpi-robotwin/bin/python"
+    ],
+    "environment": {},
+    "resume_environment": {
+      "DOJO_GPU_SCOPE": "7",
+      "PYTHONPATH": "/srv/dojo/diagnostics/gpu-scope-20261003"
+    }
+  },
+  "accepted_at": 1791040732.1708663
+}

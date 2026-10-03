@@ -1,0 +1,49 @@
+{
+  "time": 1790950942.1814377,
+  "gpu": 7,
+  "formal_result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/store_laptop_and_headphones_random/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz3_pi05_official_6300_n4_dual_20260929_r2_s0_store_laptop_and_headphones_random",
+  "episodes": 4,
+  "videos": [
+    {
+      "file": "episode_0000000_cam_head_fail.mp4",
+      "frames": 801,
+      "decoded": true,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "std": 76.54632938947925
+    },
+    {
+      "file": "episode_0000000_cam_left_wrist_fail.mp4",
+      "frames": 801,
+      "decoded": true,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "std": 75.69155838102897
+    },
+    {
+      "file": "episode_0000000_cam_right_wrist_fail.mp4",
+      "frames": 801,
+      "decoded": true,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "std": 89.39216321805661
+    }
+  ],
+  "owner_state": "DOJO_RUNNING",
+  "layouts": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "new_formal_batch_verified": true
+}

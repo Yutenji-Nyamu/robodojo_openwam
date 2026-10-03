@@ -1,0 +1,14 @@
+{
+  "time": 1790949576.7444043,
+  "gpus": [
+    7
+  ],
+  "owner_directory": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1",
+  "source": "/srv/dojo/diagnostics/gpu7-20261002-v1/owner_sz1.py",
+  "previous_owner": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix",
+  "previous_rlt_first_round_verified": true,
+  "reason": "User authorized a bounded original-layout physics diagnostic and then original formal continuation",
+  "diagnostic": "Pi05 laptop seed0 layouts0-3 W1 N4; unchanged physics/actions; 1200s external deadline",
+  "protocol": "Original 6300/model, tasks/seeds/results; GPU4/5/6 unchanged",
+  "return": "Exact cleanup; healthy/free GPU7; original cumulative3000 RLT from validated625; first round required"
+}

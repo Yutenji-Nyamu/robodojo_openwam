@@ -1,0 +1,11 @@
+{
+  "pid": 3258286,
+  "uid": 1003,
+  "ppid": 1089586,
+  "start_ticks": 390647815,
+  "command_sha256": "9ab8bed855037e89e10a7a71591f8861f341406ffb087421a2fff7f26908eb26",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/seed1/worker3/tasks/store_laptop_and_headphones_random/recovery-1790950283739718473-0/command-1790950283739718473.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s1_store_laptop_and_headphones_random",
+  "role": "client"
+}

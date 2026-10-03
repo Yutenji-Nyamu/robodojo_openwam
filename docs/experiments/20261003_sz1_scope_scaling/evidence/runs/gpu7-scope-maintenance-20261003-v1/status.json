@@ -1,0 +1,11 @@
+{
+  "identity": {
+    "pid": 3550893,
+    "uid": 1003,
+    "start_ticks": 391545546,
+    "cmdline_sha256": "95eafd8696bfc8d4e19c2527186e969693f108674e4203518706c41b82ef9458"
+  },
+  "gpu": 7,
+  "phase": "FORMAL_RESUMED",
+  "time": 1791028799.319523
+}

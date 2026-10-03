@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "pid": 3580494,
+    "uid": 1003,
+    "start_ticks": 391608903,
+    "cmdline_sha256": "38cfc7c844d205076082ff1ca90db5a316abc8042350c93899aaf051791efa43"
+  },
+  "directory": "/srv/dojo/runs/gpu4-scope-maintenance-20261003-v2",
+  "resume_original": true
+}

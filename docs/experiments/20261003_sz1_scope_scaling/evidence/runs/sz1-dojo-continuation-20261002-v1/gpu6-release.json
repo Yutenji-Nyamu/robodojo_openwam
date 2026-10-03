@@ -1,0 +1,41 @@
+{
+  "cycle_id": "rlt-cycle-sz1-dojo-continuation-20261002-v1-gpu6",
+  "gpus": [
+    6
+  ],
+  "terminal_status": "failed",
+  "all_workers_stopped": true,
+  "managed_processes": [
+    {
+      "pid": 508562,
+      "start_ticks": 382027389,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    },
+    {
+      "pid": 508648,
+      "start_ticks": 382027632,
+      "uid": 1003,
+      "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+      "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3"
+    }
+  ],
+  "gpu_recovery_action": "None",
+  "gpu_health": {
+    "gpu": 6,
+    "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2",
+    "processes": [],
+    "gpu_recovery_action": "None",
+    "memory_mib": 1,
+    "checked_at": 1790933594.730987
+  },
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "owner_id": "sz1-dojo-continuation-20261002-v1",
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "finished_at": 1790933594.7314239,
+  "lane_final": {
+    "path": "/srv/dojo/runs/sz3_pi05_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu6/final.json",
+    "sha256": "d91584e2e44a2db32a24256ee8e2f115ad16026c08e77cade2c158c095c5ea8e"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "time": 1791020630.9428258,
+  "boot_id": "9054c800-3209-4d18-b40c-32d849cc6ba3",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu6",
+  "expected_uid": 1003,
+  "pid": 3168778,
+  "error": {
+    "type": "PermissionError",
+    "repr": "PermissionError(13, 'Permission denied')",
+    "message": "[Errno 13] Permission denied: '/proc/3168778/environ'",
+    "errno": 13,
+    "filename": "/proc/3168778/environ",
+    "filename2": null,
+    "pid": 3168778,
+    "operation": "proc_environ",
+    "diagnostic_path": null,
+    "diagnostic_write_error": null,
+    "traceback": "Traceback (most recent call last):\n  File \"/srv/dojo/scripts/lanes/pi05/process_guard.py\", line 128, in identity\n    return self._identity_once(pid)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/srv/dojo/scripts/lanes/pi05/process_guard.py\", line 203, in _identity_once\n    environment_bytes = (path / \"environ\").read_bytes()\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/srv/dojo/envs/RoboDojo/lib/python3.11/pathlib.py\", line 1050, in read_bytes\n    with self.open(mode='rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"/srv/dojo/envs/RoboDojo/lib/python3.11/pathlib.py\", line 1044, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: [Errno 13] Permission denied: '/proc/3168778/environ'\n"
+  },
+  "samples": [
+    {
+      "proc_owner_uid": 1003,
+      "state": "D",
+      "ppid": 3161014,
+      "start_ticks": 390319504,
+      "previously_proven_owned": false,
+      "status": {
+        "State": "D (disk sleep)",
+        "PPid": "3161014",
+        "TracerPid": "0",
+        "Uid": "1003\t1003\t1003\t1003",
+        "Gid": "1003\t1003\t1003\t1003",
+        "NoNewPrivs": "0"
+      }
+    },
+    {
+      "proc_owner_uid": 1003,
+      "state": "D",
+      "ppid": 3161014,
+      "start_ticks": 390319504,
+      "previously_proven_owned": false,
+      "status": {
+        "State": "D (disk sleep)",
+        "PPid": "3161014",
+        "TracerPid": "0",
+        "Uid": "1003\t1003\t1003\t1003",
+        "Gid": "1003\t1003\t1003\t1003",
+        "NoNewPrivs": "0"
+      }
+    }
+  ]
+}

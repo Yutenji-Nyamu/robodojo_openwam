@@ -1,0 +1,736 @@
+{
+  "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+  "created_at": 1790933322.0111368,
+  "config": {
+    "project": "/srv/dojo",
+    "repo": "/srv/dojo/RoboDojo",
+    "run_id": "sz2_openwam_official_6300_n4_dual_20260929_r2",
+    "uid": 1003,
+    "dojo_head": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+    "xpl_head": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+    "policy_env": "/srv/dojo/envs/openwam",
+    "sim_env": "/srv/dojo/envs/RoboDojo",
+    "project_env": "/srv/dojo/project-env.sh",
+    "conda_profile": "/home/researcher/miniforge3/etc/profile.d/conda.sh",
+    "compat_script": "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py",
+    "checkpoint": "/srv/dojo/checkpoints/OpenWAM-Alpha-Sim-RoboDojo",
+    "checkpoint_revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+    "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+    "ports": [
+      63140,
+      63141,
+      63142,
+      63143,
+      63144,
+      63145,
+      63146,
+      63147
+    ],
+    "idle_gpu_memory_mib": 512,
+    "asset_run_directory": "full-assets-sz1-20261001",
+    "workers_per_gpu": 1,
+    "lane_gpu": 5,
+    "control_dir": "/srv/dojo/runs/sz2_openwam_official_6300_n4_dual_20260929_r2/sz1-20261002/gpu5"
+  },
+  "upstream_dojo": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+  "dojo_head": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+  "xpl_head": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+  "num_envs": 4,
+  "workers_per_gpu": 1,
+  "gpus": [
+    4,
+    4,
+    5,
+    5,
+    4,
+    4,
+    5,
+    5
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "episode_total": 6300,
+  "max_inproc_restarts": 3,
+  "tasks": [
+    "align_blocks",
+    "arrange_largest_number",
+    "arrange_largest_number_random",
+    "build_tower",
+    "classify_objects",
+    "classify_objects_by_language",
+    "cover_blocks",
+    "deposit_coin",
+    "fasten_screws",
+    "fill_egg_holder",
+    "fill_pen_holder",
+    "fold_clothes",
+    "fold_clothes_random",
+    "general_pickup",
+    "hang_mugs",
+    "hang_mugs_random",
+    "imitate_sorting_sequence",
+    "insert_key",
+    "insert_tubes",
+    "make_kong",
+    "make_toast",
+    "make_toast_random",
+    "match_and_pick_from_conveyor",
+    "organize_table",
+    "pack_objects_into_box",
+    "pack_objects_into_box_random",
+    "pick_from_conveyor_by_image",
+    "play_Xylophone",
+    "play_stacking_toy",
+    "play_tic_tac_toe",
+    "plug_in_charger",
+    "pour_balls_into_vase",
+    "pour_by_language",
+    "pour_liquid_into_cup",
+    "pour_liquid_into_cup_random",
+    "press_by_number",
+    "push_T",
+    "push_T_random",
+    "put_bottles_into_dustbin",
+    "solve_equation",
+    "sort_nesting_dolls_by_size",
+    "sort_nesting_dolls_by_size_random",
+    "stack_blocks",
+    "stack_blocks_by_language",
+    "stack_blocks_random",
+    "stack_bowls",
+    "stack_bowls_random",
+    "store_laptop_and_headphones",
+    "store_laptop_and_headphones_random",
+    "store_tools_in_toolbox",
+    "swap_T",
+    "swap_blocks",
+    "sweep_blocks",
+    "sweep_blocks_random"
+  ],
+  "budgets": {
+    "align_blocks": 50,
+    "arrange_largest_number": 25,
+    "arrange_largest_number_random": 25,
+    "build_tower": 50,
+    "classify_objects": 50,
+    "classify_objects_by_language": 50,
+    "cover_blocks": 50,
+    "deposit_coin": 50,
+    "fasten_screws": 50,
+    "fill_egg_holder": 50,
+    "fill_pen_holder": 50,
+    "fold_clothes": 25,
+    "fold_clothes_random": 25,
+    "general_pickup": 50,
+    "hang_mugs": 25,
+    "hang_mugs_random": 25,
+    "imitate_sorting_sequence": 50,
+    "insert_key": 50,
+    "insert_tubes": 50,
+    "make_kong": 50,
+    "make_toast": 25,
+    "make_toast_random": 25,
+    "match_and_pick_from_conveyor": 50,
+    "organize_table": 50,
+    "pack_objects_into_box": 25,
+    "pack_objects_into_box_random": 25,
+    "pick_from_conveyor_by_image": 50,
+    "play_Xylophone": 50,
+    "play_stacking_toy": 50,
+    "play_tic_tac_toe": 50,
+    "plug_in_charger": 50,
+    "pour_balls_into_vase": 50,
+    "pour_by_language": 50,
+    "pour_liquid_into_cup": 25,
+    "pour_liquid_into_cup_random": 25,
+    "press_by_number": 50,
+    "push_T": 25,
+    "push_T_random": 25,
+    "put_bottles_into_dustbin": 50,
+    "solve_equation": 50,
+    "sort_nesting_dolls_by_size": 25,
+    "sort_nesting_dolls_by_size_random": 25,
+    "stack_blocks": 25,
+    "stack_blocks_by_language": 50,
+    "stack_blocks_random": 25,
+    "stack_bowls": 25,
+    "stack_bowls_random": 25,
+    "store_laptop_and_headphones": 25,
+    "store_laptop_and_headphones_random": 25,
+    "store_tools_in_toolbox": 50,
+    "swap_T": 50,
+    "swap_blocks": 50,
+    "sweep_blocks": 25,
+    "sweep_blocks_random": 25
+  },
+  "layout_counts": {
+    "0/align_blocks": 55,
+    "0/arrange_largest_number": 30,
+    "0/arrange_largest_number_random": 30,
+    "0/build_tower": 55,
+    "0/classify_objects": 55,
+    "0/classify_objects_by_language": 55,
+    "0/cover_blocks": 55,
+    "0/deposit_coin": 60,
+    "0/fasten_screws": 55,
+    "0/fill_egg_holder": 65,
+    "0/fill_pen_holder": 55,
+    "0/fold_clothes": 55,
+    "0/fold_clothes_random": 30,
+    "0/general_pickup": 55,
+    "0/hang_mugs": 30,
+    "0/hang_mugs_random": 30,
+    "0/imitate_sorting_sequence": 65,
+    "0/insert_key": 55,
+    "0/insert_tubes": 55,
+    "0/make_kong": 65,
+    "0/make_toast": 70,
+    "0/make_toast_random": 45,
+    "0/match_and_pick_from_conveyor": 55,
+    "0/organize_table": 55,
+    "0/pack_objects_into_box": 55,
+    "0/pack_objects_into_box_random": 30,
+    "0/pick_from_conveyor_by_image": 55,
+    "0/play_Xylophone": 55,
+    "0/play_stacking_toy": 55,
+    "0/play_tic_tac_toe": 75,
+    "0/plug_in_charger": 55,
+    "0/pour_balls_into_vase": 55,
+    "0/pour_by_language": 55,
+    "0/pour_liquid_into_cup": 55,
+    "0/pour_liquid_into_cup_random": 30,
+    "0/press_by_number": 65,
+    "0/push_T": 55,
+    "0/push_T_random": 30,
+    "0/put_bottles_into_dustbin": 55,
+    "0/solve_equation": 55,
+    "0/sort_nesting_dolls_by_size": 30,
+    "0/sort_nesting_dolls_by_size_random": 30,
+    "0/stack_blocks": 55,
+    "0/stack_blocks_by_language": 55,
+    "0/stack_blocks_random": 30,
+    "0/stack_bowls": 55,
+    "0/stack_bowls_random": 30,
+    "0/store_laptop_and_headphones": 55,
+    "0/store_laptop_and_headphones_random": 30,
+    "0/store_tools_in_toolbox": 55,
+    "0/swap_T": 55,
+    "0/swap_blocks": 55,
+    "0/sweep_blocks": 55,
+    "0/sweep_blocks_random": 30,
+    "1/align_blocks": 55,
+    "1/arrange_largest_number": 30,
+    "1/arrange_largest_number_random": 30,
+    "1/build_tower": 55,
+    "1/classify_objects": 55,
+    "1/classify_objects_by_language": 55,
+    "1/cover_blocks": 55,
+    "1/deposit_coin": 60,
+    "1/fasten_screws": 55,
+    "1/fill_egg_holder": 65,
+    "1/fill_pen_holder": 55,
+    "1/fold_clothes": 55,
+    "1/fold_clothes_random": 30,
+    "1/general_pickup": 55,
+    "1/hang_mugs": 30,
+    "1/hang_mugs_random": 30,
+    "1/imitate_sorting_sequence": 65,
+    "1/insert_key": 55,
+    "1/insert_tubes": 55,
+    "1/make_kong": 65,
+    "1/make_toast": 70,
+    "1/make_toast_random": 45,
+    "1/match_and_pick_from_conveyor": 55,
+    "1/organize_table": 55,
+    "1/pack_objects_into_box": 55,
+    "1/pack_objects_into_box_random": 30,
+    "1/pick_from_conveyor_by_image": 55,
+    "1/play_Xylophone": 55,
+    "1/play_stacking_toy": 55,
+    "1/play_tic_tac_toe": 75,
+    "1/plug_in_charger": 55,
+    "1/pour_balls_into_vase": 55,
+    "1/pour_by_language": 55,
+    "1/pour_liquid_into_cup": 55,
+    "1/pour_liquid_into_cup_random": 30,
+    "1/press_by_number": 65,
+    "1/push_T": 55,
+    "1/push_T_random": 30,
+    "1/put_bottles_into_dustbin": 55,
+    "1/solve_equation": 55,
+    "1/sort_nesting_dolls_by_size": 30,
+    "1/sort_nesting_dolls_by_size_random": 30,
+    "1/stack_blocks": 55,
+    "1/stack_blocks_by_language": 55,
+    "1/stack_blocks_random": 30,
+    "1/stack_bowls": 55,
+    "1/stack_bowls_random": 30,
+    "1/store_laptop_and_headphones": 55,
+    "1/store_laptop_and_headphones_random": 30,
+    "1/store_tools_in_toolbox": 55,
+    "1/swap_T": 55,
+    "1/swap_blocks": 55,
+    "1/sweep_blocks": 55,
+    "1/sweep_blocks_random": 30,
+    "2/align_blocks": 55,
+    "2/arrange_largest_number": 30,
+    "2/arrange_largest_number_random": 30,
+    "2/build_tower": 55,
+    "2/classify_objects": 55,
+    "2/classify_objects_by_language": 55,
+    "2/cover_blocks": 55,
+    "2/deposit_coin": 60,
+    "2/fasten_screws": 55,
+    "2/fill_egg_holder": 65,
+    "2/fill_pen_holder": 55,
+    "2/fold_clothes": 55,
+    "2/fold_clothes_random": 30,
+    "2/general_pickup": 55,
+    "2/hang_mugs": 30,
+    "2/hang_mugs_random": 30,
+    "2/imitate_sorting_sequence": 65,
+    "2/insert_key": 55,
+    "2/insert_tubes": 55,
+    "2/make_kong": 65,
+    "2/make_toast": 70,
+    "2/make_toast_random": 45,
+    "2/match_and_pick_from_conveyor": 55,
+    "2/organize_table": 55,
+    "2/pack_objects_into_box": 55,
+    "2/pack_objects_into_box_random": 30,
+    "2/pick_from_conveyor_by_image": 55,
+    "2/play_Xylophone": 55,
+    "2/play_stacking_toy": 55,
+    "2/play_tic_tac_toe": 75,
+    "2/plug_in_charger": 55,
+    "2/pour_balls_into_vase": 55,
+    "2/pour_by_language": 55,
+    "2/pour_liquid_into_cup": 55,
+    "2/pour_liquid_into_cup_random": 30,
+    "2/press_by_number": 65,
+    "2/push_T": 55,
+    "2/push_T_random": 30,
+    "2/put_bottles_into_dustbin": 55,
+    "2/solve_equation": 55,
+    "2/sort_nesting_dolls_by_size": 30,
+    "2/sort_nesting_dolls_by_size_random": 30,
+    "2/stack_blocks": 55,
+    "2/stack_blocks_by_language": 55,
+    "2/stack_blocks_random": 30,
+    "2/stack_bowls": 55,
+    "2/stack_bowls_random": 30,
+    "2/store_laptop_and_headphones": 55,
+    "2/store_laptop_and_headphones_random": 30,
+    "2/store_tools_in_toolbox": 55,
+    "2/swap_T": 55,
+    "2/swap_blocks": 55,
+    "2/sweep_blocks": 55,
+    "2/sweep_blocks_random": 30
+  },
+  "source_sha256": {
+    "/srv/dojo/RoboDojo/scripts/robodojo.sh": "7008023f0fd27fc5f8f2adad30b1286a5e6cce432be981b82cf2ffa3498d6ea3",
+    "/srv/dojo/RoboDojo/scripts/eval_policy.sh": "80bc684378b8ba2dd10bbefdeb4ef232f0c32ea88ebe549d4bc192272ebae4b5",
+    "/srv/dojo/RoboDojo/scripts/internal/smoke_all_tasks.sh": "de7e4b3c4ed7591f43bd774702824051fc95d6ff4800025236310abe368c1cd0",
+    "/srv/dojo/RoboDojo/src/eval_client/main.py": "1c1bca7b46f3a9ce6a7926b146b8fa7894786e02e3750b292a0999874b30d561",
+    "/srv/dojo/RoboDojo/src/eval_client/eval_env.py": "fccddb34d1907e499896281e11bdb74e55f7289d6762b279e872ed5005f05a03",
+    "/srv/dojo/RoboDojo/src/eval_client/batch_isolation.py": "b2e55d4ad3802e0892cfd33b64dc1ab2c485913cc61274df458e5173fd20904b",
+    "/srv/dojo/RoboDojo/env_cfg/arx_x5.yml": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f",
+    "/srv/dojo/RoboDojo/task/RoboDojo/config/_task.yml": "655a87cd59fa6272bf352d32deb8ade162737b49a9824e16d428fecf0803380b",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/deploy.yml": "f58bca74f3512a90d24530e69751b928bedd3f2f6ae5fe5385db23448b47f9c6",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/model.py": "70f3699eddbea45b01360cf4e7bc5a6c4ff9672e3cb38e6fb7d2da2b5d9220f4",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/deploy.py": "a114b1f8168b3c170d2f20389cca63de6e9ef413b12a859e8129923c031cf685",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/OpenWAM/openwam/deploy/engine.py": "3fe9377115154bf965ff03fcbdab7f7ce42b0b75662be678fae7c21a7eb13b70",
+    "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/setup_eval_policy_server.sh": "9a2d12e74bcf93eed9f6226ac1e30e96ec2ec55e972c1cff0de47bdb7a314e27",
+    "/srv/dojo/RoboDojo/env_cfg/sim/sim_config.yml": "a8ceb2345165c721a3504f08e2a8e426e6ee87a117bb9a5e963f790c65a5653e",
+    "/srv/dojo/project-env.sh": "409440e2da97fba2d0f7ab962c5086c15bcaadbe7fd5a40ed69fc66577eecc25",
+    "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py": "0d0dc55aad61ab63ee2b8ac541ea05f905d69389728547dd125fd60e565d2529"
+  },
+  "controller_sha256": {
+    "dojo_sweep.py": "ce7af0f1ad073c099f42aae46a1dc3ebcd7a986a7de7a7b44f6f714255cb3023",
+    "process_guard.py": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6",
+    "eval_recovery.py": "f7fc551aaf3beea22040fede155dbaa199d15f1e21ac8ab272068dadde361d39",
+    "resume_results.py": "60b8b751f6eb7d8c38079899e4f53de139fd9e7b4122d7f25e038647ce922fdc"
+  },
+  "partition_sha256": "8dd7c6166ef11792b388760e29f7b8b4b80e5de3efe1f6a94af140a1235861f1",
+  "groups": [
+    {
+      "worker": 0,
+      "gpu": 4,
+      "port": 63140,
+      "tasks": [
+        {
+          "task": "imitate_sorting_sequence",
+          "key": "imitate_sorting_sequence/arx_x5",
+          "seconds": 10596
+        },
+        {
+          "task": "fill_egg_holder",
+          "key": "fill_egg_holder/arx_x5",
+          "seconds": 3063
+        },
+        {
+          "task": "sweep_blocks_random",
+          "key": "sweep_blocks_random/arx_x5",
+          "seconds": 2392
+        },
+        {
+          "task": "align_blocks",
+          "key": "align_blocks/arx_x5",
+          "seconds": 2013
+        },
+        {
+          "task": "swap_T",
+          "key": "swap_T/arx_x5",
+          "seconds": 1746
+        },
+        {
+          "task": "push_T",
+          "key": "push_T/arx_x5",
+          "seconds": 1311
+        }
+      ]
+    },
+    {
+      "worker": 1,
+      "gpu": 4,
+      "port": 63141,
+      "tasks": [
+        {
+          "task": "play_tic_tac_toe",
+          "key": "play_tic_tac_toe/arx_x5",
+          "seconds": 9323
+        },
+        {
+          "task": "make_kong",
+          "key": "make_kong/arx_x5",
+          "seconds": 3818
+        },
+        {
+          "task": "pour_liquid_into_cup",
+          "key": "pour_liquid_into_cup/arx_x5",
+          "seconds": 2543
+        },
+        {
+          "task": "insert_tubes",
+          "key": "insert_tubes/arx_x5",
+          "seconds": 2296
+        },
+        {
+          "task": "stack_blocks_random",
+          "key": "stack_blocks_random/arx_x5",
+          "seconds": 1768
+        },
+        {
+          "task": "insert_key",
+          "key": "insert_key/arx_x5",
+          "seconds": 1396
+        }
+      ]
+    },
+    {
+      "worker": 2,
+      "gpu": 5,
+      "port": 63142,
+      "tasks": [
+        {
+          "task": "pour_by_language",
+          "key": "pour_by_language/arx_x5",
+          "seconds": 9448
+        },
+        {
+          "task": "arrange_largest_number_random",
+          "key": "arrange_largest_number_random/arx_x5",
+          "seconds": 3101
+        },
+        {
+          "task": "match_and_pick_from_conveyor",
+          "key": "match_and_pick_from_conveyor/arx_x5",
+          "seconds": 2915
+        },
+        {
+          "task": "sweep_blocks",
+          "key": "sweep_blocks/arx_x5",
+          "seconds": 2170
+        },
+        {
+          "task": "plug_in_charger",
+          "key": "plug_in_charger/arx_x5",
+          "seconds": 1777
+        },
+        {
+          "task": "stack_blocks_by_language",
+          "key": "stack_blocks_by_language/arx_x5",
+          "seconds": 1733
+        }
+      ]
+    },
+    {
+      "worker": 3,
+      "gpu": 5,
+      "port": 63143,
+      "tasks": [
+        {
+          "task": "fasten_screws",
+          "key": "fasten_screws/arx_x5",
+          "seconds": 7876
+        },
+        {
+          "task": "sort_nesting_dolls_by_size_random",
+          "key": "sort_nesting_dolls_by_size_random/arx_x5",
+          "seconds": 3021
+        },
+        {
+          "task": "press_by_number",
+          "key": "press_by_number/arx_x5",
+          "seconds": 2955
+        },
+        {
+          "task": "sort_nesting_dolls_by_size",
+          "key": "sort_nesting_dolls_by_size/arx_x5",
+          "seconds": 2377
+        },
+        {
+          "task": "store_laptop_and_headphones_random",
+          "key": "store_laptop_and_headphones_random/arx_x5",
+          "seconds": 1981
+        },
+        {
+          "task": "store_laptop_and_headphones",
+          "key": "store_laptop_and_headphones/arx_x5",
+          "seconds": 1715
+        },
+        {
+          "task": "general_pickup",
+          "key": "general_pickup/arx_x5",
+          "seconds": 1201
+        }
+      ]
+    },
+    {
+      "worker": 4,
+      "gpu": 4,
+      "port": 63144,
+      "tasks": [
+        {
+          "task": "play_stacking_toy",
+          "key": "play_stacking_toy/arx_x5",
+          "seconds": 5416
+        },
+        {
+          "task": "organize_table",
+          "key": "organize_table/arx_x5",
+          "seconds": 4104
+        },
+        {
+          "task": "pick_from_conveyor_by_image",
+          "key": "pick_from_conveyor_by_image/arx_x5",
+          "seconds": 3150
+        },
+        {
+          "task": "pack_objects_into_box_random",
+          "key": "pack_objects_into_box_random/arx_x5",
+          "seconds": 2917
+        },
+        {
+          "task": "stack_bowls_random",
+          "key": "stack_bowls_random/arx_x5",
+          "seconds": 2146
+        },
+        {
+          "task": "pour_liquid_into_cup_random",
+          "key": "pour_liquid_into_cup_random/arx_x5",
+          "seconds": 1798
+        },
+        {
+          "task": "push_T_random",
+          "key": "push_T_random/arx_x5",
+          "seconds": 1593
+        }
+      ]
+    },
+    {
+      "worker": 5,
+      "gpu": 4,
+      "port": 63145,
+      "tasks": [
+        {
+          "task": "classify_objects_by_language",
+          "key": "classify_objects_by_language/arx_x5",
+          "seconds": 4955
+        },
+        {
+          "task": "store_tools_in_toolbox",
+          "key": "store_tools_in_toolbox/arx_x5",
+          "seconds": 3783
+        },
+        {
+          "task": "make_toast",
+          "key": "make_toast/arx_x5",
+          "seconds": 3781
+        },
+        {
+          "task": "pack_objects_into_box",
+          "key": "pack_objects_into_box/arx_x5",
+          "seconds": 2725
+        },
+        {
+          "task": "arrange_largest_number",
+          "key": "arrange_largest_number/arx_x5",
+          "seconds": 2346
+        },
+        {
+          "task": "stack_bowls",
+          "key": "stack_bowls/arx_x5",
+          "seconds": 1806
+        },
+        {
+          "task": "hang_mugs",
+          "key": "hang_mugs/arx_x5",
+          "seconds": 1734
+        }
+      ]
+    },
+    {
+      "worker": 6,
+      "gpu": 5,
+      "port": 63146,
+      "tasks": [
+        {
+          "task": "classify_objects",
+          "key": "classify_objects/arx_x5",
+          "seconds": 4881
+        },
+        {
+          "task": "make_toast_random",
+          "key": "make_toast_random/arx_x5",
+          "seconds": 3775
+        },
+        {
+          "task": "swap_blocks",
+          "key": "swap_blocks/arx_x5",
+          "seconds": 2941
+        },
+        {
+          "task": "put_bottles_into_dustbin",
+          "key": "put_bottles_into_dustbin/arx_x5",
+          "seconds": 2887
+        },
+        {
+          "task": "play_Xylophone",
+          "key": "play_Xylophone/arx_x5",
+          "seconds": 2174
+        },
+        {
+          "task": "fold_clothes_random",
+          "key": "fold_clothes_random/arx_x5",
+          "seconds": 1858
+        },
+        {
+          "task": "deposit_coin",
+          "key": "deposit_coin/arx_x5",
+          "seconds": 1373
+        },
+        {
+          "task": "stack_blocks",
+          "key": "stack_blocks/arx_x5",
+          "seconds": 1252
+        }
+      ]
+    },
+    {
+      "worker": 7,
+      "gpu": 5,
+      "port": 63147,
+      "tasks": [
+        {
+          "task": "build_tower",
+          "key": "build_tower/arx_x5",
+          "seconds": 4750
+        },
+        {
+          "task": "fill_pen_holder",
+          "key": "fill_pen_holder/arx_x5",
+          "seconds": 4698
+        },
+        {
+          "task": "cover_blocks",
+          "key": "cover_blocks/arx_x5",
+          "seconds": 3837
+        },
+        {
+          "task": "pour_balls_into_vase",
+          "key": "pour_balls_into_vase/arx_x5",
+          "seconds": 2509
+        },
+        {
+          "task": "hang_mugs_random",
+          "key": "hang_mugs_random/arx_x5",
+          "seconds": 2047
+        },
+        {
+          "task": "solve_equation",
+          "key": "solve_equation/arx_x5",
+          "seconds": 1867
+        },
+        {
+          "task": "fold_clothes",
+          "key": "fold_clothes/arx_x5",
+          "seconds": 1435
+        }
+      ]
+    }
+  ],
+  "checkpoint_revision": "2c1302294e3ba8319bbdb2c803b7a27de9292d03",
+  "asset_revision": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab",
+  "checkpoint_config_sha256": "8b05f4365dc020daf07c9fce1f61b653a7f6d16053baf1e7238b7b48403c67ca",
+  "checkpoint_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1596,
+      "mtime_ns": 1790867539681975313
+    },
+    {
+      "path": "README.md",
+      "bytes": 1305,
+      "mtime_ns": 1790867539749972696
+    },
+    {
+      "path": "checkpoint_step_60000.safetensors",
+      "bytes": 24813767464,
+      "mtime_ns": 1790929473040996215
+    },
+    {
+      "path": "config.yaml",
+      "bytes": 3395,
+      "mtime_ns": 1790867539941965305
+    },
+    {
+      "path": "normalization_stats.npy",
+      "bytes": 2190,
+      "mtime_ns": 1790929483764813182
+    },
+    {
+      "path": "tokenizer/google/umt5-xxl/special_tokens_map.json",
+      "bytes": 6623,
+      "mtime_ns": 1790867540013962534
+    },
+    {
+      "path": "tokenizer/google/umt5-xxl/spiece.model",
+      "bytes": 4548313,
+      "mtime_ns": 1790929483064825113
+    },
+    {
+      "path": "tokenizer/google/umt5-xxl/tokenizer.json",
+      "bytes": 16837417,
+      "mtime_ns": 1790867701048456448
+    },
+    {
+      "path": "tokenizer/google/umt5-xxl/tokenizer_config.json",
+      "bytes": 61728,
+      "mtime_ns": 1790929483492817818
+    }
+  ]
+}

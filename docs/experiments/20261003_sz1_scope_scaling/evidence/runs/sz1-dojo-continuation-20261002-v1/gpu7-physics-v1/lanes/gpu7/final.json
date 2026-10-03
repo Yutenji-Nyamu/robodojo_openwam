@@ -1,0 +1,52 @@
+{
+  "state": "INTERRUPTED",
+  "exit_code": 3,
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "lane_gpu": 7,
+  "completion_scope": "single_gpu_lane",
+  "lane_tasks": [
+    "pour_by_language",
+    "arrange_largest_number_random",
+    "match_and_pick_from_conveyor",
+    "sweep_blocks",
+    "plug_in_charger",
+    "stack_blocks_by_language",
+    "fasten_screws",
+    "sort_nesting_dolls_by_size_random",
+    "press_by_number",
+    "sort_nesting_dolls_by_size",
+    "store_laptop_and_headphones_random",
+    "store_laptop_and_headphones",
+    "general_pickup",
+    "classify_objects",
+    "make_toast_random",
+    "swap_blocks",
+    "put_bottles_into_dustbin",
+    "play_Xylophone",
+    "fold_clothes_random",
+    "deposit_coin",
+    "stack_blocks",
+    "build_tower",
+    "fill_pen_holder",
+    "cover_blocks",
+    "pour_balls_into_vase",
+    "hang_mugs_random",
+    "solve_equation",
+    "fold_clothes"
+  ],
+  "full_benchmark_episodes": 6300,
+  "finished_at": 1791040478.4670959,
+  "error": null,
+  "processes_clear": true,
+  "gpus_released": true,
+  "gpu_after": [
+    {
+      "gpu": 7,
+      "uuid": "GPU-00171f89-03fd-5703-b1aa-f5a29f6067ba",
+      "memory_mib": 7,
+      "util_percent": 0
+    }
+  ],
+  "cleanup_receipt": "/srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/cleanup/1791040475965342951-a7553f1d.json",
+  "rlt_action": "none; outer controller decides and performs restoration"
+}

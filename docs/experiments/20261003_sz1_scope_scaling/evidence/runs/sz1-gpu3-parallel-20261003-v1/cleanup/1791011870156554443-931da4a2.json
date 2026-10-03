@@ -1,0 +1,13 @@
+{
+  "sweep_id": "sz1-gpu3-parallel-20261003-v1",
+  "run_id": "sz1-gpu3-parallel-20261003-v1-n9",
+  "uid": 1003,
+  "reason": "bounded_probe_finished",
+  "started_at": 1791011870.1565893,
+  "initial_targets": [],
+  "initial_scan_complete": true,
+  "actions": [],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1791011871.7626395
+}

@@ -1,0 +1,3 @@
+Wrote 1 policy tables (29 filled cells, 1 in overview, 0 complete) to /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/official_eval/RoboDojo/_summary.md
+Result/video check: 38 latest timestamp folders, 0 mismatches
+All records have head, left_wrist, and right_wrist videos.

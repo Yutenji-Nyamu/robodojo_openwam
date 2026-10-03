@@ -1,0 +1,51 @@
+{
+  "rules": [
+    {
+      "pattern": {
+        "feature": "commname",
+        "matches": "dojo-scope-g4"
+      },
+      "profile": [
+        "EGLVisibleDGPUDevices",
+        16
+      ]
+    },
+    {
+      "pattern": {
+        "feature": "commname",
+        "matches": "dojo-scope-g5"
+      },
+      "profile": [
+        "EGLVisibleDGPUDevices",
+        32
+      ]
+    },
+    {
+      "pattern": {
+        "feature": "commname",
+        "matches": "dojo-scope-g6"
+      },
+      "profile": [
+        "EGLVisibleDGPUDevices",
+        64
+      ]
+    },
+    {
+      "pattern": {
+        "feature": "commname",
+        "matches": "dojo-scope-g7"
+      },
+      "profile": [
+        "EGLVisibleDGPUDevices",
+        128
+      ]
+    },
+    {
+      "pattern": [],
+      "profile": [
+        "EGLVisibleDGPUDevices",
+        240
+      ]
+    }
+  ]
+}

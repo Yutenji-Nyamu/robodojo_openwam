@@ -1,0 +1,65 @@
+{
+  "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+  "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4-server",
+  "uid": 1003,
+  "reason": "bounded_probe_finished",
+  "started_at": 1791033516.3121188,
+  "initial_targets": [
+    {
+      "pid": 3549334,
+      "uid": 1003,
+      "ppid": 3549314,
+      "start_ticks": 391542840,
+      "command_sha256": "5adbc64dc1b3d6625eb17ee33e84a8fbb276c17afb0f8255bd4f6d27a8e2cb68",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task put_bottles_into_dustbin --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --policy-env uv --policy-gpu 6 --policy-port 46975 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+      "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4-server",
+      "role": "server"
+    },
+    {
+      "pid": 3549365,
+      "uid": 1003,
+      "ppid": 3549334,
+      "start_ticks": 391542876,
+      "command_sha256": "41ea3c85efa0d26f8aed4cef6f915a8c636f319d494656a78779cd1afce530a8",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=46975 host=127.0.0.1 bench_name=RoboDojo task_name=put_bottles_into_dustbin ckpt_name=sim env_cfg_type=arx_x5 seed=0 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+      "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4-server",
+      "role": "server"
+    }
+  ],
+  "initial_scan_complete": true,
+  "actions": [
+    {
+      "pid": 3549365,
+      "uid": 1003,
+      "ppid": 3549334,
+      "start_ticks": 391542876,
+      "command_sha256": "41ea3c85efa0d26f8aed4cef6f915a8c636f319d494656a78779cd1afce530a8",
+      "command": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python /srv/dojo/RoboDojo/XPolicyLab/setup_policy_server.py --config_path /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml --overrides port=46975 host=127.0.0.1 bench_name=RoboDojo task_name=put_bottles_into_dustbin ckpt_name=sim env_cfg_type=arx_x5 seed=0 policy_name=Pi_05 action_type=joint action_dim=14 ",
+      "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+      "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4-server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1791033516.7002807
+    },
+    {
+      "pid": 3549334,
+      "uid": 1003,
+      "ppid": 3549314,
+      "start_ticks": 391542840,
+      "command_sha256": "5adbc64dc1b3d6625eb17ee33e84a8fbb276c17afb0f8255bd4f6d27a8e2cb68",
+      "command": "bash scripts/robodojo.sh server --policy-dir XPolicyLab/policy/Pi_05 --task put_bottles_into_dustbin --ckpt sim --env-cfg arx_x5 --action-type joint --seed 0 --policy-env uv --policy-gpu 6 --policy-port 46975 --bind-host 127.0.0.1 ",
+      "sweep_id": "sz1-gpu6-pi05-scaling-20261003-v1",
+      "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n4-server",
+      "role": "server",
+      "signal": "SIGTERM",
+      "pidfd": false,
+      "signalled_at": 1791033516.7020457
+    }
+  ],
+  "state": "EMPTY",
+  "remaining": [],
+  "finished_at": 1791033518.190354
+}

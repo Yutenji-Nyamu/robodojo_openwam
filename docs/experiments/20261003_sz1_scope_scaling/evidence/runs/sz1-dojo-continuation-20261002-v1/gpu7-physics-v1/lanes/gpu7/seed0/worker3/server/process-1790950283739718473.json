@@ -1,0 +1,11 @@
+{
+  "pid": 1117362,
+  "uid": 1003,
+  "ppid": 1089586,
+  "start_ticks": 383700672,
+  "command_sha256": "35e9618ca9a51d4a734a95d9acfa5265c32331889f0c40335d1709490b77e296",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/gpu7-physics-v1/lanes/gpu7/seed0/worker3/server/command-1790950283739718473.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_w3_server",
+  "role": "server"
+}

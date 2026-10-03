@@ -1,0 +1,7 @@
+[robodojo server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05 task=put_bottles_into_dustbin bind_host=127.0.0.1 port=46975
+[run_policy_server] policy_dir=/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05
+[run_policy_server] task=put_bottles_into_dustbin bind=127.0.0.1:46975
+[run_policy_server] remote clients: bash scripts/robodojo.sh client --policy-host <this_host_ip> --policy-port 46975 ...
+[SERVER] policy=Pi_05, task=put_bottles_into_dustbin, port=46975, action_dim=14
+[SERVER] Activating uv environment: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv
+[SERVER] Using python: /srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/.venv/bin/python

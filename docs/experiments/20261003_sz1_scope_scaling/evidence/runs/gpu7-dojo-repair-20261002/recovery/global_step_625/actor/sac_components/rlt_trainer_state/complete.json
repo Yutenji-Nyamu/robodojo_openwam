@@ -1,0 +1,11 @@
+{
+  "actor_world_size": 1,
+  "complete": true,
+  "rank_files": [
+    "checkpoint_rank_0.pt"
+  ],
+  "rlt_resume_contract_sha256": "6b30b42c7a285350e901c7029427cdc9aba8f8fd4aece26a292a7783aadb5548",
+  "saved_runner_step": 625,
+  "schema_version": 1,
+  "update_step": 347680
+}

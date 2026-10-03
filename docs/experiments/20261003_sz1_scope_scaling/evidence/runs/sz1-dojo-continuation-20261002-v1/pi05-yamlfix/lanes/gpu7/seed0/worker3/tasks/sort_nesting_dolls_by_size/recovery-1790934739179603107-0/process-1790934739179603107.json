@@ -1,0 +1,11 @@
+{
+  "pid": 562675,
+  "uid": 1003,
+  "ppid": 560867,
+  "start_ticks": 382148012,
+  "command_sha256": "b8179422408b0bbf938bb7eaea159fab914a53805070f3bf59a433b2b813748c",
+  "command": "bash /srv/dojo/runs/sz1-dojo-continuation-20261002-v1/pi05-yamlfix/lanes/gpu7/seed0/worker3/tasks/sort_nesting_dolls_by_size/recovery-1790934739179603107-0/command-1790934739179603107.sh ",
+  "sweep_id": "sz3_pi05_official_6300_n4_dual_20260929_r2:sz1:gpu7",
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s0_sort_nesting_dolls_by_size",
+  "role": "client"
+}

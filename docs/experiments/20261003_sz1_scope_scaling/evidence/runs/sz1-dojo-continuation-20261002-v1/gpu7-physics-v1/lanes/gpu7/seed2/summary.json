@@ -1,0 +1,204 @@
+{
+  "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2",
+  "seed": 2,
+  "expected_tasks": 28,
+  "expected_episodes": 1125,
+  "results": {
+    "pour_by_language": {
+      "task": "pour_by_language",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pour_by_language",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "arrange_largest_number_random": {
+      "task": "arrange_largest_number_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_arrange_largest_number_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "match_and_pick_from_conveyor": {
+      "task": "match_and_pick_from_conveyor",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_match_and_pick_from_conveyor",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "sweep_blocks": {
+      "task": "sweep_blocks",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_sweep_blocks",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "plug_in_charger": {
+      "task": "plug_in_charger",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_plug_in_charger",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "stack_blocks_by_language": {
+      "task": "stack_blocks_by_language",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_stack_blocks_by_language",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "fasten_screws": {
+      "task": "fasten_screws",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_fasten_screws",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "sort_nesting_dolls_by_size_random": {
+      "task": "sort_nesting_dolls_by_size_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_sort_nesting_dolls_by_size_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "press_by_number": {
+      "task": "press_by_number",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_press_by_number",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "sort_nesting_dolls_by_size": {
+      "task": "sort_nesting_dolls_by_size",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_sort_nesting_dolls_by_size",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "store_laptop_and_headphones_random": {
+      "task": "store_laptop_and_headphones_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_store_laptop_and_headphones_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "store_laptop_and_headphones": {
+      "task": "store_laptop_and_headphones",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_store_laptop_and_headphones",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "general_pickup": {
+      "task": "general_pickup",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_general_pickup",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "classify_objects": {
+      "task": "classify_objects",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_classify_objects",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "make_toast_random": {
+      "task": "make_toast_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_make_toast_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "swap_blocks": {
+      "task": "swap_blocks",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_swap_blocks",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "put_bottles_into_dustbin": {
+      "task": "put_bottles_into_dustbin",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_put_bottles_into_dustbin",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "play_Xylophone": {
+      "task": "play_Xylophone",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_play_Xylophone",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "fold_clothes_random": {
+      "task": "fold_clothes_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_fold_clothes_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "deposit_coin": {
+      "task": "deposit_coin",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_deposit_coin",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "stack_blocks": {
+      "task": "stack_blocks",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_stack_blocks",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "build_tower": {
+      "task": "build_tower",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_build_tower",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "fill_pen_holder": {
+      "task": "fill_pen_holder",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_fill_pen_holder",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "cover_blocks": {
+      "task": "cover_blocks",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_cover_blocks",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "pour_balls_into_vase": {
+      "task": "pour_balls_into_vase",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_pour_balls_into_vase",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "hang_mugs_random": {
+      "task": "hang_mugs_random",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_hang_mugs_random",
+      "status": "PENDING",
+      "expected_episodes": 25
+    },
+    "solve_equation": {
+      "task": "solve_equation",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_solve_equation",
+      "status": "PENDING",
+      "expected_episodes": 50
+    },
+    "fold_clothes": {
+      "task": "fold_clothes",
+      "seed": 2,
+      "run_id": "sz3_pi05_official_6300_n4_dual_20260929_r2_s2_fold_clothes",
+      "status": "PENDING",
+      "expected_episodes": 25
+    }
+  }
+}

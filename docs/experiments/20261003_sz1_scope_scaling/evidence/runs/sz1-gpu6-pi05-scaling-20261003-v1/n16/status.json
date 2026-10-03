@@ -1,0 +1,40 @@
+{
+  "num_envs": 16,
+  "episodes": 50,
+  "task": "put_bottles_into_dustbin",
+  "seed": 0,
+  "run_id": "sz1-gpu6-pi05-scaling-20261003-v1-n16",
+  "result": "/srv/dojo/RoboDojo/eval_result/RoboDojo/put_bottles_into_dustbin/Pi_05/arx_x5/0_ckpt_name=sim,action_type=joint/sz1-gpu6-pi05-scaling-20261003-v1-n16/_result.json",
+  "gpu_before": {
+    "gpu": 6,
+    "uuid": "GPU-daa75ed0-9080-a1fc-cb5c-f779251d88d2",
+    "memory_mib": 8,
+    "utilization": 0,
+    "recovery": "None"
+  },
+  "start": 1791038083.0901573,
+  "server_ready": 1791038101.7644813,
+  "state": "RUNNING",
+  "time": 1791041257.5762053,
+  "steps": {
+    "0": 132,
+    "1": 132,
+    "2": 132,
+    "3": 132,
+    "4": 132,
+    "5": 132,
+    "6": 132,
+    "7": 132,
+    "8": 132,
+    "9": 132,
+    "10": 132,
+    "11": 132,
+    "12": 132,
+    "13": 132,
+    "14": 132,
+    "15": 132
+  },
+  "actions": 18583,
+  "peak_mib": 42759,
+  "pss_peak_kib": 28091023
+}

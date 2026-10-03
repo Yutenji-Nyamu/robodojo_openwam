@@ -1,0 +1,533 @@
+{
+  "ready": true,
+  "host": "admin",
+  "uid": 1003,
+  "created_at": 1790933318.5148187,
+  "checks": [
+    {
+      "name": "assets",
+      "passed": true
+    },
+    {
+      "name": "checkpoints",
+      "passed": true
+    },
+    {
+      "name": "environments",
+      "passed": true
+    },
+    {
+      "name": "lane_cpu",
+      "passed": true
+    },
+    {
+      "name": "plan_only",
+      "passed": true
+    },
+    {
+      "name": "resume_results",
+      "passed": true
+    },
+    {
+      "name": "rlt_cpu",
+      "passed": true
+    },
+    {
+      "name": "source",
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/OpenWAM/openwam/deploy/engine.py",
+      "sha256": "3fe9377115154bf965ff03fcbdab7f7ce42b0b75662be678fae7c21a7eb13b70"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/deploy.py",
+      "sha256": "a114b1f8168b3c170d2f20389cca63de6e9ef413b12a859e8129923c031cf685"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/deploy.yml",
+      "sha256": "f58bca74f3512a90d24530e69751b928bedd3f2f6ae5fe5385db23448b47f9c6"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/model.py",
+      "sha256": "70f3699eddbea45b01360cf4e7bc5a6c4ff9672e3cb38e6fb7d2da2b5d9220f4"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/OpenWAM/setup_eval_policy_server.sh",
+      "sha256": "9a2d12e74bcf93eed9f6226ac1e30e96ec2ec55e972c1cff0de47bdb7a314e27"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.py",
+      "sha256": "4ce7ac892b92ce5eae7d17b94108e7a66f69bcca121bf0cea7b53f5414133680"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/deploy.yml",
+      "sha256": "a94f6724afa11809c8381152228afb5c8bfb921e32d3951ec722f97e8997caa2"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/model.py",
+      "sha256": "e5b855e559685cb330e8322823b7688881983c6a8693997e11285119f6bb76a4"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/openpi/uv.lock",
+      "sha256": "2ffa14b9cb4c46791b11785cab6a003cca70fa696f8db3af52fc6e745a15b1e8"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/XPolicyLab/policy/Pi_05/setup_eval_policy_server.sh",
+      "sha256": "fca7acabf4413efe543fdfe3351aa0d2238ac360542972c55e800bd55fa5cef7"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/env_cfg/arx_x5.yml",
+      "sha256": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/env_cfg/sim/sim_config.yml",
+      "sha256": "a8ceb2345165c721a3504f08e2a8e426e6ee87a117bb9a5e963f790c65a5653e"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/scripts/eval_policy.sh",
+      "sha256": "80bc684378b8ba2dd10bbefdeb4ef232f0c32ea88ebe549d4bc192272ebae4b5"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/scripts/internal/smoke_all_tasks.sh",
+      "sha256": "de7e4b3c4ed7591f43bd774702824051fc95d6ff4800025236310abe368c1cd0"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/scripts/robodojo.sh",
+      "sha256": "7008023f0fd27fc5f8f2adad30b1286a5e6cce432be981b82cf2ffa3498d6ea3"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/src/eval_client/batch_isolation.py",
+      "sha256": "b2e55d4ad3802e0892cfd33b64dc1ab2c485913cc61274df458e5173fd20904b"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/src/eval_client/eval_env.py",
+      "sha256": "fccddb34d1907e499896281e11bdb74e55f7289d6762b279e872ed5005f05a03"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/src/eval_client/main.py",
+      "sha256": "1c1bca7b46f3a9ce6a7926b146b8fa7894786e02e3750b292a0999874b30d561"
+    },
+    {
+      "path": "/srv/dojo/RoboDojo/task/RoboDojo/config/_task.yml",
+      "sha256": "655a87cd59fa6272bf352d32deb8ade162737b49a9824e16d428fecf0803380b"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-0/59999/.download-pi05/manifest.json",
+      "sha256": "ed5ae22eca4e6ed1bb3bc3438e6470752694f1dc738acabc323b47c18e7a7933"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-0/59999/pi05-inference-ready.json",
+      "sha256": "f52edbda3d2a920e77a37077743297fa7c7786467575e5a23ad1e39c372ee82a"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-1/59999/.download-pi05/manifest.json",
+      "sha256": "ea51283b62f664fc7187ee32018394206fc61841a203493ff5cae50243177a79"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-1/59999/pi05-inference-ready.json",
+      "sha256": "e846a20c30ad6fd722a608e997e16e4ccfd981fc8393071c26ca8a7dd45fd04c"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-2/59999/.download-pi05/manifest.json",
+      "sha256": "f045a21ae4652d8313279d0d167fbe573b72f73028f97eefca8335dc364818d9"
+    },
+    {
+      "path": "/srv/dojo/checkpoints/Pi_05/RoboDojo-sim-arx_x5-joint-2/59999/pi05-inference-ready.json",
+      "sha256": "f9e5b03d0cfc10211780b8bab24c3c6fd1a0bc003b486c90610615eab5d760c6"
+    },
+    {
+      "path": "/srv/dojo/imports/source/manifest.json",
+      "sha256": "6ccdb0d6dd2186a40d017f7b3f601eeed0d14de9d57ee3cb5b018a55bc72c674"
+    },
+    {
+      "path": "/srv/dojo/logs/checkpoint-manifest.json",
+      "sha256": "39ab311416701f34d396e597d84cfda0846c9127a57f59b35823b2e6d3d2be70"
+    },
+    {
+      "path": "/srv/dojo/logs/openwam-pip-check.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "/srv/dojo/logs/openwam-pip-check.txt",
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    {
+      "path": "/srv/dojo/logs/openwam-pip-compatibility.json",
+      "sha256": "de3ace3b76946bbbdf31cf8fc739074563af040b8cb34b10d21ebe3696a96788"
+    },
+    {
+      "path": "/srv/dojo/logs/openwam-pip-freeze.txt",
+      "sha256": "a4c0a7ab6fead05c12ae644722973ec8f2dfb09b8665bfa52f61f481a68248ab"
+    },
+    {
+      "path": "/srv/dojo/logs/owner-cpu-check.json",
+      "sha256": "ae229de81ec54c2ecaac1b25756c7d94bd52f62030cda23e926e726759261138"
+    },
+    {
+      "path": "/srv/dojo/logs/pi05-pip-check.exit",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "/srv/dojo/logs/pi05-pip-check.txt",
+      "sha256": "6c3b05145966afe12259660bfc046dc4ad05d6537e12bedbc47a750bff41d56e"
+    },
+    {
+      "path": "/srv/dojo/logs/pi05-pip-compatibility.json",
+      "sha256": "2b1ddeb5ee4f120bb252651a1913c663e202aecd4a379d5253ca69075d67605e"
+    },
+    {
+      "path": "/srv/dojo/logs/pi05-pip-freeze.txt",
+      "sha256": "87044eff7ff2967710f76b18f0a469bdfa7ea4f2a21898cd7de4c96b361e78c3"
+    },
+    {
+      "path": "/srv/dojo/logs/rlt-cpu-check.json",
+      "sha256": "8a136b60d410a594c768dd6b32f5254ca711a9337f224f7a2f677c23b11e2ec6"
+    },
+    {
+      "path": "/srv/dojo/logs/sim-pip-check.exit",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "/srv/dojo/logs/sim-pip-check.txt",
+      "sha256": "938478d852c1cfc183998306171937d16689277257b867646c942e5ce3c7a79f"
+    },
+    {
+      "path": "/srv/dojo/logs/sim-pip-compatibility.json",
+      "sha256": "0ca24d5405424eb44372c8477578444f6eee73f8738963c47a2fc04230816e28"
+    },
+    {
+      "path": "/srv/dojo/logs/sim-pip-freeze.txt",
+      "sha256": "d036dcd75c646bacb47ba5c58af874155443c11a26030634f1fc77e57dfc6854"
+    },
+    {
+      "path": "/srv/dojo/project-env.sh",
+      "sha256": "409440e2da97fba2d0f7ab962c5086c15bcaadbe7fd5a40ed69fc66577eecc25"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/checkpoints-verified.json",
+      "sha256": "39723be7d14f5b8b2206379ecdfb4bb1f279646bcbdacedcc00add814b202986"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/environments-verified.json",
+      "sha256": "76b2744513906d143ff6e1d9136dd15dca19d0e1fc96962b448c3c046082c77a"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/gpu4-plan.json",
+      "sha256": "052408a12d305667f98316d252f1cdc3f3c284f62d70f21df21a9e3ed6a29736"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/gpu5-plan.json",
+      "sha256": "c0464e06524cc6acdd1386ad9e7071748b4f6679fe268bc88f83e13c3546fcb2"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/gpu6-plan.json",
+      "sha256": "e0b3cf818969f72db976a464aa8b692767defc8c88a6223790edeeb9c5ebedd6"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/gpu7-plan.json",
+      "sha256": "aa71c9b6e422f24d1c9ac4bc7746fd09bc73b4e428697abccf8a0d8818dedf5b"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/openwam-lane-cpu.json",
+      "sha256": "d95547438d03d8e6cc788bf6264a1acb495d69dbf0a82bc83ed97f623ecaf95f"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/openwam-pip-compatibility-fresh.json",
+      "sha256": "de3ace3b76946bbbdf31cf8fc739074563af040b8cb34b10d21ebe3696a96788"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/openwam-resume-verified.json",
+      "sha256": "bb17aaed6d9fde95dd2c786ec6b3bd99ae1a24af91745af7f53ef8b13d92a767"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/pi05-lane-cpu.json",
+      "sha256": "2c886373853e38e2e02847b8e6750803d3e0433002d3d092c0f15322aeb3bf44"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/pi05-pip-compatibility-fresh.json",
+      "sha256": "2b1ddeb5ee4f120bb252651a1913c663e202aecd4a379d5253ca69075d67605e"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/pi05-resume-verified.json",
+      "sha256": "08ba83f937fceb3a8cdfc68bd6fab73067098845a6bb7511172bfa72c7c759e6"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/pid.json",
+      "sha256": "8b0aad32a9869060356a02400b288f84700a780d8e95eb89b77dff7c2fe285dc"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/pip-compatibility-cpu.json",
+      "sha256": "b9e31a0364b095388df6e4cab110a13a8cb03dc573e0293a61b7d0fac5e89ffc"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/plans-verified.json",
+      "sha256": "541569ff9ccda3279f1c3f139b16ea8f452ede51128980cca2aae9591a5baf01"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/preparation-cpu.json",
+      "sha256": "0a861cf8b2b08e11746a750e41adb198277a4adc4f792448f1963207f356ce61"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/sim-pip-compatibility-fresh.json",
+      "sha256": "0ca24d5405424eb44372c8477578444f6eee73f8738963c47a2fc04230816e28"
+    },
+    {
+      "path": "/srv/dojo/runs/deployment-preparation-sz1-20261002-v2/source-assets-verified.json",
+      "sha256": "480c48f2d0ed4aa4dc308785953ca1d49582146e09363ea4e39a935ed5194c9a"
+    },
+    {
+      "path": "/srv/dojo/runs/full-assets-sz1-20261001/manifest.json",
+      "sha256": "300876e77e4f9e3ae38239fb9d2460eb8a78205fa21ceeb9ba46e92ca8e3287b"
+    },
+    {
+      "path": "/srv/dojo/runs/full-assets-sz1-20261001/ready.json",
+      "sha256": "b2dc598081fda70c2379dd24387ef0692f15cf9b520a7c0135489586dedab9c9"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/assets-manifest.json",
+      "sha256": "e8cbfa5f87f3e558b3813421aa085a13af024bd6eaab4df2cc17671ce0c1fe00"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/assets-ready.json",
+      "sha256": "ce454aaeeaf2ad52a33f0a6a53f94b841ee75abf156fbfdd221aa31799bd9e59"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/openwam-manifest.json",
+      "sha256": "ed92df5cb5ff512a3a1a565c0b0ccedec7f728972dcbe261e5a239c81ad8ae9c"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/openwam-ready.json",
+      "sha256": "176ebf67228d098b5077d294469daa1d2413ed7cac647d093bbfa9ad7747b11d"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/package-wheels-manifest.json",
+      "sha256": "60ff05e4415a9651507182d494b153b6176392b32d86954376aef5e6b315fb13"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/package-wheels-ready.json",
+      "sha256": "d468d37af3a1a4dcfeed33f6f4205363ad1ff01cc7f4c49152c491fce68a666c"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-manifest.json",
+      "sha256": "839b00fd692f119e8490d45a1b4ed4f9ca6e4df864e55010d598e50c4f3a5859"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-ready.json",
+      "sha256": "5a85493f627b513e0248905e7bf1dd2cbff0c74f993df060f984d151f9be1ed3"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed0-source-manifest.json",
+      "sha256": "ed5ae22eca4e6ed1bb3bc3438e6470752694f1dc738acabc323b47c18e7a7933"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed0-source-ready.json",
+      "sha256": "55a7cef6630561b631d7c8f9ffd987cb9136ab804e2290b2aae709c4a0e01f77"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed1-source-manifest.json",
+      "sha256": "ea51283b62f664fc7187ee32018394206fc61841a203493ff5cae50243177a79"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed1-source-ready.json",
+      "sha256": "6a7e290b6d04f735bf188ee00c0e39231dea78a2a65aac952de0308187e93a7b"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed2-source-manifest.json",
+      "sha256": "f045a21ae4652d8313279d0d167fbe573b72f73028f97eefca8335dc364818d9"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/pi05-seed2-source-ready.json",
+      "sha256": "2bbc5bb257486749416530d173908cba0b6c00cfdc90e6abf03dd459cba6c480"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/progress.json",
+      "sha256": "a04e7bb2c0682d31136480dd30695380292231c8ede1e4f5a9d1be51e671a59c"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/ready.json",
+      "sha256": "919f9ff4413ab9513b89b6a6ff62195c54bcb8913926c8a38609ca6611129fbd"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/results-sz2-manifest.json",
+      "sha256": "03ac2525295edd77a555d7501f3eec945b16b2b40243313bd1b2e2dc91dbda7b"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/results-sz2-ready.json",
+      "sha256": "4723091ae01b858dd275788cd01fdc08047dbeda61d65740b2d7cbd42aefd382"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/results-sz3-manifest.json",
+      "sha256": "531c0b2a84bc84d985f145bf8ee31d7517c360280f697a7ab154fd05461b37f0"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/results-sz3-ready.json",
+      "sha256": "1e117665ab601eefcd11c56a7deca6dee4a72cfc0222f19ff1706ec839bbb703"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/source-bundles-manifest.json",
+      "sha256": "d077ced7eae727715871dfdd11d9a23b53a0874dfed1621ed8018538a82bc3f3"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/source-bundles-ready.json",
+      "sha256": "f62bd121bd673e3b8ad36ad95eeb8fcfb5a9fd963074e8c37eb4ef666fb85634"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/source-ready.json",
+      "sha256": "3b09a2aee7ca0d952270deece4782e099802d162f097fe454f081f6dc7b710f1"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/sz2-private-result-routes.json",
+      "sha256": "db974150be7e90ce1ea885256aef9c7af56c4fb7ee1c7b9eb10fc8b9d44264ba"
+    },
+    {
+      "path": "/srv/dojo/runs/import-sz1-20261002/sz3-private-result-routes.json",
+      "sha256": "3a72f8cc30dbb8008750e8739191ca92aaa97e7fc5851fe1918685a0260e3659"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/asset-paths-ready.json",
+      "sha256": "024d23077eb936c1e81111fb89b59a3f2c226fa8def8a6a007f39b50b0340250"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/openwam-ready.json",
+      "sha256": "b43931e89a888cce7a703dfec191f479d7b7e2f25d88a39910e2e4ad830ad5ca"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/openwam-source-constraints.json",
+      "sha256": "68ca9d38f70ccbcdfb88359616097734858805f3f5835341f6590252ff9f75d7"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/pi05-ready.json",
+      "sha256": "431e1e484d1a7063c0af55defab777a85f5efb908c237b6a4ea434918909cad0"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/previous-identity.json",
+      "sha256": "5ade4a697f32d3c2115393f1d680671401d46c4744b3296290d6ededba318a69"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/previous-terminal.json",
+      "sha256": "e4aa6cfd379f01bda042b6a0a13e5e37a154680e46ac2f4eba8a3c2cb0c3a7c7"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/ready.json",
+      "sha256": "adf1c61150d4251eda64974318837cc892313b5c008a12dd90b1eacf68f7f7f2"
+    },
+    {
+      "path": "/srv/dojo/runs/install-sz1-20261002-v2/sim-ready.json",
+      "sha256": "ba7e4344bd56e40b7680754fa940edbefdd204c5854495d70ba90092f964ce14"
+    },
+    {
+      "path": "/srv/dojo/scripts/check_pip_compatibility_cpu.py",
+      "sha256": "1dd3c532936a93981e2b8b5feccdd4ec9b3591cf512f56a18b58fbb0f36bdab3"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/configs/gpu4.json",
+      "sha256": "8bedbad4514da39ff046d725f9369f4b9367214db76dec0746bd33fdffe389c7"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/configs/gpu5.json",
+      "sha256": "d73a1f23e68acb7fd18cc7e1207e8d930793af6bce7c3b1382aaaf13db7cb27b"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/configs/gpu6.json",
+      "sha256": "cab26497bab3e07b512745a8fc73648bb328a5062dbefc7cafaabb3d1ac904f8"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/configs/gpu7.json",
+      "sha256": "80d6119f94d405abc8f10bd85582b0bd4d29ac4096f0c27246bf927b038b57bd"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/openwam/dojo_sweep.py",
+      "sha256": "ce7af0f1ad073c099f42aae46a1dc3ebcd7a986a7de7a7b44f6f714255cb3023"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/openwam/eval_recovery.py",
+      "sha256": "f7fc551aaf3beea22040fede155dbaa199d15f1e21ac8ab272068dadde361d39"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/openwam/process_guard.py",
+      "sha256": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/openwam/resume_results.py",
+      "sha256": "60b8b751f6eb7d8c38079899e4f53de139fd9e7b4122d7f25e038647ce922fdc"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/pi05/dojo_sweep.py",
+      "sha256": "2dc3bb5e74a1fa5c8fee25335d94b52c6f43ec011572f025dbf21a1d17a09157"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/pi05/eval_recovery.py",
+      "sha256": "2f21432bf5c8b8bf6b2e7e3a8cd10cd351b5a7182ac4b080659629f630d65ad7"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/pi05/process_guard.py",
+      "sha256": "6ea3b8996fa485110c140ab2715a9acc50f12644f8c3eb54d14eb33e3e0024e6"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/pi05/resume_results.py",
+      "sha256": "6a4c67ad5f7ad9d7f10c02b8fa2dea1381bcd241bbdc71ca37755af2ac6716b1"
+    },
+    {
+      "path": "/srv/dojo/scripts/lanes/test_single_gpu_lane.py",
+      "sha256": "22ab203a078b8eb60213eb8115b0d7086f8cf87ba940879d2ecbcd9228bcba89"
+    },
+    {
+      "path": "/srv/dojo/scripts/openwam-source-constraints.txt",
+      "sha256": "e02effecbc3c2c2b10b61e13ddb160b2a16805fd42501c1eee8f6142aca0d0c1"
+    },
+    {
+      "path": "/srv/dojo/scripts/pip_compatibility.py",
+      "sha256": "fbb6be05507c8ed95e13d6db0924df9ac321ec13a17e72ca5fc329be2b7fe7d6"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/check_owner_sz1_cpu.py",
+      "sha256": "3ac8721c8a25668e982ff89d7d9539437d8fc2a1be1e75ba7121923dbf5915e6"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/check_prepare_deployment_cpu.py",
+      "sha256": "60704f4a039d2688d9025e479d58745ad16d9053016087348e5d0eafe38801e9"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/check_rlt_cycle_sz1_cpu.py",
+      "sha256": "95ffbe9b8054dbaf9d80617f867a0f35fda9e6de4778fd3607622d06f8df6332"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/owner_sz1.py",
+      "sha256": "6f85b4a751ea2294d729107b2e0e85d51e2720a81deb477aa9005b54f6fc03d2"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/prepare_deployment.py",
+      "sha256": "aa331e7a1f3cf3eabd70541874e5fb40110558e2d7d62103ba65e670ed1290c5"
+    },
+    {
+      "path": "/srv/dojo/scripts/rlt/rlt_cycle_sz1.py",
+      "sha256": "9df2a60a382890d586e67e92193a62c22296e784bf78a20e27f0bd538e9e19e9"
+    },
+    {
+      "path": "/srv/dojo/scripts/sim-source-constraints.txt",
+      "sha256": "2d81b51296fa14fef46ebdc8bcc03cd4a0a4113c3b3266612cb5ed7c46d70827"
+    },
+    {
+      "path": "/srv/dojo/third_party/RoboDawn/scripts/robodojo/compat/vulkan_driver_compat.py",
+      "sha256": "0d0dc55aad61ab63ee2b8ac541ea05f905d69389728547dd125fd60e565d2529"
+    }
+  ],
+  "gpu_execution": false,
+  "rlt_mutated": false,
+  "ray_mutated": false,
+  "model_episodes": 6300,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "gpus": [
+    4,
+    5,
+    6,
+    7
+  ]
+}
