@@ -1,0 +1,424 @@
+{
+  "started": "2026-10-03T05:05:43.439047+00:00",
+  "finished": "2026-10-03T05:06:16.680920+00:00",
+  "resources": {
+    "4": {
+      "vram_gib_range": [
+        36.505859375,
+        36.505859375
+      ],
+      "total_gib": 79.6474609375,
+      "gpu_util_mean": 50.57142857142857,
+      "gpu_util_range": [
+        22.0,
+        85.0
+      ],
+      "recovery": "None",
+      "pss_gib": 20.444933891296387,
+      "rss_gib": 32.54147720336914,
+      "process_count": 45,
+      "task": "fill_egg_holder",
+      "step": []
+    },
+    "5": {
+      "vram_gib_range": [
+        39.49609375,
+        39.49609375
+      ],
+      "total_gib": 79.6474609375,
+      "gpu_util_mean": 65.42857142857143,
+      "gpu_util_range": [
+        35.0,
+        100.0
+      ],
+      "recovery": "None",
+      "pss_gib": 17.599651336669922,
+      "rss_gib": 29.901840209960938,
+      "process_count": 51,
+      "task": "pour_by_language",
+      "step": []
+    },
+    "6": {
+      "vram_gib_range": [
+        24.3798828125,
+        36.6787109375
+      ],
+      "total_gib": 79.6474609375,
+      "gpu_util_mean": 28.285714285714285,
+      "gpu_util_range": [
+        0.0,
+        100.0
+      ],
+      "recovery": "None",
+      "pss_gib": 6.486869812011719,
+      "rss_gib": 6.828655242919922,
+      "process_count": 3,
+      "task": "classify_objects_by_language",
+      "step": []
+    },
+    "7": {
+      "vram_gib_range": [
+        36.083984375,
+        36.083984375
+      ],
+      "total_gib": 79.6474609375,
+      "gpu_util_mean": 28.285714285714285,
+      "gpu_util_range": [
+        5.0,
+        58.0
+      ],
+      "recovery": "None",
+      "pss_gib": 17.573338508605957,
+      "rss_gib": 19.191280364990234,
+      "process_count": 18,
+      "task": "fasten_screws",
+      "step": []
+    }
+  },
+  "models": {
+    "openwam": {
+      "episodes": 4311,
+      "budget": 6300,
+      "successes": 471,
+      "raw_sr": 10.92553931802366,
+      "mean_episode_score": 16.44977963349571,
+      "new_on_sz1": 1076,
+      "complete_config_seed": 109,
+      "complete_base_seed": 85,
+      "started_configs": 54,
+      "all_3_seed_complete_configs": 1,
+      "seeds": {
+        "0": {
+          "episodes": 2100,
+          "successes": 251,
+          "complete_configs": 54,
+          "complete_base_cells": 42
+        },
+        "1": {
+          "episodes": 2100,
+          "successes": 219,
+          "complete_configs": 54,
+          "complete_base_cells": 42
+        },
+        "2": {
+          "episodes": 111,
+          "successes": 1,
+          "complete_configs": 1,
+          "complete_base_cells": 1
+        }
+      },
+      "categories": {
+        "Generalization": {
+          "episodes": 1200,
+          "expected": 1800,
+          "successes": 158,
+          "complete_base_cells": 24,
+          "expected_base_cells": 36
+        },
+        "Precision": {
+          "episodes": 800,
+          "expected": 1200,
+          "successes": 88,
+          "complete_base_cells": 16,
+          "expected_base_cells": 24
+        },
+        "Long-Horizon": {
+          "episodes": 845,
+          "expected": 1200,
+          "successes": 162,
+          "complete_base_cells": 16,
+          "expected_base_cells": 24
+        },
+        "Memory": {
+          "episodes": 650,
+          "expected": 900,
+          "successes": 59,
+          "complete_base_cells": 13,
+          "expected_base_cells": 18
+        },
+        "Open": {
+          "episodes": 816,
+          "expected": 1200,
+          "successes": 4,
+          "complete_base_cells": 16,
+          "expected_base_cells": 24
+        }
+      }
+    },
+    "pi05": {
+      "episodes": 3260,
+      "budget": 6300,
+      "successes": 199,
+      "raw_sr": 6.104294478527607,
+      "mean_episode_score": 10.776073619631902,
+      "new_on_sz1": 947,
+      "complete_config_seed": 81,
+      "complete_base_seed": 62,
+      "started_configs": 54,
+      "all_3_seed_complete_configs": 0,
+      "seeds": {
+        "0": {
+          "episodes": 2100,
+          "successes": 174,
+          "complete_configs": 54,
+          "complete_base_cells": 42
+        },
+        "1": {
+          "episodes": 1160,
+          "successes": 25,
+          "complete_configs": 27,
+          "complete_base_cells": 20
+        },
+        "2": {
+          "episodes": 0,
+          "successes": 0,
+          "complete_configs": 0,
+          "complete_base_cells": 0
+        }
+      },
+      "categories": {
+        "Generalization": {
+          "episodes": 870,
+          "expected": 1800,
+          "successes": 63,
+          "complete_base_cells": 15,
+          "expected_base_cells": 36
+        },
+        "Precision": {
+          "episodes": 590,
+          "expected": 1200,
+          "successes": 30,
+          "complete_base_cells": 11,
+          "expected_base_cells": 24
+        },
+        "Long-Horizon": {
+          "episodes": 700,
+          "expected": 1200,
+          "successes": 81,
+          "complete_base_cells": 14,
+          "expected_base_cells": 24
+        },
+        "Memory": {
+          "episodes": 450,
+          "expected": 900,
+          "successes": 18,
+          "complete_base_cells": 9,
+          "expected_base_cells": 18
+        },
+        "Open": {
+          "episodes": 650,
+          "expected": 1200,
+          "successes": 7,
+          "complete_base_cells": 13,
+          "expected_base_cells": 24
+        }
+      }
+    }
+  },
+  "host": {
+    "ram_total_gib": 2015.513198852539,
+    "ram_available_gib": 1917.322826385498,
+    "ram_unavailable_pct": 4.8717305608785955,
+    "swap_used_gib": 3.776500701904297,
+    "swap_total_gib": 5.972652435302734,
+    "cpu_busy_percent": 7.111766446544776,
+    "logical_cpus": 128,
+    "load_average": [
+      8.3203125,
+      9.52978515625,
+      9.4833984375
+    ],
+    "dojo_pss_gib": 62.104793548583984
+  },
+  "complete_seed0_capability_comparison": {
+    "Generalization": {
+      "common_cells": 12,
+      "openwam": {
+        "score": 20.166666666666668,
+        "success_rate": 14.0
+      },
+      "pi05": {
+        "score": 15.791666666666668,
+        "success_rate": 9.666666666666666
+      }
+    },
+    "Precision": {
+      "common_cells": 8,
+      "openwam": {
+        "score": 18.5375,
+        "success_rate": 11.5
+      },
+      "pi05": {
+        "score": 13.3,
+        "success_rate": 7.0
+      }
+    },
+    "Long-Horizon": {
+      "common_cells": 8,
+      "openwam": {
+        "score": 32.325,
+        "success_rate": 22.0
+      },
+      "pi05": {
+        "score": 26.725,
+        "success_rate": 17.0
+      }
+    },
+    "Memory": {
+      "common_cells": 6,
+      "openwam": {
+        "score": 11.733333333333333,
+        "success_rate": 10.666666666666666
+      },
+      "pi05": {
+        "score": 5.8500000000000005,
+        "success_rate": 4.333333333333334
+      }
+    },
+    "Open": {
+      "common_cells": 8,
+      "openwam": {
+        "score": 0.5,
+        "success_rate": 0.25
+      },
+      "pi05": {
+        "score": 1.8750000000000002,
+        "success_rate": 1.7500000000000002
+      }
+    },
+    "five_dimension_mean": {
+      "openwam": {
+        "score": 16.6525,
+        "success_rate": 11.683333333333334
+      },
+      "pi05": {
+        "score": 12.708333333333334,
+        "success_rate": 7.95
+      }
+    }
+  },
+  "seed0_matched_layouts": 2086,
+  "seed0_unmatched_each_model": 14,
+  "seed0_layout_differences": [
+    {
+      "task": "fold_clothes_random",
+      "openwam_only": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "pi05_only": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "task": "imitate_sorting_sequence",
+      "openwam_only": [
+        32,
+        55
+      ],
+      "pi05_only": [
+        29,
+        56
+      ]
+    },
+    {
+      "task": "make_toast",
+      "openwam_only": [
+        2,
+        3,
+        15,
+        25
+      ],
+      "pi05_only": [
+        14,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "task": "make_toast_random",
+      "openwam_only": [
+        4,
+        17
+      ],
+      "pi05_only": [
+        13,
+        26
+      ]
+    },
+    {
+      "task": "play_tic_tac_toe",
+      "openwam_only": [
+        44
+      ],
+      "pi05_only": [
+        50
+      ]
+    },
+    {
+      "task": "store_laptop_and_headphones_random",
+      "openwam_only": [
+        25
+      ],
+      "pi05_only": [
+        23
+      ]
+    }
+  ],
+  "video_inventory_at_1310": {
+    "openwam": {
+      "result_files": 111,
+      "records": 4317,
+      "videos_for_completed_records": 12951,
+      "video_bytes_for_completed_records": 30865258293,
+      "missing_camera_records": []
+    },
+    "pi05": {
+      "result_files": 83,
+      "records": 3260,
+      "videos_for_completed_records": 9780,
+      "video_bytes_for_completed_records": 23799933293,
+      "missing_camera_records": []
+    }
+  },
+  "official_layout_presence_at_1317": {
+    "time": "2026-10-03T05:17:00.826374+00:00",
+    "records_checked": 7588,
+    "missing_layout_files": []
+  },
+  "source": {
+    "dojo": "6dddac88a4fb9a72cbb9d39a90a9850e2ea811a8",
+    "xpolicylab": "10ab2651a0b7cd5b8a948cb13f18ccdf818c6de4",
+    "official_protocol_base": "726e9aabfaa642203722eb126f5eaf0f37f3e1ad",
+    "assets": "43dacb13d3051a9ccd421f4e7e08e4e3eb29dfab"
+  },
+  "changes_this_review": {
+    "formal_source": 0,
+    "parallelism": 0,
+    "scoring": 0,
+    "training": 0
+  },
+  "limits": [
+    "Resource sample window approximately31s, not lifetime peaks",
+    "GPU6 was between tasks at RAM sample",
+    "Full seed0 budgets; only2086 matching task-layout pairs",
+    "No causal claim of CUDA700 repair",
+    "Not three-seed final scores or official-endorsed leaderboard results"
+  ],
+  "receipts": [
+    "l003-config-inspect",
+    "l004-source-schema",
+    "l005-comprehensive-audit",
+    "l007-protocol-runtime",
+    "l008-current-dojo",
+    "l009-inference-horizons",
+    "l010-horizon-confirm",
+    "l012-layout-origin"
+  ]
+}
